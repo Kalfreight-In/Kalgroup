@@ -3,7 +3,7 @@ import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll, Link } from 'react-scroll';
 // import ErrorBoundary from '../ErrorBoundary';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';  
 import {
   Nav,
   NavMenu,
@@ -16,7 +16,7 @@ import {
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
-  const history = useNavigate();
+  const history = useNavigate(); 
   console.log(window.scrollY);
   // function loadLogo(path) {
   //   if (path == '/kalgroup') {
@@ -33,7 +33,7 @@ const Navbar = ({ toggle }) => {
   // }
   // const initialState = loadLogo(window.location.pathname);
   const [logo, setlogo] = useState(
-    'https://raw.githubusercontent.com/Kalfreight-In/kalgroup/main/src/assets/Images/icons/Trailers-nav-logo.png'
+    'https://raw.githubusercontent.com/Kalfreight-In/kalgroup/main/src/assets/Images/icons/Trailers-nav-logo.png' 
   );
   const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {
@@ -58,7 +58,7 @@ const Navbar = ({ toggle }) => {
     }
     if (window.location.pathname == '/kalgroup') {
       setlogo(
-        'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/navlogo.svg'
+        "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalNavlogo.png"
       );
       console.log(`${window.location.pathname} and then there is ${logo}`);
     }
@@ -87,16 +87,16 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
+      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>
         <Nav scrollNav={scrollNav}>
           <div className="flex flex-row ml-8">
             <NavLogo to="/kalgroup" onClick={toggleHome}>
-              <img
+              <img 
                 // className="2xl:w-56 w-44  2xl:h-44 h-32  "
-                className="pt-6"
+
                 src={logo}
                 alt="logo"
-                width=" 70%"
+                width=" 45%"
               />
             </NavLogo>
 
@@ -107,7 +107,7 @@ const Navbar = ({ toggle }) => {
                   onClick={toggleHome}
                   className="2xl:text-16px text-navsmall  max-w-screen-lg:text-xs md:text-xs"
                 >
-                  HOME
+                  Business Verticals
                 </NavLinks>
               </NavItem>
 
@@ -117,7 +117,7 @@ const Navbar = ({ toggle }) => {
                   onClick={toggleHome}
                   className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
                 >
-                  TRAILER & LEASING
+                  About Us
                 </NavLinks>
               </NavItem>
 
@@ -128,7 +128,7 @@ const Navbar = ({ toggle }) => {
                     onClick={toggleHome}
                     className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
                   >
-                    TIRES & SERVICES
+                    News & Events
                   </NavLinks>
                 </a>
               </NavItem>
@@ -139,7 +139,7 @@ const Navbar = ({ toggle }) => {
                   onClick={toggleHome}
                   className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
                 >
-                  PARTZ
+                  Services
                 </NavLinks>
               </NavItem>
 
@@ -157,7 +157,7 @@ const Navbar = ({ toggle }) => {
                     exact={true}
                     offset={-80}
                   >
-                    CONTACT
+                    Clientele
                   </Link>
                 </NavLinks>
               </NavItem>
@@ -168,7 +168,7 @@ const Navbar = ({ toggle }) => {
                   onClick={toggleHome}
                   className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
                 >
-                  NEWS & EVENTS
+                  Careers
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -176,8 +176,19 @@ const Navbar = ({ toggle }) => {
                   to="/Contact"
                   onClick={toggleHome}
                   className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
+                ></NavLinks>
+              </NavItem>
+
+              <NavItem>
+                <NavLinks
+                  to="/Contact"
+                  onClick={toggleHome}
+                  className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
                 >
-                  LOCATIONS
+                  <img
+                    src="http://127.0.0.1:5500/Kalgroup/src/assets/Images/navmaplogo.svg"
+                    alt=""
+                  />
                 </NavLinks>
               </NavItem>
 
@@ -187,7 +198,7 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
           </div>
 
-          <NavBtn className="mr-8">
+          {/* <NavBtn className="mr-8">
             <button className="text-white bg-yellow-bg  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-56 lg:w-48 md:32 2xl:h-16 h-12 2xl:text-xl xl:text-lg lg:text-md md:text-md">
               <div>
                 <img
@@ -198,7 +209,7 @@ const Navbar = ({ toggle }) => {
               </div>
               (800) 977 0010
             </button>
-          </NavBtn>
+          </NavBtn> */}
         </Nav>
       </IconContext.Provider>
     </>
