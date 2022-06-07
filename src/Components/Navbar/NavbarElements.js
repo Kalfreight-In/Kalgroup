@@ -8,6 +8,7 @@ export const Nav = styled.nav`
 
   height: 100px;
   //  margin-top:-80px
+  background-color:#fff;
   width: 100%;
   margin-top: 0px;
   display: flex;
@@ -132,7 +133,7 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
   display: block;
   height: 45px;
-  padding: 0 1rem;
+  padding: 0 2rem;  
 
   color: #000;
 
@@ -159,6 +160,7 @@ export const NavLinks = styled(LinkR)`
   display: flex;
   align-items: center;
   text-decoration: none;
+  font-weight:500;
 
   height: 100%;
   cursor: pointer;
@@ -168,7 +170,7 @@ export const NavLinks = styled(LinkR)`
     color: #101010;
   }
   &:hover {
-    font-weight: 500;
+    // font-weight: 500; 
     border-bottom: 2px solid #ffab53 !important;
   }
   &.active {
