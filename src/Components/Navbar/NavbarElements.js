@@ -232,7 +232,7 @@ export const Bars = styled(FaBars)`
 //     display: none;
 //   }
 // `;
-
+  
 export const NavBtn = styled.nav`
   display: flex;
   flex-direction: column;
