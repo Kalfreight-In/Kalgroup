@@ -24,7 +24,7 @@ export const ContactFormContainer = () => {
 
       {/* <div className="flex ">
         <img
-          src="https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/Partz.png" 
+          src="https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/Partz.png"  
           width="300"
         />
       </div> */}
@@ -34,7 +34,7 @@ export const ContactFormContainer = () => {
             'h-5/6 object-scale-down bg-no-repeat ' 
           }
           style={{
-            backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/contactimage.png)`,
+            backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/contactimage.png)`, 
           }}
         >
           {/* <img
