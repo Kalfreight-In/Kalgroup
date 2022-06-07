@@ -1,3 +1,13 @@
+export const NewsData = [
+  {
+    category: 'News',
+    date: '01/06/2002',
+    heading: 'Indiana Truck Show',
+    desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
+    CTA: { heading: 'See More', link: 'contactus' },
+    Tag: 'One click away',
+  },
+];
 export const ServiceComponentdata = [
   {
     Heading: 'Our Services',

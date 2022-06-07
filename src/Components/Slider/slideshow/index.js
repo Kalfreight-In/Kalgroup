@@ -20,6 +20,7 @@ export function Slideshow({
   data,
   smallSlider = false,
   heading = 'Brands We Offer',
+  singleSlider = false,
 }) {
   const [slides, setStateSlides] = useState(data);
   const [index, setIndex] = useState(0);
@@ -63,13 +64,16 @@ export function Slideshow({
 
   return (
     <>
-      <div
-        className={`text-36px font-semibold text-Heading flex justify-center items-center ${
-          smallSlider ? 'pb-4' : 'pb-16 mt-16 '
-        }  `}
-      >
-        {smallSlider ? null : <h1>{heading}</h1>}
-      </div>
+      {heading ? (
+        <div
+          className={`text-36px font-semibold text-Heading flex justify-center items-center ${
+            smallSlider ? 'pb-4' : 'pb-16 mt-16 '
+          }  `}
+        >
+          {smallSlider ? null : <h1>{heading}</h1>}
+        </div>
+      ) : null}
+
       {/* <TabComponent></TabComponent> */}
       <div
         className=" slideshow    snap-x flex justify-center items-center overflow-auto"
@@ -85,21 +89,23 @@ export function Slideshow({
             <div
               className={`${
                 smallSlider
-                  ? 'slide_small  w-1/4  lg:grayscale-1 hover:scale-75 `'
-                  : 'slide  w-1/4  lg:grayscale hover:scale-110 '
-              }       hover:grayscale-0  transition-all flex items-center content-center justify-center `}
+                  ? 'slide_small   lg:grayscale-1 hover:scale-75 `'
+                  : 'slide   lg:grayscale hover:scale-110 '
+              }  ${
+                singleSlider ? 'w-50vw' : 'w-1/4'
+              }    hover:grayscale-0  transition-all flex items-center content-center justify-center `}
               key={index}
               // style={{ backgroundImage: `url(${brand.imageurl})` }}
             >
               <img
                 src={brand.imageurl}
-                style={{
-                  border: '1px solid #ddd',
-                  margin: '0rem 1rem',
-                }}
+                // style={{
+                //   border: '1px solid #ddd',
+                //   margin: '0rem 1rem',
+                // }}
                 className={`${
                   smallSlider ? 'p-0' : 'p-0'
-                }    self-center slide justify-self-center justify-items-center`}
+                }     self-center slide justify-self-center justify-items-center`}
               ></img>
             </div>
           ))}
