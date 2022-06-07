@@ -1,0 +1,109 @@
+.cls-1 {
+  fill: #d8d8d8;
+}
+#BC {
+  .cls-1 {
+    fill: #eaa959;
+  }
+}
+#Alberta {
+  fill: #eaa959;
+}
+
+.Marker {
+  fill: #0068c9;
+
+  animation: all 1s ease-in-out;
+}
+#logoZoomin {
+  animation: all 1s ease-in-out;
+}
+
+// #Map {
+//   #BC {
+//     .cls-1 {
+//       fill: #eaa959;
+//     }
+//     &:hover {
+//       fill: #08c9;
+//       transform: translate(0, -10px); // move the marker up 10px
+//     }
+//   }
+// }
+// #Map {
+//   #Alberta {
+//     fill: #eaa959;
+//     &:hover {
+//       fill: #08c9;
+//       transform: translate(0, -10px); // move the marker up 10px
+//     }
+//   }
+// }
+#BC:hover + #MARKER-bc {
+  transform: translate(0, -10px);
+}
+#Alberta:hover + #MARKER-alberta {
+  transform: translate(0, -10px);
+}
+
+.cls-1 {
+  fill: #d8d8d8;
+}
+
+.cls-2 {
+  fill: #0068c9;
+}
+
+.cls-3 {
+  fill: #fff;
+}
+
+.gallery-wrap {
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  margin: 0.3rem;
+  height: 100%;
+  background-position: left;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+
+  &:hover {
+    flex: 7;
+  }
+}
+
+.item-1 {
+  background-image: url('https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/trailers.png');
+}
+
+.item-2 {
+  background-image: url('https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/Parts.png');
+}
+
+.item-3 {
+  background-image: url('https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/tires.png');
+}
+
+.item-4 {
+  background-image: url('https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/randomtest-2.png');
+}
+
+.item-5 {
+  background-image: url('https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/randomtest-3.png');
+}
+
+.social {
+  position: absolute;
+  right: 35px;
+  bottom: 0;
+
+  img {
+    display: block;
+    width: 32px;
+  }
+}
