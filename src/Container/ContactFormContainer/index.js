@@ -24,21 +24,26 @@ export const ContactFormContainer = () => {
 
       {/* <div className="flex ">
         <img
-          src="https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/Partz.png"  
+          src="https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/Partz.png"
           width="300"
         />
       </div> */}
       <div className="flex-1 ">
         <div
-          className={"h-5/6 object-scale-down bg-no-repeat "}
+          className={
+            "md:h-screen h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-center "
+          }
           style={{
-            backgroundImage: `url(https://github.com/Kalfreight-In/Kalgroup/blob/5f2581aefe07eade3b3d02d1369ce98289a12651/src/assets/Images/kalcontactimage.png)`, 
+            backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalcontactimage.png)`,
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center' 
           }}
         >
           {/* <img
           className="w-full"
-          src="https://raw.githubusercontent.com/kalfreight-in/kalgroup/e6c3841952235a1866804c85e994f1d5c540c214/src/assets/Images/rednewtruck.svg"
-          alt="" 
+          src="https://raw.githubusercontent.com/kalfreight-in/kalgroup/e6c3841952235a1866804c85e994f1d5c540c214/src/assets/Images/rednewtruck.svg" 
+          alt=""
         /> */}
         </div>
       </div>
@@ -46,4 +51,5 @@ export const ContactFormContainer = () => {
     // </div>
   );
 };
+
 
