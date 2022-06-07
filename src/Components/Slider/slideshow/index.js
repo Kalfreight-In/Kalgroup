@@ -13,10 +13,14 @@ import { isMobile, browserName } from 'react-device-detect';
 //   '#0088FE',
 //   '#00C49F',
 //   '#FFBB28',
-// ]; 
- 
-const delay = 1500; 
-export function Slideshow({ data, smallSlider = false }) {
+// ];
+
+const delay = 1500;
+export function Slideshow({
+  data,
+  smallSlider = false,
+  heading = 'Brands We Offer',
+}) {
   const [slides, setStateSlides] = useState(data);
   const [index, setIndex] = useState(0);
   const [ended, setended] = useState(false);
@@ -64,7 +68,7 @@ export function Slideshow({ data, smallSlider = false }) {
           smallSlider ? 'pb-4' : 'pb-16 mt-16 '
         }  `}
       >
-        {smallSlider ? null : <h1>Brands We Offer</h1>}  
+        {smallSlider ? null : <h1>{heading}</h1>}
       </div>
       {/* <TabComponent></TabComponent> */}
       <div
@@ -82,7 +86,7 @@ export function Slideshow({ data, smallSlider = false }) {
               className={`${
                 smallSlider
                   ? 'slide_small  w-1/4  lg:grayscale-1 hover:scale-75 `'
-                  : 'slide  w-1/4  lg:grayscale hover:scale-110 ' 
+                  : 'slide  w-1/4  lg:grayscale hover:scale-110 '
               }       hover:grayscale-0  transition-all flex items-center content-center justify-center `}
               key={index}
               // style={{ backgroundImage: `url(${brand.imageurl})` }}
@@ -95,7 +99,7 @@ export function Slideshow({ data, smallSlider = false }) {
                 }}
                 className={`${
                   smallSlider ? 'p-0' : 'p-0'
-                }    self-center slide justify-self-center justify-items-center`}   
+                }    self-center slide justify-self-center justify-items-center`}
               ></img>
             </div>
           ))}

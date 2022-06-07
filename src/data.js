@@ -901,6 +901,15 @@ export const Businessdata = [
           'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstires.png',
         btn: 'Tires & Services',
       },
+      {
+        id: '4',
+        logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
+        heading: 'LOOKING FOR TIRES IS NOT A PROBLEM NOW',
+        desc: 'Contact Us for the best trucks and trailers',
+        logotwo:
+          'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstires.png',
+        btn: 'Tires & Services',
+      },
     ],
   },
 ];

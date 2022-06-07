@@ -1,28 +1,30 @@
 import React, { useState } from 'react';
 
 export default function Roadservice() {
-  const [CTA, setCTA] = useState('Call for a service');
+  const [CTA, setCTA] = useState('See More');
 
   return (
     <>
-      <div className="flex flex-col-reverse lg:flex-row pt-12 ">
-        <div className="bg-Darkblue flex lg:flex-row flex-col ">
+      <div className="flex flex-col-reverse lg:flex-row-reverse pt-12 ">
+        <div className="bg-Darkblue flex lg:flex-row-reverse flex-col ">
           <div
             // className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 flex-1"
             className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 mx-6 flex-1"
           >
             <h1 className="text-white text-3xl sm:text-2xl 2xl:text-5xl font-heading lg:text-2xl  px-0 mb-4">
-              24/7 Roadside Assistance
+              About us
             </h1>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white font-desc 2xl:text-xl text-descnew lg:text-base md:text-sm px-0 text-justify"
             >
-              We understand the value of your time. Hence to minimize delays and
-              improve downtime, we offer 24*7 roadside assistance for tires,
-              even in remote areas. A vast vendor network spread across Western
-              Canada and an impressive team of tire specialists enable us to
-              respond efficiently and keep you always on the go.
+              For more than 30 years we have been delivering world-class
+              construction and we’ve built many lasting relationships along the
+              way.
+              <br></br>
+              We’ve matured into an industry leader and trusted resource for
+              those seeking quality, innovation and reliability when building in
+              the U.S.
             </p>
             <div>
               <button
