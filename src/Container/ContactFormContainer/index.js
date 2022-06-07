@@ -28,7 +28,7 @@ export const ContactFormContainer = () => {
           width="300"
         />
       </div> */}
-      <div className="flex-1 ">
+      <div className="flex-1 "> 
         <div
           className={
             'md:h-screen h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-center '
