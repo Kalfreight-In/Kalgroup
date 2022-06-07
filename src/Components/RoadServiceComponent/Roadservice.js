@@ -39,7 +39,7 @@ export default function Roadservice() {
           </div>
           <div className="  flex-1">
             <img
-              src="https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/blacknewtruck.png"
+              src="https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/blacknewtruck.png"   
               alt="truck"
               className="w-full "
             />
