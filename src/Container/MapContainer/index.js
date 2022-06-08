@@ -6,7 +6,7 @@ export const MapConatiner = () => {
   const [AfhoverRef, AfisHovered] = useHover();
   const [CahoverRef, CaisHovered] = useHover();
   return (
-    <div className="bg-Lightblue flex flex-col justify-between lg:flex-row">
+    <div className="bg-Lightblue flex flex-col justify- lg:flex-row">
       <div className="flex-1 2xl:p-16 xl:p-12 lg:p-8  ">
         <Map Af={AfisHovered} Ca={CaisHovered}></Map>
       </div>
@@ -25,7 +25,7 @@ export const MapConatiner = () => {
               .
             </div>
           </div>
-          <div className="flex flex-row items-center content-start mt-2 ">
+          <div className="flex flex-row items-center content-start mt-2">
             <motion.img
               whileInView={{ scale: [0.5, 1] }}
               transition={{ duration: 0.2, ease: 'easeInOut' }}

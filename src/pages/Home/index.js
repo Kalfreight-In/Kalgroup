@@ -14,10 +14,12 @@ import './Home.scss';
 import { BrandCompnentBrands } from '../../data';
 import Business from '../../Components/BusinessComponent/Business';
 import NewsAndEvents from '../../Container/NewsAndEvents';
+import HeaderCustomSlider from '../../Components/HeaderCustomSlider';
 function Home() {
   return (
     <>
-      <HeroSection></HeroSection>
+      <HeaderCustomSlider></HeaderCustomSlider>
+      {/* <HeroSection></HeroSection> */}
       <Business />
       <NewsAndEvents></NewsAndEvents>
       {/* <OurBusinessVerticles></OurBusinessVerticles> */}
