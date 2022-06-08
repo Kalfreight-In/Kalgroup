@@ -46,7 +46,7 @@ const Navbar = ({ toggle }) => {
       setScrollNav(true);
     } else {
       setScrollNav(false);
-    }
+    } 
   };
   useEffect(() => {
     if (window.location.pathname == '/trailerandleasing') {
@@ -82,7 +82,7 @@ const Navbar = ({ toggle }) => {
     scroll.scrollToTop();
   };
   function disabeled() {
-    return window.localStorage.getItem('product');
+    return window.localStorage.getItem('product'); 
   }
 
   return (

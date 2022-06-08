@@ -37,7 +37,7 @@ module.exports = {
         // '8px':'10px'
       },
       fontWeight: {
-        heading: '600',
+        heading: '700',
 
         'sub-heading': '600',
 
