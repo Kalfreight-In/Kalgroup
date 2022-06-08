@@ -3,6 +3,7 @@ import { useHover } from '../../../Hooks/Hover';
 
 // import { TabComponent } from '../../TabComponent';
 import { isMobile, browserName } from 'react-device-detect';
+import NewsShowcase from '../../NewsShowcase';
 // const colors = [
 //   '#0088FE',
 //   '#00C49F',
@@ -82,7 +83,9 @@ export function Slideshow({
         <div
           className="slideshowSlider  transition ease-linear delay-100 mb-16 "
           style={{
-            transform: `translate3d(${-index * (isMobile ? 100 : 25)}%, 0, 0)`,
+            transform: `translate3d(${
+              -index * (isMobile || singleSlider ? 100 : 25)
+            }%, 0, 0)`,
           }}
         >
           {slides.map((brand, index) => (
@@ -97,16 +100,20 @@ export function Slideshow({
               key={index}
               // style={{ backgroundImage: `url(${brand.imageurl})` }}
             >
-              <img
-                src={brand.imageurl}
-                // style={{
-                //   border: '1px solid #ddd',
-                //   margin: '0rem 1rem',
-                // }}
-                className={`${
-                  smallSlider ? 'p-0' : 'p-0'
-                }     self-center slide justify-self-center justify-items-center`}
-              ></img>
+              {singleSlider ? (
+                <NewsShowcase></NewsShowcase>
+              ) : (
+                <img
+                  src={brand.imageurl}
+                  // style={{
+                  //   border: '1px solid #ddd',
+                  //   margin: '0rem 1rem',
+                  // }}
+                  className={`${
+                    smallSlider ? 'p-0' : 'p-0'
+                  }     self-center slide justify-self-center justify-items-center`}
+                ></img>
+              )}
             </div>
           ))}
         </div>

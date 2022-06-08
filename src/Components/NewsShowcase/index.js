@@ -13,7 +13,7 @@ const Gradients = styled.div`
 const NewsShowcase = () => {
   const [CTA, setCTA] = useState('See More');
   var imageurl =
-    'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/blacknewtruck.png';
+    'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png';
   return (
     <>
       <div className="flex flex-col-reverse lg:flex-row-reverse pt-12 m-4">
