@@ -1,13 +1,13 @@
 export const NewsData = [
   {
     category: 'News',
-    date: '01/06/2002',
+    date: '01/06/2002', 
     heading: 'Indiana Truck Show',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
     desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
     CTA: { heading: 'See More', link: 'contactus' },
-    Tag: 'One click away',
+    Tag: 'One click away', 
   },
 ];
 export const HomeSliderData = [

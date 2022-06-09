@@ -20,7 +20,7 @@ const InstagramComponent = () => {
         }}
         // navigation={true}
         modules={[Pagination]}
-        className="mySwiper w-70vw h-auto"
+        className="mySwiper w-70vw"
       >
         <SwiperSlide>
           <InstagramSingleComponent></InstagramSingleComponent>

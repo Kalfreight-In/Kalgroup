@@ -32,7 +32,7 @@ export default function Business() {
 
           <div className={`flex w-full lg:flex-row flex-col`}>
             <div class=" flex w-full">
-              <div class="gallery-wrap flex lg:flex-row flex-col w-fill">
+              <div class="gallery-wrap flex lg:flex-row flex-col w-fill"> 
                 {mydata.thebox.map((element) => (
                   <motion.div
                     ref={hoverRef}

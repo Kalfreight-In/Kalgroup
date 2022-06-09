@@ -27,7 +27,7 @@ function App() {
       </ErrorBoundary>
 
       <Routes>
-        <Route path="/kalgroup" element={<Home />} />  
+        <Route path="/kalgroup" element={<Home />} />   
         <Route
           path="/trailerandleasing"
           element={<Trailer_and_Leasing />}
