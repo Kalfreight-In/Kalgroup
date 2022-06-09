@@ -24,7 +24,8 @@ const Contactform = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    setButtonText('Sending...');
+    setButtonText('Sending...'); 
+    
     // emailjs.sendForm('service_2vrcmgl', 'template_w4rsa4r', form.current).then(
     //   (result) => {
     //     console.log(result.text);
@@ -51,7 +52,7 @@ const Contactform = () => {
 
   return (
     <div id="shadow" className="p-8  ">
-      <form class="w-fit " onSubmit={(e) => handleSubmit(e)}>
+      <form class="w-fit " onSubmit={(e) => handleSubmit(e)} >
         <div className=" ">
           <h1 className="text-Heading text-36px font-bold">What can we do for you? </h1>
           {/* <p className="text-neautralform  font-Poppins text-md font-bold  my-2">
@@ -62,25 +63,20 @@ const Contactform = () => {
           </p>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
-          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-            {/* <label
-              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-              for="grid-first-name"
-            >
-              Name
-            </label> */}
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0" id='input_placeholder'>
+    
             <input
               onChange={(e) => setName(e.target.value)}
-              class="appearance-none block w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              class="appearance-none block w-72 bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
               id="grid-first-name"
               type="text"
-              placeholder="Name"
               value={name}
-              required
+              placeholder="Name"
+              required = "required"
+            
             />
-            {/* <p class="text-red-500 text-xs italic">
-              Please fill out this field.
-            </p> */}
+
+           
           </div>
 
           <div class="w-full md:w-1/2 px-3">
@@ -94,7 +90,7 @@ const Contactform = () => {
               <input
                 onChange={(e) => setEmail(e.target.value)}
                 value={email}
-                class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                class="appearance-none block w-72 bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="email"
                 placeholder="Email Address"
                 type="email"
@@ -120,7 +116,7 @@ const Contactform = () => {
               onChange={(e) => setROC(e.target.value)}
               value={ROC}
               placeholder=" &nbsp; Reason for contacting"
-              className="border block w-full bg-white text-gray-700  border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              className="border block w-72 bg-white text-gray-700  border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               required
             />
             <datalist id="cars">
@@ -143,7 +139,7 @@ const Contactform = () => {
               <input
                 onChange={(e) => setphoneno(e.target.value)}
                 value={phoneno}
-                class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                class="appearance-none block w-72 bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="email"
                 placeholder="Mobile No"
                 type="Phone"
@@ -187,7 +183,7 @@ const Contactform = () => {
             <textarea
               onChange={(e) => setMessage(e.target.value)}
               value={message}
-              class=" no-resize appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-18 resize-none"
+              class=" no-resize appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-36 resize-none"
               id="message"
               placeholder="What can we do for you?"
             ></textarea>
@@ -199,7 +195,7 @@ const Contactform = () => {
         </div>
         <div class="md:flex md:items-center">
           <div>
-            <button className="text-white bg-Lightblue rounded p-4 w-full mt-2">
+            <button className="text-white bg-Lightblue rounded p-4 w-full mt-2"> 
               {buttonText}
             </button>
           </div>
@@ -212,3 +208,4 @@ const Contactform = () => {
 };
 
 export default Contactform;
+

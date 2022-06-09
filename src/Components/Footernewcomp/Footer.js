@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../../Components/Navbar'; 
+// import Navbar from '../../Components/Navbar'; 
 import { AiOutlineClockCircle } from 'react-icons/ai'; 
 
 export default function Footer() {
@@ -243,7 +243,7 @@ export default function Footer() {
                     >
                       info@bigrigcanada.com{" "}
                     </a>
-                  </div> */}
+                  </div> */} 
                 </div>
               </div>
             </div>
@@ -253,7 +253,7 @@ export default function Footer() {
 
       {/* <div id="secondmain">
         <Navbar /> 
-      </div> */}
+      </div> */} 
     </>
   );
 }
