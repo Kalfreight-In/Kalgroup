@@ -1,6 +1,44 @@
 .cls-1 {
   fill: #d8d8d8;
 }
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4,
+.cls-5,
+.cls-6 {
+  fill-rule: evenodd;
+}
+
+.cls-2 {
+  fill: #f9ad51;
+}
+
+.cls-3 {
+  fill: #f0efef;
+}
+
+.cls-4 {
+  fill: #e8d91f;
+}
+
+.cls-5,
+.cls-9 {
+  fill: #fff;
+}
+
+.cls-6 {
+  fill: #f4144a;
+}
+
+.cls-7 {
+  fill: none;
+}
+
+.cls-8 {
+  isolation: isolate;
+}
 #BC {
   .cls-1 {
     fill: #eaa959;
@@ -44,18 +82,6 @@
 }
 #Alberta:hover + #MARKER-alberta {
   transform: translate(0, -10px);
-}
-
-.cls-1 {
-  fill: #d8d8d8;
-}
-
-.cls-2 {
-  fill: #0068c9;
-}
-
-.cls-3 {
-  fill: #fff;
 }
 
 .gallery-wrap {

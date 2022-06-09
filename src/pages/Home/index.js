@@ -16,6 +16,7 @@ import Business from '../../Components/BusinessComponent/Business';
 import NewsAndEvents from '../../Container/NewsAndEvents';
 import HeaderCustomSlider from '../../Components/HeaderCustomSlider';
 import SocialMediaContainer from '../../Container/SocialMediaContainer';
+import OurCoreValues from '../../Components/OurCoreValues';
 
 function Home() {
   return (
@@ -30,10 +31,11 @@ function Home() {
       {/* <GroupWebsitesSection /> */}
       <Roadservice />
 
-      <Slideshow data={BrandCompnentBrands}></Slideshow>
       {/* <BrandComponent></BrandComponent> */}
       {/* <ServicesSection /> */}
+      <OurCoreValues></OurCoreValues>
       <MapConatiner></MapConatiner>
+      <Slideshow data={BrandCompnentBrands}></Slideshow>
       <ContactFormContainer></ContactFormContainer>
 
       {/* <Contact /> */}
