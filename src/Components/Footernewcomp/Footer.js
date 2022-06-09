@@ -25,10 +25,10 @@ export default function Footer() {
             className="flex-1 w-7/12  lg:block "
             // className="flex-1 lg:block hidden"
           >
-            <div className="lg:ml-16 w-max ml-4 lg:mt-0 "> 
+            <div className="lg:ml-16 w-max ml-4 lg:mt-0 ">
               <div>
                 <img
-                  src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png" 
+                  src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png"
                   alt="logo"
                   className="2xl:h-28 lg:h-24  h-20"
                   href="mailto:umarkhurshid3@gmail.com"
@@ -55,7 +55,7 @@ export default function Footer() {
               <div className="text-black flex mt-4">
                 <div className="mt-2">
                   <img
-                    src="https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/Vectorphone.svg"
+                    src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/vectorphone.png"   
                     alt=""
                     className="text-black"
                     width={20}
