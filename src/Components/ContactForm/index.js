@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-import emailjs from 'emailjs-com';
+import emailjs from 'emailjs-com'; 
+
 const Contactform = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -52,12 +53,12 @@ const Contactform = () => {
     <div id="shadow" className="p-8  ">
       <form class="w-fit " onSubmit={(e) => handleSubmit(e)}>
         <div className=" ">
-          <h1 className="text-Heading text-heading font-bold">Contact Us</h1>
-          <p className="text-neautralform  font-Poppins text-md font-bold  my-2">
-            Hey! How can we help you today?
-          </p>
-          <p className="text-neautralform  font-Poppins text-md font-bold  my-1 mb-3">
-            Fill in this form for an on-point solution in no time.
+          <h1 className="text-Heading text-36px font-bold">What can we do for you? </h1>
+          {/* <p className="text-neautralform  font-Poppins text-md font-bold  my-2">
+            What can we do for you? 
+          </p> */} 
+          <p className="text-neautralform  font-Poppins text-xl font-normal  my-1 mb-3">  
+            We are ready to work on a project of any complexity, whether <br /> it's commercial or 
           </p>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">

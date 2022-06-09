@@ -31,7 +31,7 @@ const Navbar = ({ toggle }) => {
   //     return 'https://raw.githubusercontent.com/Kalfreight-In/kalgroup/main/src/assets/Images/icons/Trailers-nav-logo.png';
   //   }
   // }
-  // const initialState = loadLogo(window.location.pathname); 
+  // const initialState = loadLogo(window.location.pathname);  
   const [logo, setlogo] = useState(
     'https://raw.githubusercontent.com/Kalfreight-In/kalgroup/main/src/assets/Images/icons/Trailers-nav-logo.png' 
   );
@@ -229,4 +229,4 @@ const Navbar = ({ toggle }) => {
   );
 };
 
-export default Navbar;
+export default Navbar;  
