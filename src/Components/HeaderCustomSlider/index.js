@@ -5,18 +5,26 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 // Import Swiper styles
 // import 'swiper/css';
 import 'swiper/css/pagination';
-
+import 'swiper/css/navigation';
 // import './styles.css';
 
 // import required modules
-import { Pagination, Autoplay } from 'swiper';
+import { Navigation, Pagination, Autoplay } from 'swiper';
 import HeroSection from '../HeaderHome';
-
+import { HomeSliderData } from '../../data';
 export default function HeaderCustomSlider() {
+  var menu = [
+    'KAL Trailers & Leasing',
+    'KAL Freight',
+    'KVL Tires',
+    'KAL Partz',
+  ];
+
   const pagination = {
     clickable: true,
+
     renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + '</span>';
+      return '<span class="' + className + '">' + menu[index] + '</span>';
     },
   };
 
@@ -24,22 +32,22 @@ export default function HeaderCustomSlider() {
     <>
       <Swiper
         pagination={pagination}
-        modules={[Pagination, Autoplay]}
+        modules={[Navigation, Pagination, Autoplay]}
+        navigation={true}
+        loop={true}
         className="mySwiper"
         autoplay={{
           delay: 2000,
           disableOnInteraction: false,
         }}
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log('slide change')}
       >
-        <SwiperSlide>
-          <HeroSection />
-        </SwiperSlide>
-        <SwiperSlide>
-          <HeroSection />
-        </SwiperSlide>
-        <SwiperSlide>
-          <HeroSection />
-        </SwiperSlide>
+        {HomeSliderData.map((data, index) => (
+          <SwiperSlide key={data.id}>
+            <HeroSection data={data} />
+          </SwiperSlide>
+        ))}
       </Swiper>
     </>
   );

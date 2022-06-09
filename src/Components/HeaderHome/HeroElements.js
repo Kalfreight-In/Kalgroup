@@ -2,25 +2,28 @@ import Styled from 'styled-components';
 import { Link as LinkR } from 'react-router-dom';
 export const HeroContainer = Styled.div`
 
-overflow: hidden;
-
-
-background-position: center; /* Center the image */
-background-repeat: no-repeat; /* Do not repeat the image */
-background-size: cover;
-display: flex;  
-flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-
-margin: 0;
-padding: 0;
-
-width: 100%;
-position: relative;
-height: 100vh;
-
-z-index: 1;
+background-image: radial-gradient(#42424280,#9f9e9e17),   url(${(props) =>
+  props.bgImage});
+      background-size: cover;
+      display: flex;  
+      flex-direction: column;
+      
+      
+      margin: 0;
+      padding: 0;
+      
+      width: 100%;
+      position: relative;
+      height: 100vh;
+      
+      z-index: 1;
+      @media screen and (max-width: 768px) {
+        height: 90vh;
+          background: radial-gradient(#42424280,#9f9e9e17),  no-repeat center center url(${(
+            props
+          ) => props.bgImage});
+          
+      }
 
 `;
 export const ContainerMain = Styled.div`
@@ -123,67 +126,23 @@ width: 100%;
 height: 100%;
 
 display: flex;
-justify-content: center;
+justify-content: start;
 
 align-items: center;
 
 
-div{
-    width: 90%;
+// div{
+//     width: 55%;
    
    
    
-    @media screen and (max-width: 768px) {
-         font-size:1.5rem;
-        //  line-height:15rem;
-    h2{
-        // color:red;
-        font-size:2.3rem;
-        
-    }
-    
-    
-    
-    }
-    @media screen and (min-width: 1024px) {
-
   
-    font-size: 1.5rem;
-    
-    }
-    @media screen and (max-width: 480px) {
-        font-size:1rem;
-    h2{
- 
-        font-size:2rem;
-        line-height:2rem;
-     
-    }
-    
-    
-    }
  
     
-}
+// }
 
     
 
-
-@media screen and (max-width: 768px) {
-        flex-direction: column;
-        padding: 0px 0px 0px 0px;
-        margin:0px;
-        justify-content: center;
-    }
-@media screen and (max-width: 480px) {
-    padding: 100px 0px 0px 0px;
-    
-    flex-direction: column;
-    font-size: 32px;
-    align-items: center;
-    justify-content: center;
-    margin:0px;
-}
 `;
 export const PCENTER = Styled.h1`
 display: none;

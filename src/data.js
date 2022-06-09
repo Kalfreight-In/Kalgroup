@@ -10,6 +10,40 @@ export const NewsData = [
     Tag: 'One click away',
   },
 ];
+export const HomeSliderData = [
+  {
+    id: 1,
+    site: { heading: 'Freight', Color: null },
+    Heading: 'Delivering Commitment since 2014',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+
+    CTA: { heading: 'Contact', link: 'contactus' },
+  },
+  {
+    id: 2,
+    site: { heading: 'Freight', Color: '#8BD100' },
+    Heading: 'Delivering Commitment since 2014',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+
+    CTA: { heading: 'Contact', link: 'contactus' },
+  },
+  {
+    id: 3,
+    site: { heading: 'Tires', Color: '#EC2227' },
+    Heading: 'Delivering Commitment since 2014',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+
+    CTA: { heading: 'Contact', link: 'contactus' },
+  },
+  {
+    id: 4,
+    site: { heading: 'Partz', Color: '#F15A22' },
+    Heading: 'Delivering Commitment since 2014',
+    desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique arcu a nisi, semper. Ut cras odio ac sem ac.',
+
+    CTA: { heading: 'Contact', link: 'contactus' },
+  },
+];
 export const ServiceComponentdata = [
   {
     Heading: 'Our Services',

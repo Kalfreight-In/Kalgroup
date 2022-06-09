@@ -23,23 +23,50 @@ const Gradients = styled.div`
   z-index: 2;
 `;
 
-const HeroSection = () => {
+const HeroSection = (data) => {
+  // console.log(data.data.id);
   return (
-    <HeroContainer>
+    <HeroContainer bgImage="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/SliderSection/kalSlider-1.png">
       <Gradients></Gradients>
       <HeroBg className=" mt-0">
         {/* <VideoBg autoPlay loop muted src={Video} type="video/mp4" /> */}
       </HeroBg>
       <HeroContent>
-        <ContainerMain>
-          <HeroP>Transforming Trucking Dynamics </HeroP>
+        <div className=" pl-48">
+          {data.data.site.Color ? (
+            <button
+              // onClick={() => {
+              //   setCTA('800-977-0010');
+              // }}
+              style={{ backgroundColor: data.data.site.Color }}
+              className="text-white  font-semibold mb-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-20 lg:w-18 md:8 2xl:h-8 h-8 2xl:text-md lg:text-md md:text-md   2xl:p-0 p-4"
+            >
+              <p>{data.data.site.heading}</p>
+            </button>
+          ) : null}
 
-          <Samosa>
-            Offering New & Used Dry Vans, Trucks & Reefers
-            {!isMobile ? <br></br> : null}
-            OEM Parts, Tires, and Services
-          </Samosa>
-        </ContainerMain>
+          <div className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-1xl text-white font-bold w-4/5">
+            {data.data.Heading}
+          </div>
+          <div className="flex flex-row mt-16">
+            <div className="border-l-2 border-x-amber-400"></div>
+            <div className="ml-8">
+              <div className="2xl:text-1xl text-white font-medium w-4/5">
+                {data.data.desc}
+              </div>
+              <div className="mt-8">
+                <button
+                  // onClick={() => {
+                  //   setCTA('800-977-0010');
+                  // }}
+                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md   2xl:p-0 p-4"
+                >
+                  <p>{data.data.CTA.heading}</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* <PCENTER class="text-gray-600 p-8">
           Work with a trusted global third-party logistics provider that has
@@ -51,6 +78,7 @@ const HeroSection = () => {
           <span className="btn-text">Contact us</span>
         </button> */}
       </HeroContent>
+      <div></div>
       <HeroPromoContainer></HeroPromoContainer>
     </HeroContainer>
   );
