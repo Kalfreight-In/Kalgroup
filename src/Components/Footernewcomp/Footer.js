@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../../Components/Navbar';
-import { AiOutlineClockCircle } from 'react-icons/ai';
+import { AiOutlineClockCircle } from 'react-icons/ai'; 
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
           style={{
             backgroundImage:
               "url(" +
-              "https://raw.githubusercontent.com/Kalfreight-In/kalgroup/main/src/assets/Map/map-bg.png" +
+              "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/footermap.png" +
               ")",
 
             backgroundPosition: "center",
@@ -55,7 +55,7 @@ export default function Footer() {
               <div className="text-black flex mt-4">
                 <div className="mt-2">
                   <img
-                    src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/vectorphone.png"   
+                    src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/vectorphone.png"
                     alt=""
                     className="text-black"
                     width={20}
