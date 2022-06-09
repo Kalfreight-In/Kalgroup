@@ -17,7 +17,7 @@ const NewsShowcase = () => {
   return (
     <>
       <div className="flex flex-col-reverse lg:flex-row-reverse pt-12 m-4">
-        <div className="bg-Darkblue flex lg:flex-row-reverse flex-col ">
+        <div className="bg-Lightblue flex lg:flex-row-reverse flex-col ">
           <div
             // className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 flex-1"
             className="2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-10 mt-10 2xl:pt-12 pt-0 mx-6 flex-1 pb-16   "

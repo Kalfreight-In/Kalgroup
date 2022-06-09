@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+
 import { Pagination, Navigation } from 'swiper';
 import NewsShowcase from '../NewsShowcase';
 const SwiperSliderTwo = () => {
@@ -20,6 +21,9 @@ const SwiperSliderTwo = () => {
         modules={[Pagination]}
         className="mySwiper w-50vw"
       >
+        <SwiperSlide>
+          <NewsShowcase></NewsShowcase>
+        </SwiperSlide>
         <SwiperSlide>
           <NewsShowcase></NewsShowcase>
         </SwiperSlide>
