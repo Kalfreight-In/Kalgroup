@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from '../../Components/Navbar';
+import Navbar from '../../Components/Navbar'; 
 import { AiOutlineClockCircle } from 'react-icons/ai'; 
 
 export default function Footer() {
@@ -7,7 +7,7 @@ export default function Footer() {
     <>
       <div className="bg-footerbackground">
         <div
-          className="flex lg:flex-row flex-col 2xl:pb-8 xl:pt-8 lg:pt-4 lg:flex lg:justify-between"
+          className="flex lg:flex-row flex-col 2xl:pb-8 xl:pt-8 lg:pt-4 lg:flex lg:justify-start"  
           style={{
             backgroundImage:
               "url(" +
@@ -15,7 +15,7 @@ export default function Footer() {
               ")",
 
             backgroundPosition: "center",
-            backgroundSize: "cover",
+            backgroundSize: "contain  ",
 
             backgroundRepeat: "no-repeat",
             width: "full",
@@ -47,10 +47,10 @@ export default function Footer() {
                   {/* <div className="block">Working hours</div> */}
                   <div className="text-xl font-bold">
                     8 AM to 5 PM <br />
-                    (Monday to Friday) 
+                    (Monday to Friday) 
                   </div>
                 </div>
-              </div>
+              </div>  
 
               <div className="text-black flex mt-4">
                 <div className="mt-2">
@@ -191,7 +191,7 @@ export default function Footer() {
                       href=""
                       className="block md:text-16px text-navsmall hover:text-yellow-shadowhover"
                     >
-                      hr@bigrigcanada.com{" "}
+                      hr@bigrigcanada.com
                     </a>
                   </div>
                   <div className="flex flex-row space-x-2">
@@ -211,7 +211,7 @@ export default function Footer() {
                       href=""
                       className="block md:text-16px text-navsmall hover:text-yellow-shadowhover"
                     >
-                      partz@bigrigcanada.com{" "}
+                      partz@bigrigcanada.com
                     </a>
                   </div>
 
