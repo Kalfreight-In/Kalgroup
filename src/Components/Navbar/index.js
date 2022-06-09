@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll, Link } from 'react-scroll';
-// import ErrorBoundary from '../ErrorBoundary'; 
-import { useNavigate } from 'react-router-dom';  
+// import ErrorBoundary from '../ErrorBoundary';
+import { useNavigate } from 'react-router-dom';
 import {
   Nav,
   NavMenu,
-  NavBtn, 
+  NavBtn,
   NavLogo,
   MobileIcon,
   NavItem,
@@ -16,7 +16,7 @@ import {
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
-  const history = useNavigate(); 
+  const history = useNavigate();
   console.log(window.scrollY);
   // function loadLogo(path) {
   //   if (path == '/kalgroup') {
@@ -31,9 +31,9 @@ const Navbar = ({ toggle }) => {
   //     return 'https://raw.githubusercontent.com/Kalfreight-In/kalgroup/main/src/assets/Images/icons/Trailers-nav-logo.png';
   //   }
   // }
-  // const initialState = loadLogo(window.location.pathname);  
+  // const initialState = loadLogo(window.location.pathname);
   const [logo, setlogo] = useState(
-    'https://raw.githubusercontent.com/Kalfreight-In/kalgroup/main/src/assets/Images/icons/Trailers-nav-logo.png' 
+    'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalNavlogo.png'
   );
   const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {
@@ -46,7 +46,7 @@ const Navbar = ({ toggle }) => {
       setScrollNav(true);
     } else {
       setScrollNav(false);
-    } 
+    }
   };
   useEffect(() => {
     if (window.location.pathname == '/trailerandleasing') {
@@ -58,7 +58,7 @@ const Navbar = ({ toggle }) => {
     }
     if (window.location.pathname == '/kalgroup') {
       setlogo(
-        "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalNavlogo.png" 
+        'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalNavlogo.png'
       );
       console.log(`${window.location.pathname} and then there is ${logo}`);
     }
@@ -82,18 +82,18 @@ const Navbar = ({ toggle }) => {
     scroll.scrollToTop();
   };
   function disabeled() {
-    return window.localStorage.getItem('product'); 
+    return window.localStorage.getItem('product');
   }
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>  
+      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
           <div className="flex flex-row ml-8">
             <NavLogo to="/kalgroup" onClick={toggleHome}>
               <img
                 // className="2xl:w-56 w-44  2xl:h-44 h-32  "
-          
+
                 src={logo}
                 alt="logo"
                 width=" 45%"
@@ -198,8 +198,8 @@ const Navbar = ({ toggle }) => {
                   onClick={toggleHome}
                   className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
                 >
-                  <img 
-                    src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"  
+                  <img
+                    src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                     alt=""
                   />
                 </NavLinks>
@@ -229,4 +229,4 @@ const Navbar = ({ toggle }) => {
   );
 };
 
-export default Navbar;  
+export default Navbar;

@@ -11,7 +11,7 @@ const NewsAndEvents = () => {
       <div className=" text-36px font-semibold text-Heading flex flex-col justify-center items-center">
         <h2>News & Events</h2>
         {/* <SwiperSlider></SwiperSlider> */}
-        <div className="flex flex-row   items-center m-6 relative">
+        <div className="flex flex-row   items-center  relative">
           <SwiperSlider className="z-10 absolute"></SwiperSlider>
           <SwiperSlider className="z-0 absolute"></SwiperSlider>
           {/* <SwiperSlider></SwiperSlider> */}

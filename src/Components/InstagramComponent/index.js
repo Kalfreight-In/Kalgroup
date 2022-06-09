@@ -6,7 +6,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import { Pagination, Navigation } from 'swiper';
-import NewsShowcase from '../NewsShowcase';
 
 import InstagramSingleComponent from './InstagramSingleComponent';
 const InstagramComponent = () => {
@@ -21,7 +20,7 @@ const InstagramComponent = () => {
         }}
         // navigation={true}
         modules={[Pagination]}
-        className="mySwiper w-50vw"
+        className="mySwiper w-70vw h-auto"
       >
         <SwiperSlide>
           <InstagramSingleComponent></InstagramSingleComponent>
