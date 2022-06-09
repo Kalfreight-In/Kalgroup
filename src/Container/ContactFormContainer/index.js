@@ -5,7 +5,7 @@ export const ContactFormContainer = () => {
   return (
     // <div id="maincontainer" className='w-70vh' >
     <div
-      className=" flex md:flex lg:w-screen w-fit    lg:flex-row-reverse flex-col align-center justify-center "
+      className=" flex md:flex lg:w-screen w-fit    lg:flex-row-reverse flex-col align-center justify-center bg-whitenew"
       id="ContactSection"
     >
       <div className="lg:mt-16 lg:mb-16 h-fit flex content-center justify-center  flex-1 ">
@@ -31,10 +31,10 @@ export const ContactFormContainer = () => {
       <div className="flex-1 ">
         <div
           className={
-            'md:h-screen h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-center '
+            'md:h-contactimg h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-center'  
           }
           style={{
-            backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalcontactimage.png)`,
+            backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalcontactimage.png)`,  
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
@@ -51,3 +51,4 @@ export const ContactFormContainer = () => {
     // </div>
   );
 };
+
