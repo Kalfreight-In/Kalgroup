@@ -16,11 +16,11 @@ var imageurl =
 const InstagramSingleComponent = () => {
   return (
     <>
-      <div className="flex flex-col-reverse lg:flex-row-reverse  m-4">
-        <div className="bg-Lightblue flex lg:flex-row-reverse flex-col ">
+      <div className="bg-yellow-bg  flex flex-col-reverse lg:flex-row-reverse w-full h-full m-2 ">
+        <div className=" flex lg:flex-row-reverse flex-col max-w-screen-2xl ">
           <div
             // className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 flex-1"
-            className="2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-10 mt-10 2xl:pt-12 pt-0 mx-6 flex-1 pb-16   "
+            className="2xl:ml-12 xl:ml-8 md:ml-5       mt-20  2xl:pt-12 pt-0 mx-6 flex-1 mb-16 mr-32"
           >
             {/* <h1 className="text-white text-sm sm:text-lg 2xl:text-xl font-heading lg:text-2xl  px-0 mb-4">
               This is an Instagram post caption
@@ -30,26 +30,26 @@ const InstagramSingleComponent = () => {
             </h1> */}
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-              className="text-white  2xl:text-xl lg:text-base md:text-sm px-0 text-justify "
+              className="text-white  2xl:text-2xl font-semibold lg:text-base md:text-sm px-0  "
             >
               This is an Instagram post caption
             </p>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-              className="text-white  2xl:text-xl lg:text-base md:text-sm px-0 text-justify "
+              className="text-white  2xl:text-md lg:text-base md:text-sm px-0 "
             >
               We provide a full range of front end mechanical repairs for all
               makes and models of car
             </p>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-              className="text-white  2xl:text-xl lg:text-base md:text-sm px-0 text-justify "
+              className="text-white  2xl:text-sm lg:text-base md:text-sm px-0  pt-12"
             >
               2 days ago
             </p>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-              className="text-white  2xl:text-xl lg:text-base md:text-sm px-0 text-justify "
+              className="text-white  2xl:text-md lg:text-base md:text-sm px-0  underline-offset-4 mt-20"
             >
               Go to our Feed
             </p>
@@ -64,31 +64,28 @@ const InstagramSingleComponent = () => {
               </button>
             </div> */}
           </div>
-          <div className="  flex-1">
-            <div
-              className={
-                'md:h-full h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-center'
-              }
-              style={{
-                backgroundImage: `url(${imageurl})`,
-              }}
-            >
-              <Gradients>
-                <div className="absolute text-5xl    ">
-                  <RiInstagramLine
-                    color="#fff"
-                    className="m-2"
-                  ></RiInstagramLine>
-                </div>
-              </Gradients>
-            </div>
+        </div>
+        <div className=" w-1/2 ">
+          <div
+            className={
+              "md:h-full h-mobileMainImageHeight bg-cover bg-no-repeat bg-center"
+            }
+            style={{
+              backgroundImage: `url(${imageurl})`,
+            }}
+          >
+            <Gradients>
+              <div className="absolute text-5xl    ">
+                <RiInstagramLine color="#fff" className="m-2"></RiInstagramLine>
+              </div>
+            </Gradients>
+          </div>
 
-            {/* <img
+          {/* <img
               src="https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/blacknewtruck.png"
               alt="truck"
               className="w-full "
             /> */}
-          </div>
         </div>
       </div>
     </>
