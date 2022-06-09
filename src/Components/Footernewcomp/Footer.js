@@ -5,30 +5,30 @@ import { AiOutlineClockCircle } from 'react-icons/ai';
 export default function Footer() {
   return (
     <>
-      <div className="bg-footerbackground"> 
+      <div className="bg-footerbackground">
         <div
           className="flex lg:flex-row flex-col 2xl:pb-8 xl:pt-8 lg:pt-4 lg:flex lg:justify-between"
           style={{
             backgroundImage:
-              'url(' +
-              'https://raw.githubusercontent.com/Kalfreight-In/kalgroup/main/src/assets/Map/map-bg.png' +
-              ')',
+              "url(" +
+              "https://raw.githubusercontent.com/Kalfreight-In/kalgroup/main/src/assets/Map/map-bg.png" +
+              ")",
 
-            backgroundPosition: 'center',
-            backgroundSize: 'cover',
+            backgroundPosition: "center",
+            backgroundSize: "cover",
 
-            backgroundRepeat: 'no-repeat',
-            width: 'full',
+            backgroundRepeat: "no-repeat",
+            width: "full",
           }}
         >
           <div
             className="flex-1 w-7/12  lg:block "
             // className="flex-1 lg:block hidden"
           >
-            <div className="lg:ml-16 w-max ml-4 lg:mt-0 ">
+            <div className="lg:ml-16 w-max ml-4 lg:mt-0 "> 
               <div>
                 <img
-                  src="https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/bigrigfooterlogo.png"
+                  src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png" 
                   alt="logo"
                   className="2xl:h-28 lg:h-24  h-20"
                   href="mailto:umarkhurshid3@gmail.com"
@@ -191,7 +191,7 @@ export default function Footer() {
                       href=""
                       className="block md:text-16px text-navsmall hover:text-yellow-shadowhover"
                     >
-                      hr@bigrigcanada.com{' '}
+                      hr@bigrigcanada.com{" "}
                     </a>
                   </div>
                   <div className="flex flex-row space-x-2">
@@ -211,7 +211,7 @@ export default function Footer() {
                       href=""
                       className="block md:text-16px text-navsmall hover:text-yellow-shadowhover"
                     >
-                      partz@bigrigcanada.com{' '}
+                      partz@bigrigcanada.com{" "}
                     </a>
                   </div>
 
