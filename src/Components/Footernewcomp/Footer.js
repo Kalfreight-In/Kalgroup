@@ -7,7 +7,7 @@ export default function Footer() {
     <>
       <div className="bg-footerbackground">
         <div
-          className="flex lg:flex-row flex-col 2xl:pb-8 xl:pt-8 lg:pt-4 lg:flex lg:justify-start"  
+          className="flex lg:flex-row flex-col 2xl:pb-8 xl:pt-8 lg:pt-4 lg:flex lg:justify-start"
           style={{
             backgroundImage:
               "url(" +
@@ -15,10 +15,9 @@ export default function Footer() {
               ")",
 
             backgroundPosition: "center",
-            backgroundSize: "contain  ",
-
+            backgroundSize: "contain",
             backgroundRepeat: "no-repeat",
-            width: "full",
+            width: "full", 
           }}
         >
           <div
@@ -28,7 +27,7 @@ export default function Footer() {
             <div className="lg:ml-16 w-max ml-4 lg:mt-0 ">
               <div>
                 <img
-                  src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png"
+                  src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png" 
                   alt="logo"
                   className="2xl:h-28 lg:h-24  h-20"
                   href="mailto:umarkhurshid3@gmail.com"
@@ -47,10 +46,10 @@ export default function Footer() {
                   {/* <div className="block">Working hours</div> */}
                   <div className="text-xl font-bold">
                     8 AM to 5 PM <br />
-                    (Monday to Friday) 
+                    (Monday to Friday)
                   </div>
                 </div>
-              </div>  
+              </div>
 
               <div className="text-black flex mt-4">
                 <div className="mt-2">
@@ -234,7 +233,7 @@ export default function Footer() {
                     >
                       info@bigrigcanada.com
                     </a>
-                  </div>
+                  </div> 
                   {/* <div className="flex flex-row space-x-2">
                     <div>For all other enquires reach us at</div>
                     <span> »  </span>
