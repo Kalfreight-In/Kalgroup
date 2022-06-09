@@ -7,7 +7,9 @@ import 'swiper/css/navigation';
 
 import { Pagination, Navigation } from 'swiper';
 import NewsShowcase from '../NewsShowcase';
-const SwiperSlider = () => {
+
+import InstagramSingleComponent from './InstagramSingleComponent';
+const InstagramComponent = () => {
   return (
     <>
       <Swiper
@@ -22,13 +24,13 @@ const SwiperSlider = () => {
         className="mySwiper w-50vw"
       >
         <SwiperSlide>
-          <NewsShowcase></NewsShowcase>
+          <InstagramSingleComponent></InstagramSingleComponent>
         </SwiperSlide>
         <SwiperSlide>
-          <NewsShowcase></NewsShowcase>
+          <InstagramSingleComponent></InstagramSingleComponent>
         </SwiperSlide>
         <SwiperSlide>
-          <NewsShowcase></NewsShowcase>
+          <InstagramSingleComponent></InstagramSingleComponent>
         </SwiperSlide>
         {/* <SwiperSlide>
           <NewsShowcase></NewsShowcase>
@@ -56,4 +58,4 @@ const SwiperSlider = () => {
   );
 };
 
-export default SwiperSlider;
+export default InstagramComponent;

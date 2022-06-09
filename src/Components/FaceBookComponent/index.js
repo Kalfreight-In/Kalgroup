@@ -7,7 +7,8 @@ import 'swiper/css/navigation';
 
 import { Pagination, Navigation } from 'swiper';
 import NewsShowcase from '../NewsShowcase';
-const SwiperSlider = () => {
+import FaceBookSingleCompnent from './FaceBookSingleCompnent';
+const FaceBookComponent = () => {
   return (
     <>
       <Swiper
@@ -22,13 +23,13 @@ const SwiperSlider = () => {
         className="mySwiper w-50vw"
       >
         <SwiperSlide>
-          <NewsShowcase></NewsShowcase>
+          <FaceBookSingleCompnent></FaceBookSingleCompnent>
         </SwiperSlide>
         <SwiperSlide>
-          <NewsShowcase></NewsShowcase>
+          <FaceBookSingleCompnent></FaceBookSingleCompnent>
         </SwiperSlide>
         <SwiperSlide>
-          <NewsShowcase></NewsShowcase>
+          <FaceBookSingleCompnent></FaceBookSingleCompnent>
         </SwiperSlide>
         {/* <SwiperSlide>
           <NewsShowcase></NewsShowcase>
@@ -56,4 +57,4 @@ const SwiperSlider = () => {
   );
 };
 
-export default SwiperSlider;
+export default FaceBookComponent;
