@@ -31,7 +31,7 @@ export const ContactFormContainer = () => {
       <div className="flex-1 ">
         <div
           className={
-            'md:h-contactimg h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-center'  
+            'md:h-5/6 h-mobileMainImageHeight w-4/6 bg-cover bg-no-repeat bg-center mt-16 ml-36'  
           }
           style={{
             backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalcontactimage.png)`,  
