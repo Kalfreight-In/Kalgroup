@@ -1,6 +1,6 @@
 import React from 'react';
 import { RiFacebookCircleLine } from 'react-icons/ri';
-const FaceBookSingleCompnent = () => {
+const FaceBookSingleCompnent = (data) => {
   return (
     <>
       <div className=" bg-Lightblue lg:flex-row-reverse w-full h-full m-2 ">
@@ -10,27 +10,26 @@ const FaceBookSingleCompnent = () => {
             className="2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-10 mt-20   2xl:pt-12 pt-0 mx-6 flex-1  max-w-screen-lg pr-20 "
           >
             <h1 className="text-white text-sm sm:text-lg 2xl:text-xl font-heading lg:text-2xl  px-0 mb-4">
-              This is a facebook post caption
+              {data.data.caption}
             </h1>
 
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white  2xl:text-md lg:text-base md:text-sm px-0 text-justify"
             >
-              We provide a full range of front end mechanical repairs for all
-              makes and models of car
+              {data.data.desc}
             </p>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white  2xl:text-md lg:text-base md:text-sm px-0 text-justify mt-20"
             >
-              2 days ago
+              {data.data.time}
             </p>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white  2xl:text-md lg:text-base md:text-sm px-0 text-justify mt-16"
             >
-              Follow
+              <a href={data.data.follow}>Follow</a>
             </p>
             {/* <div>
               <button

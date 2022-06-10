@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import { Pagination, Navigation } from 'swiper';
-
+import { Facbookfeeds } from '../../data';
 import FaceBookSingleCompnent from './FaceBookSingleCompnent';
 const FaceBookComponent = () => {
   return (
@@ -22,15 +22,18 @@ const FaceBookComponent = () => {
         modules={[Pagination]}
         className="mySwiper w-40vw"
       >
-        <SwiperSlide>
+        {Facbookfeeds.map((data, index) => (
+          <SwiperSlide key={data.id}>
+            <FaceBookSingleCompnent data={data}></FaceBookSingleCompnent>
+          </SwiperSlide>
+        ))}
+
+        {/* <SwiperSlide>
           <FaceBookSingleCompnent></FaceBookSingleCompnent>
         </SwiperSlide>
         <SwiperSlide>
           <FaceBookSingleCompnent></FaceBookSingleCompnent>
-        </SwiperSlide>
-        <SwiperSlide>
-          <FaceBookSingleCompnent></FaceBookSingleCompnent>
-        </SwiperSlide>
+        </SwiperSlide> */}
         {/* <SwiperSlide>
           <NewsShowcase></NewsShowcase>
         </SwiperSlide>

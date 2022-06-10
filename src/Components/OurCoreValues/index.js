@@ -7,10 +7,33 @@ import { CoreValuedata } from '../../data';
 import Accordion from '../Accordion';
 import { useSpring, animated } from 'react-spring';
 import { useHover } from '../../Hooks/Hover';
+import styled from "styled-components";
 var mydata = CoreValuedata[0];
 
 export default function OurCoreValues() {
+    
   const [hoverRef, isHovered] = useHover();
+  const Quality = styled.div`
+  background: ${props => `url(${props.background}) no-repeat top center`};
+  flex: 1;
+  margin: 0.3rem;
+  height: 100%;
+  background-position: left;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+
+ 
+
+
+
+  &:hover {
+    background: ${props =>
+      `url(${props.hoverBackground}) `};
+   
+ 
+  }
+`;
   const titleAnimation = useSpring({
     from: {
       transform: 'translateY(-30px)',
@@ -20,6 +43,7 @@ export default function OurCoreValues() {
   });
 
   return (
+
     <>
       {/* <div class="social"></div> */}
       <div className="bg-businessbackground">
@@ -29,24 +53,29 @@ export default function OurCoreValues() {
               {mydata.heading}
             </h1>
           </div>
-
+          {/* {isHovered ?   <h1 className="text-5xl font-bold link link-underline link-underline-black text-Heading mb-6 pb-2">
+              {mydata.heading}
+            </h1> : null} */}
           <div className={`flex w-full lg:flex-row flex-col`}>
             <div class=" flex w-full">
-              <div class="gallery-wrap flex lg:flex-row flex-col w-fill">
+              <div class="gallery-wrap flex lg:flex-row flex-col w-fill "  ref={hoverRef}>
                 {mydata.thebox.map((element) => (
-                  <motion.div
-                    ref={hoverRef}
-                    className={`demo item item-${element.id}`}
-                    whileHover={{
-                      transition: {
-                        duration: 0.5,
-                        ease: 'easeInOut',
-                      },
-                    }}
+                  <div
+                   
+                    className={`demo item bg-cover bg-no-repeat bg-left `}
+                    // background={element.Simg}
+                    // hoverBackground={element.Bimg }
+                    style={{ backgroundImage: `url(${isHovered ? element.Bimg :  element.Simg})` }}
+                    // whileHover={{
+                    //   transition: {
+                    //     duration: 0.5,
+                    //     ease: 'easeInOut',
+                    //   },
+                    // }}
                   >
                     {/* <Accordion title={element.heading} text={element.desc} /> */}
                     <div
-                      ref={hoverRef}
+                  
                       key={element.id}
 
                       // className={`z-${element.id} ${
@@ -99,7 +128,7 @@ export default function OurCoreValues() {
                         </button>
                       </div> */}
                     </div>
-                  </motion.div>
+                  </div>
                 ))}
               </div>
             </div>

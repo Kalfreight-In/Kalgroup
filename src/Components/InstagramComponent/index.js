@@ -6,7 +6,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import { Pagination, Navigation } from 'swiper';
-
+import { Instagramfeeds } from '../../data';
 import InstagramSingleComponent from './InstagramSingleComponent';
 const InstagramComponent = () => {
   return (
@@ -16,21 +16,18 @@ const InstagramComponent = () => {
         spaceBetween={30}
         loop={true}
         pagination={{
-          clickable: true,
+          dynamicBullets: true,
         }}
         // navigation={true}
         modules={[Pagination]}
         className="mySwiper w-70vw"
       >
-        <SwiperSlide>
-          <InstagramSingleComponent></InstagramSingleComponent>
-        </SwiperSlide>
-        <SwiperSlide>
-          <InstagramSingleComponent></InstagramSingleComponent>
-        </SwiperSlide>
-        <SwiperSlide>
-          <InstagramSingleComponent></InstagramSingleComponent>
-        </SwiperSlide>
+        {Instagramfeeds.map((data, index) => (
+          <SwiperSlide key={data.id}>
+            <InstagramSingleComponent data={data}></InstagramSingleComponent>
+          </SwiperSlide>
+        ))}
+
         {/* <SwiperSlide>
           <NewsShowcase></NewsShowcase>
         </SwiperSlide>

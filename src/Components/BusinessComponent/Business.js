@@ -36,7 +36,8 @@ export default function Business() {
                 {mydata.thebox.map((element) => (
                   <motion.div
                     ref={hoverRef}
-                    className={`demo item item-${element.id}`}
+                    className={`demo item `}
+                    style={{ backgroundImage: `url(${element.img})` }}
                     whileHover={{
                       transition: {
                         duration: 0.5,
