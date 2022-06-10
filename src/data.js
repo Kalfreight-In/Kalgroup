@@ -1,5 +1,42 @@
 export const NewsData = [
   {
+    id: '1',
+    category: 'News',
+    date: '01/06/2002',
+    heading: 'Indiana Truck Show',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
+    desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
+    CTA: { heading: 'See More', link: 'contactus' },
+    Tag: 'One click away',
+  },
+  {
+    id: '2',
+    category: 'News',
+    date: '01/06/2002',
+    heading: 'Indiana Truck Show',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
+    desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
+    CTA: { heading: 'See More', link: 'contactus' },
+    Tag: 'One click away',
+  },
+  {
+    id: '3',
+    category: 'News',
+    date: '01/06/2002',
+    heading: 'Indiana Truck Show',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
+    desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
+    CTA: { heading: 'See More', link: 'contactus' },
+    Tag: 'One click away',
+  },
+  {
+    id: '4',
     category: 'News',
     date: '01/06/2002',
     heading: 'Indiana Truck Show',
@@ -13,12 +50,49 @@ export const NewsData = [
 ];
 export const EventsData = [
   {
+    id: '1',
     category: 'Upcoming events',
     date: '01/06/2002',
     heading: 'Come to our dinner',
     PhotoHeading: 'KAL Group Dinner',
     imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
+    desc: "We provide a full range of front end mechanical repairs for all makes and models of car It doesn't matter if you love Peterbilts.",
+    CTA: { heading: 'Register', link: 'register' },
+    Tag: 'One click away',
+  },
+  {
+    id: '2',
+    category: 'Upcoming events',
+    date: '01/06/2002',
+    heading: 'Come to our dinner',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
+    desc: "We provide a full range of front end mechanical repairs for all makes and models of car It doesn't matter if you love Peterbilts.",
+    CTA: { heading: 'Register', link: 'register' },
+    Tag: 'One click away',
+  },
+  {
+    id: '3',
+    category: 'Upcoming events',
+    date: '01/06/2002',
+    heading: 'Come to our dinner',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
+    desc: "We provide a full range of front end mechanical repairs for all makes and models of car It doesn't matter if you love Peterbilts.",
+    CTA: { heading: 'Register', link: 'register' },
+    Tag: 'One click away',
+  },
+  {
+    id: '4',
+    category: 'Upcoming events',
+    date: '01/06/2002',
+    heading: 'Come to our Show',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
     desc: "We provide a full range of front end mechanical repairs for all makes and models of car It doesn't matter if you love Peterbilts.",
     CTA: { heading: 'Register', link: 'register' },
     Tag: 'One click away',
