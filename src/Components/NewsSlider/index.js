@@ -7,7 +7,8 @@ import 'swiper/css/navigation';
 
 import { Pagination, Navigation } from 'swiper';
 import NewsShowcase from '../NewsShowcase';
-const SwiperSlider = () => {
+import { NewsData } from '../../data';
+const NewsSlider = () => {
   return (
     <>
       <Swiper
@@ -21,15 +22,12 @@ const SwiperSlider = () => {
         modules={[Pagination]}
         className="mySwiper w-50vw"
       >
-        <SwiperSlide>
-          <NewsShowcase></NewsShowcase>
-        </SwiperSlide>
-        <SwiperSlide>
-          <NewsShowcase></NewsShowcase>
-        </SwiperSlide>
-        <SwiperSlide>
-          <NewsShowcase></NewsShowcase>
-        </SwiperSlide>
+        {NewsData.map((data, index) => (
+          <SwiperSlide key={data.id}>
+            <NewsShowcase data={data}></NewsShowcase>
+          </SwiperSlide>
+        ))}
+
         {/* <SwiperSlide>
           <NewsShowcase></NewsShowcase>
         </SwiperSlide>
@@ -56,4 +54,4 @@ const SwiperSlider = () => {
   );
 };
 
-export default SwiperSlider;
+export default NewsSlider;

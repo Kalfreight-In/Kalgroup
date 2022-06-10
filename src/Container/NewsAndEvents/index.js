@@ -2,9 +2,9 @@ import React from 'react';
 import ErrorBoundary from '../../Components/ErrorBoundary';
 import NewsShowcase from '../../Components/NewsShowcase';
 import { Slideshow } from '../../Components/Slider/slideshow';
-import SwiperSlider from '../../Components/SwiperSlider';
-
+import NewsSlider from '../../Components/NewsSlider';
 import { BigPArtzBrands, BigTireBrands } from '../../data.js';
+import EventsSlider from '../../Components/EventsSlider';
 const NewsAndEvents = () => {
   return (
     <>
@@ -12,8 +12,8 @@ const NewsAndEvents = () => {
         <h2>News & Events</h2>
         {/* <SwiperSlider></SwiperSlider> */}
         <div className="flex flex-row   items-center  relative">
-          <SwiperSlider className="z-10 absolute"></SwiperSlider>
-          <SwiperSlider className="z-0 absolute"></SwiperSlider>
+          <NewsSlider className="z-10 absolute"></NewsSlider>
+          <EventsSlider className="z-0 absolute"></EventsSlider>
           {/* <SwiperSlider></SwiperSlider> */}
 
           {/* <NewsShowcase></NewsShowcase>

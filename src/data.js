@@ -1,13 +1,101 @@
 export const NewsData = [
   {
+    id: '1',
     category: 'News',
-    date: '01/06/2002', 
+    date: '01/06/2002',
     heading: 'Indiana Truck Show',
+    PhotoHeading: 'KAL Group Dinner',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
     desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
     CTA: { heading: 'See More', link: 'contactus' },
-    Tag: 'One click away', 
+    Tag: 'One click away',
+  },
+  {
+    id: '2',
+    category: 'News',
+    date: '01/06/2002',
+    heading: 'Indiana Truck Show',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
+    desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
+    CTA: { heading: 'See More', link: 'contactus' },
+    Tag: 'One click away',
+  },
+  {
+    id: '3',
+    category: 'News',
+    date: '01/06/2002',
+    heading: 'Indiana Truck Show',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
+    desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
+    CTA: { heading: 'See More', link: 'contactus' },
+    Tag: 'One click away',
+  },
+  {
+    id: '4',
+    category: 'News',
+    date: '01/06/2002',
+    heading: 'Indiana Truck Show',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
+    desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
+    CTA: { heading: 'See More', link: 'contactus' },
+    Tag: 'One click away',
+  },
+];
+export const EventsData = [
+  {
+    id: '1',
+    category: 'Upcoming events',
+    date: '01/06/2002',
+    heading: 'Come to our dinner',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
+    desc: "We provide a full range of front end mechanical repairs for all makes and models of car It doesn't matter if you love Peterbilts.",
+    CTA: { heading: 'Register', link: 'register' },
+    Tag: 'One click away',
+  },
+  {
+    id: '2',
+    category: 'Upcoming events',
+    date: '01/06/2002',
+    heading: 'Come to our dinner',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
+    desc: "We provide a full range of front end mechanical repairs for all makes and models of car It doesn't matter if you love Peterbilts.",
+    CTA: { heading: 'Register', link: 'register' },
+    Tag: 'One click away',
+  },
+  {
+    id: '3',
+    category: 'Upcoming events',
+    date: '01/06/2002',
+    heading: 'Come to our dinner',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
+    desc: "We provide a full range of front end mechanical repairs for all makes and models of car It doesn't matter if you love Peterbilts.",
+    CTA: { heading: 'Register', link: 'register' },
+    Tag: 'One click away',
+  },
+  {
+    id: '4',
+    category: 'Upcoming events',
+    date: '01/06/2002',
+    heading: 'Come to our Show',
+    PhotoHeading: 'KAL Group Dinner',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
+    desc: "We provide a full range of front end mechanical repairs for all makes and models of car It doesn't matter if you love Peterbilts.",
+    CTA: { heading: 'Register', link: 'register' },
+    Tag: 'One click away',
   },
 ];
 export const HomeSliderData = [
@@ -922,6 +1010,7 @@ export const Businessdata = [
     thebox: [
       {
         id: '1',
+        img: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/trailers.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstrllogo.png',
         heading: 'GET ON THE ROAD WITH POWERFUL ENGINE',
         desc: 'Contact Us for the best trucks and trailers',
@@ -931,6 +1020,7 @@ export const Businessdata = [
       },
       {
         id: '2',
+        img: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Parts.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesspartzlogo.png',
         heading: 'LAST LONG WITH THE BEST PARTS ON THE MARKET',
         desc: 'We have the best brands to get your truck on the road',
@@ -940,6 +1030,7 @@ export const Businessdata = [
       },
       {
         id: '3',
+        img: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/tires.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
         heading: 'LOOKING FOR TIRES IS NOT A PROBLEM NOW',
         desc: 'Contact Us for the best trucks and trailers',
@@ -949,12 +1040,13 @@ export const Businessdata = [
       },
       {
         id: '4',
+        img: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/freight.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
         heading: 'LOOKING FOR TIRES IS NOT A PROBLEM NOW',
         desc: 'Contact Us for the best trucks and trailers',
         logotwo:
           'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstires.png',
-        btn: 'Tires & Services',
+        btn: 'Freight',
       },
     ],
   },
@@ -966,6 +1058,8 @@ export const CoreValuedata = [
     thebox: [
       {
         id: '1',
+        Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png',
+        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-fb.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstrllogo.png',
         heading: 'GET ON THE ROAD WITH POWERFUL ENGINE',
         desc: 'Contact Us for the best trucks and trailers',
@@ -975,6 +1069,8 @@ export const CoreValuedata = [
       },
       {
         id: '2',
+        Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png',
+        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-fb.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesspartzlogo.png',
         heading: 'LAST LONG WITH THE BEST PARTS ON THE MARKET',
         desc: 'We have the best brands to get your truck on the road',
@@ -984,6 +1080,8 @@ export const CoreValuedata = [
       },
       {
         id: '3',
+        Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png',
+        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-fb.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
         heading: 'LOOKING FOR TIRES IS NOT A PROBLEM NOW',
         desc: 'Contact Us for the best trucks and trailers',
@@ -992,7 +1090,20 @@ export const CoreValuedata = [
         btn: 'Tires & Services',
       },
       {
-        id: '4',
+        id: '5',
+        Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png',
+        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-fb.png',
+        logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
+        heading: 'LOOKING FOR TIRES IS NOT A PROBLEM NOW',
+        desc: 'Contact Us for the best trucks and trailers',
+        logotwo:
+          'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstires.png',
+        btn: 'Tires & Services',
+      },
+      {
+        id: '6',
+        Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png',
+        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-fb.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
         heading: 'LOOKING FOR TIRES IS NOT A PROBLEM NOW',
         desc: 'Contact Us for the best trucks and trailers',
@@ -1001,5 +1112,75 @@ export const CoreValuedata = [
         btn: 'Tires & Services',
       },
     ],
+  },
+];
+
+export const Facbookfeeds = [
+  {
+    id: '1',
+    caption: 'Used Trailers',
+    desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
+    time: '7 June',
+    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+  },
+  {
+    id: '2',
+    caption: 'KVL Tires',
+    desc: 'KVL Tires proudly carries the General HS 2 - a tire that offers optimal performance and a comfortable ride, without compromising on fuel efficiency. ',
+    time: '21 May',
+    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+  },
+
+  {
+    id: '3',
+    caption: 'KalPartz',
+    desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
+    time: '12 May',
+    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+  },
+  {
+    id: '4',
+    caption: 'Kalway',
+    desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
+    time: '2 May',
+    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+  },
+];
+
+export const Instagramfeeds = [
+  {
+    id: '1',
+    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/286169510_519570173202421_6328616867636052071_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=zyqJjEfiLHoAX-VRGOS&_nc_ht=scontent-maa2-1.xx&oh=00_AT_nls-zzTCt9pwVK-yDiSMHug-AzwGSA-HYXxUETHETHQ&oe=62A8F67A',
+
+    caption: 'Used Trailers',
+    desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
+    time: '7 June',
+    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+  },
+  {
+    id: '2',
+
+    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/282326995_508309244328514_7772227270459412721_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=WI59FcX4AkcAX_eabYn&_nc_ht=scontent-maa2-1.xx&oh=00_AT-0CPpzS3wNRztXEZ8DbjMjGm8D-08QGDX2jsDgtVitGA&oe=62A8162F',
+    caption: 'KVL Tires',
+    desc: 'KVL Tires proudly carries the General HS 2 - a tire that offers optimal performance and a comfortable ride, without compromising on fuel efficiency. ',
+    time: '21 May',
+    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+  },
+
+  {
+    id: '3',
+    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/280611353_502279618264810_8376564357247553020_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=DqLPGOu_FGAAX9qt_Hn&_nc_ht=scontent-maa2-2.xx&oh=00_AT8-IDXkyehNs8AuqWuODeAS-AkIcgTciMqqvMufl5wktA&oe=62A796D0',
+    caption: 'KalPartz',
+    desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
+    time: '12 May',
+    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+  },
+  {
+    id: '4',
+    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/279779116_494988118993960_4082047950062427929_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=vT8Bbi8U-W8AX_sKlQ8&_nc_ht=scontent-maa2-2.xx&oh=00_AT9h1Qax-WjqjENzx6KWrLvCTstrfEVMC6COOwyAXXlMHA&oe=62A92EEC',
+    caption: 'Kalway',
+    desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
+    time: '2 May',
+    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
 ];
