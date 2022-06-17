@@ -35,6 +35,7 @@ function Home() {
       {/* <BrandComponent></BrandComponent> */}
       {/* <ServicesSection /> */}
       <OurCoreValues></OurCoreValues>
+      <BrandWeOffer></BrandWeOffer>
       <MapConatiner></MapConatiner>
       <Slideshow data={BrandCompnentBrands}></Slideshow>
       <ContactFormContainer></ContactFormContainer>

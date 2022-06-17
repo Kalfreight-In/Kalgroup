@@ -1266,8 +1266,8 @@ export const Facbookfeeds = [
 
 export const Instagramfeeds = [
   {
-    id: "1",
-    img: "https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/286169510_519570173202421_6328616867636052071_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=zyqJjEfiLHoAX-VRGOS&_nc_ht=scontent-maa2-1.xx&oh=00_AT_nls-zzTCt9pwVK-yDiSMHug-AzwGSA-HYXxUETHETHQ&oe=62A8F67A",
+    id: '1',
+    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/286169510_519570173202421_6328616867636052071_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=5jTiemdm3FAAX-r_MjD&_nc_ht=scontent-maa2-1.xx&oh=00_AT-3VRfW78HsxefCAjwNsBnI7SKxSEh-ouatKG7pKrQNPQ&oe=62B2D9BA',
 
     caption: "Used Trailers",
     desc: "New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ",
@@ -1277,27 +1277,27 @@ export const Instagramfeeds = [
   {
     id: "2",
 
-    img: "https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/282326995_508309244328514_7772227270459412721_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=WI59FcX4AkcAX_eabYn&_nc_ht=scontent-maa2-1.xx&oh=00_AT-0CPpzS3wNRztXEZ8DbjMjGm8D-08QGDX2jsDgtVitGA&oe=62A8162F",
-    caption: "KVL Tires",
-    desc: "KVL Tires proudly carries the General HS 2 - a tire that offers optimal performance and a comfortable ride, without compromising on fuel efficiency. ",
-    time: "21 May",
-    follow: "https://www.facebook.com/kalgroupusa/?ref=page_internal",
+    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/282326995_508309244328514_7772227270459412721_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=sxNX65OZBeoAX_p2vLR&_nc_ht=scontent-maa2-1.xx&oh=00_AT9PEMBRWaUZ5_S2lsESrSDlhXfeTXXYJd63J26VwaM7gw&oe=62B1F96F',
+    caption: 'KVL Tires',
+    desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details!',
+    time: '21 May',
+    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
 
   {
-    id: "3",
-    img: "https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/280611353_502279618264810_8376564357247553020_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=DqLPGOu_FGAAX9qt_Hn&_nc_ht=scontent-maa2-2.xx&oh=00_AT8-IDXkyehNs8AuqWuODeAS-AkIcgTciMqqvMufl5wktA&oe=62A796D0",
-    caption: "KalPartz",
-    desc: "KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ",
-    time: "12 May",
-    follow: "https://www.facebook.com/kalgroupusa/?ref=page_internal",
+    id: '3',
+    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/280611353_502279618264810_8376564357247553020_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=YjRO5BBdCPcAX_OJNWu&_nc_ht=scontent-maa2-2.xx&oh=00_AT_xch72VvmUKMRcFs2ZL_OxtY3ABvZJfnXrdUp0EZVSdg&oe=62B17A10',
+    caption: 'KalPartz',
+    desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
+    time: '12 May',
+    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
   {
-    id: "4",
-    img: "https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/279779116_494988118993960_4082047950062427929_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=vT8Bbi8U-W8AX_sKlQ8&_nc_ht=scontent-maa2-2.xx&oh=00_AT9h1Qax-WjqjENzx6KWrLvCTstrfEVMC6COOwyAXXlMHA&oe=62A92EEC",
-    caption: "Kalway",
-    desc: "Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076",
-    time: "2 May",
-    follow: "https://www.facebook.com/kalgroupusa/?ref=page_internal",
+    id: '4',
+    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/279779116_494988118993960_4082047950062427929_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=Wl-dg-FkrPEAX_ND_2F&_nc_ht=scontent-maa2-2.xx&oh=00_AT_AT9JCfzjVCSED9pCFk6y--n9mV5haCdESsBqjj3lvBQ&oe=62B117EC',
+    caption: 'Kalway',
+    desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
+    time: '2 May',
+    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
 ];
