@@ -4,6 +4,12 @@ import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll, Link } from 'react-scroll';
 // import ErrorBoundary from '../ErrorBoundary';
 import { useNavigate } from 'react-router-dom';
+import DropNav from '../NavIT/DropNav';
+import NavFirst from "../NavIT/NavFirstt";
+import NavSecond from "../NavIT/NavSecond";
+import NavFirstt from "../NavIT/NavFirstt";
+import NavThird from "../NavIT/NavThird";
+
 import {
   Nav,
   NavMenu,
@@ -14,6 +20,8 @@ import {
   NavLinksA,
   NavLinks,
 } from './NavbarElements';
+import { NavbarData } from '../../data';
+import NavDropdown from '../NavIT/NavThird';
 
 const Navbar = ({ toggle }) => {
   const history = useNavigate();
@@ -101,13 +109,14 @@ const Navbar = ({ toggle }) => {
             </NavLogo>
 
             <NavMenu>
-              <NavItem>
+              {/* <NavItem>
                 <NavLinks
                   to="/kalgroup"
                   onClick={toggleHome}
                   className="2xl:text-16px text-navsmall  max-w-screen-lg:text-xs md:text-xs"
                 >
-                  Business Verticals
+            <NavFirstt/>
+                  
                 </NavLinks>
               </NavItem>
 
@@ -117,29 +126,36 @@ const Navbar = ({ toggle }) => {
                   onClick={toggleHome}
                   className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
                 >
-                  About Us
+                  <NavSecond/>
                 </NavLinks>
-              </NavItem>
+              </NavItem> */}
+               
+              {
+                NavbarData.map((data)=>(
+    <NavItem>
+        <a href="/kalgroup/tires">
+          <NavLinks
+            
+            onClick={toggleHome}
+            className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
+          >
 
-              <NavItem>
-                <a href="/kalgroup/tires">
-                  <NavLinks
-                    to="/tires"
-                    onClick={toggleHome}
-                    className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
-                  >
-                    News & Events
-                  </NavLinks>
-                </a>
-              </NavItem>
+      <NavDropdown data={data}/>
+    </NavLinks>
+  </a>
+</NavItem>
 
-              <NavItem>
+                )  
+                )
+              }
+              
+              {/* <NavItem>
                 <NavLinks
                   to="/partz"
                   onClick={toggleHome}
                   className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
                 >
-                  Services
+                <DropNav/>
                 </NavLinks>
               </NavItem>
 
@@ -203,7 +219,7 @@ const Navbar = ({ toggle }) => {
                     alt=""
                   />
                 </NavLinks>
-              </NavItem>
+              </NavItem> */}
 
               <MobileIcon onClick={toggle} className="">
                 <FaBars color="#111" />
