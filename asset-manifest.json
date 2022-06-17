@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Kalgroup/static/css/main.18bee442.css",
-    "main.js": "/Kalgroup/static/js/main.2c975f75.js",
+    "main.css": "/Kalgroup/static/css/main.77988157.css",
+    "main.js": "/Kalgroup/static/js/main.5a771540.js",
     "static/js/787.0e1dfd9b.chunk.js": "/Kalgroup/static/js/787.0e1dfd9b.chunk.js",
     "static/media/Bgvideo2.mp4": "/Kalgroup/static/media/Bgvideo2.0d3ea1da7922fa0d5fbf.mp4",
     "static/media/dv.jpg": "/Kalgroup/static/media/dv.2ca7553a7d6d2a434af0.jpg",
@@ -21,12 +21,12 @@
     "static/media/mobilequote.png": "/Kalgroup/static/media/mobilequote.d7dcf862727da0bd2d64.png",
     "static/media/mapBackground.png": "/Kalgroup/static/media/mapBackground.913e57198d7051966050.png",
     "index.html": "/Kalgroup/index.html",
-    "main.18bee442.css.map": "/Kalgroup/static/css/main.18bee442.css.map",
-    "main.2c975f75.js.map": "/Kalgroup/static/js/main.2c975f75.js.map",
+    "main.77988157.css.map": "/Kalgroup/static/css/main.77988157.css.map",
+    "main.5a771540.js.map": "/Kalgroup/static/js/main.5a771540.js.map",
     "787.0e1dfd9b.chunk.js.map": "/Kalgroup/static/js/787.0e1dfd9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18bee442.css",
-    "static/js/main.2c975f75.js"
+    "static/css/main.77988157.css",
+    "static/js/main.5a771540.js"
   ]
 }
