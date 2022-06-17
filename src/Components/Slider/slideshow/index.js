@@ -55,7 +55,8 @@ export function Slideshow({
   }, [index, isHovered, slides, smallSlider]);
   useEffect(() => {
     setStateSlides(data);
-  }, [window.location.pathname]);
+    setIndex(0);
+  }, [window.location.pathname, data]);
   // useEffect(() => {
   //   const slidesWithClones = [...slides];
   //   slidesWithClones.unshift(slidesWithClones[slidesWithClones.length - 1]);
