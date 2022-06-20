@@ -5,11 +5,9 @@ import { animateScroll as scroll, Link } from 'react-scroll';
 // import ErrorBoundary from '../ErrorBoundary';
 import { useNavigate } from 'react-router-dom';
 
-
 import {
   Nav,
   NavMenu,
-
   NavLogo,
   MobileIcon,
   NavItem,
@@ -125,26 +123,20 @@ const Navbar = ({ toggle }) => {
                   <NavSecond/>
                 </NavLinks>
               </NavItem> */}
-               
-              {
-                NavbarData.map((data)=>(
-    <NavItem>
-        <a href="/kalgroup/tires">
-          <NavLinks
-            
-            onClick={toggleHome}
-            className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
-          >
 
-      <NavDropdown data={data}/>
-    </NavLinks>
-  </a>
-</NavItem>
+              {NavbarData.map((data) => (
+                <NavItem>
+                  <a href="/kalgroup/tires">
+                    <NavLinks
+                      onClick={toggleHome}
+                      className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
+                    >
+                      <NavDropdown data={data} />
+                    </NavLinks>
+                  </a>
+                </NavItem>
+              ))}
 
-                )  
-                )
-              }
-              
               {/* <NavItem>
                 <NavLinks
                   to="/partz"
