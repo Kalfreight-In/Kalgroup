@@ -19,7 +19,7 @@ import SocialMediaContainer from '../../Container/SocialMediaContainer';
 import OurCoreValues from '../../Components/OurCoreValues';
 import AboutUs from '../../Components/RoadServiceComponent/AboutUs';
 import HeroSection from '../../Components/HeaderHome';
-import Contactformnew from '../../Components/Contnewformm';
+// import Contactformnew from '../../Components/Contnewformm';
 
 function Home() {
   return (
@@ -40,7 +40,7 @@ function Home() {
       <MapConatiner></MapConatiner>
       <Slideshow data={BrandCompnentBrands}></Slideshow>
       {/* <ContactFormContainer></ContactFormContainer> */}
-      <Contactformnew></Contactformnew>
+    
 
       {/* <ContactFormContainer></ContactFormContainer> */}
     </>

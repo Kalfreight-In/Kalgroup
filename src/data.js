@@ -11,22 +11,22 @@ export const NavbarData = [
       {
         id: 2,
         navItem: 'Kal Trailers',
-        navItems: [],
+   
       },
       {
         id: 3,
         navItem: 'KVL Tires',
-        navItems: [],
+    
       },
       {
         id: 4,
         navItem: 'Kal Partz',
-        navItems: [],
+ 
       },
       {
         id: 5,
         navItem: 'Kalway',
-        navItems: [],
+  
       },
     ],
   },
@@ -38,12 +38,12 @@ export const NavbarData = [
       {
         id: 1,
         navItem: 'Events',
-        navItems: [],
+   
       },
       {
-        id: 1,
+        id: 2,
         navItem: 'Blog',
-        navItems: [],
+     
       },
     ],
   },
@@ -61,24 +61,24 @@ export const NavbarData = [
             navItem: 'javascript',
           },
           {
-            id: 1,
+            id: 2,
             navItem: 'python',
-            navItems: [],
+         
           },
           {
-            id: 1,
+            id: 3,
             navItem: 'Go',
           },
           {
-            id: 1,
+            id: 4,
             navItem: 'Rust',
           },
         ],
       },
       {
-        id: 1,
+        id: 2,
         navItem: 'Blog',
-        navItems: [],
+ 
       },
     ],
   },
@@ -99,7 +99,7 @@ export const NavbarData = [
           {
             id: 2,
             navItem: 'Dedicated Loads',
-            navItems: [],
+        
           },
           {
             id: 3,
@@ -198,12 +198,12 @@ export const NavbarData = [
       {
         id: 6,
         navItem: 'Driver Assistance',
-        navItems: [],
+   
       },
       {
         id: 7,
         navItem: 'Customer Support',
-        navItems: [],
+    
       },
     ],
   },
@@ -221,24 +221,24 @@ export const NavbarData = [
             navItem: 'javascript',
           },
           {
-            id: 1,
+            id: 2,
             navItem: 'python',
-            navItems: [],
+          
           },
           {
-            id: 1,
+            id: 3,
             navItem: 'Go',
           },
           {
-            id: 1,
+            id: 4,
             navItem: 'Rust',
           },
         ],
       },
       {
-        id: 1,
+        id: 2,
         navItem: 'Kal Trailers',
-        navItems: [],
+     
       },
     ],
   },
