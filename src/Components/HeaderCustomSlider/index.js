@@ -45,7 +45,7 @@ export default function HeaderCustomSlider() {
       >
         {HomeSliderData.map((data, index) => (
           <SwiperSlide key={data.id}>
-            <HeroSection data={data} />
+            {/* <HeroSection data={data} /> */}
           </SwiperSlide>
         ))}
       </Swiper>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Video from './media/Bgvideo2.mp4';
+// import Video from './media/Bgvideo.mp4';
 import {
   HeroContainer,
   WWOCCButtonM,
@@ -259,7 +259,7 @@ const Button = styled.button`
 
 //   );
 // };
-const HeroSection = () => {
+const HeroSectionD = () => {
   const [hover, setHover] = useState(false);
   const onHover = () => {
     setHover(!hover);
@@ -267,9 +267,9 @@ const HeroSection = () => {
   return (
     <HeroContainer id="Home">
       <Gradients></Gradients>
-      <HeroBg>
+      {/* <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
-      </HeroBg>
+      </HeroBg> */}
       <HeroContent>
         <HeroP>BEST TRAILERS IN CANADA</HeroP>
 
@@ -347,4 +347,4 @@ const HeroSection = () => {
     </HeroContainer>
   );
 };
-export default HeroSection;
+export default HeroSectionD;

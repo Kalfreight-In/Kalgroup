@@ -41,7 +41,7 @@ const Lol = () => {
     <>
       {/* <EmblaCarousel slides={slides} /> */}
       {/* <Herosection></Herosection> */}
-      <HeroSection></HeroSection>
+      {/* <HeroSection></HeroSection> */}
       {/* <HeaderHome /> */}
       {/* <UAboutSection></UAboutSection> */}
       <DAboutSection></DAboutSection>

@@ -101,6 +101,7 @@ module.exports = {
         mobileMainImageHeight: "50vh",
         mobileSecondImage: "54vh",
         contactimg: "80vh",
+        aboutImage:""
       },
       lineHeight: {
         "44px": "44px",
