@@ -4,7 +4,7 @@ import React from 'react';
 
 
 // import ServicesSection from '../../Components/ServicesSection/ServicesSection';
-import { ContactFormContainer } from '../../Container/ContactFormContainer';
+// import { ContactFormContainer } from '../../Container/ContactFormContainer';
 // import Contact from '../../Components/Contactsection/Contact';
 
 import { Slideshow } from '../../Components/Slider/slideshow';
@@ -18,12 +18,15 @@ import NewsAndEvents from '../../Container/NewsAndEvents';
 import SocialMediaContainer from '../../Container/SocialMediaContainer';
 import OurCoreValues from '../../Components/OurCoreValues';
 import AboutUs from '../../Components/RoadServiceComponent/AboutUs';
+import HeroSection from '../../Components/HeaderHome';
+import Contactformnew from '../../Components/Contnewformm';
 
 function Home() {
   return (
     <>
       {/* <HeaderCustomSlider></HeaderCustomSlider> */}
-      <HeroSection></HeroSection>
+      {/* <HeroSection></HeroSection> */}
+  <HeroSection></HeroSection>
       <Business />
       <NewsAndEvents></NewsAndEvents>
       <SocialMediaContainer></SocialMediaContainer>
@@ -31,16 +34,14 @@ function Home() {
       {/* <Abouthome /> */}
       {/* <GroupWebsitesSection /> */}
       <AboutUs />
-
       {/* <BrandComponent></BrandComponent> */}
       {/* <ServicesSection /> */}
       <OurCoreValues></OurCoreValues>
-
       <MapConatiner></MapConatiner>
       <Slideshow data={BrandCompnentBrands}></Slideshow>
-      <ContactFormContainer></ContactFormContainer>
+      {/* <ContactFormContainer></ContactFormContainer> */}
+      <Contactformnew></Contactformnew>
 
-      {/* <Contact /> */}
       {/* <ContactFormContainer></ContactFormContainer> */}
     </>
   );
