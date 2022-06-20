@@ -7,14 +7,14 @@ import { NavLinksnew } from './NavDropStyles';
 function ListItem({ data }) {
   const { navItem, link, navItems } = data;
 
-  return (
-    <li>
-      <p>
-        {navItem} - {link}
-      </p>
-      {Array.isArray(navItems) && <NavDropdown data={navItems} />}
-    </li>
-  );
+  // return (
+  //   <li>
+  //     <p>
+  //       {navItem} - {link}
+  //     </p>
+  //     {Array.isArray(navItems) && <NavDropdown data={navItems} />}
+  //   </li>
+  // );
 }
 
 export default function NavDropdown({ data }) {

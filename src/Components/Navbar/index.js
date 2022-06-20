@@ -89,7 +89,7 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>
+      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
           <div className="flex flex-row ml-8 ">
             <NavLogo to="/" onClick={toggleHome}>
@@ -189,9 +189,9 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
           </div>
 
-          <div id="navicons" className='flex pr-8'>
+          <div id="navicons" className="flex pr-8">
             <NavItem>
-              <NavLinks 
+              <NavLinks
                 to="/Contact"
                 onClick={toggleHome}
                 className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
