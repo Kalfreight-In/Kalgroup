@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Kalgroup/static/css/main.6a0c8bd2.css",
-    "main.js": "/Kalgroup/static/js/main.79f000d4.js",
+    "main.css": "/Kalgroup/static/css/main.56e05144.css",
+    "main.js": "/Kalgroup/static/js/main.b22a0b7b.js",
     "static/js/787.0e1dfd9b.chunk.js": "/Kalgroup/static/js/787.0e1dfd9b.chunk.js",
     "static/media/Bgvideo2.mp4": "/Kalgroup/static/media/Bgvideo2.0d3ea1da7922fa0d5fbf.mp4",
     "static/media/dv.jpg": "/Kalgroup/static/media/dv.2ca7553a7d6d2a434af0.jpg",
     "static/media/dv0.jpg": "/Kalgroup/static/media/dv0.c7ed51c3bfbb90d58561.jpg",
     "static/media/dv1.jpg": "/Kalgroup/static/media/dv1.20820234729261633aab.jpg",
-    "static/media/bgvideo2(1).mp4": "/Kalgroup/static/media/bgvideo2(1).b66372831b3297915c1a.mp4",
     "static/media/Ut3.jpeg": "/Kalgroup/static/media/Ut3.c195d9647277175a4a86.jpeg",
     "static/media/Rt3.jpeg": "/Kalgroup/static/media/Rt3.14abf7b94ccedf937a9d.jpeg",
     "static/media/Rt1.jpeg": "/Kalgroup/static/media/Rt1.3e9dc810ea9987fe247b.jpeg",
     "static/media/Ut1.jpeg": "/Kalgroup/static/media/Ut1.7d274ef986dc81516879.jpeg",
     "static/media/Ut2.jpeg": "/Kalgroup/static/media/Ut2.b669eb39e7e87811c3ce.jpeg",
+    "static/media/bgvideo.mp4": "/Kalgroup/static/media/bgvideo.638c8e21b15dc87c3234.mp4",
     "static/media/QuoteAtEnd.png": "/Kalgroup/static/media/QuoteAtEnd.56fdd3db3e591e70fd18.png",
     "static/media/whitetruck.png": "/Kalgroup/static/media/whitetruck.0fe4c730a76f9881f592.png",
     "static/media/PES.png": "/Kalgroup/static/media/PES.489d8cf5c7259fe4ddd0.png",
@@ -21,12 +21,12 @@
     "static/media/mobilequote.png": "/Kalgroup/static/media/mobilequote.d7dcf862727da0bd2d64.png",
     "static/media/mapBackground.png": "/Kalgroup/static/media/mapBackground.913e57198d7051966050.png",
     "index.html": "/Kalgroup/index.html",
-    "main.6a0c8bd2.css.map": "/Kalgroup/static/css/main.6a0c8bd2.css.map",
-    "main.79f000d4.js.map": "/Kalgroup/static/js/main.79f000d4.js.map",
+    "main.56e05144.css.map": "/Kalgroup/static/css/main.56e05144.css.map",
+    "main.b22a0b7b.js.map": "/Kalgroup/static/js/main.b22a0b7b.js.map",
     "787.0e1dfd9b.chunk.js.map": "/Kalgroup/static/js/787.0e1dfd9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a0c8bd2.css",
-    "static/js/main.79f000d4.js"
+    "static/css/main.56e05144.css",
+    "static/js/main.b22a0b7b.js"
   ]
 }
