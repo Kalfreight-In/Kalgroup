@@ -5,7 +5,7 @@ export const ContactFormContainer = () => {
   return (
     // <div id="maincontainer" className='w-70vh' >
     <div
-      className=" flex md:flex lg:w-screen w-fit    lg:flex-row-reverse flex-col-reverse align-center justify-center bg-whitenew"
+      className=" flex md:flex lg:w-screen w-fit    lg:flex-row-reverse flex-col-reverse align-center justify-center lg:bg-whitenew"
       id="ContactSection"
     >
       <div className="lg:mt-16 lg:mb-16 h-fit flex content-center justify-center  flex-1 ">
@@ -32,7 +32,7 @@ export const ContactFormContainer = () => {
         <div
           className={
             // 'md:h-5/6 h-mobileMainImageHeight w-4/6 bg-cover bg-no-repeat bg-center mt-16 ml-36' ,
-            'md:h-5/6 h-mobileMainImageHeight w-4/6 bg-cover bg-no-repeat bg-center mt-16 ml-36' 
+            'md:h-5/6 h-mobileMainImageHeight xl:w-4/6 w-full bg-cover bg-no-repeat bg-center xl:mt-16 xl:ml-36 ' 
           }
           style={{
             backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalcontactimage.png)`,  
@@ -41,12 +41,8 @@ export const ContactFormContainer = () => {
             alignItems: 'center',
           }}
         >
-          {/* <img
-          className="w-full"
-          src="https://raw.githubusercontent.com/kalfreight-in/kalgroup/e6c3841952235a1866804c85e994f1d5c540c214/src/assets/Images/rednewtruck.svg" 
-          alt=""
-        /> */}
         </div>
+        
       </div>
     </div>
     // </div>
