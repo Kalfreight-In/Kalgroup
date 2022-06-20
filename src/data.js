@@ -11,22 +11,18 @@ export const NavbarData = [
       {
         id: 2,
         navItem: 'Kal Trailers',
-   
       },
       {
         id: 3,
         navItem: 'KVL Tires',
-    
       },
       {
         id: 4,
         navItem: 'Kal Partz',
- 
       },
       {
         id: 5,
         navItem: 'Kalway',
-  
       },
     ],
   },
@@ -38,12 +34,10 @@ export const NavbarData = [
       {
         id: 1,
         navItem: 'Events',
-   
       },
       {
         id: 2,
         navItem: 'Blog',
-     
       },
     ],
   },
@@ -63,7 +57,6 @@ export const NavbarData = [
           {
             id: 2,
             navItem: 'python',
-         
           },
           {
             id: 3,
@@ -78,7 +71,6 @@ export const NavbarData = [
       {
         id: 2,
         navItem: 'Blog',
- 
       },
     ],
   },
@@ -99,7 +91,6 @@ export const NavbarData = [
           {
             id: 2,
             navItem: 'Dedicated Loads',
-        
           },
           {
             id: 3,
@@ -198,12 +189,10 @@ export const NavbarData = [
       {
         id: 6,
         navItem: 'Driver Assistance',
-   
       },
       {
         id: 7,
         navItem: 'Customer Support',
-    
       },
     ],
   },
@@ -223,7 +212,6 @@ export const NavbarData = [
           {
             id: 2,
             navItem: 'python',
-          
           },
           {
             id: 3,
@@ -238,7 +226,6 @@ export const NavbarData = [
       {
         id: 2,
         navItem: 'Kal Trailers',
-     
       },
     ],
   },
@@ -1228,7 +1215,7 @@ export const AboutusSec = [
   {
     id: '0',
     headingmain: 'About Us',
-    desc: `Established in 2021, BigRig Group has a unique business portfolio that fulfills all trucking needs under one roof, making it one of its own kind in the industry. BigRig Group is an end-to-end transportation solution provider in Western Canada. We have designed distinctive business models to cater to every type of trucking requirement. `,
+    desc: `Established in 2021, Kal Group has a unique business portfolio that fulfills all trucking needs under one roof, making it one of its own kind in the industry. Kal Group is an end-to-end transportation solution provider in Western Canada. We have designed distinctive business models to cater to every type of trucking requirement. `,
     aboutimg: [
       {
         id: '1',
