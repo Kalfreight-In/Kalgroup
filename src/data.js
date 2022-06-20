@@ -38,6 +38,7 @@ export const NavbarData = [
       {
         id: 1,
         navItem: "Company overview",
+      
       },
     ],
   },
@@ -57,7 +58,7 @@ export const NavbarData = [
           {
             id: 1,
             navItem: "python",
-            navItems: [],
+       
           },
           {
             id: 1,
@@ -72,7 +73,7 @@ export const NavbarData = [
       {
         id: 1,
         navItem: "Blog",
-        navItems: [],
+     
       },
     ],
   },

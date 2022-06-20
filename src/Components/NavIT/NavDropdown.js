@@ -33,15 +33,13 @@ export default function NavDropdown({data}) {
               <span className="w-max mx-4 text-white">{data.navItem}</span>
               {data.navItems.map((data, index) => (
                 <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
-                  {
-                  data.navItems != null  ?
-                  <NavItemnew key={data.id}>
-                    <NavLinksnew>{data.navItem}</NavLinksnew>
-                  </NavItemnew>
-                  : 
-                  null
-                  }
-                  
+                  {data.navItems != null ? (
+                    <NavDropdown data={data.navItems} />
+                  ) : (
+                    <NavItemnew key={data.id}>
+                      <NavLinksnew>{data.navItem}</NavLinksnew>
+                    </NavItemnew>
+                  )}
                 </li>
               ))}
 
