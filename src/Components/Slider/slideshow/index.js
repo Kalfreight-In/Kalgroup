@@ -1,8 +1,9 @@
 import { React, useEffect, useState, useRef } from 'react';
+import useMediaQuery from '../../../Hooks/CustomMediaQuery';
 import { useHover } from '../../../Hooks/Hover';
 
 // import { TabComponent } from '../../TabComponent';
-import { isMobile, browserName } from 'react-device-detect';
+
 import NewsShowcase from '../../NewsShowcase';
 // const colors = [
 //   '#0088FE',
@@ -23,6 +24,7 @@ export function Slideshow({
   heading = 'Brands We Offer',
   singleSlider = false,
 }) {
+  const isDesktop = useMediaQuery('(min-width: 768px)');
   const [slides, setStateSlides] = useState(data);
   const [index, setIndex] = useState(0);
   const [ended, setended] = useState(false);
@@ -85,7 +87,7 @@ export function Slideshow({
           className="slideshowSlider  transition ease-linear delay-100 mb-16 "
           style={{
             transform: `translate3d(${
-              -index * (isMobile || singleSlider ? 100 : 25)
+              -index * (!isDesktop || singleSlider ? 100 : 25)
             }%, 0, 0)`,
           }}
         >

@@ -14,7 +14,7 @@ import './Home.scss';
 import { BrandCompnentBrands } from '../../data';
 import Business from '../../Components/BusinessComponent/Business';
 import NewsAndEvents from '../../Container/NewsAndEvents';
-import HeaderCustomSlider from '../../Components/HeaderCustomSlider';
+
 import SocialMediaContainer from '../../Container/SocialMediaContainer';
 import OurCoreValues from '../../Components/OurCoreValues';
 import AboutUs from '../../Components/RoadServiceComponent/AboutUs';
@@ -22,8 +22,8 @@ import AboutUs from '../../Components/RoadServiceComponent/AboutUs';
 function Home() {
   return (
     <>
-      <HeaderCustomSlider></HeaderCustomSlider>
-      {/* <HeroSection></HeroSection> */}
+      {/* <HeaderCustomSlider></HeaderCustomSlider> */}
+      <HeroSection></HeroSection>
       <Business />
       <NewsAndEvents></NewsAndEvents>
       <SocialMediaContainer></SocialMediaContainer>
@@ -35,7 +35,7 @@ function Home() {
       {/* <BrandComponent></BrandComponent> */}
       {/* <ServicesSection /> */}
       <OurCoreValues></OurCoreValues>
-    
+
       <MapConatiner></MapConatiner>
       <Slideshow data={BrandCompnentBrands}></Slideshow>
       <ContactFormContainer></ContactFormContainer>
