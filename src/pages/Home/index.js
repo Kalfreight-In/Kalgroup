@@ -2,7 +2,6 @@ import React from 'react';
 // import BrandComponent from '../../Components/BrandsComponent/BrandComponent';
 // import GroupWebsitesSection from '../../Components/GroupWebsitesSection/GroupWebsitesSection';
 
-
 // import ServicesSection from '../../Components/ServicesSection/ServicesSection';
 // import { ContactFormContainer } from '../../Container/ContactFormContainer';
 // import Contact from '../../Components/Contactsection/Contact';
@@ -26,7 +25,7 @@ function Home() {
     <>
       {/* <HeaderCustomSlider></HeaderCustomSlider> */}
       {/* <HeroSection></HeroSection> */}
-  <HeroSection></HeroSection>
+      <HeroSection></HeroSection>
       <Business />
       <NewsAndEvents></NewsAndEvents>
       <SocialMediaContainer></SocialMediaContainer>

@@ -7,14 +7,14 @@ import { NavLinksnew } from './NavDropStyles';
 function ListItem({ data }) {
   const { navItem, link, navItems } = data;
 
-  return (
-    <li>
-      <p>
-        {navItem} - {link}
-      </p>
-      {Array.isArray(navItems) && <NavDropdown data={navItems} />}
-    </li>
-  );
+  // return (
+  //   <li>
+  //     <p>
+  //       {navItem} - {link}
+  //     </p>
+  //     {Array.isArray(navItems) && <NavDropdown data={navItems} />}
+  //   </li>
+  // );
 }
 
 export default function NavDropdown({ data }) {
@@ -46,7 +46,7 @@ export default function NavDropdown({ data }) {
                   <ListItem key={data.id} listItem={data} />
                 ))}
               </ul> */}
-              {data.navItems.map((data, index) => (
+              {/* {data.navItems.map((data, index) => (
                 <>
                   <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
                     {data.navItems == null ? (
@@ -56,7 +56,7 @@ export default function NavDropdown({ data }) {
                     ) : null}
                   </li>
                 </>
-              ))}
+              ))} */}
 
               {/* <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
                 <NavItemnew>
