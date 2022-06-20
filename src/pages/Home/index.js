@@ -19,14 +19,16 @@ import SocialMediaContainer from '../../Container/SocialMediaContainer';
 import OurCoreValues from '../../Components/OurCoreValues';
 import AboutUs from '../../Components/RoadServiceComponent/AboutUs';
 import HeroSection from '../../Components/HeaderHome';
-// import Contactformnew from '../../Components/Contnewformm';
+import { ContactFormContainer } from '../../Container/ContactFormContainer';
+
+
 
 function Home() {
   return (
     <>
       {/* <HeaderCustomSlider></HeaderCustomSlider> */}
       {/* <HeroSection></HeroSection> */}
-  <HeroSection></HeroSection>
+      <HeroSection></HeroSection>
       <Business />
       <NewsAndEvents></NewsAndEvents>
       <SocialMediaContainer></SocialMediaContainer>
@@ -39,9 +41,8 @@ function Home() {
       <OurCoreValues></OurCoreValues>
       <MapConatiner></MapConatiner>
       <Slideshow data={BrandCompnentBrands}></Slideshow>
-      {/* <ContactFormContainer></ContactFormContainer> */}
-    
-
+      <ContactFormContainer></ContactFormContainer>
+  
       {/* <ContactFormContainer></ContactFormContainer> */}
     </>
   );
