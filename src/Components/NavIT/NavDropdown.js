@@ -1,13 +1,23 @@
+import React from 'react';
+import { NavLinks } from '../HeaderHome/HeroElements';
+import { NavItem } from '../Navbar/NavbarElements';
 
-import React from "react";
+import { NavItemnew } from './NavDropStyles';
+import { NavLinksnew } from './NavDropStyles';
+function ListItem({ data }) {
+  const { navItem, link, navItems } = data;
 
+  return (
+    <li>
+      <p>
+        {navItem} - {link}
+      </p>
+      {Array.isArray(navItems) && <NavDropdown data={navItems} />}
+    </li>
+  );
+}
 
-import { NavItemnew } from "./NavDropStyles";
-import { NavLinksnew } from "./NavDropStyles";
-
-
-export default function NavDropdown({data}) {
-
+export default function NavDropdown({ data }) {
   return (
     <>
       <div id="mainnewnavcontainer">
@@ -31,6 +41,11 @@ export default function NavDropdown({data}) {
   transition duration-150 ease-in-out origin-top min-w-32 w-max"
             >
               <span className="w-max mx-4 text-white">{data.navItem}</span>
+              {/* <ul>
+                {data.navItems.map((data) => (
+                  <ListItem key={data.id} listItem={data} />
+                ))}
+              </ul> */}
               {data.navItems.map((data, index) => (
                 <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
                   {data.navItems != null ? (

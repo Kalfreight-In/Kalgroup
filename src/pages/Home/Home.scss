@@ -1,43 +1,23 @@
 .cls-1 {
-  fill: #d8d8d8;
+  fill: #d0d1d3;
 }
-
-.cls-1,
-.cls-2,
-.cls-3,
-.cls-4,
-.cls-5,
-.cls-6 {
-  fill-rule: evenodd;
-}
-
 .cls-2 {
-  fill: #f9ad51;
+  fill: #f1f0f1;
 }
-
 .cls-3 {
-  fill: #f0efef;
+  fill: #e85752;
 }
-
 .cls-4 {
-  fill: #e8d91f;
+  fill: #fefefe;
 }
-
-.cls-5,
-.cls-9 {
-  fill: #fff;
+.cls-5 {
+  fill: #0978bd;
 }
-
 .cls-6 {
-  fill: #f4144a;
+  fill: #f7ab50;
 }
-
 .cls-7 {
-  fill: none;
-}
-
-.cls-8 {
-  isolation: isolate;
+  fill: #0068c9;
 }
 #BC {
   .cls-1 {
@@ -165,6 +145,12 @@
   img {
     display: block;
     width: 32px;
+  }
+}
+.svg-container {
+  width: 60%;
+  @media (max-width: 1024px) {
+    width: 100%;
   }
 }
 

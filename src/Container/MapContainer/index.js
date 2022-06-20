@@ -5,24 +5,33 @@ import { useHover } from '../../Hooks/Hover';
 export const MapConatiner = () => {
   const [AfhoverRef, AfisHovered] = useHover();
   const [CahoverRef, CaisHovered] = useHover();
+  const [TorantoRef, TorantoisHovered] = useHover();
+  const [SureyRef, SureyisHovered] = useHover();
+  const [EdmentonRef, EdmentonisHovered] = useHover();
   return (
     <div className="bg-Lightblue flex flex-col justify- lg:flex-row">
-      <div className="flex-1 2xl:p-16 xl:p-12 lg:p-8  ">
-        <Map Af={AfisHovered} Ca={CaisHovered}></Map>
+      <div className=" svg-container">
+        <Map
+          Af={AfisHovered}
+          Ca={CaisHovered}
+          toranto={TorantoisHovered}
+          surey={SureyisHovered}
+          edmenton={EdmentonisHovered}
+        ></Map>
       </div>
 
       <div className=" md:6/12 flex-col flex content-center  flex-1 ">
         <div className=" flex-col flex content-center justify-center lg:w-4/3 flex-1 self-start items-start m-4 lg:ml-12 mt-2 ">
           <div>
             <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl ">
-              National Footprint:
+              Our Locations:
             </h3>
             <div className="mt-2 text-white font-desc text-descnew">
-              Visit our nearest yard. For assistance in the US,{' '}
-              <a href="#" className="hover:text-yellow-shadowhover transition ">
+              We provide a full range of front end mechanical repairs for all
+              makes and models of car
+              {/* <a href="#" className="hover:text-yellow-shadowhover transition ">
                 click here
-              </a>
-              .
+              </a> */}
             </div>
           </div>
           <div className="flex flex-row items-center content-start mt-2">
@@ -121,15 +130,3 @@ export const MapConatiner = () => {
     </div>
   );
 };
-
-{
-  /* <div className="mt-4 text-white font-desc text-descnew">
-                Toronto
-              </div>
-              <div className="mt-4 text-white font-desc text-descnew">
-                Surrey
-              </div>
-              <div className="mt-4 text-white font-desc text-descnew"> 
-                Edmonton
-              </div> */
-}

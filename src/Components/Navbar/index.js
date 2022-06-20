@@ -5,11 +5,9 @@ import { animateScroll as scroll, Link } from 'react-scroll';
 // import ErrorBoundary from '../ErrorBoundary';
 import { useNavigate } from 'react-router-dom';
 
-
 import {
   Nav,
   NavMenu,
-
   NavLogo,
   MobileIcon,
   NavItem,
