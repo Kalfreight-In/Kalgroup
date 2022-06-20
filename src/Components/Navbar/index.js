@@ -4,16 +4,12 @@ import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll, Link } from 'react-scroll';
 // import ErrorBoundary from '../ErrorBoundary';
 import { useNavigate } from 'react-router-dom';
-import DropNav from '../NavIT/DropNav';
-import NavFirst from "../NavIT/NavFirstt";
-import NavSecond from "../NavIT/NavSecond";
-import NavFirstt from "../NavIT/NavFirstt";
-import NavThird from "../NavIT/NavThird";
+
 
 import {
   Nav,
   NavMenu,
-  NavBtn,
+
   NavLogo,
   MobileIcon,
   NavItem,
@@ -21,7 +17,7 @@ import {
   NavLinks,
 } from './NavbarElements';
 import { NavbarData } from '../../data';
-import NavDropdown from '../NavIT/NavThird';
+import NavDropdown from '../NavIT/NavDropdown';
 
 const Navbar = ({ toggle }) => {
   const history = useNavigate();
@@ -64,7 +60,7 @@ const Navbar = ({ toggle }) => {
       console.log(`${window.location.pathname} and then there is ${logo}`);
       setScrollNav(true);
     }
-    if (window.location.pathname == '/kalgroup') {
+    if (window.location.pathname === '/kalgroup') {
       setlogo(
         'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalNavlogo.png'
       );
@@ -98,7 +94,7 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
           <div className="flex flex-row ml-8">
-            <NavLogo to="/kalgroup" onClick={toggleHome}>
+            <NavLogo to="/" onClick={toggleHome}>
               <img
                 // className="2xl:w-56 w-44  2xl:h-44 h-32  "
 
@@ -157,9 +153,9 @@ const Navbar = ({ toggle }) => {
                 >
                 <DropNav/>
                 </NavLinks>
-              </NavItem>
+              </NavItem> */}
 
-              <NavItem>
+              {/* <NavItem>
                 <NavLinks
                   to="ContactSection"
                   onClick={toggleHome}
@@ -176,9 +172,9 @@ const Navbar = ({ toggle }) => {
                     Clientele
                   </Link>
                 </NavLinks>
-              </NavItem>
+              </NavItem> */}
 
-              <NavItem>
+              {/* <NavItem>
                 <NavLinks
                   to="/Contact"
                   onClick={toggleHome}
@@ -193,7 +189,7 @@ const Navbar = ({ toggle }) => {
                   onClick={toggleHome}
                   className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
                 ></NavLinks>
-              </NavItem>
+              </NavItem> */}
 
               <NavItem>
                 <NavLinks
@@ -219,7 +215,7 @@ const Navbar = ({ toggle }) => {
                     alt=""
                   />
                 </NavLinks>
-              </NavItem> */}
+              </NavItem>
 
               <MobileIcon onClick={toggle} className="">
                 <FaBars color="#111" />

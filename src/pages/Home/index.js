@@ -18,8 +18,6 @@ import NewsAndEvents from '../../Container/NewsAndEvents';
 import SocialMediaContainer from '../../Container/SocialMediaContainer';
 import OurCoreValues from '../../Components/OurCoreValues';
 
-import BrandWeOffer from '../../Components/BrandWeOffer/BrandWeOffer';
-
 function Home() {
   return (
     <>
@@ -36,7 +34,7 @@ function Home() {
       {/* <BrandComponent></BrandComponent> */}
       {/* <ServicesSection /> */}
       <OurCoreValues></OurCoreValues>
-      <BrandWeOffer></BrandWeOffer>
+
       <MapConatiner></MapConatiner>
       <Slideshow data={BrandCompnentBrands}></Slideshow>
       <ContactFormContainer></ContactFormContainer>

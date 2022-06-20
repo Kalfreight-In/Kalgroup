@@ -7,29 +7,25 @@ export const NavbarData = [
       {
         id: 1,
         navItem: "Kal Freight",
-        navItems: [
-          {
-            id: 1,
-            navItem: "javascript",
-          },
-          {
-            id: 1,
-            navItem: "python",
-            navItems: [],
-          },
-          {
-            id: 1,
-            navItem: "Go",
-          },
-          {
-            id: 1,
-            navItem: "Rust",
-          },
-        ],
       },
       {
-        id: 1,
+        id: 2,
         navItem: "Kal Trailers",
+        navItems: [],
+      },
+      {
+        id: 3,
+        navItem: "KVL Tires",
+        navItems: [],
+      },
+      {
+        id: 4,
+        navItem: "Kal Partz",
+        navItems: [],
+      },
+      {
+        id: 5,
+        navItem: "Kalway",
         navItems: [],
       },
     ],
@@ -41,7 +37,18 @@ export const NavbarData = [
     navItems: [
       {
         id: 1,
-        navItem: "Kal Freight",
+        navItem: "Company overview",
+      },
+    ],
+  },
+  {
+    id: 3,
+    navItem: "Newsroom",
+    link: "/BusinessVerticals",
+    navItems: [
+      {
+        id: 1,
+        navItem: "Events",
         navItems: [
           {
             id: 1,
@@ -64,14 +71,138 @@ export const NavbarData = [
       },
       {
         id: 1,
-        navItem: "Kal Trailers",
+        navItem: "Blog",
+        navItems: [],
+      },
+    ],
+  },
+  {
+    id: 4,
+    navItem: "Services",
+    link: "/BusinessVerticals",
+    navItems: [
+      {
+        id: 1,
+        navItemd: "Logistics",
+        navItems: [
+          {
+            id: 1,
+            navItem: "FTL Services",
+          },
+          {
+            id: 2,
+            navItem: "Dedicated Loads",
+            navItems: [],
+          },
+          {
+            id: 3,
+            navItem: "Dry Vans",
+          },
+          {
+            id: 4,
+            navItem: "Trailer Interchange",
+          },
+        ],
+      },
+      {
+        id: 2,
+        navItem: "Partz",
+        navItems: [
+          {
+            id: 1,
+            navItem: "O.E & O.E.M Parts",
+          },
+          {
+            id: 2,
+            navItem: "Custom Parts & Accessories",
+          },
+          {
+            id: 3,
+            navItem: "Aftermarket Parts",
+          },
+        ],
+      },
+      {
+        id: 3,
+        navItem: "Tires",
+        navItems: [
+          {
+            id: 1,
+            navItem: "24x7 Roadside Assistance",
+          },
+          {
+            id: 2,
+            navItem: "Tire Mounting & Balancing",
+          },
+          {
+            id: 3,
+            navItem: "Wheel Alignment",
+          },
+          {
+            id: 4,
+            navItem: "Heavy Duty Front-end Work",
+          },
+          {
+            id: 5,
+            navItem: "Scheduled Maintenance",
+          },
+          {
+            id: 6,
+            navItem: "On Site Service",
+          },
+          {
+            id: 7,
+            navItem: "Pick up and Delivery Service",
+          },
+        ],
+      },
+      {
+        id: 4,
+        navItem: "Trailers & Leasing",
+        navItems: [
+          {
+            id: 1,
+            navItem: "Used Trucks Sale & Purchase",
+          },
+          {
+            id: 2,
+            navItem: "New Trailers Sale & Purchase",
+          },
+        ],
+      },
+      {
+        id: 5,
+        navItem: "Brokerage",
+        navItems: [
+          {
+            id: 1,
+            navItem: "3PL Service ",
+          },
+          {
+            id: 2,
+            navItem: "Load Management",
+          },
+          {
+            id: 3,
+            navItem: "Full Truck Service",
+          },
+        ],
+      },
+      {
+        id: 6,
+        navItem: "Driver Assistance",
+        navItems: [],
+      },
+      {
+        id: 7,
+        navItem: "Customer Support",
         navItems: [],
       },
     ],
   },
   {
     id: 3,
-    navItem: "Business Verticals sjakdjaskldfhasljkfh",
+    navItem: "Careers",
     link: "/BusinessVerticals",
     navItems: [
       {
