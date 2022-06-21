@@ -1242,7 +1242,8 @@ export const Businessdata = [
     thebox: [
       {
         id: '1',
-        img: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/trailers.png',
+        Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Strailers.png',
+        Bimg: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/trailers.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstrllogo.png',
         heading: 'GET ON THE ROAD WITH POWERFUL ENGINE',
         desc: 'Contact Us for the best trucks and trailers',
@@ -1252,7 +1253,8 @@ export const Businessdata = [
       },
       {
         id: '2',
-        img: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Parts.png',
+        Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Strailers.png',
+        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Parts.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesspartzlogo.png',
         heading: 'LAST LONG WITH THE BEST PARTS ON THE MARKET',
         desc: 'We have the best brands to get your truck on the road',
@@ -1262,7 +1264,8 @@ export const Businessdata = [
       },
       {
         id: '3',
-        img: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/tires.png',
+        Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Strailers.png',
+        Bimg: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/tires.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
         heading: 'LOOKING FOR TIRES IS NOT A PROBLEM NOW',
         desc: 'Contact Us for the best trucks and trailers',
@@ -1272,7 +1275,8 @@ export const Businessdata = [
       },
       {
         id: '4',
-        img: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/freight.png',
+        Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Strailers.png',
+        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/freight.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
         heading: 'LOOKING FOR TIRES IS NOT A PROBLEM NOW',
         desc: 'Contact Us for the best trucks and trailers',
@@ -1282,7 +1286,8 @@ export const Businessdata = [
       },
       {
         id: '4',
-        img: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/freight.png',
+        Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Strailers.png',
+        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/freight.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
         heading: 'LOOKING FOR TIRES IS NOT A PROBLEM NOW',
         desc: 'Contact Us for the best trucks and trailers',
