@@ -45,20 +45,29 @@ export default function OurCoreValues() {
             </h1>
           </div>
           <div className="">
-            {mydata.thebox.map((data, index) => (
-              <div className="flex flex-row">
-                <div className="flex-1 flex-col">
+            <div className="flex flex-row">
+              {mydata.thebox.map((data, index) => (
+                <div className="flex-1 flex-col drop-shadow-xl bg-white m-1">
                   <div
-                    className={' bg-cover bg-no-repeat bg-center'}
+                    className={'flex-1 h-80 bg-cover bg-no-repeat bg-center '}
                     style={{
                       backgroundImage: `url(${data.Bimg})`,
                       flex: '0  3  40%',
                     }}
                   ></div>
-                  <div className="flex-1"></div>
+                  <div className="flex-1">
+                    <div className="p-2">
+                      <div className="text-Heading text-center  2xl:text-3xl font-bold lg:text-base md:text-sm px-0">
+                        {data.heading}
+                      </div>
+                      <div className="text-Heading  2xl:text-lg lg:text-base md:text-sm px-0 text-justify pt-4">
+                        {data.desc}
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
