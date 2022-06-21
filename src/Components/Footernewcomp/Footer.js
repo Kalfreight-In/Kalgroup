@@ -8,6 +8,7 @@ import { Link as Slink } from 'react-scroll';
 import { Link } from 'react-router-dom';
 export default function Footer() {
   const [Hinventery, setHinventery] = useState(false);
+  const [email, setEmail] = useState('');
   const [Hquicklinks, setHquicklinks] = useState(false);
   const [Hcontactus, setHcontactus] = useState(false);
 
@@ -18,9 +19,9 @@ export default function Footer() {
         style={{
           backgroundImage:
             'url(' +
-            'https://raw.githubusercontent.com/Kalfreight-In/Kalgroups/main/src/assets/Map/map-bg.png' +
+            'https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png' +
             ')',
-
+          backgroundBlendMode: 'difference',
           backgroundPosition: 'center',
           // backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
@@ -82,7 +83,7 @@ export default function Footer() {
           </div> */}
           <div className=" ">
             <div className="xl:flex xl:flex-wrap xl:-mx-4 pt-6 xl:pb-12 w-screen">
-              <div className="footer-info xl:w-1/3 xl:px-4 xl:block hidden items- start justify- start">
+              <div className="footer-info xl:w-3/12 xl:px-4 xl:block hidden items- start justify- start">
                 <div className="xl:ml-16 w-max justify- start ml-4 xl:mt-0">
                   <div>
                     <img
@@ -171,8 +172,54 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 </div> */}
                 </div>
               </div>
-              <div className="  xl:w-1/3 md:px-4 ">
+              <div className="  xl:w-3/6 md:px-4 ">
                 <div className="sm:flex">
+                  <div className="sm:flex-1">
+                    <div
+                      className="text-black cursor-pointer"
+                      onClick={() => {
+                        setHinventery(!Hinventery);
+                        setHquicklinks(false);
+                        setHcontactus(false);
+                      }}
+                    >
+                      <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left text-center   ">
+                        Business
+                      </h1>
+                    </div>
+
+                    <div
+                      className={`text-black 2xl:leading-8 leading-6 xl:block   ${
+                        Hinventery ? '' : 'hidden'
+                      }`}
+                    >
+                      <Link
+                        to="/newsevents"
+                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center  "
+                      >
+                        KAL Freight
+                      </Link>
+                      <Link
+                        to="/newsevents"
+                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
+                      >
+                        KAL Trailers & Leasing
+                      </Link>
+                      <Link
+                        to="/newsevents"
+                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
+                      >
+                        KVL Tires
+                      </Link>
+                      <Link
+                        to="/newsevents"
+                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
+                      >
+                        KAL Partz
+                      </Link>
+                    </div>
+                  </div>
+
                   <div className="sm:flex-1">
                     <div
                       className="text-black cursor-pointer"
@@ -202,7 +249,13 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
                       >
-                        Used Trucks for sale
+                        Used Dry van for sale
+                      </Link>
+                      <Link
+                        to="/newsevents"
+                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
+                      >
+                        Reefer Trailer for sale
                       </Link>
                       <Link
                         to="/newsevents"
@@ -214,13 +267,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
-                        Used Dry van for sale
-                      </Link>
-                      <Link
-                        to="/newsevents"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
-                      >
-                        Reefer trailers for sale
+                        Used Trucks for sale
                       </Link>
                     </div>
                   </div>
@@ -283,6 +330,14 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           to="/newsevents"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
                         >
+                          Careers
+                        </Link>
+                      </div>
+                      <div>
+                        <Link
+                          to="/newsevents"
+                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
+                        >
                           News & Events
                         </Link>
                       </div>
@@ -312,7 +367,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                     </div>
                   </div>
-                  <div className="flex-1 block xl:hidden mt-4 sm:mt-0">
+                  <div className="flex-1 block xl:block mt-4 sm:mt-0">
                     <div
                       className="text-black cursor-pointer"
                       onClick={() => {
@@ -334,7 +389,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     >
                       <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start mt-3">
                         <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
-                          Careers
+                          Tires
                         </div>
                         <span> » </span>
                         <a
@@ -343,12 +398,12 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           rel="noreferrer"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
                         >
-                          hr@bigrigcanada.com{' '}
+                          info@kaltires.com
                         </a>
                       </div>
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start mt-3">
                         <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
-                          Tires
+                          Partz
                         </div>
                         <span> » </span>
                         <a
@@ -357,13 +412,12 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           rel="noreferrer"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   xl:text-left text-center md:ml-0 ml-8"
                         >
-                          tires@bigrigcanada.com
+                          info@kalpartz.com
                         </a>
                       </div>
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
                         <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                          {' '}
-                          Partz{' '}
+                          Freight
                         </div>
                         <span> » </span>
                         <a
@@ -372,13 +426,13 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           rel="noreferrer"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
                         >
-                          partz@bigrigcanada.com{' '}
+                          info@kalfreight.com
                         </a>
                       </div>
 
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
                         <div className=" antialiased w-max block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                          Trailers & Leasing
+                          Trailers Leasing
                         </div>
                         <span> » </span>
                         <a
@@ -387,7 +441,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           rel="noreferrer"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8"
                         >
-                          trailers@bigrigcanada.com
+                          info@kaltrailers.com
                         </a>
                       </div>
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
@@ -401,7 +455,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           rel="noreferrer"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center cursor-pointer md:ml-0 ml-8"
                         >
-                          info@bigrigcanada.com
+                          info@kalgroup.com
                         </a>
                       </div>
                       {/* <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start">
@@ -453,7 +507,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                   </div>
                 </div>
               </div>
-              <div className="  xl:flex-1 flex-1 xl:w-2/12 hidden xl:flex md:justify-end justify-center  ">
+              <div className="  xl:flex-1 flex-1 xl:w-2/12 hidden xl:flex md:justify-end justify-center mr-4  ">
                 <div>
                   <div
                     className="text-black cursor-pointer"
@@ -465,101 +519,41 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     }}
                   >
                     <h1 className=" md:font-bold font-normal  xl:text-left text-center   2xl:text-footerheading text-desc md:ml-0 pl-0  ">
-                      Contact Us
+                      For latest news & updates
                     </h1>
                   </div>
 
                   <div
-                    className={`text-black 2xl:leading-8 leading-6 md:block ${
+                    className={`text-black 2xl:leading-8 leading-6 xl:block ${
                       Hcontactus ? '' : 'hidden'
                     }`}
                   >
-                    <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start mt-3">
-                      <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
-                        Careers
+                    <div class="  mt-8">
+                      <div class="w-full ">
+                        <input
+                          onChange={(e) => setEmail(e.target.value)}
+                          value={email}
+                          class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                          id="email"
+                          placeholder="Email Address"
+                          type="email"
+                          required
+                        />
                       </div>
-                      <span> » </span>
-                      <a
-                        href="mailto:hr@bigrigcanada.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
-                      >
-                        hr@bigrigcanada.com{' '}
-                      </a>
-                    </div>
-                    <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start mt-3">
-                      <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
-                        Tires
-                      </div>
-                      <span> » </span>
-                      <a
-                        href="mailto:tires@bigrigcanada.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   xl:text-left text-center md:ml-0 ml-8"
-                      >
-                        tires@bigrigcanada.com
-                      </a>
-                    </div>
-                    <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
-                      <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                        {' '}
-                        Partz{' '}
-                      </div>
-                      <span> » </span>
-                      <a
-                        href="mailto:partz@bigrigcanada.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
-                      >
-                        partz@bigrigcanada.com{' '}
-                      </a>
                     </div>
 
-                    <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
-                      <div className=" antialiased w-max block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                        Trailers & Leasing
-                      </div>
-                      <span> » </span>
-                      <a
-                        href="mailto:trailers@bigrigcanada.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8"
+                    <div className="flex flex-row space-x-2 align-center justify-center xl:justify-end">
+                      <Link
+                        to=""
+                        className="block md:text-xl text-navsmall font-bold hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
                       >
-                        trailers@bigrigcanada.com
-                      </a>
+                        Subscribe Now
+                      </Link>
                     </div>
-                    <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
-                      <div className=" antialiased w-max block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                        For any other inquiry
-                      </div>
-                      <span> » </span>
-                      <a
-                        href="mailto:info@bigrigcanada.com"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center cursor-pointer md:ml-0 ml-8"
-                      >
-                        info@bigrigcanada.com
-                      </a>
-                    </div>
-                    {/* <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start">
-                    <div>For all other enquires reach us at</div>
-                    <span> »  </span>
-                    <Link
-                      to=""
-                      className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
-                    >
-                      info@bigrigcanada.com{" "}
-                    </Link>
-                  </div> */}
 
                     <div
                       id="mainiconcontainer"
-                      className=" justify-end mr-28 pt-4 pr-16  "
+                      className=" justify-end  mt-28  "
                     >
                       <div id="allicons" className="flex justify-between  ">
                         <RiFacebookCircleLine
@@ -569,7 +563,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                               '_blank'
                             )
                           }
-                          className="text-black  h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
+                          className="text-black  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
                         />
                         <AiOutlineInstagram
                           onClick={() =>
@@ -578,7 +572,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                               '_blank'
                             )
                           }
-                          className="text-black h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
+                          className="text-black h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
                         />
                         <TiSocialLinkedinCircular
                           onClick={() =>

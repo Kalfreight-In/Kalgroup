@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Video from './media/Bgvideo.mp4';
+import Video from './media/bgvideo.mp4';
 import { isMobile } from 'react-device-detect';
 import {
   HeroContainer,

@@ -26,7 +26,7 @@ const FooterSection = ({ isOpen, toggle }) => {
           </div> */}
           <div>
             <h1 className="pt-10 font-bold text-xl   text-white md:block hidden">
-              © BigRig Group Inc, 2022 All rights reserved.
+              © Kal Group Inc, 2022 All rights reserved.
             </h1>
           </div>
         </div>

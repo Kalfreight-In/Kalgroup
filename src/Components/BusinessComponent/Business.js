@@ -23,38 +23,41 @@ export default function Business() {
     <>
       {/* <div class="social"></div> */}
       <div className="bg-businessbackground">
-        <div className="lg:p-4 p-2 drop-shadow-2xl">
+        <div className="lg:p-12 p-2 drop-shadow-2xl">
           <div className="flex justify-center items-center font-semibold">
             <h1 className="text-5xl font-bold link link-underline link-underline-black text-Heading mb-6 pb-2">
               {mydata.heading}
             </h1>
           </div>
-
+          {/* {isHovered ?   <h1 className="text-5xl font-bold link link-underline link-underline-black text-Heading mb-6 pb-2">
+              {mydata.heading}
+            </h1> : null} */}
           <div className={`flex w-full lg:flex-row flex-col`}>
             <div class=" flex w-full">
-              <div class="gallery-wrap flex lg:flex-row flex-col w-fill">
+              <div
+                class="gallery-wrap flex lg:flex-row flex-col w-fill "
+                ref={hoverRef}
+              >
                 {mydata.thebox.map((element) => (
-                  <motion.div
-                    ref={hoverRef}
-                    className={`demo item `}
-                    style={{ backgroundImage: `url(${element.img})` }}
-                    whileHover={{
-                      transition: {
-                        duration: 0.5,
-                        ease: 'easeInOut',
-                      },
+                  <div
+                    className={`demo item bg-cover bg-no-repeat bg-left `}
+                    // background={element.Simg}
+                    // hoverBackground={element.Bimg }
+                    style={{
+                      backgroundImage: `url(${
+                        isHovered ? element.Bimg : element.Simg
+                      })`,
                     }}
+                    // whileHover={{
+                    //   transition: {
+                    //     duration: 0.5,
+                    //     ease: 'easeInOut',
+                    //   },
+                    // }}
                   >
                     {/* <Accordion title={element.heading} text={element.desc} /> */}
-                    <div
-                      ref={hoverRef}
-                      key={element.id}
 
-                      // className={`z-${element.id} ${
-                      //   !isHovered ? 'w-30rem relative' : '80rem'
-                      // }`}
-                    >
-                      {/* <div
+                    {/* <div
                         id="backgroundd"
                         className="h-65vh  mx-2 mt-8 "
                         style={{
@@ -94,13 +97,12 @@ export default function Business() {
                           </div>
                         </div>
                       </div> */}
-                      {/* <div id="btn">
+                    {/* <div id="btn">
                         <button className="bg-Lightblue w-50rem h-14 ml-4">
                           {element.btn}
                         </button>
                       </div> */}
-                    </div>
-                  </motion.div>
+                  </div>
                 ))}
               </div>
             </div>

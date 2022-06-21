@@ -34,95 +34,77 @@ export const MapConatiner = () => {
               </a> */}
             </div>
           </div>
-          <div className="flex flex-row items-center content-start mt-2">
-            <motion.img
-              whileInView={{ scale: [0.5, 1] }}
-              transition={{ duration: 0.2, ease: 'easeInOut' }}
-              alt="profile_circle"
-              //  className="overlay_circle"
-              src="https://raw.githubusercontent.com/Kalfreight-In/kalgroup/8ae50d3492cecd39993497fceab3e9dc5c73ef79/src/assets/Map/marker.svg"
-              width="60"
-              className="pr-8"
-            ></motion.img>
-            <div>
-              <h4
-                className="mt-4 text-sm text-white font-bold md:text-subheading "
-                ref={AfhoverRef}
-              >
-                Abbotsford
-              </h4>
-              <div className="mt-4 text-white font-desc text-descnew">
-                1225 Riverside Rd, BC V2S 7P1
+          <div id="mainnewnavcontainer">
+            <div id="innermainnavcontainer">
+              <div class="group inline-block">
+                <button class="outline-none focus:outline-none  px-3 py-1 bg-white rounded-sm flex items-center min-w-68">
+                  <span class="pr-1 font-semibold flex-1">UnitedState</span>
+                  <span>
+                    <svg
+                      class="fill-current h-4 w-4 transform group-hover:-rotate-180
+        transition duration-150 ease-in-out"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                    </svg>
+                  </span>
+                </button>
+                <ul
+                  class="bg-white  rounded-sm transform scale-0 group-hover:scale-100 absolute 
+  transition duration-150 ease-in-out origin-top min-w-32 w-max"
+                >
+                  <span className="w-max mx-4 text-white">javascrip</span>
+                  <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                    <ul
+                      class="bg-white border rounded-sm absolute top-0 right-0 
+                   transition duration-150 ease-in-out origin-top-left
+                    min-w-32
+                    "
+                    >
+                      <li class="px-3 py-1 hover:bg-gray-100">Javascript</li>
+                      <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
+                        <button class="w-full text-left flex items-center outline-none focus:outline-none">
+                          <span class="pr-1 flex-1">Python</span>
+                          <span class="mr-auto">
+                            <svg
+                              class="fill-current h-4 w-4
+                        transition duration-150 ease-in-out"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                          </span>
+                        </button>
+                        <ul
+                          class="bg-white border rounded-sm absolute top-0 right-0 
+                             transition duration-150 ease-in-out origin-top-left
+                       min-w-32
+                             "
+                        >
+                          <li class="px-3 py-1 hover:bg-gray-100">2.7</li>
+                          <li class="px-3 py-1 hover:bg-gray-100">3+</li>
+                        </ul>
+                      </li>
+                      <li class="px-3 py-1 hover:bg-gray-100">Go</li>
+                      <li class="px-3 py-1 hover:bg-gray-100">Rust</li>
+                    </ul>
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Kalfreight
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Kalfreight
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Kalfreight
+                  </li>
+                  <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    Kalfreight
+                  </li>
+                </ul>
               </div>
-            </div>
-          </div>
-          <div className="flex flex-row items-center content-start mt-2 ">
-            <motion.img
-              whileInView={{ scale: [0.5, 1] }}
-              transition={{ duration: 0.2, ease: 'easeInOut' }}
-              alt="profile_circle"
-              //  className="overlay_circle"
-              src="https://raw.githubusercontent.com/Kalfreight-In/kalgroup/8ae50d3492cecd39993497fceab3e9dc5c73ef79/src/assets/Map/marker.svg"
-              width="60"
-              className="pr-8"
-            ></motion.img>
-            <div>
-              <h4
-                className="mt-4 text-sm text-white font-bold md:text-subheading "
-                ref={CahoverRef}
-              >
-                Calgary
-              </h4>
-              <div className="mt-4 text-white font-desc text-descnew">
-                9115 52 St.SE,AB T2C 2R4
-              </div>
-            </div>
-          </div>
-          <div className="my-6">
-            <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl ">
-              Upcoming Locations:
-            </h3>
-          </div>
-          <div className="flex flex-row items-center content-start mt-2">
-            <motion.img
-              whileInView={{ scale: [0.5, 1] }}
-              transition={{ duration: 0.2, ease: 'easeInOut' }}
-              alt="profile_circle"
-              //  className="overlay_circle"
-              src="https://raw.githubusercontent.com/Kalfreight-In/kalgroup/8ae50d3492cecd39993497fceab3e9dc5c73ef79/src/assets/Map/marker.svg"
-              width="60"
-              className="pr-8 "
-            ></motion.img>
-            <div>
-              <div className=" text-white font-desc text-descnew">Toronto</div>
-            </div>
-          </div>
-          <div className="flex flex-row items-center content-start mt-2 ">
-            <motion.img
-              whileInView={{ scale: [0.5, 1] }}
-              transition={{ duration: 0.2, ease: 'easeInOut' }}
-              alt="profile_circle"
-              //  className="overlay_circle"
-              src="https://raw.githubusercontent.com/Kalfreight-In/kalgroup/8ae50d3492cecd39993497fceab3e9dc5c73ef79/src/assets/Map/marker.svg"
-              width="60"
-              className="pr-8 "
-            ></motion.img>
-            <div>
-              <div className=" text-white font-desc text-descnew">Surrey</div>
-            </div>
-          </div>
-          <div className="flex flex-row items-center content-start mt-2">
-            <motion.img
-              whileInView={{ scale: [0.5, 1] }}
-              transition={{ duration: 0.2, ease: 'easeInOut' }}
-              alt="profile_circle"
-              //  className="overlay_circle"
-              src="https://raw.githubusercontent.com/Kalfreight-In/kalgroup/8ae50d3492cecd39993497fceab3e9dc5c73ef79/src/assets/Map/marker.svg"
-              width="60"
-              className="pr-8 "
-            ></motion.img>
-            <div>
-              <div className=" text-white font-desc text-descnew">Edmonton</div>
             </div>
           </div>
         </div>
