@@ -36,7 +36,7 @@ module.exports = {
         "16px": "12px",
         navlgtext: "18px",
         navdropdown: "0.9rem",
-        // '8px':'10px'
+        contactdesc:"16px"
       },
       fontWeight: {
         heading: "700",
