@@ -126,7 +126,11 @@ width: 100%;
 height: 100%;
 
 display: flex;
+<<<<<<< HEAD
+justify-content:start;
+=======
 justify-content: start;
+>>>>>>> ecf94f49ef86a2092a56646bc0f078682d5ad2ce
 
 align-items: center;
 
