@@ -7,10 +7,13 @@ import { Businessdata } from '../../data';
 import Accordion from '../Accordion';
 import { useSpring, animated } from 'react-spring';
 import { useHover } from '../../Hooks/Hover';
+import useMediaQuery from '../../Hooks/CustomMediaQuery';
 var mydata = Businessdata[0];
 
 export default function Business() {
   const [hoverRef, isHovered] = useHover();
+  const isDesktop = useMediaQuery('(min-width: 768px)');
+  const isTablet = useMediaQuery('(min-width: 1280px)');
   const titleAnimation = useSpring({
     from: {
       transform: 'translateY(-30px)',
