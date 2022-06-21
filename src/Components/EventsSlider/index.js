@@ -20,7 +20,7 @@ const EventsSlider = () => {
         }}
         // navigation={true}
         modules={[Pagination]}
-        className="mySwiper w-50vw"
+        className="mySwiper lg:w-50vw w-100vw"
       >
         {EventsData.map((data, index) => (
           <SwiperSlide key={data.id}>

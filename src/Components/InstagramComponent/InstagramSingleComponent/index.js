@@ -16,9 +16,9 @@ var imageurl =
 const InstagramSingleComponent = (data) => {
   return (
     <>
-      <div className="  flex flex-col-reverse lg:flex-row-reverse w-fit h-full m-2 ">
+      <div className="  flex flex-col-reverse lg:flex-row-reverse w-fit h-full lg:m-2 m-0 ">
         <div
-          className=" flex lg:flex-row-reverse flex-col max-w-screen-2xl "
+          className=" flex flex-1  flex-col max-w-screen-2xl "
           style={{
             backgroundImage: `linear-gradient(
               90deg,
@@ -42,6 +42,9 @@ const InstagramSingleComponent = (data) => {
             )`,
           }}
         >
+          <div className="absolute text-5xl  xl:hidden ">
+            <RiInstagramLine color="#fff" className="m-2"></RiInstagramLine>
+          </div>
           <div
             // className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 flex-1"
             className="2xl:ml-12 xl:ml-8 md:ml-5       mt-20  2xl:pt-12 pt-0 mx-6 flex-1 mb-16 mr-46"
@@ -52,16 +55,17 @@ const InstagramSingleComponent = (data) => {
             <h1 className="text-white text-md sm:text-xl 2xl:text-xl font-heading lg:text-2xl  px-0 mb-4">
               Indiana Truck Show
             </h1> */}
+
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-              className="text-white  2xl:text-3xl font-bold lg:text-base md:text-sm px-0  "
+              className="text-white  2xl:text-3xl font-bold lg:text-base md:text-sm px-0"
             >
               {data.data.caption}
             </p>
             <div>
               <p
                 //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-                className="text-white  2xl:text-lg lg:text-base md:text-sm px-0 "
+                className="text-white  2xl:text-lg lg:text-base md:text-sm px-0"
               >
                 {data.data.desc}
               </p>
@@ -75,10 +79,11 @@ const InstagramSingleComponent = (data) => {
             </p>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-              className="text-white  2xl:text-md lg:text-base md:text-sm px-0  underline-offset-4 mt-48"
+              className="text-white  2xl:text-md lg:text-base md:text-sm px-0  underline-offset-4 mt-10"
             >
               <a href={data.data.follow}>Go to our Feed</a>
             </p>
+
             {/* <div>
               <button
                 onClick={() => {
@@ -91,10 +96,10 @@ const InstagramSingleComponent = (data) => {
             </div> */}
           </div>
         </div>
-        <div className=" w-full">
+        <div className=" w-full hidden xl:block" style={{ flex: '0  3  40%' }}>
           <div
             className={
-              'md:h-full h-mobileMainImageHeight bg-contain bg-no-repeat bg-center'
+              'md:h-full h-mobileMainImageHeight bg-cover bg-no-repeat bg-center'
             }
             style={{
               backgroundImage: `url(${data.data.img})`,

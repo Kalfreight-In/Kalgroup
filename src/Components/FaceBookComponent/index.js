@@ -20,7 +20,7 @@ const FaceBookComponent = () => {
         }}
         // navigation={true}
         modules={[Pagination]}
-        className="mySwiper w-40vw"
+        className="mySwiper xl:w-40vw md:w-50vw w-full"
       >
         {Facbookfeeds.map((data, index) => (
           <SwiperSlide key={data.id}>

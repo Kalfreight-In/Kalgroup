@@ -20,7 +20,7 @@ const InstagramComponent = () => {
         }}
         // navigation={true}
         modules={[Pagination]}
-        className="mySwiper w-70vw"
+        className="mySwiper xl:w-70vw md:w-50vw w-full"
       >
         {Instagramfeeds.map((data, index) => (
           <SwiperSlide key={data.id}>

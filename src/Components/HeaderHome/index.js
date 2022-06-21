@@ -1,12 +1,11 @@
 import React from 'react';
-import Video from './media/Bgvideo.mp4';
+import Video from './media/bgvideo.mp4';
 import {
   HeroContainer,
   HeroContent,
   HeroBg,
   HeroPromoContainer,
   VideoBg,
-
 } from './HeroElements';
 
 import styled from 'styled-components';
@@ -60,7 +59,7 @@ const HeroSection = (data) => {
             </div>
           </div>
         </div>
-        
+
         {/* <PCENTER class="text-gray-600 p-8">
           Work with a trusted global third-party logistics provider that has
           been empowering business growth for over 15 years. Our centralized
@@ -69,8 +68,7 @@ const HeroSection = (data) => {
 
         {/* <button className="btn block lg:hidden">
           <span className="btn-text">Contact us</span>
-        </button> */} 
-        
+        </button> */}
       </HeroContent>
       <div></div>
       <HeroPromoContainer></HeroPromoContainer>

@@ -3,7 +3,7 @@ import { RiFacebookCircleLine } from 'react-icons/ri';
 const FaceBookSingleCompnent = (data) => {
   return (
     <>
-      <div className=" bg-Lightblue lg:flex-row-reverse w-full h-full m-2 ">
+      <div className=" bg-facebookblue lg:flex-row-reverse w-full h-full sm:m-2 m-0 ">
         <div className=" flex lg:flex-row-reverse flex-col relative ">
           <div
             // className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 flex-1"

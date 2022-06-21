@@ -34,7 +34,7 @@ module.exports = {
         footerheading: '24px',
         '36px': '36px',
         '16px': '12px',
-        navlgtext:'18px'
+        navlgtext: '18px',
         // '8px':'10px'
       },
       fontWeight: {
@@ -63,6 +63,7 @@ module.exports = {
         Description: '#5E5B5B',
         Darkblue: '#22334C',
         Lightblue: '#0076BD',
+        facebookblue: '#395898',
         whitenew: '#F1F1F1',
         inputborder: '#E0E3EB',
         neautralform: '#292E3D',
@@ -78,9 +79,13 @@ module.exports = {
         '30vw': '30vw',
         '40vw': '40vw',
         '50vw': '50vw',
+
         '60vw': '60vw',
         '70vw': '70vw',
         '80vw': '80vw',
+        '90vw': '90vw',
+        '95vw': '95vw',
+        '100vw': '100vw',
         '30rem': '30%',
         '80rem': '80%',
         '25rem': '25%',
