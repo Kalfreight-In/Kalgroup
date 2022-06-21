@@ -1,15 +1,12 @@
-import React, { useState } from 'react';
-import Video from './media/bgvideo.mp4';
-import { isMobile } from 'react-device-detect';
+import React from 'react';
+import Video from './media/Bgvideo.mp4';
 import {
   HeroContainer,
-  HeroP,
   HeroContent,
   HeroBg,
   HeroPromoContainer,
   VideoBg,
-  ContainerMain,
-  Samosa,
+
 } from './HeroElements';
 
 import styled from 'styled-components';
@@ -41,17 +38,16 @@ const HeroSection = (data) => {
             <p>{data.data.site.heading}</p>
           </button> */}
 
-          <div className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl text-3xl text-white font-bold md:w-4/5 ">
+          <div className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl text-3xl text-white font-bold md:w-4/5 md:text-left">
             Transforming Trucking Dynamics
           </div>
           <div className="flex flex-row md:mt-16 mt-8">
             <div className="md:border-l-2 border-x-amber-400"></div>
             <div className="ml-8">
-              <div className="2xl:text-1xl text-white font-medium md:w-3/5">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Tristique arcu a nisi, semper. Ut cras odio ac sem ac.
+              <div className="2xl:text-1xl text-white font-medium ">
+                Comprehensive, Consistent & Convenient
               </div>
-              <div className="md:mt-4 mt-16 flex justify-center items-center">
+              <div className="md:mt-4 mt-16 flex md:justify-start justify-center ">
                 <button
                   // onClick={() => {
                   //   setCTA('800-977-0010');
@@ -64,7 +60,7 @@ const HeroSection = (data) => {
             </div>
           </div>
         </div>
-
+        
         {/* <PCENTER class="text-gray-600 p-8">
           Work with a trusted global third-party logistics provider that has
           been empowering business growth for over 15 years. Our centralized
@@ -73,7 +69,8 @@ const HeroSection = (data) => {
 
         {/* <button className="btn block lg:hidden">
           <span className="btn-text">Contact us</span>
-        </button> */}
+        </button> */} 
+        
       </HeroContent>
       <div></div>
       <HeroPromoContainer></HeroPromoContainer>

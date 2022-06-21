@@ -137,9 +137,12 @@ export const NavItem = styled.li`
 
   color: #000;
 
-  // &:hover {
-  //   animation: pulse 1s ease-in-out;
-  // }
+  @media only screen and (max-width:1280px){
+    padding:0 0.5rem;
+  }
+  @media only screen and (max-width:1600px){
+    padding:0 0.8rem;
+  }
   @media screen and (max-width: 768px) {
     display: none;
   }

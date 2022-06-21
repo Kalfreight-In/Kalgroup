@@ -1,21 +1,7 @@
 import React from 'react';
-import { NavLinks } from '../HeaderHome/HeroElements';
-import { NavItem } from '../Navbar/NavbarElements';
-
 import { NavItemnew } from './NavDropStyles';
 import { NavLinksnew } from './NavDropStyles';
-function ListItem({ data }) {
-  const { navItem, link, navItems } = data;
 
-  // return (
-  //   <li>
-  //     <p>
-  //       {navItem} - {link}
-  //     </p>
-  //     {Array.isArray(navItems) && <NavDropdown data={navItems} />}
-  //   </li>
-  // );
-}
 
 export default function NavDropdown({ data }) {
   return (
@@ -24,7 +10,7 @@ export default function NavDropdown({ data }) {
         <div id="innermainnavcontainer">
           <div class="group inline-block">
             <button class="outline-none focus:outline-none  px-3 py-1 bg-white rounded-sm flex items-center min-w-32">
-              <span class="pr-1 font-semibold flex-1">{data.navItem}</span>
+              <span class="pr-1 font-semibold flex-1 md:text-xs xl:text-navlgtext text-sm ">{data.navItem}</span>
               <span>
                 <svg
                   class="fill-current h-4 w-4 transform group-hover:-rotate-180
@@ -40,7 +26,7 @@ export default function NavDropdown({ data }) {
               class="bg-white  rounded-sm transform scale-0 group-hover:scale-100 absolute 
   transition duration-150 ease-in-out origin-top min-w-32 w-max"
             >
-              <span className="w-max mx-4 text-white">{data.navItem}</span>
+              <span className="w-max mx-4 text-white text-xl  ">{data.navItem}</span>
               {/* <ul>
                 {data.navItems.map((data) => (
                   <ListItem key={data.id} listItem={data} />
@@ -48,11 +34,11 @@ export default function NavDropdown({ data }) {
               </ul> */}
               {data.navItems
                 ? data.navItems.map((data, index) => (
-                    <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                    <li class="rounded-sm px-3 py-1 hover:bg-gray-100 flex justify-center items-center">
                       {data.navItems != null ? (
                         <>
                           <button class="outline-none focus:outline-none  px-3 py-1 bg-white rounded-sm flex items-center justify-center min-w-32">
-                            <span class="pr-1 font-semibold flex-1">
+                            <span class="pr-1 font-semibold flex-1  text-descnew"> 
                               {data.navItem}
                             </span>
                             <span class="mr-auto">
@@ -73,7 +59,7 @@ export default function NavDropdown({ data }) {
   "
                           >
                             {data.navItems.map((data, index) => (
-                              <li class="px-3 py-1 hover:bg-gray-100">
+                              <li class="px-3 py-1 hover:bg-gray-100 ">
                                 <NavItemnew key={data.id}>
                                   <NavLinksnew>{data.navItem}</NavLinksnew>
                                 </NavItemnew>
