@@ -2,6 +2,8 @@ import React from 'react';
 import Map from '../../assets/Map';
 import { motion } from 'framer-motion';
 import { useHover } from '../../Hooks/Hover';
+import { MapData } from '../../data';
+import MapDropdown from './MapDropdown';
 export const MapConatiner = () => {
   const [AfhoverRef, AfisHovered] = useHover();
   const [CahoverRef, CaisHovered] = useHover();
@@ -34,7 +36,13 @@ export const MapConatiner = () => {
               </a> */}
             </div>
           </div>
-          <div id="mainnewnavcontainer">
+          {MapData.map((data, index) => (
+            <div className="w-full">
+              <div className="m-2 w-1/3">{MapDropdown((data = { data }))}</div>
+            </div>
+          ))}
+
+          {/* <div id="mainnewnavcontainer">
             <div id="innermainnavcontainer">
               <div class="group inline-block">
                 <button class="outline-none focus:outline-none  px-3 py-1 bg-white rounded-sm flex items-center min-w-68">
@@ -42,7 +50,7 @@ export const MapConatiner = () => {
                   <span>
                     <svg
                       class="fill-current h-4 w-4 transform group-hover:-rotate-180
-        transition duration-150 ease-in-out"
+               transition duration-150 ease-in-out"
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                     >
@@ -50,11 +58,12 @@ export const MapConatiner = () => {
                     </svg>
                   </span>
                 </button>
+
                 <ul
                   class="bg-white  rounded-sm transform scale-0 group-hover:scale-100 absolute 
-  transition duration-150 ease-in-out origin-top min-w-32 w-max"
+               transition duration-150 ease-in-out origin-top min-w-32 w-max"
                 >
-                  <span className="w-max mx-4 text-white">javascrip</span>
+                  <span className="w-max mx-4 text-black">javascrip</span>
                   <li class="rounded-sm relative px-3 py-1 hover:bg-gray-100">
                     <ul
                       class="bg-white border rounded-sm absolute top-0 right-0 
@@ -106,7 +115,7 @@ export const MapConatiner = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

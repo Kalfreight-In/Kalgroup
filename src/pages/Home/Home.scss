@@ -84,7 +84,7 @@
 }
 .item {
   flex: 1;
-  margin: 0.3rem;
+  margin: 0.2rem;
   height: 100%;
   background-position: left;
   background-size: cover;
@@ -92,7 +92,7 @@
   transition: flex 0.8s ease;
 
   &:hover {
-    flex: 7;
+    flex: 3;
   }
   @media (max-width: 1024) {
     // flex: 7;
