@@ -1,14 +1,13 @@
 import { FaBars } from 'react-icons/fa';
 import { NavLink as LinkR } from 'react-router-dom';
-import { Link as LinkS } from 'react-scroll';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background-color: ${({ scrollNav }) => (scrollNav ? '#ffff' : '#fff0')};
+  background-color: ${({ scrollNav }) => (scrollNav ? "#e0e0e0" : "#ffffff0a")};
 
-  height: 100px;
+  // height: 90px;
   //  margin-top:-80px
-  background-color:#fff;
+  // background-color:#fff;
   width: 100%;
   margin-top: 0px;
   display: flex;
@@ -143,6 +142,12 @@ export const NavItem = styled.li`
   @media only screen and (max-width:1600px){
     padding:0 0.8rem;
   }
+
+  @media only screen and (max-width:1080px){
+    padding:0 0.1rem;
+  }
+
+
   @media screen and (max-width: 768px) {
     display: none;
   }

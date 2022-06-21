@@ -37,7 +37,7 @@ const Navbar = ({ toggle }) => {
   );
   const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {
-    if (window.location.pathname == '/trailerandleasing') {
+    if (window.location.pathname === '/trailerandleasing') {
       console.log(`it is inside the ${window.location.pathname}`);
       setScrollNav(true);
       return;
@@ -185,7 +185,7 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
           </div>
 
-          <div id="navicons" className="flex pr-8">
+          <div id="navicons" className="flex pr-16">
             <NavItem>
               <NavLinks
                 to="/Contact"

@@ -49,24 +49,7 @@ export const NavbarData = [
       {
         id: 1,
         navItem: 'Events',
-        navItems: [
-          {
-            id: 1,
-            navItem: 'javascript',
-          },
-          {
-            id: 2,
-            navItem: 'python',
-          },
-          {
-            id: 3,
-            navItem: 'Go',
-          },
-          {
-            id: 4,
-            navItem: 'Rust',
-          },
-        ],
+       
       },
       {
         id: 2,
@@ -204,24 +187,7 @@ export const NavbarData = [
       {
         id: 1,
         navItem: 'Kal Freight',
-        navItems: [
-          {
-            id: 1,
-            navItem: 'javascript',
-          },
-          {
-            id: 2,
-            navItem: 'python',
-          },
-          {
-            id: 3,
-            navItem: 'Go',
-          },
-          {
-            id: 4,
-            navItem: 'Rust',
-          },
-        ],
+       
       },
       {
         id: 2,
