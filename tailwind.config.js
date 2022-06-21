@@ -34,6 +34,7 @@ module.exports = {
         footerheading: '24px',
         '36px': '36px',
         '16px': '12px',
+        navlgtext:'18px'
         // '8px':'10px'
       },
       fontWeight: {

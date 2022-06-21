@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { animateScroll as scroll, Link } from 'react-scroll';
+import { animateScroll as scroll} from 'react-scroll';
 // import ErrorBoundary from '../ErrorBoundary';
-import { useNavigate } from 'react-router-dom';
+
 
 import {
   Nav,
@@ -11,14 +11,12 @@ import {
   NavLogo,
   MobileIcon,
   NavItem,
-  NavLinksA,
   NavLinks,
 } from './NavbarElements';
 import { NavbarData } from '../../data';
 import NavDropdown from '../NavIT/NavDropdown';
 
 const Navbar = ({ toggle }) => {
-  const history = useNavigate();
   console.log(window.scrollY);
   // function loadLogo(path) {
   //   if (path == '/kalgroup') {
@@ -51,7 +49,7 @@ const Navbar = ({ toggle }) => {
     }
   };
   useEffect(() => {
-    if (window.location.pathname == '/trailerandleasing') {
+    if (window.location.pathname === '/trailerandleasing') {
       setlogo(
         'https://raw.githubusercontent.com/Kalfreight-In/kalgroup/main/src/assets/Images/icons/Trailers-nav-logo.png'
       );
@@ -83,9 +81,7 @@ const Navbar = ({ toggle }) => {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
-  function disabeled() {
-    return window.localStorage.getItem('product');
-  }
+ 
 
   return (
     <>
