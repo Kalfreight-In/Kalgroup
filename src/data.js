@@ -1275,8 +1275,8 @@ export const CoreValuedata = [
         Simg: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png",
         Bimg: " https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/reliability.png",
         logo: "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstrllogo.png",
-        heading: "GET ON THE ROAD WITH POWERFUL ENGINE",
-        desc: "Contact Us for the best trucks and trailers",
+        heading: "Precision",
+        desc: "We create a transparent structure that anyone can rely on. We define growth with accuracy and loyalty to foster an open culture where anyone can feel connected.  ",
         logotwo:
           "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstires.png",
         btn: "Trailer & Leasing",
@@ -1286,8 +1286,8 @@ export const CoreValuedata = [
         Simg: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png",
         Bimg: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/precision.png",
         logo: "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesspartzlogo.png",
-        heading: "LAST LONG WITH THE BEST PARTS ON THE MARKET",
-        desc: "We have the best brands to get your truck on the road",
+        heading: "Reliability",
+        desc: "We strive for excellence in everything we do. We believe in delivering excellence through performance, innovation, and product quality.  ",
         logotwo:
           "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstools.png",
         btn: "Parts & services",
@@ -1297,8 +1297,19 @@ export const CoreValuedata = [
         Simg: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png",
         Bimg: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/ethical.png",
         logo: "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png",
-        heading: "LOOKING FOR TIRES IS NOT A PROBLEM NOW",
-        desc: "Contact Us for the best trucks and trailers",
+        heading: "Ethical",
+        desc: "We honor our commitments to our customers and co-workers to do the right thing and are resolute in Integrity. ",
+        logotwo:
+          "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstires.png",
+        btn: "Tires & Services",
+      },
+      {
+        id: "4",
+        Simg: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png",
+        Bimg: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/customer-focus.png",
+        logo: "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png",
+        heading: "Collaboration",
+        desc: "We value our clients as partners to foster the spirit of “we before me”, and we believe in building long-term relationships.",
         logotwo:
           "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstires.png",
         btn: "Tires & Services",
@@ -1306,21 +1317,10 @@ export const CoreValuedata = [
       {
         id: "5",
         Simg: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png",
-        Bimg: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/customer-focus.png",
-        logo: "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png",
-        heading: "LOOKING FOR TIRES IS NOT A PROBLEM NOW",
-        desc: "Contact Us for the best trucks and trailers",
-        logotwo:
-          "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstires.png",
-        btn: "Tires & Services",
-      },
-      {
-        id: "6",
-        Simg: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png",
         Bimg: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/collobration.png",
         logo: "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png",
-        heading: "LOOKING FOR TIRES IS NOT A PROBLEM NOW",
-        desc: "Contact Us for the best trucks and trailers",
+        heading: "Customer Focus",
+        desc: "We go to the extra mile to deliver “Customer Delight” to ensure exceptional service and support. No wonder, we are the trusted choice of our customers.",
         logotwo:
           "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstires.png",
         btn: "Tires & Services",
