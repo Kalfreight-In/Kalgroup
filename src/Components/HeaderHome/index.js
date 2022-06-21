@@ -43,10 +43,10 @@ const HeroSection = (data) => {
           <div className="flex flex-row md:mt-16 mt-8">
             <div className="md:border-l-2 border-x-amber-400"></div>
             <div className="ml-8">
-              <div className="2xl:text-1xl text-white font-medium ">
+              <div className="2xl:text-1xl text-white font-medium">
                 Comprehensive, Consistent & Convenient
               </div>
-              <div className="md:mt-4 mt-16 flex md:justify-start justify-center ">
+              <div className="md:mt-4 mt-16 ">
                 <button
                   // onClick={() => {
                   //   setCTA('800-977-0010');

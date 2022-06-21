@@ -4,7 +4,7 @@ export const NavItemnew = styled.li`
 display:flex;
 justify-content:center;
 align-items:center;
-height:35px;
+height:26px; 
 
 `
 
@@ -14,8 +14,8 @@ export const NavLinksnew = styled.div`
   display: flex;
   align-items:right;
   text-decoration: none;
-  font-weight:500;
-  font-size:1rem;
+  font-weight:400;
+  font-size:0.9rem;
 
   height: 100%;
   cursor: pointer;
