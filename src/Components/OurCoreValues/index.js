@@ -7,11 +7,19 @@ import { CoreValuedata } from '../../data';
 import Accordion from '../Accordion';
 import { useSpring, animated } from 'react-spring';
 import { useHover } from '../../Hooks/Hover';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import { Autoplay } from 'swiper';
 import styled from 'styled-components';
+import useMediaQuery from '../../Hooks/CustomMediaQuery';
 var mydata = CoreValuedata[0];
 
 export default function OurCoreValues() {
   const [hoverRef, isHovered] = useHover();
+  const isDesktop = useMediaQuery('(min-width: 768px)');
   const Quality = styled.div`
     background: ${(props) => `url(${props.background}) no-repeat top center`};
     flex: 1;
@@ -38,36 +46,76 @@ export default function OurCoreValues() {
     <>
       {/* <div class="social"></div> */}
       <div className="bg-businessbackground">
-        <div className="lg:p-12 p-2 drop-shadow-2xl">
+        <div className="lg:p-12 p-2 ">
           <div className="flex justify-center items-center font-semibold">
             <h1 className="text-5xl font-bold link link-underline link-underline-black text-Heading mb-6 pb-2">
               {mydata.heading}
             </h1>
           </div>
           <div className="">
-            <div className="flex flex-row">
-              {mydata.thebox.map((data, index) => (
-                <div className="flex-1 flex-col drop-shadow-xl bg-white m-1">
-                  <div
-                    className={'flex-1 h-80 bg-cover bg-no-repeat bg-center '}
-                    style={{
-                      backgroundImage: `url(${data.Bimg})`,
-                      flex: '0  3  40%',
-                    }}
-                  ></div>
-                  <div className="flex-1">
-                    <div className="p-2">
-                      <div className="text-Heading text-center  2xl:text-3xl font-bold lg:text-base md:text-sm px-0">
-                        {data.heading}
-                      </div>
-                      <div className="text-Heading  2xl:text-lg lg:text-base md:text-sm px-0 text-justify pt-4">
-                        {data.desc}
+            {isDesktop ? (
+              <div className="flex flex-row">
+                {mydata.thebox.map((data, index) => (
+                  <div className="flex-1  flex-col hover:scale-105 hover:z-10 drop-shadow-md hover:drop-shadow-2xl transition-all delay-100 ease-in duration-300 bg-white m-1">
+                    <div
+                      className={
+                        'flex-1 h-80  transition-all delay-75 bg-cover bg-no-repeat bg-center '
+                      }
+                      style={{
+                        backgroundImage: `url(${data.Bimg})`,
+                        flex: '0  3  40%',
+                      }}
+                    ></div>
+                    <div className="flex-1">
+                      <div className="p-2">
+                        <div className="text-Heading text-center  2xl:text-3xl font-bold lg:text-base md:text-sm px-0">
+                          {data.heading}
+                        </div>
+                        <div className="text-Heading  2xl:text-lg lg:text-base md:text-sm px-0 text-justify pt-4">
+                          {data.desc}
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            ) : (
+              <Swiper
+                centeredSlides={true}
+                autoplay={{
+                  delay: 2500,
+                  disableOnInteraction: false,
+                }}
+                modules={[Autoplay]}
+                className="mySwiper"
+              >
+                {mydata.thebox.map((data, index) => (
+                  <SwiperSlide>
+                    <div className="flex-1  flex-col hover:scale-105 hover:z-10 drop-shadow-md hover:drop-shadow-2xl transition-all delay-100 ease-in duration-300 bg-white m-1">
+                      <div
+                        className={
+                          'flex-1 h-80  transition-all delay-75 bg-cover bg-no-repeat bg-center '
+                        }
+                        style={{
+                          backgroundImage: `url(${data.Bimg})`,
+                          flex: '0  3  40%',
+                        }}
+                      ></div>
+                      <div className="flex-1">
+                        <div className="p-2">
+                          <div className="text-Heading text-center  2xl:text-3xl font-bold lg:text-base md:text-sm px-0">
+                            {data.heading}
+                          </div>
+                          <div className="text-Heading  2xl:text-lg lg:text-base md:text-sm px-0 text-justify pt-4 h-20">
+                            {data.desc}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            )}
           </div>
         </div>
       </div>
