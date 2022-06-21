@@ -33,7 +33,7 @@ const HeroSection = (data) => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <div className=" pl-48">
+        <div className=" md:pl-48  text-center">
           {/* <button
           
             className="text-white  font-semibold mb-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-20 lg:w-18 md:8 2xl:h-8 h-8 2xl:text-md lg:text-md md:text-md   2xl:p-0 p-4"
@@ -41,22 +41,22 @@ const HeroSection = (data) => {
             <p>{data.data.site.heading}</p>
           </button> */}
 
-          <div className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl sm:text-1xl text-white font-bold w-4/5">
+          <div className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl text-3xl text-white font-bold md:w-4/5 ">
             Transforming Trucking Dynamics
           </div>
-          <div className="flex flex-row mt-16">
-            <div className="border-l-2 border-x-amber-400"></div>
+          <div className="flex flex-row md:mt-16 mt-8">
+            <div className="md:border-l-2 border-x-amber-400"></div>
             <div className="ml-8">
-              <div className="2xl:text-1xl text-white font-medium w-4/5">
+              <div className="2xl:text-1xl text-white font-medium md:w-3/5">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Tristique arcu a nisi, semper. Ut cras odio ac sem ac.
               </div>
-              <div className="mt-8">
+              <div className="md:mt-4 mt-16 flex justify-center items-center">
                 <button
                   // onClick={() => {
                   //   setCTA('800-977-0010');
                   // }}
-                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md   2xl:p-0 p-4"
+                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md   2xl:p-0 p-4 md:text-left"
                 >
                   <p>Learn More</p>
                 </button>

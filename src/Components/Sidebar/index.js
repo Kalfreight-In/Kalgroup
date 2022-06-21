@@ -47,7 +47,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarRoute to="/WorkAtKalway">
             <a href="/WorkAtKalway">Work At KALWAY</a>
           </SidebarRoute>
-        </SideBtnWrap> */}
+        </SideBtnWrap> */}  
       </SidebarWrapper>
     </SlidebarContainer>
   );

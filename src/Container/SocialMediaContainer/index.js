@@ -5,7 +5,7 @@ import InstagramComponent from '../../Components/InstagramComponent';
 const SocialMediaContainer = () => {
   return (
     <>
-      <div className="flex flex-row m-2">
+      <div className="flex xl:flex-row flex-col m-2 ">
         <FaceBookComponent className="flex-1 "></FaceBookComponent>
         <InstagramComponent className="flex-2 "></InstagramComponent>
       </div>
