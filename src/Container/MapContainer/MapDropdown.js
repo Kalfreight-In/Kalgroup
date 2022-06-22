@@ -8,7 +8,7 @@ const MapDropdown = ({ data }) => {
       <div id="mainnewnavcontainer">
         <div id="innermainnavcontainer">
           <div class="group inline-block w-full">
-            <button class="outline-none focus:outline-none  px-3 py-1 hover:bg-yellow-shadowhover bg-white rounded-base flex items-center w-full h-12">
+            <button class="outline-none focus:outline-none  px-3 py-1 hover:bg-yellow-shadowhover bg-white rounded-md flex items-center w-full h-12">
               <span class="pr-1 font-semibold flex-1">{data.name}</span>
               <span>
                 <svg
@@ -52,7 +52,7 @@ const MapDropdown = ({ data }) => {
                             </span>
                           </button>
                           <ul
-                            class=" bg-white border rounded-sm absolute top-16 right-0 
+                            class=" bg-white border rounded-sm absolute  right-0 
 transition duration-150 ease-in-out origin-top-left
 min-w-32
 "

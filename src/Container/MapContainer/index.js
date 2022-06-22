@@ -11,41 +11,37 @@ export const MapConatiner = () => {
   const [SureyRef, SureyisHovered] = useHover();
   const [EdmentonRef, EdmentonisHovered] = useHover();
   return (
-    <div id="mainmapcontainer">
-      <div className="bg-Lightblue flex flex-col justify- lg:flex-row">
-        <div className=" svg-container">
-          <Map
-            Af={AfisHovered}
-            Ca={CaisHovered}
-            toranto={TorantoisHovered}
-            surey={SureyisHovered}
-            edmenton={EdmentonisHovered}
-          ></Map>
-        </div>
-        <div className='block justify-center items-center'>
-          <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl ">
-            Our Locations:
-          </h3>
-          <div className="mt-12 text-white font-desc text-descnew ">
-            We serve you at multiple locations.
-            {/* <a href="#" className="hover:text-yellow-shadowhover transition ">
+    <div className="bg-Lightblue flex flex-col-reverse  md:flex-row p-8">
+      <div className=" svg-container">
+        <Map
+          Af={AfisHovered}
+          Ca={CaisHovered}
+          toranto={TorantoisHovered}
+          surey={SureyisHovered}
+          edmenton={EdmentonisHovered}
+        ></Map>
+      </div>
+
+      <div className=" md:6/12 flex-col flex content-center  flex-1 ">
+        <div className=" flex-col flex content-center justify-center w-full flex-1 self-start items-start m-4 lg:ml-12 mt-2 ">
+          <div className="w-full">
+            <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl ">
+              Our Locations:
+            </h3>
+            <div className="mt-2 text-white font-desc text-descnew m">
+              We serve You at Multiple location
+              {/* <a href="#" className="hover:text-yellow-shadowhover transition ">
                 click here
-              </a> */} 
+              </a> */}
+            </div>
           </div>
-        </div>
 
-        <div className=" md:6/12 flex-col flex content-center  flex-1 ">
-          <div className=" flex-col flex content-center justify-start  w-full flex-1 self-start items-start m-4 lg:ml-12 md:mt-40 ">
-            <div></div>
-            {MapData.map((data, index) => (
-              <div className="w-full">
-                <div className="m-2 w-1/3">
-                  {MapDropdown((data = { data }))}
-                </div>
-              </div>
-            ))}
-
-            {/* <div id="mainnewnavcontainer">
+          {MapData.map((data, index) => (
+            <div className="w-full">
+              <div className="m-2 w-1/3">{MapDropdown((data = { data }))}</div>
+            </div>
+          ))}
+          {/* <div id="mainnewnavcontainer">
             <div id="innermainnavcontainer">
               <div class="group inline-block">
                 <button class="outline-none focus:outline-none  px-3 py-1 bg-white rounded-sm flex items-center min-w-68">
@@ -119,7 +115,6 @@ export const MapConatiner = () => {
               </div>
             </div>
           </div> */}
-          </div>
         </div>
       </div>
     </div>
