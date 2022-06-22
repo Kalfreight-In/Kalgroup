@@ -35,7 +35,7 @@ export const MapConatiner = () => {
         </div>
 
         <div className=" md:6/12 flex-col flex content-center  flex-1 ">
-          <div className=" flex-col flex content-center justify-start  lg:w-full flex-1 self-start items-start m-4 lg:ml-12 md:mt-40 ">
+          <div className=" flex-col flex content-center justify-start  w-full flex-1 self-start items-start m-4 lg:ml-12 md:mt-40 ">
             <div></div>
             {MapData.map((data, index) => (
               <div className="w-full">
