@@ -26,7 +26,7 @@ function App() {
       </ErrorBoundary>
 
       <Routes>
-        <Route path="/" element={<Home />} exact />   
+        <Route path="/" element={<Home />} exact />
         <Route
           path="/trailerandleasing"
           element={<Trailer_and_Leasing />}
