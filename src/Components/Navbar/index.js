@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { animateScroll as scroll } from 'react-scroll';
-import { Link } from 'react-router-dom';
+import { animateScroll as scroll, Link } from 'react-scroll';
+
 // import ErrorBoundary from '../ErrorBoundary';
 
 import {
@@ -84,7 +84,7 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
+      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>
         <Nav scrollNav={scrollNav}>
           <div className="flex flex-row ml-8 ">
             <NavLogo to="/" onClick={toggleHome}>
@@ -93,7 +93,7 @@ const Navbar = ({ toggle }) => {
 
                 src={logo}
                 alt="logo"
-                width=" 45%"
+                width="50%"
               />
             </NavLogo>
 
@@ -126,7 +126,7 @@ const Navbar = ({ toggle }) => {
                       onClick={toggleHome}
                       className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
                     >
-                      <NavDropdown data={data} />
+                      <NavDropdown data={data} hidden={scrollNav} />
                     </NavLinks>
                   </a>
                 </NavItem>
@@ -185,7 +185,7 @@ const Navbar = ({ toggle }) => {
           </div>
 
           <div id="navicons" className="flex pr-16">
-            <NavItem>
+            {/* <NavItem>
               <NavLinks
                 to="/Contact"
                 onClick={toggleHome}
@@ -196,9 +196,40 @@ const Navbar = ({ toggle }) => {
                   alt=""
                 />
               </NavLinks>
-            </NavItem>
+            </NavItem> */}
 
-            <NavItem>
+            <Link
+              to="mainmapcontainer"
+              smooth={true}
+              duration={1000}
+              spy={true}
+              exact={true}
+              offset={-80}
+              className="px-8"
+            >
+              <img
+                src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navmaplogo.svg"
+                alt=""
+                className="h-8 w-8"
+              />
+            </Link>
+
+            <Link
+              to="ContactSection"
+              smooth={true}
+              duration={1000}
+              spy={true}
+              exact={true}
+              offset={-80}
+            >
+              <img
+                src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
+                alt=""
+                className="h-6 w-8 mt-1"
+              />
+            </Link>
+
+            {/* <NavItem>
               <NavLinks
                 to="/Contact"
                 onClick={toggleHome}
@@ -209,7 +240,7 @@ const Navbar = ({ toggle }) => {
                   alt=""
                 />
               </NavLinks>
-            </NavItem>
+            </NavItem> */}
           </div>
           {/* <NavBtn className="mr-8">
             <button className="text-white bg-yellow-bg  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-56 lg:w-48 md:32 2xl:h-16 h-12 2xl:text-xl xl:text-lg lg:text-md md:text-md">

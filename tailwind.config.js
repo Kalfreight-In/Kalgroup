@@ -74,6 +74,8 @@ module.exports = {
         footersocialnew: "#6082B6",
         instafooterhover: "#833AB4",
         linkdenfooterhover: "#094b6b",
+        navdropdownbgtransparent: "#e6e6e626",
+        navdropdownbottom: "#ffffff54",
       },
       spacing: {
         "30rem": "33rem",
