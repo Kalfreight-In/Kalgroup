@@ -44,9 +44,16 @@ const Contactform = () => {
     <div id="shadow" className="p-8 ">
       <form class="w-fit " onSubmit={(e) => handleSubmit(e)}>
         <div className="xl:text-left text-center xl:pl-2">
-          <h1 className="text-Heading md:text-36px text-2xl font-bold">
-            What can we do for you?{" "}
-          </h1>
+          <div id="contactnew" className='flex'>
+            <img
+              src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
+              alt=""
+              className='max-w-emailcontacticon max-h-8 pt-2'
+            />
+            <h1 className="text-Heading md:text-36px text-2xl font-bold pl-2">
+              Contact Us
+            </h1>
+          </div>
 
           <p className="text-neautralform  font-Poppins md:text-xl text-xs font-normal  my-1 mb-3">
             We are ready to work on a project of any complexity, whether <br />{" "}

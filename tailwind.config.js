@@ -107,13 +107,16 @@ module.exports = {
         '65vh': '67vh',
         '55vh': '55vh',
         'medium-height': '90vh',
-        mobileMainImageHeight: '50vh',
+        mobileMainImageHeight: '80vh',
         mobileSecondImage: '54vh',
         contactimg: '80vh',
         aboutImage: '',
       },
       lineHeight: {
         '44px': '44px',
+      },
+      maxWidth: {
+        emailcontacticon: '3rem',
       },
     },
   },
