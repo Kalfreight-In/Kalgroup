@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from './media/Bgvideo.mp4';
+import Video from './media/bgvideo.mp4';
 import {
   HeroContainer,
   HeroContent,
@@ -44,10 +44,30 @@ const HeroSection = (data) => {
           <div className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl text-3xl text-white font-bold md:w-4/5 md:text-left text-center">
             Transforming Trucking Dynamics
           </div>
-          <div className="flex flex-row md:mt-16 mt-8  justify-center items-center">
+          <div className="md:flex flex-row md:mt-16 mt-8 hidden">
             <div className="md:border-l-2 border-x-amber-400 sm:block hidden"></div>
 
-            <div className="lg:ml-8 ml-0">
+            <div className="md:ml-8 ml-0">
+              <div className="2xl:text-1xl text-white font-medium">
+                Comprehensive, Consistent {isMobile ? <br /> : null} &
+                Convenient
+              </div>
+              <div className="md:mt-4 mt-16 flex md:justify-start justify-center  md:items-start items-center">
+                <button
+                  // onClick={() => {
+                  //   setCTA('800-977-0010');
+                  // }}
+                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md   2xl:p-0 p-4 md:text-left"
+                >
+                  <p>Learn More</p>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-row md:mt-16 mt-8  justify-center items-center md:hidden">
+            <div className="md:border-l-2 border-x-amber-400 sm:block hidden"></div>
+
+            <div className="md:ml-8 ml-0">
               <div className="2xl:text-1xl text-white font-medium">
                 Comprehensive, Consistent {isMobile ? <br /> : null} &
                 Convenient

@@ -8,7 +8,7 @@ export const SlidebarContainer = styled.aside`
   z-index: 999;
   width: 99.5%;
   height: 100%;
-  background: #0d0d0d;
+  background: #fff;
   display: flex;
   overflow-y: auto;
   flex-direction: column;
@@ -19,9 +19,12 @@ export const SlidebarContainer = styled.aside`
   transition: 0.3s ease-in-out;
   opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
   top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+
+
+  }
 `;
 export const CloseIcon = styled(FaTimes)`
-  color: #fff;
+  color: #00000;
 `;
 export const Icon = styled.div`
   position: absolute;
@@ -31,20 +34,15 @@ export const Icon = styled.div`
   font-size: 2rem;
   cursor: pointer;
   outline: none;
-  
 `;
 export const SidebarWrapper = styled.div`
   color: #fff;
 `;
 export const SidebarMenu = styled.ul`
-  padding-top: 3rem;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 80px);
-  text-align: center;
-  @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(10, 60px);
-  }
+  display: flex;
+  flex-direction: column;
+  items-align: center;
+  justify-content: center;
 `;
 export const SidebarLink = styled(LinkS)`
   display: flex;
@@ -65,16 +63,17 @@ export const SidebarLink = styled(LinkS)`
 export const SidebarLinkR = styled(LinkR)`
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   font-size: 1rem;
+  padding: 1rem;
   text-decoration: none;
-  padding-right: 3rem;
+  // padding-right: 3rem;
   transition: 0.2s ease-in-out;
   text-decoration: none;
-  color: #fff;
+  color: #000000;
   cursor: pointer;
   &:hover {
-    color: #ffffff;
+    color: #000000;
     transition: 0.2s ease-in-out;
   }
 `;
