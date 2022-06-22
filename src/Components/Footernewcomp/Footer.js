@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 import {IoLogoFacebook} from 'react-icons/io'
 import {RiInstagramFill} from 'react-icons/ri'
 import {IoLogoLinkedin} from 'react-icons/io'
-
+import {MdEmail} from 'react-icons/md'
 export default function Footer() {
   const [Hinventery, setHinventery] = useState(false);
   const [email, setEmail] = useState('');
@@ -108,7 +108,9 @@ export default function Footer() {
                       />
                     </div>
                     <div className="block xl:ml-0 ">
-                      <div className="flex justify-start items-start text-left 2xl:-ml-6 font-medium">Reach out to us</div>
+                      <div className="flex justify-start items-start text-left 2xl:-ml-6 font-medium">
+                        Reach out to us
+                      </div>
                       <div className="md:text-xl text-16px ml-2 xl:ml-4 text-xl md:font-bold font-semibold ">
                         info@kalgroup.com
                         {/* (Monday to Friday)  */}
@@ -361,7 +363,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     </div>
                   </div>
 
-                  <div className="sm:flex-1 mt-4 sm:mt-0">
+                  <div className="sm:flex-1 mt-4 sm:mt-0 ">
                     <div
                       className="text-black cursor-pointer"
                       onClick={() => {
@@ -815,13 +817,13 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     alt=""
                     className="text-black mt-2 "
                   /> */}
-                        <AiOutlineClockCircle className="md:h-8 h-6 md:w-8 w-6 " />
+                        <MdEmail className="md:h-8 h-6 md:w-8 w-6 " />
                       </div>
                       <div className="block xl:ml-3 ml-0">
                         {/* <div className="block">Working hours</div> */}
-                        <div className="md:text-xl text-16px ml-2 xl:ml-0 text-xl md:font-bold font-semibold ">
-                          8 AM to 5 PM <br />
-                          (Monday to Friday) 
+                        <div className="md:text-xl text-16px ml-2 xl:ml-0 text-xl md:font-bold font-semibold pt-2 ">
+                          info@kalgroup.com
+                          {/* (Monday to Friday)  */}
                         </div>
                       </div>
                     </div>
@@ -834,9 +836,9 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           rel="noreferrer"
                         >
                           <img
-                            src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Vectorphone.svg"
+                            src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
                             alt=""
-                            className="text-black"
+                            className="text-black h-4 w-4"
                             width={50}
                           />
                         </a>
