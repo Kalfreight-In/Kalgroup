@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from './media/bgvideo.mp4';
+import Video from './media/Bgvideo.mp4';
 import {
   HeroContainer,
   HeroContent,
@@ -7,8 +7,8 @@ import {
   HeroPromoContainer,
   VideoBg,
 } from './HeroElements';
-
 import styled from 'styled-components';
+import { isMobile } from 'react-device-detect'; 
 
 const Gradients = styled.div`
   background-image: linear-gradient( to right, #0519374f, #004d7a82)
@@ -29,7 +29,7 @@ const HeroSection = (data) => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <div className=" md:pl-48  text-center">
+        <div className=" md:pl-48  text-center items-center">
           {/* <button
           
             className="text-white  font-semibold mb-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-20 lg:w-18 md:8 2xl:h-8 h-8 2xl:text-md lg:text-md md:text-md   2xl:p-0 p-4"
@@ -37,14 +37,15 @@ const HeroSection = (data) => {
             <p>{data.data.site.heading}</p>
           </button> */}
 
-          <div className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl text-3xl text-white font-bold md:w-4/5 md:text-left">
+          <div className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl text-3xl text-white font-bold md:w-4/5 md:text-left text-center">
             Transforming Trucking Dynamics
           </div>
           <div className="flex flex-row md:mt-16 mt-8">
             <div className="md:border-l-2 border-x-amber-400"></div>
+            
             <div className="ml-8">
               <div className="2xl:text-1xl text-white font-medium">
-                Comprehensive, Consistent & Convenient
+                Comprehensive, Consistent {isMobile?<br/>:null} & Convenient 
               </div>
               <div className="md:mt-4 mt-16 ">
                 <button

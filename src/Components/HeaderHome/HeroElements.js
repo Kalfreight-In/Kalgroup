@@ -127,8 +127,13 @@ height: 100%;
 
 display: flex;
 justify-content:start;
-
 align-items: center;
+
+@media only screen and (max-width:768px){
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 
 
 // div{

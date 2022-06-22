@@ -36,7 +36,7 @@ module.exports = {
         "16px": "12px",
         navlgtext: "18px",
         navdropdown: "0.9rem",
-        contactdesc:"16px"
+        contactdesc: "16px",
       },
       fontWeight: {
         heading: "700",
@@ -92,7 +92,7 @@ module.exports = {
         "25rem": "25%",
         "50rem": "30rem",
         "35vw": "35vw",
-        contacttabinput:"90%"
+        contacttabinput: "90%",
       },
       height: {
         "40rem": "40rem",
@@ -106,7 +106,7 @@ module.exports = {
         "65vh": "67vh",
         "55vh": "55vh",
         "medium-height": "90vh",
-        mobileMainImageHeight: "50vh",
+        mobileMainImageHeight: "80vh",
         mobileSecondImage: "54vh",
         contactimg: "80vh",
         aboutImage: "",
@@ -114,6 +114,10 @@ module.exports = {
       lineHeight: {
         "44px": "44px",
       },
+      maxWidth:{
+        emailcontacticon:'3rem',
+ 
+      }
     },
   },
 };
