@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
-import { animateScroll as scroll} from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 import { Link } from 'react-router-dom';
 // import ErrorBoundary from '../ErrorBoundary';
-
 
 import {
   Nav,
@@ -82,7 +81,6 @@ const Navbar = ({ toggle }) => {
   const toggleHome = () => {
     scroll.scrollToTop();
   };
- 
 
   return (
     <>
