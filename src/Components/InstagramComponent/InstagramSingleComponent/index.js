@@ -79,7 +79,7 @@ const InstagramSingleComponent = (data) => {
             </p>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-              className="text-white  2xl:text-md lg:text-base md:text-sm px-0  underline-offset-4 mt-10"
+              className="text-white underline underline-offset-8   2xl:text-md lg:text-base md:text-sm px-0  underline-offset-4 mt-10"
             >
               <a href={data.data.follow}>Go to our Feed</a>
             </p>
@@ -99,7 +99,7 @@ const InstagramSingleComponent = (data) => {
         <div className=" w-full hidden xl:block" style={{ flex: '0  3  40%' }}>
           <div
             className={
-              'md:h-full h-mobileMainImageHeight bg-cover bg-no-repeat bg-center'
+              'md:h-full  h-mobileMainImageHeight bg-cover bg-no-repeat bg-center'
             }
             style={{
               backgroundImage: `url(${data.data.img})`,

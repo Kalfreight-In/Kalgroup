@@ -68,10 +68,10 @@ export default function OurCoreValues() {
                     ></div>
                     <div className="flex-1">
                       <div className="p-2">
-                        <div className="text-Heading text-center  2xl:text-3xl font-bold lg:text-base md:text-sm px-0">
+                        <div className="text-Description text-center  2xl:text-2xl font-bold lg:text-base md:text-sm px-0">
                           {data.heading}
                         </div>
-                        <div className="text-Heading  2xl:text-lg lg:text-base md:text-sm px-0 text-justify pt-4">
+                        <div className="text-Description  2xl:text-lg lg:text-base md:text-sm px-0  pt-4 mx-8 mb-8">
                           {data.desc}
                         </div>
                       </div>
@@ -103,10 +103,10 @@ export default function OurCoreValues() {
                       ></div>
                       <div className="flex-1">
                         <div className="p-2">
-                          <div className="text-Heading text-center  2xl:text-3xl font-bold lg:text-base md:text-sm px-0">
+                          <div className="text-Description text-center  2xl:text-3xl font-bold lg:text-base text-lg px-0">
                             {data.heading}
                           </div>
-                          <div className="text-Heading  2xl:text-lg lg:text-base md:text-sm px-0 text-justify pt-4 h-20">
+                          <div className="text-Description  2xl:text-lg lg:text-base md:text-sm px-0 pt-2 h-20 mx-8 mb-8">
                             {data.desc}
                           </div>
                         </div>
