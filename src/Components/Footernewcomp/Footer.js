@@ -6,12 +6,13 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 import { TiSocialLinkedinCircular } from 'react-icons/ti';
 import { Link as Slink } from 'react-scroll';
 import { Link } from 'react-router-dom';
-import {IoLogoFacebook} from 'react-icons/io'
-import {RiInstagramFill} from 'react-icons/ri'
-import {IoLogoLinkedin} from 'react-icons/io'
-import {MdEmail} from 'react-icons/md'
+import { IoLogoFacebook } from 'react-icons/io';
+import { RiInstagramFill } from 'react-icons/ri';
+import { IoLogoLinkedin } from 'react-icons/io';
+import { MdEmail } from 'react-icons/md';
 export default function Footer() {
   const [Hinventery, setHinventery] = useState(false);
+  const [H_WA, setH_WA] = useState(false);
   const [email, setEmail] = useState('');
   const [Hquicklinks, setHquicklinks] = useState(false);
   const [Hcontactus, setHcontactus] = useState(false);
@@ -22,14 +23,14 @@ export default function Footer() {
         className="bg-footerbackground md:bg-cover bg-contain"
         style={{
           backgroundImage:
-            "url(" +
-            "https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png" +
-            ")",
-          backgroundBlendMode: "difference",
-          backgroundPosition: "center",
+            'url(' +
+            'https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png' +
+            ')',
+          backgroundBlendMode: 'difference',
+          backgroundPosition: 'center',
           // backgroundSize: 'cover',
-          backgroundRepeat: "no-repeat",
-          width: "full",
+          backgroundRepeat: 'no-repeat',
+          width: 'full',
         }}
       >
         <div className="p-8  md:p-0 xl:block flex justify-center ">
@@ -131,10 +132,10 @@ export default function Footer() {
                     </div>
                     <div className="ml-4">
                       <a href="tel:8009770010" target="_blank">
-                        {" "}
+                        {' '}
                         <div className="md:text-xl xl:text-2xl text-xl font-bold xl:font-semibold ml-2  ">
                           800-385-8006
-                        </div>{" "}
+                        </div>{' '}
                       </a>
                     </div>
                   </div>
@@ -190,6 +191,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       className="text-black cursor-pointer"
                       onClick={() => {
                         setHinventery(!Hinventery);
+                        setH_WA(false);
                         setHquicklinks(false);
                         setHcontactus(false);
                       }}
@@ -201,56 +203,29 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black 2xl:leading-8 leading-6 xl:block   ${
-                        Hinventery ? "" : "hidden"
+                        Hinventery ? '' : 'hidden'
                       }`}
                     >
                       <Link
                         to="#"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center  "
                       >
-                        <span className="flex">
-                          <svg
-                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                          </svg>
-                          Company Overview
-                        </span>
+                        <span>></span>
+                        Company Overview
                       </Link>
                       <Link
                         to="#"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
                       >
-                        <span className="flex">
-                          <svg
-                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                          </svg>
-                          Core Values
-                        </span>
+                        <span> > </span>
+                        Core Values
                       </Link>
                       <Link
                         to="#"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
-                        <span className="flex">
-                          <svg
-                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                          </svg>
-                          CSR
-                        </span>
+                        <span> > </span>
+                        CSR
                       </Link>
                       {/* <Link
                         to="/newsevents"
@@ -265,7 +240,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     <div
                       className="text-black cursor-pointer"
                       onClick={() => {
-                        setHinventery(!Hinventery);
+                        setH_WA(!H_WA);
+                        setHinventery(false);
                         setHquicklinks(false);
                         setHcontactus(false);
                       }}
@@ -277,88 +253,43 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black 2xl:leading-8 leading-6 xl:block   ${
-                        Hinventery ? "" : "hidden"
+                        H_WA ? '' : 'hidden'
                       }`}
                     >
                       <Link
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center  "
                       >
-                        <span className="flex">
-                          <svg
-                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                          </svg>
-                          KAL Freight
-                        </span>
+                        <span> > </span>
+                        KAL Freight
                       </Link>
                       <Link
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
                       >
-                        <span className="flex">
-                          <svg
-                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                          </svg>
-                          KAL Trailers & Leasing
-                        </span>
+                        <span> > </span>
+                        KAL Trailers & Leasing
                       </Link>
                       <Link
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
-                        <span className="flex">
-                          <svg
-                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                          </svg>
-                          KVL Tires
-                        </span>
+                        <span> > </span>
+                        KVL Tires
                       </Link>
                       <Link
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
-                        <span className="flex">
-                          <svg
-                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                          </svg>
-                          KAL Partz
-                        </span>
+                        <span> > </span>
+                        KAL Partz
                       </Link>
                       <Link
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
-                        <span className="flex">
-                          <svg
-                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 20 20"
-                          >
-                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                          </svg>
-                          KALWAY
-                        </span>
+                        <span> > </span>
+                        KALWAY
                       </Link>
                     </div>
                   </div>
@@ -369,6 +300,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       onClick={() => {
                         setHinventery(false);
                         setHquicklinks(!Hquicklinks);
+                        setH_WA(false);
                         setHcontactus(false);
                       }}
                     >
@@ -379,7 +311,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black  2xl:leading-8 leading-6 xl:block  ${
-                        Hquicklinks ? "" : "hidden"
+                        Hquicklinks ? '' : 'hidden'
                       }`}
                     >
                       <div>
@@ -421,17 +353,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           to="/newsevents"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
                         >
-                          <span className="flex">
-                            <svg
-                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
-                            Flatbed for sale
-                          </span>
+                          <span> > </span>
+                          Flatbed for sale
                         </Link>
                       </div>
                       <div>
@@ -439,17 +362,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           to="/newsevents"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
                         >
-                          <span className="flex">
-                            <svg
-                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
-                            Used Dry van for sale
-                          </span>
+                          <span> > </span>
+                          Used Dry van for sale
                         </Link>
                       </div>
                       <div>
@@ -457,17 +371,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           to="/newsevents"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center  "
                         >
-                          <span className="flex">
-                            <svg
-                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
-                            Reefer Trailer for sale
-                          </span>
+                          <span> > </span>
+                          Reefer Trailer for sale
                         </Link>
                       </div>
                       <div>
@@ -475,17 +380,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           to="/newsevents"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
                         >
-                          <span className="flex">
-                            <svg
-                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
-                            New Trailers for sale
-                          </span>
+                          <span> > </span>
+                          New Trailers for sale
                         </Link>
                       </div>
                       <div>
@@ -493,17 +389,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           to="/newsevents"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center"
                         >
-                          <span className="flex">
-                            <svg
-                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
-                            Used Trucks for sale
-                          </span>
+                          <span> > </span>
+                          Used Trucks for sale
                         </Link>
                       </div>
                     </div>
@@ -514,7 +401,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       onClick={() => {
                         setHinventery(false);
                         setHquicklinks(false);
-
+                        setH_WA(false);
                         setHcontactus(!Hcontactus);
                       }}
                     >
@@ -525,20 +412,13 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black 2xl:leading-8 leading-6 xl:block ${
-                        Hcontactus ? "" : "hidden"
+                        Hcontactus ? '' : 'hidden'
                       }`}
                     >
                       <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start mt-3">
                         <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
                           <span className="flex">
-                            <svg
-                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
+                            <span> > </span>
                             Careers
                           </span>
                         </div>
@@ -550,14 +430,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
                         >
                           {/* <span className="flex">
-                            <svg
-                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
+                            <span> > </span>
                             Newsroom
                           </span> */}
                         </a>
@@ -565,14 +438,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start mt-3">
                         <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex">
-                            <svg
-                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
+                            <span> > </span>
                             Newsroom
                           </span>
                         </div>
@@ -584,14 +450,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   xl:text-left text-center md:ml-0 ml-8"
                         >
                           <span className="flex">
-                            <svg
-                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
+                            <span> > </span>
                             Financing Solutions
                           </span>
                         </a> */}
@@ -599,14 +458,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
                         <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex">
-                            <svg
-                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
+                            <span> > </span>
                             Services
                           </span>
                         </div>
@@ -624,14 +476,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
                         <div className=" antialiased w-max block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex">
-                            <svg
-                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
+                            <span> > </span>
                             Financing Solutions
                           </span>
                         </div>
@@ -648,14 +493,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
                         <div className=" antialiased w-max block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex">
-                            <svg
-                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
-        transition duration-150 ease-in-out "
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 20 20"
-                            >
-                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                            </svg>
+                            <span> > </span>
                             24X7 Roadside Assistance
                           </span>
                         </div>
@@ -725,7 +563,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     onClick={() => {
                       setHinventery(false);
                       setHquicklinks(false);
-
+                      setH_WA(false);
                       setHcontactus(!Hcontactus);
                     }}
                   >
@@ -736,7 +574,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                   <div
                     className={`text-black 2xl:leading-8 leading-6 xl:block ${
-                      Hcontactus ? "" : "hidden"
+                      Hcontactus ? '' : 'hidden'
                     }`}
                   >
                     <div class="  mt-8">
@@ -770,8 +608,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <IoLogoFacebook
                           onClick={() =>
                             window.open(
-                              "https://www.facebook.com/Kalgroups/",
-                              "_blank"
+                              'https://www.facebook.com/Kalgroups/',
+                              '_blank'
                             )
                           }
                           className="text-black hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
@@ -779,8 +617,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <RiInstagramFill
                           onClick={() =>
                             window.open(
-                              "https://www.instagram.com/Kalgroup/",
-                              "_blank"
+                              'https://www.instagram.com/Kalgroup/',
+                              '_blank'
                             )
                           }
                           className="text-black hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
@@ -788,8 +626,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <IoLogoLinkedin
                           onClick={() =>
                             window.open(
-                              "https://www.linkedin.com/company/Kalgroup",
-                              "_blank"
+                              'https://www.linkedin.com/company/Kalgroup',
+                              '_blank'
                             )
                           }
                           className="text-black hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
@@ -850,10 +688,10 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     we have subject matter experts just a call away.
                   </div> */}
                         <a href="tel:8009770010" target="_blank">
-                          {" "}
+                          {' '}
                           <div className="md:text-2xl text-lg font-bold xl:font-semibold  ">
                             800-977-0010
-                          </div>{" "}
+                          </div>{' '}
                         </a>
                       </div>
                     </div>
@@ -866,34 +704,79 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                     </div>
                   </div>
-                  <div id="mainiconcontainer" className=" justify-end pb-4  ">
+                  <div>
+                    <div
+                      className="text-black cursor-pointer"
+                      onClick={() => {
+                        setHinventery(false);
+                        setHquicklinks(false);
+                        setH_WA(false);
+                        setHcontactus(!Hcontactus);
+                      }}
+                    >
+                      <h1 className=" md:font-semibold   xl:text-left text-center text-Description   text-lg md:ml-0 pl-0  ">
+                        For latest news & updates
+                      </h1>
+                    </div>
+
+                    <div
+                      className={`text-black 2xl:leading-8 leading-6 xl:block `}
+                    >
+                      <div class="  mt-2">
+                        <div class="w-full ">
+                          <input
+                            onChange={(e) => setEmail(e.target.value)}
+                            value={email}
+                            class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-1 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                            id="email"
+                            placeholder="Email Address"
+                            type="email"
+                            required
+                          />
+                        </div>
+                      </div>
+
+                      <div className="flex flex-row align-center justify-center xl:justify-end">
+                        <Link
+                          to=""
+                          className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover  text-Description   text-center"
+                        >
+                          Subscribe Now
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    id="mainiconcontainer"
+                    className=" justify-end pb-4 mt-4  "
+                  >
                     <div id="allicons" className="flex justify-between  ">
-                      <RiFacebookCircleLine
+                      <IoLogoFacebook
                         onClick={() =>
                           window.open(
-                            "https://www.facebook.com/Kalgroups/",
-                            "_blank"
+                            'https://www.facebook.com/Kalgroups/',
+                            '_blank'
                           )
                         }
-                        className="text-black  h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
+                        className="text-black hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
                       />
-                      <AiOutlineInstagram
+                      <RiInstagramFill
                         onClick={() =>
                           window.open(
-                            "https://www.instagram.com/Kalgroup/",
-                            "_blank"
+                            'https://www.instagram.com/Kalgroup/',
+                            '_blank'
                           )
                         }
-                        className="text-black h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
+                        className="text-black hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
                       />
-                      <TiSocialLinkedinCircular
+                      <IoLogoLinkedin
                         onClick={() =>
                           window.open(
-                            "https://www.linkedin.com/company/Kalgroup",
-                            "_blank"
+                            'https://www.linkedin.com/company/Kalgroup',
+                            '_blank'
                           )
                         }
-                        className="text-black   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
+                        className="text-black hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
                       />
                     </div>
                   </div>

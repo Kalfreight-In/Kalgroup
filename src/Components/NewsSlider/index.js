@@ -20,11 +20,11 @@ const NewsSlider = () => {
         }}
         // navigation={true}
         modules={[Pagination]}
-        className="mySwiper lg:w-50vw w-100vw"
+        className="mySwiper lg:w-50vw w-100vw "
       >
         {NewsData.map((data, index) => (
           <SwiperSlide key={data.id}>
-            <NewsShowcase data={data}></NewsShowcase>
+            <NewsShowcase className="bg-Lightblue" data={data}></NewsShowcase>
           </SwiperSlide>
         ))}
 

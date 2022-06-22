@@ -17,7 +17,7 @@ const InstagramComponent = () => {
         spaceBetween={30}
         loop={true}
         pagination={{
-          dynamicBullets: true,
+          clickable: true,
         }}
         // navigation={true}
         modules={[Pagination]}

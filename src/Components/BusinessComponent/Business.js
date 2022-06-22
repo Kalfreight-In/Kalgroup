@@ -49,6 +49,11 @@ export default function Business() {
           pagination={{
             clickable: true,
           }}
+          // centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
           modules={[Autoplay]}
           className="mySwiper"
         >
@@ -69,9 +74,14 @@ export default function Business() {
       return (
         <Swiper
           slidesPerView={1}
-          spaceBetween={30}
+          spaceBetween={10}
           pagination={{
             clickable: true,
+          }}
+          centeredSlides={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
           }}
           modules={[Autoplay]}
           className="mySwiper"

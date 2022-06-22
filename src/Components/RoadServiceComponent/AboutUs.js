@@ -53,7 +53,7 @@ export default function AboutUs() {
             </div>
           </div>
           <div
-            className="md:flex-1 bg-cover "
+            className="md:flex-1  bg-cover bg-no-repeat bg-center"
             style={{
               backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/officephotokalg.png)`,
             }}

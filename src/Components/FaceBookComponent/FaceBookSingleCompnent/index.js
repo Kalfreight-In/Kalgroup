@@ -21,7 +21,7 @@ const FaceBookSingleCompnent = (data) => {
             </p>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-              className="text-white  2xl:text-md lg:text-base md:text-sm px-0 text-justify lg:mt-20 mt-4"
+              className="text-white  2xl:text-md lg:text-base md:text-sm px-0 text-justify lg:mt-4 mt-4"
             >
               {data.data.time}
             </p>

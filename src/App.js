@@ -20,7 +20,7 @@ function App() {
 
   return (
     <Router>
-      <Sidebar isOpen={isOpen} toggle={toggle} ></Sidebar>
+      <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
       <ErrorBoundary>
         <Navbar toggle={toggle}></Navbar>
       </ErrorBoundary>

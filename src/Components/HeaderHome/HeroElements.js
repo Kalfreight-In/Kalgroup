@@ -18,12 +18,16 @@ background-image: radial-gradient(#42424280,#9f9e9e17),   url(${(props) =>
       
       z-index: 1;
       @media screen and (max-width: 768px) {
-        height: 90vh;
-          background: radial-gradient(#42424280,#9f9e9e17),  no-repeat center center url(${(
-            props
-          ) => props.bgImage});
-          
-      }
+
+        height: 50vh;
+        
+    }
+    @media screen and (max-width: 1024px) {
+    
+        height: 50vh;
+        
+    }
+     
 
 `;
 export const ContainerMain = Styled.div`
@@ -60,7 +64,16 @@ overflow: hidden;
 width: 100vw;
 height: 100vh;
 
+@media screen and (max-width: 768px) {
 
+    height: 50vh;
+    
+}
+@media screen and (max-width: 1024px) {
+
+    height: 50vh;
+    
+}
 `;
 export const WWOCardContainer = Styled.div`
 display: flex;
@@ -106,7 +119,7 @@ export const VideoBg = Styled.video`
 
 width: 100%;
 
-height: 90%;
+height: 100%;
 
 -o-object-fit: cover;
 
@@ -114,9 +127,10 @@ object-fit: cover;
 
 background: #232a34;
 background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-@media screen and (max-width: 768px) {
-    display: blick;
-    
+@media screen and (max-width: 1024) {
+    display: block;
+    height: 60%;
+    object-fit: cover;
 }
 `;
 export const HeroContent = Styled.div`

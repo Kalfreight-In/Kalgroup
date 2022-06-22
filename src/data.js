@@ -198,74 +198,80 @@ export const NewsData = [
   {
     id: '1',
     category: 'News',
-    date: '01/06/2002',
-    heading: 'Indiana Truck Show',
-    PhotoHeading: 'KAL Group Dinner',
+    date: '15th & 16th April 2022',
+    heading: 'Trucking Show',
+    PhotoHeading: 'Trucking Show',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
-    desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
+    desc: 'KAL Group made a successful appearance at American Trucking Show, Fresno',
     CTA: { heading: 'See More', link: 'contactus' },
     Tag: 'One click away',
   },
   {
     id: '2',
     category: 'News',
-    date: '01/06/2002',
+    date: '24th April 2022',
     heading: 'Indiana Truck Show',
     PhotoHeading: 'KAL Group Dinner',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
-    desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
+    desc: 'KAL Group was one of the sponsored Atlanta Kabaddi Cup',
     CTA: { heading: 'See More', link: 'contactus' },
     Tag: 'One click away',
   },
-  {
-    id: '3',
-    category: 'News',
-    date: '01/06/2002',
-    heading: 'Indiana Truck Show',
-    PhotoHeading: 'KAL Group Dinner',
-    imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
-    desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
-    CTA: { heading: 'See More', link: 'contactus' },
-    Tag: 'One click away',
-  },
-  {
-    id: '4',
-    category: 'News',
-    date: '01/06/2002',
-    heading: 'Indiana Truck Show',
-    PhotoHeading: 'KAL Group Dinner',
-    imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
-    desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
-    CTA: { heading: 'See More', link: 'contactus' },
-    Tag: 'One click away',
-  },
+  // {
+  //   id: '3',
+  //   category: 'News',
+  //   date: '01/06/2002',
+  //   heading: 'Indiana Truck Show',
+  //   PhotoHeading: 'KAL Group Dinner',
+  //   imageUrl:
+  //     'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
+  //   desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
+  //   CTA: { heading: 'See More', link: 'contactus' },
+  //   Tag: 'One click away',
+  // },
+  // {
+  //   id: '4',
+  //   category: 'News',
+  //   date: '01/06/2002',
+  //   heading: 'Indiana Truck Show',
+  //   PhotoHeading: 'KAL Group Dinner',
+  //   imageUrl:
+  //     'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
+  //   desc: "It doesn't matter if you love Peterbilts, Western Stars, Macks, or if a Kenworth turns your crank, there are lots of these cool trucks to see at a truck show.",
+  //   CTA: { heading: 'See More', link: 'contactus' },
+  //   Tag: 'One click away',
+  // },
 ];
 export const EventsData = [
   {
     id: '1',
     category: 'Upcoming events',
-    date: '01/06/2002',
-    heading: 'Come to our dinner',
-    PhotoHeading: 'KAL Group Dinner',
+    date: '25 & 26 June 2022',
+    heading: 'Texas Trucking Show',
+    PhotoHeading: 'Texas Trucking Show',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
-    desc: "We provide a full range of front end mechanical repairs for all makes and models of car It doesn't matter if you love Peterbilts.",
+    desc: 'Texas Trucking Show, Join us at NRG Center, Texas',
     CTA: { heading: 'Register', link: 'register' },
     Tag: 'One click away',
   },
   {
     id: '2',
     category: 'Upcoming events',
-    date: '01/06/2002',
-    heading: 'Come to our dinner',
-    PhotoHeading: 'KAL Group Dinner',
+    date: ' ',
+    heading: 'California Trucking Show ',
+    PhotoHeading: 'California Trucking Show ',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
-    desc: "We provide a full range of front end mechanical repairs for all makes and models of car It doesn't matter if you love Peterbilts.",
+    desc: `   California Trucking Show at the Ontario Convention Center coming this October.  
+
+    Dates will be shared soon.  
+    
+    Save a seat to have “Dinner with the KAL group”.  
+    
+    ShapeEarly Bird registration click below`,
     CTA: { heading: 'Register', link: 'register' },
     Tag: 'One click away',
   },
@@ -1240,7 +1246,7 @@ export const Businessdata = [
       {
         id: '2',
         Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Sparts.png',
-        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/parts.png',
+        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Bparts.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesspartzlogo.png',
         heading: 'LAST LONG WITH THE BEST PARTS ON THE MARKET',
         desc: 'We have the best brands to get your truck on the road',
@@ -1272,7 +1278,8 @@ export const CoreValuedata = [
       {
         id: '1',
         Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png',
-        Bimg: ' https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/reliability.png',
+        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/precision.png',
+
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstrllogo.png',
         heading: 'Precision',
         desc: 'We create a transparent structure that anyone can rely on. We define growth with accuracy and loyalty to foster an open culture where anyone can feel connected.  ',
@@ -1283,7 +1290,7 @@ export const CoreValuedata = [
       {
         id: '2',
         Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png',
-        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/precision.png',
+        Bimg: ' https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/reliability.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesspartzlogo.png',
         heading: 'Reliability',
         desc: 'We strive for excellence in everything we do. We believe in delivering excellence through performance, innovation, and product quality.  ',
@@ -1296,7 +1303,7 @@ export const CoreValuedata = [
         Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png',
         Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/ethical.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
-        heading: 'Ethical',
+        heading: 'Ethics',
         desc: 'We honor our commitments to our customers and co-workers to do the right thing and are resolute in Integrity. ',
         logotwo:
           'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstires.png',
@@ -1305,7 +1312,8 @@ export const CoreValuedata = [
       {
         id: '4',
         Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png',
-        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/customer-focus.png',
+        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/collobration.png',
+
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
         heading: 'Collaboration',
         desc: 'We value our clients as partners to foster the spirit of “we before me”, and we believe in building long-term relationships.',
@@ -1316,7 +1324,7 @@ export const CoreValuedata = [
       {
         id: '5',
         Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/CoreValue-mb.png',
-        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/collobration.png',
+        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/CoreValues/customer-focus.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
         heading: 'Customer Focus',
         desc: 'We go to the extra mile to deliver “Customer Delight” to ensure exceptional service and support. No wonder, we are the trusted choice of our customers.',
@@ -1368,7 +1376,7 @@ export const Instagramfeeds = [
     caption: 'Used Trailers',
     desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
     time: '7 June',
-    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
   },
   {
     id: '2',
@@ -1377,7 +1385,7 @@ export const Instagramfeeds = [
     caption: 'KVL Tires',
     desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details!',
     time: '21 May',
-    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
   },
 
   {
@@ -1386,7 +1394,7 @@ export const Instagramfeeds = [
     caption: 'KalPartz',
     desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
     time: '12 May',
-    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
   },
   {
     id: '4',
@@ -1394,7 +1402,7 @@ export const Instagramfeeds = [
     caption: 'Kalway',
     desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
     time: '2 May',
-    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
   },
 ];
 export const MapData = [

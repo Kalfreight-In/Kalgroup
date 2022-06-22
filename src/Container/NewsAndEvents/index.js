@@ -9,7 +9,9 @@ const NewsAndEvents = () => {
   return (
     <>
       <div className="   flex flex-col justify-center items-center">
-        <h2 className="text-Description text-4xl font-bold py-4">Newsroom</h2>
+        <h2 className="text-Description text-4xl font-bold py-4 link link-underline link-underline-black">
+          Newsroom
+        </h2>
         {/* <SwiperSlider></SwiperSlider> */}
         <div className="flex lg:flex-row flex-col   items-center  relative">
           <NewsSlider className="z-10 absolute"></NewsSlider>
