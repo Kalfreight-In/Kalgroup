@@ -18,14 +18,14 @@ export default function Footer() {
         className="bg-footerbackground md:bg-cover bg-contain"
         style={{
           backgroundImage:
-            'url(' +
-            'https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png' +
-            ')',
-          backgroundBlendMode: 'difference',
-          backgroundPosition: 'center',
+            "url(" +
+            "https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png" +
+            ")",
+          backgroundBlendMode: "difference",
+          backgroundPosition: "center",
           // backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          width: 'full',
+          backgroundRepeat: "no-repeat",
+          width: "full",
         }}
       >
         <div className="p-8  md:p-0 xl:block flex justify-center ">
@@ -120,10 +120,10 @@ export default function Footer() {
                     </div>
                     <div className="ml-4">
                       <a href="tel:8009770010" target="_blank">
-                        {' '}
+                        {" "}
                         <div className="md:text-xl xl:text-2xl text-xl font-bold xl:font-semibold ml-2  ">
                           800-977-0010
-                        </div>{' '}
+                        </div>{" "}
                       </a>
                     </div>
                   </div>
@@ -190,7 +190,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black 2xl:leading-8 leading-6 xl:block   ${
-                        Hinventery ? '' : 'hidden'
+                        Hinventery ? "" : "hidden"
                       }`}
                     >
                       <Link
@@ -236,7 +236,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black 2xl:leading-8 leading-6 xl:block   ${
-                        Hinventery ? '' : 'hidden'
+                        Hinventery ? "" : "hidden"
                       }`}
                     >
                       <Link
@@ -288,7 +288,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black  2xl:leading-8 leading-6 xl:block  ${
-                        Hquicklinks ? '' : 'hidden'
+                        Hquicklinks ? "" : "hidden"
                       }`}
                     >
                       <div>
@@ -299,7 +299,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     About us
                   </Link> */}
 
-                        {window.location.pathname == '/' ? (
+                        {window.location.pathname == "/" ? (
                           <Slink
                             className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center cursor-pointer "
                             to="aboutus"
@@ -384,7 +384,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black 2xl:leading-8 leading-6 xl:block ${
-                        Hcontactus ? '' : 'hidden'
+                        Hcontactus ? "" : "hidden"
                       }`}
                     >
                       <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start mt-3">
@@ -525,7 +525,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                   <div
                     className={`text-black 2xl:leading-8 leading-6 xl:block ${
-                      Hcontactus ? '' : 'hidden'
+                      Hcontactus ? "" : "hidden"
                     }`}
                   >
                     <div class="  mt-8">
@@ -545,7 +545,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-end">
                       <Link
                         to=""
-                        className="block md:text-xl text-navsmall font-bold hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
+                        className="block md:text-xl text-navsmall font-semibold hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
                       >
                         Subscribe Now
                       </Link>
@@ -559,8 +559,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <RiFacebookCircleLine
                           onClick={() =>
                             window.open(
-                              'https://www.facebook.com/Kalgroups/',
-                              '_blank'
+                              "https://www.facebook.com/Kalgroups/",
+                              "_blank"
                             )
                           }
                           className="text-black  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
@@ -568,8 +568,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <AiOutlineInstagram
                           onClick={() =>
                             window.open(
-                              'https://www.instagram.com/Kalgroup/',
-                              '_blank'
+                              "https://www.instagram.com/Kalgroup/",
+                              "_blank"
                             )
                           }
                           className="text-black h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
@@ -577,8 +577,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <TiSocialLinkedinCircular
                           onClick={() =>
                             window.open(
-                              'https://www.linkedin.com/company/Kalgroup',
-                              '_blank'
+                              "https://www.linkedin.com/company/Kalgroup",
+                              "_blank"
                             )
                           }
                           className="text-black   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
@@ -625,10 +625,10 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           rel="noreferrer"
                         >
                           <img
-                            src="https://raw.githubusercontent.com/kalfreight-in/Kalgroups/master/src/assets/Images/Vectorphone.svg"
+                            src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Vectorphone.svg"
                             alt=""
                             className="text-black"
-                            width={23}
+                            width={50}  
                           />
                         </a>
                       </div>
@@ -639,10 +639,10 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     we have subject matter experts just a call away.
                   </div> */}
                         <a href="tel:8009770010" target="_blank">
-                          {' '}
+                          {" "}
                           <div className="md:text-2xl text-lg font-bold xl:font-semibold  ">
                             800-977-0010
-                          </div>{' '}
+                          </div>{" "}
                         </a>
                       </div>
                     </div>
@@ -660,8 +660,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <RiFacebookCircleLine
                         onClick={() =>
                           window.open(
-                            'https://www.facebook.com/Kalgroups/',
-                            '_blank'
+                            "https://www.facebook.com/Kalgroups/",
+                            "_blank"
                           )
                         }
                         className="text-black  h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
@@ -669,8 +669,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <AiOutlineInstagram
                         onClick={() =>
                           window.open(
-                            'https://www.instagram.com/Kalgroup/',
-                            '_blank'
+                            "https://www.instagram.com/Kalgroup/",
+                            "_blank"
                           )
                         }
                         className="text-black h-1.8rem w-1.8rem mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
@@ -678,8 +678,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <TiSocialLinkedinCircular
                         onClick={() =>
                           window.open(
-                            'https://www.linkedin.com/company/Kalgroup',
-                            '_blank'
+                            "https://www.linkedin.com/company/Kalgroup",
+                            "_blank"
                           )
                         }
                         className="text-black   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
