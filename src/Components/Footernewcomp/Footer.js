@@ -208,21 +208,21 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     >
                       <Link
                         to="#"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center  "
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center  "
                       >
                         <span>></span>
                         Company Overview
                       </Link>
                       <Link
                         to="#"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
                       >
                         <span> > </span>
                         Core Values
                       </Link>
                       <Link
                         to="#"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
                         <span> > </span>
                         CSR
@@ -258,35 +258,35 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     >
                       <Link
                         to="/newsevents"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center  "
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center  "
                       >
                         <span> > </span>
                         KAL Freight
                       </Link>
                       <Link
                         to="/newsevents"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
                       >
                         <span> > </span>
                         KAL Trailers & Leasing
                       </Link>
                       <Link
                         to="/newsevents"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
                         <span> > </span>
                         KVL Tires
                       </Link>
                       <Link
                         to="/newsevents"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
                         <span> > </span>
                         KAL Partz
                       </Link>
                       <Link
                         to="/newsevents"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
                         <span> > </span>
                         KALWAY
@@ -351,7 +351,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div>
                         <Link
                           to="/newsevents"
-                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
+                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
                         >
                           <span> > </span>
                           Flatbed for sale
@@ -360,7 +360,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div>
                         <Link
                           to="/newsevents"
-                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
+                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
                         >
                           <span> > </span>
                           Used Dry van for sale
@@ -369,7 +369,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div>
                         <Link
                           to="/newsevents"
-                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center  "
+                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center  "
                         >
                           <span> > </span>
                           Reefer Trailer for sale
@@ -378,7 +378,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div>
                         <Link
                           to="/newsevents"
-                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
+                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
                         >
                           <span> > </span>
                           New Trailers for sale
@@ -387,7 +387,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div>
                         <Link
                           to="/newsevents"
-                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center"
+                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center"
                         >
                           <span> > </span>
                           Used Trucks for sale
@@ -416,7 +416,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       }`}
                     >
                       <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start mt-3">
-                        <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
+                        <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
                           <span className="flex">
                             <span> > </span>
                             Careers
@@ -427,7 +427,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           href="mailto:hr@bigrigcanada.com"
                           target="_blank"
                           rel="noreferrer"
-                          className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
+                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
                         >
                           {/* <span className="flex">
                             <span> > </span>
@@ -436,7 +436,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         </a>
                       </div>
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start mt-3">
-                        <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
+                        <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex">
                             <span> > </span>
                             Newsroom
@@ -456,7 +456,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         </a> */}
                       </div>
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
-                        <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
+                        <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex">
                             <span> > </span>
                             Services
@@ -474,7 +474,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
 
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
-                        <div className=" antialiased w-max block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
+                        <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex">
                             <span> > </span>
                             Financing Solutions
@@ -491,7 +491,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         </a> */}
                       </div>
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
-                        <div className=" antialiased w-max block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
+                        <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex">
                             <span> > </span>
                             24X7 Roadside Assistance
@@ -690,7 +690,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <a href="tel:8009770010" target="_blank">
                           {' '}
                           <div className="md:text-2xl text-lg font-bold xl:font-semibold  ">
-                            800-977-0010
+                            800-385-8006
                           </div>{' '}
                         </a>
                       </div>
