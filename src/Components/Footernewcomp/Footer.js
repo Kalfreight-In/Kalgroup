@@ -108,7 +108,7 @@ export default function Footer() {
                       />
                     </div>
                     <div className="block xl:ml-0 ">
-                      <div className="flex justify-start items-start text-left">Reach out to us</div>
+                      <div className="flex justify-start items-start text-left 2xl:-ml-6 font-medium">Reach out to us</div>
                       <div className="md:text-xl text-16px ml-2 xl:ml-4 text-xl md:font-bold font-semibold ">
                         info@kalgroup.com
                         {/* (Monday to Friday)  */}
