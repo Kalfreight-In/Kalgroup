@@ -20,7 +20,7 @@ export default function Footer() {
   return (
     <>
       <div
-        className="bg-footerbackground md:bg-cover bg-contain"
+        className="bg-footerbackground md:bg-cover bg-contain "
         style={{
           backgroundImage:
             'url(' +
@@ -186,7 +186,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
               </div>
               <div className="  xl:w-3/6 md:px-4 ">
                 <div className="sm:flex">
-                  <div className="sm:flex-1">
+                  <div className="sm:flex-1 mt-4 sm:mt-0 ">
                     <div
                       className="text-black cursor-pointer"
                       onClick={() => {
@@ -196,13 +196,13 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         setHcontactus(false);
                       }}
                     >
-                      <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left text-center   ">
+                      <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left text-center ">
                         Who we are?
                       </h1>
                     </div>
 
                     <div
-                      className={`text-black 2xl:leading-8 leading-6 xl:block   ${
+                      className={`text-black  2xl:leading-8 leading-6 xl:block   ${
                         Hinventery ? '' : 'hidden'
                       }`}
                     >
@@ -236,7 +236,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     </div>
                   </div>
 
-                  <div className="sm:flex-1">
+                  <div className="sm:flex-1 mt-4 sm:mt-0 ">
                     <div
                       className="text-black cursor-pointer"
                       onClick={() => {
