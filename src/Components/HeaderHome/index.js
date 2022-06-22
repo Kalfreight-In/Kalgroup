@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from './media/bgvideo.mp4';
+import Video from './media/Bgvideo.mp4';
 import {
   HeroContainer,
   HeroContent,
@@ -59,7 +59,7 @@ const HeroSection = (data) => {
                   // }}
                   className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md   2xl:p-0 p-4 md:text-left"
                 >
-                  <p>Learn More</p>
+                  <p>Learn More</p> 
                 </button>
               </div>
             </div>
