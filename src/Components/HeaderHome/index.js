@@ -39,7 +39,7 @@ const HeroSection = (data) => {
             className="text-white  font-semibold mb-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-20 lg:w-18 md:8 2xl:h-8 h-8 2xl:text-md lg:text-md md:text-md   2xl:p-0 p-4"
           >
             <p>{data.data.site.heading}</p>
-          </button> */}
+          </button> */} 
 
           <div className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl text-3xl text-white font-bold md:w-4/5 md:text-left text-center">
             Transforming Trucking Dynamics
