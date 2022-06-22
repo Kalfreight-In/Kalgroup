@@ -8,7 +8,7 @@ const MapDropdown = ({ data }) => {
       <div id="mainnewnavcontainer">
         <div id="innermainnavcontainer">
           <div class="group inline-block w-full">
-            <button class="outline-none focus:outline-none  px-3 py-1 bg-white rounded-sm flex items-center w-full h-12">
+            <button class="outline-none focus:outline-none  px-3 py-1 hover:bg-yellow-shadowhover bg-white rounded-base flex items-center w-full h-12">
               <span class="pr-1 font-semibold flex-1">{data.name}</span>
               <span>
                 <svg
@@ -33,10 +33,10 @@ const MapDropdown = ({ data }) => {
           </ul> */}
               {data.Sites
                 ? data.Sites.map((data, index) => (
-                    <li class="rounded-sm px-3 py-1 hover:bg-gray-100 flex justify-center items-center">
+                    <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
                       {data.Sites != null ? (
                         <>
-                          <button class="outline-none focus:outline-none  px-3 py-1 bg-white rounded-sm flex items-center w-full h-12">
+                          <button class="outline-none focus:outline-none  px-3 py-1  bg-white rounded-sm flex items-center w-full h-12">
                             <span class="pr-1 font-semibold flex-1">
                               {data.name}
                             </span>
@@ -52,13 +52,13 @@ const MapDropdown = ({ data }) => {
                             </span>
                           </button>
                           <ul
-                            class="bg-white border rounded-sm absolute top-50 right-0 
+                            class=" bg-white border rounded-sm absolute top-50 right-0 
 transition duration-150 ease-in-out origin-top-left
 min-w-32
 "
                           >
                             {data.Sites.map((data, index) => (
-                              <li class="px-3 py-1 hover:bg-gray-100">
+                              <li class="px-3 py-1 ">
                                 <NavItemnew key={data.id}>
                                   <NavLinksnew>{data.name}</NavLinksnew>
                                 </NavItemnew>

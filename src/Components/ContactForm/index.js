@@ -10,8 +10,8 @@ const Contactform = () => {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
   const [errorMessage, setErrorMessage] = useState('');
-  const [buttonText, setButtonText] = useState('Submit');   
-  const resetForm = (e) => { 
+  const [buttonText, setButtonText] = useState('Submit');
+  const resetForm = (e) => {
     setName('');
     setEmail('');
     setMessage('');
@@ -22,7 +22,7 @@ const Contactform = () => {
   };
   const handleSubmit = (e) => {
     e.preventDefault();
-    setButtonText('Sending...'); 
+    setButtonText('Sending...');
 
     let data = {
       name: name,
@@ -41,22 +41,22 @@ const Contactform = () => {
   };
 
   return (
-    <div id="shadow" className="p-8 ">
+    <div id="shadow" className="md:p-8 p-4 ">
       <form class="w-fit " onSubmit={(e) => handleSubmit(e)}>
         <div className="xl:text-left text-center xl:pl-2">
-          <div id="contactnew" className='flex'>
+          <div id="contactnew" className="flex justify-center items-center">
             <img
               src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
               alt=""
-              className='max-w-emailcontacticon max-h-8 pt-2'
+              className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
             />
-            <h1 className="text-Heading md:text-36px text-2xl font-bold pl-2">
+            <h1 className="text-Heading md:text-36px text-3xl font-bold pl-2 text-center ">
               Contact Us
             </h1>
           </div>
 
-          <p className="text-neautralform  font-Poppins md:text-xl text-xs font-normal  my-1 mb-3">
-            We are ready to work on a project of any complexity, whether <br />{" "}
+          <p className="text-neautralform  font-Poppins md:text-xl text-xs font-normal  my-1 mb-3 ">
+            We are ready to work on a project of any complexity, whether <br />{' '}
             it's commercial or
           </p>
         </div>
@@ -131,7 +131,7 @@ const Contactform = () => {
             ></textarea>
           </div>
         </div>
-        <div class="md:flex md:items-center">
+        <div class="md:block  flex items-center justify-center">
           <div>
             <button className="text-white bg-yellow-bg rounded p-4 w-48 mt-2">
               {buttonText}
