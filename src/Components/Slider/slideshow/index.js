@@ -95,8 +95,8 @@ export function Slideshow({
             <div
               className={`${
                 smallSlider
-                  ? 'slide_small   lg:grayscale-1 hover:scale-75 `'
-                  : 'slide   lg:grayscale hover:scale-110 '
+                  ? 'slide_small   hover:scale-75 `'
+                  : 'slide    hover:scale-110 '
               }  ${
                 singleSlider ? 'w-50vw' : 'w-1/4'
               }    hover:grayscale-0  transition-all flex items-center content-center justify-center `}

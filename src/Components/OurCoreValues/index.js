@@ -46,9 +46,9 @@ export default function OurCoreValues() {
     <>
       {/* <div class="social"></div> */}
       <div className="bg-businessbackground">
-        <div className="lg:p-12 p-2 ">
+        <div className="lg:p-8 p-2 ">
           <div className="flex justify-center items-center font-semibold">
-            <h1 className="text-5xl font-bold link link-underline link-underline-black text-Heading mb-6 pb-2">
+            <h1 className="text-3xl font-bold link link-underline link-underline-black text-Description mb-6 pb-2">
               {mydata.heading}
             </h1>
           </div>
@@ -56,7 +56,7 @@ export default function OurCoreValues() {
             {isDesktop ? (
               <div className="flex flex-row">
                 {mydata.thebox.map((data, index) => (
-                  <div className="flex-1  flex-col hover:scale-105 hover:z-10 drop-shadow-md hover:drop-shadow-2xl transition-all delay-100 ease-in duration-300 bg-white m-1">
+                  <div className="flex-1  flex-col hover:scale-105 hover:z-10 drop-shadow-md hover:drop-shadow-2xl transition-all delay-100 ease-in duration-300 bg-whitenew m-1">
                     <div
                       className={
                         'flex-1 h-80  transition-all delay-75 bg-cover bg-no-repeat bg-center '

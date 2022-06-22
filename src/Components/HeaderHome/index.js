@@ -17,13 +17,13 @@ const Gradients = styled.div`
   transform: rotate(-180deg);
   object-fit: cover;
   position: absolute;
-  z-index: 2;
+  z-index: 20;
 `;
 
 const HeroSection = (data) => {
   // console.log(data.data.id);
   return (
-    <HeroContainer bgImage="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/SliderSection/kalSlider-1.png">
+    <HeroContainer>
       <Gradients></Gradients>
       <HeroBg className=" mt-0">
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />

@@ -8,12 +8,19 @@ import Accordion from '../Accordion';
 import { useSpring, animated } from 'react-spring';
 import { useHover } from '../../Hooks/Hover';
 import useMediaQuery from '../../Hooks/CustomMediaQuery';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import { Autoplay } from 'swiper';
+import { isDesktop, isTablet } from 'react-device-detect';
 var mydata = Businessdata[0];
 
 export default function Business() {
   const [hoverRef, isHovered] = useHover();
-  const isDesktop = useMediaQuery('(min-width: 768px)');
-  const isTablet = useMediaQuery('(min-width: 1280px)');
+  const isDesktop = useMediaQuery('(min-width: 1281px)');
+  const isTablet = useMediaQuery('(min-width: 780px)');
   const titleAnimation = useSpring({
     from: {
       transform: 'translateY(-30px)',
@@ -21,92 +28,82 @@ export default function Business() {
     to: [{ transform: 'translateY(15px)' }],
     config: { mass: 3, tension: 500, friction: 25 },
   });
-
+  function returnView() {
+    if (isDesktop) {
+      console.log(`it is desktop`);
+      return mydata.thebox.map((element) => (
+        <div
+          className={`demo item bg-cover bg-no-repeat bg-left `}
+          style={{
+            backgroundImage: `url(${isHovered ? element.Bimg : element.Simg})`,
+          }}
+        ></div>
+      ));
+    }
+    if (isTablet) {
+      console.log(`it is tablet`);
+      return (
+        <Swiper
+          slidesPerView={2}
+          spaceBetween={30}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Autoplay]}
+          className="mySwiper"
+        >
+          {mydata.thebox.map((element) => (
+            <SwiperSlide>
+              <div
+                className={` flex-1 h-80 itemM  transition-all delay-75 bg-cover bg-no-repeat bg-center `}
+                style={{
+                  backgroundImage: `url(${element.Simg})`,
+                }}
+              ></div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      );
+    } else {
+      console.log(`it is nothing`);
+      return (
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={30}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Autoplay]}
+          className="mySwiper"
+        >
+          {mydata.thebox.map((element) => (
+            <SwiperSlide>
+              <div
+                className={`demo itemM  bg-contain bg-no-repeat bg-left h-full flex-1`}
+                style={{
+                  backgroundImage: `url(${element.Simg})`,
+                }}
+              ></div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      );
+    }
+  }
   return (
     <>
-      {/* <div class="social"></div> */}
       <div className="bg-businessbackground">
-        <div className="lg:p-12 p-2 drop-shadow-2xl">
+        <div className="lg:p-6 p-2 drop-shadow-2xl">
           <div className="flex justify-center items-center font-semibold">
-            <h1 className="text-5xl font-bold link link-underline link-underline-black text-Heading mb-6 pb-2">
+            <h1 className="text-3xl font-bold link link-underline link-underline-black text-Description mb-6 pb-2">
               {mydata.heading}
             </h1>
           </div>
-          {/* {isHovered ?   <h1 className="text-5xl font-bold link link-underline link-underline-black text-Heading mb-6 pb-2">
-              {mydata.heading}
-            </h1> : null} */}
-          <div className={`flex w-full lg:flex-row flex-col`}>
+
+          <div className={`flex w-full flex-row `}>
             <div class=" flex w-full">
-              <div
-                class="gallery-wrap flex lg:flex-row flex-col w-fill "
-                ref={hoverRef}
-              >
-                {mydata.thebox.map((element) => (
-                  <div
-                    className={`demo item bg-cover bg-no-repeat bg-left `}
-                    // background={element.Simg}
-                    // hoverBackground={element.Bimg }
-                    style={{
-                      backgroundImage: `url(${
-                        isHovered ? element.Bimg : element.Simg
-                      })`,
-                    }}
-                    // whileHover={{
-                    //   transition: {
-                    //     duration: 0.5,
-                    //     ease: 'easeInOut',
-                    //   },
-                    // }}
-                  >
-                    {/* <Accordion title={element.heading} text={element.desc} /> */}
-
-                    {/* <div
-                        id="backgroundd"
-                        className="h-65vh  mx-2 mt-8 "
-                        style={{
-                          // backgroundImage:
-                          //   'url(' +
-                          //   'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/businessback.svg' +
-                          //   ')',
-                          backgroundPosition: 'center',
-                          backgroundSize: 'cover',
-                          backgroundRepeat: 'no-repeat',
-                        }}
-                      >
-                        <div id="box">
-                          <div>
-                            <img
-                              src={element.logo}
-                              alt="logo"
-                              className="w-56 h-20"
-                            />
-                          </div>
-                          <div>
-                            <h1 className="text-Heading text-5xl font-sub-heading font-semibold w-4/5 leading-44px pt-6">
-                              {element.heading}
-                            </h1>
-                          </div>
-                          <div>
-                            <p className="text-2xl pt-12 font-normal w-64">
-                              {element.desc}
-                            </p>
-                          </div>
-
-                          <div id="imagemain" className="flex justify-between">
-                            <div></div>
-                            <div>
-                              <img src={element.logotwo} alt="" />
-                            </div>
-                          </div>
-                        </div>
-                      </div> */}
-                    {/* <div id="btn">
-                        <button className="bg-Lightblue w-50rem h-14 ml-4">
-                          {element.btn}
-                        </button>
-                      </div> */}
-                  </div>
-                ))}
+              <div class="gallery-wrap flex flex-row  w-fill " ref={hoverRef}>
+                {returnView()}
               </div>
             </div>
           </div>

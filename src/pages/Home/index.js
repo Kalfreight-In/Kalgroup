@@ -19,6 +19,7 @@ import OurCoreValues from '../../Components/OurCoreValues';
 import AboutUs from '../../Components/RoadServiceComponent/AboutUs';
 import HeroSection from '../../Components/HeaderHome';
 import { ContactFormContainer } from '../../Container/ContactFormContainer';
+import BrandWeOffer from '../../Components/BrandWeOffer/BrandWeOffer';
 
 function Home() {
   return (
@@ -37,7 +38,8 @@ function Home() {
       {/* <ServicesSection /> */}
       <OurCoreValues></OurCoreValues>
       <MapConatiner></MapConatiner>
-      <Slideshow data={BrandCompnentBrands}></Slideshow>
+      {/* <Slideshow data={BrandCompnentBrands}></Slideshow> */}
+      <BrandWeOffer></BrandWeOffer>
       <ContactFormContainer></ContactFormContainer>
 
       {/* <ContactFormContainer></ContactFormContainer> */}
