@@ -106,7 +106,7 @@ module.exports = {
         "65vh": "67vh",
         "55vh": "55vh",
         "medium-height": "90vh",
-        mobileMainImageHeight: "80vh",
+        mobileMainImageHeight: "38vh",
         mobileSecondImage: "54vh",
         contactimg: "80vh",
         aboutImage: "",

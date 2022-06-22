@@ -40,7 +40,7 @@ const HeroSection = (data) => {
           <div className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl text-3xl text-white font-bold md:w-4/5 md:text-left text-center">
             Transforming Trucking Dynamics
           </div>
-          <div className="flex flex-row md:mt-16 mt-8">
+          <div className="flex flex-row md:mt-16 mt-8 md:justify-start md:items-start justify-center items-center">
             <div className="md:border-l-2 border-x-amber-400"></div>
             
             <div className="ml-8">
