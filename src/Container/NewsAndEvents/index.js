@@ -8,8 +8,8 @@ import EventsSlider from '../../Components/EventsSlider';
 const NewsAndEvents = () => {
   return (
     <>
-      <div className=" text-36px font-semibold text-Heading flex flex-col justify-center items-center">
-        <h2>News & Events</h2>
+      <div className="   flex flex-col justify-center items-center">
+        <h2 className="text-Description text-4xl font-bold py-4">Newsroom</h2>
         {/* <SwiperSlider></SwiperSlider> */}
         <div className="flex lg:flex-row flex-col   items-center  relative">
           <NewsSlider className="z-10 absolute"></NewsSlider>

@@ -15,7 +15,7 @@ const NewsShowcase = (data) => {
   var imageurl = data.data.imageUrl;
   return (
     <>
-      <div class="flex lg:pt-12  sm:m-4">
+      <div class="flex   sm:m-4">
         <div class="bg-Lightblue flex  flex-row-reverse ">
           <div class="sm:block hidden 2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-10 mt-10 2xl:pt-12 pt-0 mx-6 flex-1 pb-16   ">
             <h1 class="text-white text-sm sm:text- 2xl:text-xl font-heading lg:text-2xl  px-0 mb-4">

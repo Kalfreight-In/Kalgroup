@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from './media/Bgvideo.mp4';
+import Video from './media/bgvideo.mp4';
 import {
   HeroContainer,
   HeroContent,
@@ -8,10 +8,14 @@ import {
   VideoBg,
 } from './HeroElements';
 import styled from 'styled-components';
-import { isMobile } from 'react-device-detect'; 
+import { isMobile } from 'react-device-detect';
 
 const Gradients = styled.div`
-  background-image: linear-gradient( to right, #0519374f, #004d7a82)
+  background-image: linear-gradient(
+    230.87deg,
+    rgba(0, 0, 0, 0.7) 10.28%,
+    rgba(0, 0, 0, 0) 91.36%
+  );
   width: 100%;
   height: 100%;
   transform: rotate(-180deg);
@@ -23,9 +27,9 @@ const Gradients = styled.div`
 const HeroSection = (data) => {
   // console.log(data.data.id);
   return (
-    <HeroContainer bgImage="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/SliderSection/kalSlider-1.png">
+    <HeroContainer>
       <Gradients></Gradients>
-      <HeroBg className=" mt-0">
+      <HeroBg className=" mt-0 ">
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
@@ -42,10 +46,11 @@ const HeroSection = (data) => {
           </div>
           <div className="flex flex-row md:mt-16 mt-8 md:justify-start md:items-start justify-center items-center">
             <div className="md:border-l-2 border-x-amber-400"></div>
-            
+
             <div className="ml-8">
               <div className="2xl:text-1xl text-white font-medium">
-                Comprehensive, Consistent {isMobile?<br/>:null} & Convenient 
+                Comprehensive, Consistent {isMobile ? <br /> : null} &
+                Convenient
               </div>
               <div className="md:mt-4 mt-16 ">
                 <button

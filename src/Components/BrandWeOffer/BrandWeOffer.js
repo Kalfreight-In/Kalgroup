@@ -10,10 +10,10 @@ const BrandWeOffer = () => {
   }, [slderData]);
   return (
     <>
-      <div className="flex justify-center items-center flex-row gap-5">
+      <div className="flex justify-center items-center flex-row gap-5 pt-8">
         <div
           className={`text-2xl font-bold cursor-pointer ${
-            select === 1 ? 'text-black' : 'text-gray-500'
+            select === 1 ? 'text-black link link-underline link-underline-black  pb-2' : 'text-gray-500'
           }`}
           onClick={() => {
             setsliderData(BigTireBrands);
@@ -22,9 +22,10 @@ const BrandWeOffer = () => {
         >
           Brands We Offer
         </div>
+        <div className='border-r-4 border-Heading w-1 h-12 pt-2'></div>
         <div
           className={`text-2xl font-bold cursor-pointer ${
-            select === 2 ? 'text-black' : 'text-gray-500'
+            select === 2 ? 'text-black  link link-underline link-underline-black  pb-2' : 'text-gray-500'
           }`}
           onClick={() => {
             setsliderData(BigPArtzBrands);
@@ -34,8 +35,10 @@ const BrandWeOffer = () => {
           Our Major Clients
         </div>
       </div>
-
-      <Slideshow data={slderData[0].Brands}></Slideshow>
+<div className='m-12'>
+<Slideshow smallSliders={true} data={slderData[0].Brands} heading={null}></Slideshow>
+</div>
+      
 
       {/* <Slideshow data={BigPArtzBrands} smallSlider={true}></Slideshow> */}
     </>
