@@ -6,6 +6,10 @@ import { AiOutlineInstagram } from 'react-icons/ai';
 import { TiSocialLinkedinCircular } from 'react-icons/ti';
 import { Link as Slink } from 'react-scroll';
 import { Link } from 'react-router-dom';
+import {IoLogoFacebook} from 'react-icons/io'
+import {RiInstagramFill} from 'react-icons/ri'
+import {IoLogoLinkedin} from 'react-icons/io'
+
 export default function Footer() {
   const [Hinventery, setHinventery] = useState(false);
   const [email, setEmail] = useState('');
@@ -94,15 +98,20 @@ export default function Footer() {
                     />
                   </div>
 
-                  <div className="text-black flex justify-start  xl:mt-12 mt-4 ml-0 ">
-                    <div className="mt-3">
-                      <AiOutlineClockCircle className="md:h-8 h-6 md:w-8 w-6 " />
+                  <div className="text-black flex justify-start  xl:mt-12  ml-0 ">
+                    <div className="mt-8">
+                      {/* <AiOutlineClockCircle className="md:h-8 h-6 md:w-8 w-6 " /> */}
+                      <img
+                        src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
+                        alt=""
+                        className="h-4 w-6 "
+                      />
                     </div>
-                    <div className="block xl:ml-3 ml-0">
-                      {/* <div className="block">Working hours</div> */}
-                      <div className="md:text-xl text-16px ml-2 xl:ml-0 text-xl md:font-bold font-semibold ">
-                        8 AM to 5 PM <br />
-                        (Monday to Friday) 
+                    <div className="block xl:ml-0 ">
+                      <div className="flex justify-start items-start text-left">Reach out to us</div>
+                      <div className="md:text-xl text-16px ml-2 xl:ml-4 text-xl md:font-bold font-semibold ">
+                        info@kalgroup.com
+                        {/* (Monday to Friday)  */}
                       </div>
                     </div>
                   </div>
@@ -111,7 +120,7 @@ export default function Footer() {
                     <div className="mt-2">
                       <a href="tel:8009770010" target="_blank" rel="noreferrer">
                         <img
-                          src="https://raw.githubusercontent.com/kalfreight-in/Kalgroups/master/src/assets/Images/Vectorphone.svg"
+                          src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
                           alt=""
                           className="text-black"
                           width={20}
@@ -122,7 +131,7 @@ export default function Footer() {
                       <a href="tel:8009770010" target="_blank">
                         {" "}
                         <div className="md:text-xl xl:text-2xl text-xl font-bold xl:font-semibold ml-2  ">
-                          800-977-0010
+                          800-385-8006
                         </div>{" "}
                       </a>
                     </div>
@@ -184,7 +193,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       }}
                     >
                       <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left text-center   ">
-                        Business
+                        Who we are?
                       </h1>
                     </div>
 
@@ -194,29 +203,59 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       }`}
                     >
                       <Link
-                        to="/newsevents"
+                        to="#"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center  "
                       >
-                        KAL Freight
+                        <span className="flex">
+                          <svg
+                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                          </svg>
+                          Company Overview
+                        </span>
                       </Link>
                       <Link
-                        to="/newsevents"
+                        to="#"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
                       >
-                        KAL Trailers & Leasing
+                        <span className="flex">
+                          <svg
+                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                          </svg>
+                          Core Values
+                        </span>
                       </Link>
                       <Link
-                        to="/newsevents"
+                        to="#"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
-                        KVL Tires
+                        <span className="flex">
+                          <svg
+                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                          </svg>
+                          CSR
+                        </span>
                       </Link>
-                      <Link
+                      {/* <Link
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
                         KAL Partz
-                      </Link>
+                      </Link> */}
                     </div>
                   </div>
 
@@ -230,7 +269,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       }}
                     >
                       <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left text-center   ">
-                        Inventory
+                        Business
                       </h1>
                     </div>
 
@@ -243,31 +282,81 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center  "
                       >
-                        Flatbed for sale
+                        <span className="flex">
+                          <svg
+                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                          </svg>
+                          KAL Freight
+                        </span>
                       </Link>
                       <Link
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
                       >
-                        Used Dry van for sale
+                        <span className="flex">
+                          <svg
+                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                          </svg>
+                          KAL Trailers & Leasing
+                        </span>
                       </Link>
                       <Link
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
-                        Reefer Trailer for sale
+                        <span className="flex">
+                          <svg
+                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                          </svg>
+                          KVL Tires
+                        </span>
                       </Link>
                       <Link
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
-                        New Trailers for sale
+                        <span className="flex">
+                          <svg
+                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                          </svg>
+                          KAL Partz
+                        </span>
                       </Link>
                       <Link
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
                       >
-                        Used Trucks for sale
+                        <span className="flex">
+                          <svg
+                            className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                          </svg>
+                          KALWAY
+                        </span>
                       </Link>
                     </div>
                   </div>
@@ -282,7 +371,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       }}
                     >
                       <h1 className="2xl:text-footerheading text-desc md:font-bold font-normal xl:text-left  text-center ">
-                        Quick Links
+                        Inventory
                       </h1>
                     </div>
 
@@ -299,7 +388,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     About us
                   </Link> */}
 
-                        {window.location.pathname == "/" ? (
+                        {/* {window.location.pathname == "/" ? (
                           <Slink
                             className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center cursor-pointer "
                             to="aboutus"
@@ -323,14 +412,24 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           >
                             About Us
                           </a>
-                        )}
+                        )} */}
                       </div>
                       <div>
                         <Link
                           to="/newsevents"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
                         >
-                          Careers
+                          <span className="flex">
+                            <svg
+                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            Flatbed for sale
+                          </span>
                         </Link>
                       </div>
                       <div>
@@ -338,7 +437,17 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           to="/newsevents"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
                         >
-                          News & Events
+                          <span className="flex">
+                            <svg
+                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            Used Dry van for sale
+                          </span>
                         </Link>
                       </div>
                       <div>
@@ -346,7 +455,17 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           to="/newsevents"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center  "
                         >
-                          Parts Inventory
+                          <span className="flex">
+                            <svg
+                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            Reefer Trailer for sale
+                          </span>
                         </Link>
                       </div>
                       <div>
@@ -354,7 +473,17 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           to="/newsevents"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
                         >
-                          Financing Options
+                          <span className="flex">
+                            <svg
+                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            New Trailers for sale
+                          </span>
                         </Link>
                       </div>
                       <div>
@@ -362,7 +491,17 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           to="/newsevents"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center"
                         >
-                          24X7 Roadside Assistance
+                          <span className="flex">
+                            <svg
+                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            Used Trucks for sale
+                          </span>
                         </Link>
                       </div>
                     </div>
@@ -378,7 +517,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       }}
                     >
                       <h1 className=" md:font-bold font-normal  xl:text-left text-center   2xl:text-footerheading text-desc md:ml-0 pl-0  ">
-                        Contact Us
+                        Quick Links
                       </h1>
                     </div>
 
@@ -389,74 +528,144 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     >
                       <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start mt-3">
                         <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
-                          Tires
+                          <span className="flex">
+                            <svg
+                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            Careers
+                          </span>
                         </div>
-                        <span> » </span>
+                        {/* <span> » </span> */}
                         <a
                           href="mailto:hr@bigrigcanada.com"
                           target="_blank"
                           rel="noreferrer"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
                         >
-                          info@kaltires.com
+                          {/* <span className="flex">
+                            <svg
+                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            Newsroom
+                          </span> */}
                         </a>
                       </div>
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start mt-3">
                         <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
-                          Partz
+                          <span className="flex">
+                            <svg
+                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            Newsroom
+                          </span>
                         </div>
-                        <span> » </span>
-                        <a
+                        {/* <span> » </span> */}
+                        {/* <a
                           href="mailto:tires@bigrigcanada.com"
                           target="_blank"
                           rel="noreferrer"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   xl:text-left text-center md:ml-0 ml-8"
                         >
-                          info@kalpartz.com
-                        </a>
+                          <span className="flex">
+                            <svg
+                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            Financing Solutions
+                          </span>
+                        </a> */}
                       </div>
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
                         <div className="block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                          Freight
+                          <span className="flex">
+                            <svg
+                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            Services
+                          </span>
                         </div>
-                        <span> » </span>
-                        <a
+                        {/* <span> » </span> */}
+                        {/* <a
                           href="mailto:partz@bigrigcanada.com"
                           target="_blank"
                           rel="noreferrer"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
                         >
                           info@kalfreight.com
-                        </a>
+                        </a> */}
                       </div>
 
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
                         <div className=" antialiased w-max block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                          Trailers Leasing
+                          <span className="flex">
+                            <svg
+                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            Financing Solutions
+                          </span>
                         </div>
-                        <span> » </span>
-                        <a
+                        {/* <span> » </span> */}
+                        {/* <a
                           href="mailto:trailers@bigrigcanada.com"
                           target="_blank"
                           rel="noreferrer"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8"
                         >
                           info@kaltrailers.com
-                        </a>
+                        </a> */}
                       </div>
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
                         <div className=" antialiased w-max block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                          For any other inquiry
+                          <span className="flex">
+                            <svg
+                              className="fill-current h-3 w-3 transform -rotate-90 mt-footerarrowspace
+        transition duration-150 ease-in-out "
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                            </svg>
+                            24X7 Roadside Assistance
+                          </span>
                         </div>
-                        <span> » </span>
-                        <a
+                        {/* <span> » </span> */}
+                        {/* <a
                           href="mailto:info@bigrigcanada.com"
                           target="_blank"
                           rel="noreferrer"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center cursor-pointer md:ml-0 ml-8"
                         >
                           info@kalgroup.com
-                        </a>
+                        </a> */}
                       </div>
                       {/* <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start">
                     <div>For all other enquires reach us at</div>
@@ -507,7 +716,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                   </div>
                 </div>
               </div>
-              <div className="  xl:flex-1 flex-1 xl:w-2/12 hidden xl:flex md:justify-end justify-center mr-4  ">
+              <div className="  xl:flex-1 flex-1 xl:w-2/12 hidden xl:flex md:justify-end justify-center mr-12  ">
                 <div>
                   <div
                     className="text-black cursor-pointer"
@@ -555,33 +764,33 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       id="mainiconcontainer"
                       className=" justify-end  mt-28  "
                     >
-                      <div id="allicons" className="flex justify-between  ">
-                        <RiFacebookCircleLine
+                      <div id="allicons" className="flex justify-end">
+                        <IoLogoFacebook
                           onClick={() =>
                             window.open(
                               "https://www.facebook.com/Kalgroups/",
                               "_blank"
                             )
                           }
-                          className="text-black  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
+                          className="text-black hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
                         />
-                        <AiOutlineInstagram
+                        <RiInstagramFill
                           onClick={() =>
                             window.open(
                               "https://www.instagram.com/Kalgroup/",
                               "_blank"
                             )
                           }
-                          className="text-black h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
+                          className="text-black hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
                         />
-                        <TiSocialLinkedinCircular
+                        <IoLogoLinkedin
                           onClick={() =>
                             window.open(
                               "https://www.linkedin.com/company/Kalgroup",
                               "_blank"
                             )
                           }
-                          className="text-black   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
+                          className="text-black hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
                         />
                       </div>
                     </div>
@@ -628,7 +837,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                             src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Vectorphone.svg"
                             alt=""
                             className="text-black"
-                            width={50}  
+                            width={50}
                           />
                         </a>
                       </div>
