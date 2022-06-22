@@ -44,15 +44,20 @@ const HeroSection = (data) => {
           <div className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl text-3xl text-white font-bold md:w-4/5 md:text-left text-center">
             Transforming Trucking Dynamics
           </div>
+<<<<<<< HEAD
           <div className="flex flex-row md:mt-16 mt-8 md:justify-start md:items-start justify-center items-center">
             <div className="md:border-l-2 border-x-amber-400"></div>
+=======
+          <div className="flex flex-row md:mt-16 mt-8  justify-center items-center">
+            <div className="md:border-l-2 border-x-amber-400 sm:block hidden"></div>
+>>>>>>> dd480ba8ec5c4c70695df54cb020a0a778a636db
 
-            <div className="ml-8">
+            <div className="lg:ml-8 ml-0">
               <div className="2xl:text-1xl text-white font-medium">
                 Comprehensive, Consistent {isMobile ? <br /> : null} &
                 Convenient
               </div>
-              <div className="md:mt-4 mt-16 ">
+              <div className="md:mt-4 mt-16 flex md:justify-start justify-center  md:items-start items-center">
                 <button
                   // onClick={() => {
                   //   setCTA('800-977-0010');

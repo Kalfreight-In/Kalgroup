@@ -3,7 +3,7 @@ import { NavLink as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background-color: ${({ scrollNav }) => (scrollNav ? "#e0e0e0" : "#ffffff0a")};
+  background-color: ${({ scrollNav }) => (scrollNav ? '#e0e0e0' : '#ffffff0a')};
 
   // height: 90px;
   //  margin-top:-80px
@@ -101,12 +101,12 @@ export const NavLink = styled(LinkR)`
 export const MobileIcon = styled.div`
   display: none;
   color: #000;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     display: block;
 
-    postion: absolute;
+    position: absolute;
     right: 0;
-    top: 0;
+    top: 0.5rem;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
@@ -132,21 +132,20 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
   display: block;
   height: 45px;
-  padding: 0 2rem;  
+  padding: 0 2rem;
 
   color: #000;
 
-  @media only screen and (max-width:1280px){
-    padding:0 0.5rem;
+  @media only screen and (max-width: 1280px) {
+    padding: 0 0.5rem;
   }
-  @media only screen and (max-width:1600px){
-    padding:0 0.8rem;
-  }
-
-  @media only screen and (max-width:1080px){
-    padding:0 0.1rem;
+  @media only screen and (max-width: 1600px) {
+    padding: 0 0.8rem;
   }
 
+  @media only screen and (max-width: 1080px) {
+    padding: 0 0.1rem;
+  }
 
   @media screen and (max-width: 768px) {
     display: none;
@@ -168,7 +167,7 @@ export const NavLinks = styled.div`
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-weight:500;
+  font-weight: 500;
 
   height: 100%;
   cursor: pointer;
@@ -178,7 +177,7 @@ export const NavLinks = styled.div`
     color: #101010;
   }
   &:hover {
-    // font-weight: 500; 
+    // font-weight: 500;
     border-bottom: 2px solid #ffab53 !important;
   }
   &.active {
@@ -240,7 +239,7 @@ export const Bars = styled(FaBars)`
 //     display: none;
 //   }
 // `;
-  
+
 export const NavBtn = styled.nav`
   display: flex;
   flex-direction: column;

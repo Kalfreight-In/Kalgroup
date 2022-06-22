@@ -11,6 +11,7 @@ import InstagramSingleComponent from './InstagramSingleComponent';
 const InstagramComponent = () => {
   return (
     <>
+      {/* ! making changes in pagination  */}
       <Swiper
         slidesPerView={1}
         spaceBetween={30}

@@ -5,12 +5,12 @@ export default function AboutUs() {
 
   return (
     <>
-      <div className="flex flex-col-reverse lg:flex-row-reverse pt-12 w-screen ">
+      <div className="flex flex-col-reverse lg:flex-row-reverse md:pt-12 w-screen ">
         <div className="bg-Lightblue flex lg:flex-row-reverse flex-col-reverse w-screen">
           <div
             // className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 flex-1"
             className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 lg:mx-6  mx-12  "
-            style={{ flex: "0  3  30%" }}
+            style={{ flex: '0  3  30%' }}
           >
             <h1 className="text-white  sm:text-3xl md:text-4xl   2xl:text-5xl font-heading lg:text-2xl  lg:text-left px-0 mb-4 md:px-8 text-center">
               About us
@@ -44,7 +44,7 @@ export default function AboutUs() {
 
               <button
                 onClick={() => {
-                  setCTA("800-977-0010");
+                  setCTA('800-977-0010');
                 }}
                 className="text-white bg-yellow-bg  font-semibold  mt-12  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 md:32 w-96 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md   2xl:p-0 p-4"
               >
@@ -114,4 +114,3 @@ export default function AboutUs() {
     </>
   );
 }
-

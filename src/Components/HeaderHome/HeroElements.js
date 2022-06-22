@@ -106,7 +106,7 @@ export const VideoBg = Styled.video`
 
 width: 100%;
 
-height: 100%;
+height: 90%;
 
 -o-object-fit: cover;
 
