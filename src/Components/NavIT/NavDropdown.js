@@ -2,8 +2,7 @@ import React from 'react';
 import { NavItemnew } from './NavDropStyles';
 import { NavLinksnew } from './NavDropStyles';
 
-
-export default function NavDropdown({ data , hidden}) {
+export default function NavDropdown({ data, hidden }) {
   return (
     <>
       <div id="mainnewnavcontainer">
@@ -28,12 +27,13 @@ export default function NavDropdown({ data , hidden}) {
               <ul
                 class={`${
                   !hidden
-                    ? "bg-navdropdownbgtransparent"
-                    : "bg-footerbackground"
+                    ? 'bg-navdropdownbgtransparent'
+                    : 'bg-footerbackground'
                 }  rounded-sm transform scale-0 group-hover:scale-100 absolute 
-  transition duration-150 ease-in-out origin-top min-w-32 w-max font-normal`}
+  transition duration-150 ease-in-out origin-top min-w-32 mt-6 w-max font-normal`}
               >
-                <span
+                <span className="w-12"></span>
+                {/* <span
                   className={`w-max mx-4 ${
                     !hidden
                       ? "text-navdropdownbgtransparent"
@@ -41,7 +41,7 @@ export default function NavDropdown({ data , hidden}) {
                   } text-xl font-normal`}
                 >
                   {data.navItem}
-                </span>
+                </span> */}
                 {/* <ul>
                 {data.navItems.map((data) => (
                   <ListItem key={data.id} listItem={data} />
@@ -52,8 +52,8 @@ export default function NavDropdown({ data , hidden}) {
                       <li
                         class={`rounded-sm px-3 py-1  ${
                           !hidden
-                            ? "bg-navdropdownbgtransparent hover:bg-navdropdownbottom"
-                            : "bg-footerbackground hover:bg-white"
+                            ? 'bg-navdropdownbgtransparent hover:bg-navdropdownbottom'
+                            : 'bg-footerbackground hover:bg-white'
                         }  flex justify-start items-start text-left font-normal border-b border-navdropdownbottom`}
                       >
                         {data.navItems != null ? (
@@ -76,15 +76,21 @@ export default function NavDropdown({ data , hidden}) {
                             <ul
                               class={`${
                                 !hidden
-                                  ? "bg-navdropdownbgtransparent"
-                                  : "bg-footerbackground"
+                                  ? 'bg-navdropdownbgtransparent'
+                                  : 'bg-footerbackground'
                               }  rounded-sm absolute top-50 right-0 
   transition duration-150 ease-in-out origin-top-left 
   min-w-32 font-normal   
   `}
                             >
                               {data.navItems.map((data, index) => (
-                                <div className={` text-left border-b ${!hidden?'bg-navdropdownbgtransparent':'bg-navdropdownbgtransparent hover:bg-white '}border-navdropdownbottom `}>
+                                <div
+                                  className={` text-left border-b ${
+                                    !hidden
+                                      ? 'bg-navdropdownbgtransparent'
+                                      : 'bg-navdropdownbgtransparent hover:bg-white '
+                                  }border-navdropdownbottom `}
+                                >
                                   <li class="px-3 h-8 font-normal w-max ">
                                     <NavItemnew key={data.id}>
                                       <NavLinksnew className="pt-2">
