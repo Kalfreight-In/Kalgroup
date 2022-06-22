@@ -3,7 +3,7 @@ import { NavItemnew } from './NavDropStyles';
 import { NavLinksnew } from './NavDropStyles';
 
 
-export default function NavDropdown({ data }) {
+export default function NavDropdown({ data , hidden}) {
   return (
     <>
       <div id="mainnewnavcontainer">
@@ -24,65 +24,88 @@ export default function NavDropdown({ data }) {
                 </svg> */}
               </span>
             </button>
-            <ul
-              class="bg-footerbackground  rounded-sm transform scale-0 group-hover:scale-100 absolute 
-  transition duration-150 ease-in-out origin-top min-w-32 w-max font-normal"
-            >
-              <span className="w-max mx-4 text-footerbackground text-xl font-normal">
-                {data.navItem}
-              </span>
-              {/* <ul>
+            {data.navItems ? (
+              <ul
+                class={`${
+                  !hidden
+                    ? "bg-navdropdownbgtransparent"
+                    : "bg-footerbackground"
+                }  rounded-sm transform scale-0 group-hover:scale-100 absolute 
+  transition duration-150 ease-in-out origin-top min-w-32 w-max font-normal`}
+              >
+                <span
+                  className={`w-max mx-4 ${
+                    !hidden
+                      ? "text-navdropdownbgtransparent"
+                      : "text-footerbackground"
+                  } text-xl font-normal`}
+                >
+                  {data.navItem}
+                </span>
+                {/* <ul>
                 {data.navItems.map((data) => (
                   <ListItem key={data.id} listItem={data} />
                 ))}
               </ul> */}
-              {data.navItems
-                ? data.navItems.map((data, index) => (
-                    <li class="rounded-sm px-3 py-1 hover:bg-gray-100 flex justify-start items-start text-left font-normal">
-                      {data.navItems != null ? (
-                        <>
-                          <button class="outline-none focus:outline-none   py-1  rounded-sm flex items-start justify-start min-w-32  text-left font-normal ">
-                            <span class="pr-1 font-normal flex-1  text-sm ">
-                              {data.navItem}
-                            </span>
-                            <span class="mr-auto">
-                              <svg
-                                class="fill-current h-4 w-4 transform -rotate-90 
+                {data.navItems
+                  ? data.navItems.map((data, index) => (
+                      <li
+                        class={`rounded-sm px-3 py-1  ${
+                          !hidden
+                            ? "bg-navdropdownbgtransparent hover:bg-navdropdownbottom"
+                            : "bg-footerbackground hover:bg-white"
+                        }  flex justify-start items-start text-left font-normal border-b border-navdropdownbottom`}
+                      >
+                        {data.navItems != null ? (
+                          <>
+                            <button class="outline-none focus:outline-none   py-1  rounded-sm flex items-start justify-start min-w-32  text-left font-normal  ">
+                              <span class="pr-1 font-normal flex-1  text-contactdesc  ">
+                                {data.navItem}
+                              </span>
+                              <span class="mr-auto">
+                                <svg
+                                  class="fill-current h-4 w-4 transform -rotate-90 
         transition duration-150 ease-in-out "
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 20 20"
-                              >
-                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-                              </svg>
-                            </span>
-                          </button>
-                          <ul
-                            class="bg-footerbackground  border rounded-sm absolute top-50 right-0 
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 20 20"
+                                >
+                                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                                </svg>
+                              </span>
+                            </button>
+                            <ul
+                              class={`${
+                                !hidden
+                                  ? "bg-navdropdownbgtransparent"
+                                  : "bg-footerbackground"
+                              }  rounded-sm absolute top-50 right-0 
   transition duration-150 ease-in-out origin-top-left 
-  min-w-32 font-normal  
-  "
-                          >
-                            {data.navItems.map((data, index) => (
-                              <div className="hover:bg-gray-100  text-left">
-                                <li class="px-3 h-8 font-normal w-max ">
-                                  <NavItemnew key={data.id}>
-                                    <NavLinksnew className='pt-2'>{data.navItem}</NavLinksnew>
-                                  </NavItemnew>
-                                </li>
-                              </div>
-                            ))}
-                          </ul>
-                        </>
-                      ) : (
-                        <NavItemnew key={data.id}>
-                          <NavLinksnew>{data.navItem}</NavLinksnew>
-                        </NavItemnew>
-                      )}
-                    </li>
-                  ))
-                : null}
+  min-w-32 font-normal   
+  `}
+                            >
+                              {data.navItems.map((data, index) => (
+                                <div className={` text-left border-b ${!hidden?'bg-navdropdownbgtransparent':'bg-navdropdownbgtransparent hover:bg-white '}border-navdropdownbottom `}>
+                                  <li class="px-3 h-8 font-normal w-max ">
+                                    <NavItemnew key={data.id}>
+                                      <NavLinksnew className="pt-2">
+                                        {data.navItem}
+                                      </NavLinksnew>
+                                    </NavItemnew>
+                                  </li>
+                                </div>
+                              ))}
+                            </ul>
+                          </>
+                        ) : (
+                          <NavItemnew key={data.id}>
+                            <NavLinksnew>{data.navItem}</NavLinksnew>
+                          </NavItemnew>
+                        )}
+                      </li>
+                    ))
+                  : null}
 
-              {/* <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
+                {/* <li class="rounded-sm px-3 py-1 hover:bg-gray-100">
                 <NavItemnew>
                   <NavLinksnew>{data.navItem}</NavLinksnew>
                 </NavItemnew>
@@ -102,7 +125,8 @@ export default function NavDropdown({ data }) {
                   <NavLinksnew>Kalfreight</NavLinksnew>
                 </NavItemnew>
               </li> */}
-            </ul>
+              </ul>
+            ) : null}
           </div>
         </div>
       </div>

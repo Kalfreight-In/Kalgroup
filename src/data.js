@@ -1,197 +1,194 @@
 export const NavbarData = [
   {
     id: 1,
-    navItem: 'Business Verticals',
-    link: '/BusinessVerticals',
+    navItem: "Business Verticals",
+    link: "/BusinessVerticals",
     navItems: [
       {
         id: 1,
-        navItem: 'Kal Freight',
+        navItem: "Kal Freight",
       },
       {
         id: 2,
-        navItem: 'Kal Trailers',
+        navItem: "Kal Trailers",
       },
       {
         id: 3,
-        navItem: 'KVL Tires',
+        navItem: "KVL Tires",
       },
       {
         id: 4,
-        navItem: 'Kal Partz',
+        navItem: "Kal Partz",
       },
       {
         id: 5,
-        navItem: 'Kalway',
+        navItem: "Kalway",
       },
     ],
   },
   {
     id: 2,
-    navItem: 'About us',
-    link: '/BusinessVerticals',
+    navItem: "About us",
+    link: "/BusinessVerticals",
     navItems: [
       {
         id: 1,
-        navItem: 'Events',
-      },
-      {
-        id: 2,
-        navItem: 'Blog',
+        navItem: "Company Overview",
       },
     ],
   },
   {
     id: 3,
-    navItem: 'Newsroom',
-    link: '/BusinessVerticals',
+    navItem: "Newsroom",
+    link: "/BusinessVerticals",
     navItems: [
       {
         id: 1,
-        navItem: 'Events',
+        navItem: "Events",
       },
       {
         id: 2,
-        navItem: 'Blog',
+        navItem: "Blog",
       },
     ],
   },
   {
     id: 4,
-    navItem: 'Services',
-    link: '/BusinessVerticals',
+    navItem: "Services",
+    link: "/BusinessVerticals",
     navItems: [
       {
         id: 1,
-        navItem: 'Logistics',
+        navItem: "Logistics",
 
         navItems: [
           {
             id: 1,
-            navItem: 'FTL Services',
+            navItem: "FTL Services",
           },
           {
             id: 2,
-            navItem: 'Dedicated Loads',
+            navItem: "Dedicated Loads",
           },
           {
             id: 3,
-            navItem: 'Dry Vans',
+            navItem: "Dry Vans",
           },
           {
             id: 4,
-            navItem: 'Trailer Interchange',
+            navItem: "Trailer Interchange",
           },
         ],
       },
       {
         id: 2,
-        navItem: 'Partz',
+        navItem: "Partz",
         navItems: [
           {
             id: 1,
-            navItem: 'O.E & O.E.M Parts',
+            navItem: "O.E & O.E.M Parts",
           },
           {
             id: 2,
-            navItem: 'Custom Parts & Accessories',
+            navItem: "Custom Parts & Accessories",
           },
           {
             id: 3,
-            navItem: 'Aftermarket Parts',
+            navItem: "Aftermarket Parts",
           },
         ],
       },
       {
         id: 3,
-        navItem: 'Tires',
+        navItem: "Tires",
         navItems: [
           {
             id: 1,
-            navItem: '24x7 Roadside Assistance',
+            navItem: "24x7 Roadside Assistance",
           },
           {
             id: 2,
-            navItem: 'Tire Mounting & Balancing',
+            navItem: "Tire Mounting & Balancing",
           },
           {
             id: 3,
-            navItem: 'Wheel Alignment',
+            navItem: "Wheel Alignment",
           },
           {
             id: 4,
-            navItem: 'Heavy Duty Front-end Work',
+            navItem: "Heavy Duty Front-end Work",
           },
           {
             id: 5,
-            navItem: 'Scheduled Maintenance',
+            navItem: "Scheduled Maintenance",
           },
           {
             id: 6,
-            navItem: 'On Site Service',
+            navItem: "On Site Service",
           },
           {
             id: 7,
-            navItem: 'Pick up and Delivery Service',
+            navItem: "Pick up and Delivery Service",
           },
         ],
       },
       {
         id: 4,
-        navItem: 'Trailers & Leasing',
+        navItem: "Trailers & Leasing",
         navItems: [
           {
             id: 1,
-            navItem: 'Used Trucks Sale & Purchase',
+            navItem: "Used Trucks Sale & Purchase",
           },
           {
             id: 2,
-            navItem: 'New Trailers Sale & Purchase',
+            navItem: "New Trailers Sale & Purchase",
           },
         ],
       },
       {
         id: 5,
-        navItem: 'Brokerage',
+        navItem: "Brokerage",
         navItems: [
           {
             id: 1,
-            navItem: '3PL Service ',
+            navItem: "3PL Service ",
           },
           {
             id: 2,
-            navItem: 'Load Management',
+            navItem: "Load Management",
           },
           {
             id: 3,
-            navItem: 'Full Truck Service',
+            navItem: "Full Truck Service",
           },
         ],
       },
       {
         id: 6,
-        navItem: 'Driver Assistance',
+        navItem: "Driver Assistance",
       },
       {
         id: 7,
-        navItem: 'Customer Support',
+        navItem: "Customer Support",
       },
     ],
   },
   {
     id: 3,
-    navItem: 'Careers',
-    link: '/BusinessVerticals',
-    navItems: [
-      {
-        id: 1,
-        navItem: 'Kal Freight',
-      },
-      {
-        id: 2,
-        navItem: 'Kal Trailers',
-      },
-    ],
+    navItem: "Careers"
+    
+    // link: "/BusinessVerticals",
+    // navItems: [
+    //   {
+    //     id: 1,
+    //     navItem: "Kal Freight",
+    //   },
+    //   {
+    //     id: 2,
+    //     navItem: "Kal Trailers",
+    //   },
+    // ],
   },
 ];
 export const NewsData = [

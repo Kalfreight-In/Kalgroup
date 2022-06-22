@@ -32,7 +32,7 @@ export const ContactFormContainer = () => {
         <div
           className={
             // 'md:h-5/6 h-mobileMainImageHeight w-4/6 bg-cover bg-no-repeat bg-center mt-16 ml-36' ,
-            'md:h-5/6 h-mobileMainImageHeight xl:w-4/5 w-full 2 xl:bg-contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 lg:ml-20'
+            'lg:h-5/6 h-mobileMainImageHeight xl:w-4/5 w-full 2 bg-contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 lg:ml-20'
           }
           style={{
             backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/contactimagenew.png)`,

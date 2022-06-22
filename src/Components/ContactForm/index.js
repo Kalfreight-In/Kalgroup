@@ -44,7 +44,7 @@ const Contactform = () => {
     <div id="shadow" className="md:p-8 p-4 ">
       <form class="w-fit " onSubmit={(e) => handleSubmit(e)}>
         <div className="xl:text-left text-center xl:pl-2">
-          <div id="contactnew" className="flex justify-center items-center">
+          <div id="contactnew" className="flex justify-center items-center xl:justify-start xl:items-start">
             <img
               src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
               alt=""
