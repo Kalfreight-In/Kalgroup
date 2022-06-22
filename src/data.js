@@ -6,11 +6,11 @@ export const NavbarData = [
     navItems: [
       {
         id: 1,
-        navItem: "Kal Freight",
+        navItem: "KAL Freight",
       },
       {
         id: 2,
-        navItem: "Kal Trailers",
+        navItem: "KAL Trailers",
       },
       {
         id: 3,
@@ -18,11 +18,11 @@ export const NavbarData = [
       },
       {
         id: 4,
-        navItem: "Kal Partz",
+        navItem: "KAL Partz",
       },
       {
         id: 5,
-        navItem: "Kalway",
+        navItem: "KALway",
       },
     ],
   },

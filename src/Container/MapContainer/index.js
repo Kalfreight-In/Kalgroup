@@ -22,21 +22,21 @@ export const MapConatiner = () => {
             edmenton={EdmentonisHovered}
           ></Map>
         </div>
+        <div className='block justify-center items-center'>
+          <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl ">
+            Our Locations:
+          </h3>
+          <div className="mt-12 text-white font-desc text-descnew ">
+            We serve you at multiple locations.
+            {/* <a href="#" className="hover:text-yellow-shadowhover transition ">
+                click here
+              </a> */} 
+          </div>
+        </div>
 
         <div className=" md:6/12 flex-col flex content-center  flex-1 ">
-          <div className=" flex-col flex content-center justify-center lg:w-4/3 flex-1 self-start items-start m-4 lg:ml-12 mt-2 ">
-            <div>
-              <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl ">
-                Our Locations:
-              </h3>
-              <div className="mt-2 text-white font-desc text-descnew">
-                We provide a full range of front end mechanical repairs for all
-                makes and models of car
-                {/* <a href="#" className="hover:text-yellow-shadowhover transition ">
-                click here
-              </a> */}
-              </div>
-            </div>
+          <div className=" flex-col flex content-center justify-start  lg:w-full flex-1 self-start items-start m-4 lg:ml-12 md:mt-40 ">
+            <div></div>
             {MapData.map((data, index) => (
               <div className="w-full">
                 <div className="m-2 w-1/3">

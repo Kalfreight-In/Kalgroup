@@ -100,6 +100,7 @@ module.exports = {
         "50rem": "30rem",
         "35vw": "35vw",
         contacttabinput: "90%",
+        inputmap:'40rem'
       },
       height: {
         "40rem": "40rem",
@@ -123,6 +124,7 @@ module.exports = {
       },
       maxWidth: {
         emailcontacticon: "3rem",
+       
       },
     },
   },

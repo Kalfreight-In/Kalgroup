@@ -16,6 +16,7 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
       // width={isMobile ? '200' : '919.4'}
       // height={isMobile ? '200' : '824.31'}
       viewBox="0 0 1092.38 1050.13"
+      className='mx-16 my-8'
     >
       <g>
         <path
