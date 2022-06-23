@@ -30,7 +30,7 @@ export default function NavDropdown({ data, hidden }) {
                     ? 'bg-navdropdownbgtransparent'
                     : 'bg-footerbackground'
                 }  rounded-sm transform scale-0 group-hover:scale-100 absolute 
-  transition duration-150 ease-in-out origin-top min-w-32 mt-6 w-max font-normal`}
+  transition duration-150 ease-in-out origin-top min-w-32 mt-3 w-max font-normal`}
               >
                 <span className="w-12"></span>
                 {/* <span

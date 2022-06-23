@@ -8,11 +8,21 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
   const [toranto2, istoranto2] = useHover();
   const [surey2, issurey2] = useHover();
   const [edmenton2, isedmenton2] = useHover();
+
   const [Fontana2, isFontana2] = useHover();
   const [Bakersfield2, isBakersfield2] = useHover();
   const [SanMarcos2, isSanMarcos2] = useHover();
-  const [SanStockton2, isStockton2] = useHover();
+  const [Calgary2, isCalgary2] = useHover();
 
+  const [Arlington2, isArlington2] = useHover();
+  const [Hampton2, isHampton2] = useHover();
+  const [Stockton2, isStockton2] = useHover();
+  const [Atlanta2, isAtlanta2] = useHover();
+
+  const [Indianapolis2, isIndianapolis2] = useHover();
+
+  const [Springdale2, isSpringdale2] = useHover();
+  const [abbotsford2, isabbotsford2] = useHover();
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -475,16 +485,16 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
           className="cls-1"
           transform="translate(-2.34 -5.99)"
         ></path>
-        <path
+        {/* <path
           d="M139.83 371.79a8.44 8.44 0 00-16.88 0c0 6.32 8.44 15.47 8.44 15.47s8.44-9.15 8.44-15.47zm-11.25 0a2.81 2.81 0 112.81 2.81 2.82 2.82 0 01-2.81-2.81zm-7 16.87v2.82h19.7v-2.82z"
           className="cls-7"
           transform="translate(-2.34 -5.99)"
-        ></path>
-        <path
-          d="M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43-15.47zm-11.25 0a2.82 2.82 0 112.82 2.81 2.83 2.83 0 01-2.82-2.81zm-7 16.87v2.82h19.66v-2.82z"
+        ></path> */}
+        {/* <path
+M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43-15.47zm-11.25 0a2.82 2.82 0 112.82 2.81 2.83 2.83 0 01-2.82-2.81zm-7 16.87v2.82h19.66v-2.82z          d=""
           className="cls-7"
           transform="translate(-2.34 -5.99)"
-        ></path>
+        ></path> */}
         <g>
           {/* <path
             d="M109.22 804.63a8.44 8.44 0 00-16.88 0c0 6.33 8.44 15.47 8.44 15.47s8.44-9.1 8.44-15.47zm-11.26 0a2.82 2.82 0 112.82 2.82 2.83 2.83 0 01-2.78-2.82zm-7 16.88v2.81h19.69v-2.81z"
@@ -522,7 +532,7 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
             transform="translate(-2.34 -5.99)"
           ></path> */}
         </g>
-        <path
+        {/* <path
           d="M826.28 850.9a8.44 8.44 0 00-16.88 0c0 6.33 8.44 15.47 8.44 15.47s8.44-9.14 8.44-15.47zm-11.25 0a2.81 2.81 0 112.81 2.81 2.81 2.81 0 01-2.84-2.81zm-7 16.88v2.81h19.69v-2.81z"
           className="cls-7"
           transform="translate(-2.34 -5.99)"
@@ -536,8 +546,8 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
           d="M541.22 896.89a8.44 8.44 0 00-16.88 0c0 6.32 8.44 15.47 8.44 15.47s8.44-9.15 8.44-15.47zM530.78 899a2.91 2.91 0 014.08-4.14 2.91 2.91 0 01-4.08 4.14zm-7.85 14.76v2.82h19.69v-2.82z"
           className="cls-7"
           transform="translate(-2.34 -5.99)"
-        ></path>
-        <g data-name="Indiana">
+        ></path> */}
+        {/* <g data-name="Indiana">
           <path
             d="M768.22 682.25a8.44 8.44 0 10-16.87 0c0 6.33 8.43 15.47 8.43 15.47s8.44-9.14 8.44-15.47zm-10.43 2.12a2.91 2.91 0 014.07-4.15 2.91 2.91 0 01-4.07 4.15zm-7.85 14.76v2.81h19.69v-2.81z"
             className="cls-7"
@@ -550,24 +560,24 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
             data-name="MARKER"
             transform="translate(-2.34 -5.99)"
           ></path>
-        </g>
-        <path
+        </g> */}
+        {/* <path
           d="M995.36 634.44a8.44 8.44 0 10-16.87 0c0 6.33 8.44 15.47 8.44 15.47s8.43-9.14 8.43-15.47zm-10.43 2.11a2.9 2.9 0 014.07-4.14 2.91 2.91 0 01-4.07 4.14zm-7.85 14.76v2.82h19.69v-2.82z"
           className="cls-7"
           transform="translate(-2.34 -5.99)"
-        ></path>
+        ></path> */}
       </g>
 
       <svg
-        className="marker toranto UC"
+        className="marker Springdale UC"
         width="29"
         height="25"
-        x="610.39"
-        y="764.49"
+        x="590.39"
+        y="799.49"
         viewBox="0 0 29 41"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        ref={toranto2}
+        ref={Springdale2}
       >
         <path
           d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
@@ -575,6 +585,72 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
         />
       </svg>
       <svg
+        className="marker Hampton UC"
+        width="29"
+        height="25"
+        x="970.39"
+        y="620.49"
+        viewBox="0 0 29 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        ref={Hampton2}
+      >
+        <path
+          d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
+          className="cls-5 UC"
+        />
+      </svg>
+
+      <svg
+        className="marker Indianapolis UC"
+        width="29"
+        height="25"
+        x="750.39"
+        y="680.49"
+        viewBox="0 0 29 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        ref={Indianapolis2}
+      >
+        <path
+          d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
+          className="cls-5 UC"
+        />
+      </svg>
+      <svg
+        className="marker    Atlanta UC"
+        width="29"
+        height="25"
+        x="800.39"
+        y="840.49"
+        viewBox="0 0 29 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        ref={Atlanta2}
+      >
+        <path
+          d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
+          className="cls-5 UC"
+        />
+      </svg>
+
+      <svg
+        className="marker Arlington UC"
+        width="29"
+        height="25"
+        x="515.39"
+        y="884.49"
+        viewBox="0 0 29 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        ref={Arlington2}
+      >
+        <path
+          d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
+          className="cls-5 UC"
+        />
+      </svg>
+      {/* <svg
         className="marker edmenton UC"
         width="29"
         height="25"
@@ -589,7 +665,7 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
           d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
           className="cls-5 UC"
         />
-      </svg>
+      </svg> */}
       <svg
         className="marker surrey UC"
         width="29"
@@ -626,12 +702,44 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
         className="marker abbotsford"
         width="29"
         height="25"
+        x="99.52"
+        y="360.25"
+        viewBox="0 0 29 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        ref={abbotsford2}
+      >
+        <path
+          d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
+          className="cls-5"
+        />
+      </svg>
+      <svg
+        className="marker Calgary"
+        width="29"
+        height="25"
+        x="242.52"
+        y="350.25"
+        viewBox="0 0 29 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        ref={Calgary2}
+      >
+        <path
+          d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
+          className="cls-5"
+        />
+      </svg>
+      <svg
+        className="marker Stockton"
+        width="29"
+        height="25"
         x="18.52"
         y="700.25"
         viewBox="0 0 29 41"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        ref={hoverRef}
+        ref={Stockton2}
       >
         <path
           d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
@@ -685,7 +793,7 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
           className="cls-5"
         />
       </svg>
-      <svg
+      {/* <svg
         className="marker calgary"
         width="29"
         height="25"
@@ -699,20 +807,38 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
           d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
           className="cls-5"
         />
-      </svg>
-      {toranto || istoranto2 ? (
+      </svg> */}
+
+      {toranto || isArlington2 ? (
         <g id="Toranto">
           <g id="Text-BC">
             <rect
-              width="59.39"
+              width="239.39"
               height="28.82"
-              x="641.39"
-              y="762.49"
+              x="539.39"
+              y="884.49"
               className="cls-3"
               rx="3.44"
             ></rect>
-            <text x="643.39" y="782" fill="black">
-              Toranto
+            <text x="539.39" y="900.49" fill="black">
+              600 109th St, Arlington TX-76011
+            </text>
+          </g>
+        </g>
+      ) : null}
+      {toranto || isSpringdale2 ? (
+        <g id="Toranto">
+          <g id="Text-BC">
+            <rect
+              width="359.39"
+              height="28.82"
+              x="614.39"
+              y="799.49"
+              className="cls-3"
+              rx="3.44"
+            ></rect>
+            <text x="614.39" y="819.49" fill="black">
+              1080 W Henri De Tonti Blvd, Springdale, AR, 72762
             </text>
           </g>
         </g>
@@ -733,6 +859,7 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
           </text>
         </g>
       ) : null}
+
       {surey || issurey2 ? (
         <g id="Surey">
           <rect
@@ -749,20 +876,74 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
           </text>
         </g>
       ) : null}
-      {isHovered || Ca ? (
+      {isabbotsford2 ? (
         <g id="Abbotsford">
           <g id="Text-BC">
             <rect
-              width="215.39"
+              width="360.39"
               height="28.82"
-              x="104.52"
-              y="832.25"
+              x="120.52"
+              y="360.25"
               className="cls-3"
               rx="3.44"
             ></rect>
 
-            <text x="104.52" y="852.25" fill="black">
-              1225 Riverside Rd, BC V2S 7P1
+            <text x="120.52" y="376.25" fill="black">
+              1225, Riverside Road, Abbotsford, BC, Canada
+            </text>
+          </g>
+        </g>
+      ) : null}
+      {isCalgary2 ? (
+        <g id="Abbotsford">
+          <g id="Text-BC">
+            <rect
+              width="360.39"
+              height="28.82"
+              x="272.52"
+              y="350.25"
+              className="cls-3"
+              rx="3.44"
+            ></rect>
+
+            <text x="272.52" y="370.25" fill="black">
+              1225, Riverside Road, Abbotsford, BC, Canada
+            </text>
+          </g>
+        </g>
+      ) : null}
+      {isIndianapolis2 ? (
+        <g id="Indianapolis">
+          <g id="Text-BC">
+            <rect
+              width="360.39"
+              height="28.82"
+              x="770.39"
+              y="680.49"
+              className="cls-3"
+              rx="3.44"
+            ></rect>
+
+            <text x="770.39" y="700.49" fill="black">
+              2025 English Ave, Indianapolis, IN, 46201
+            </text>
+          </g>
+        </g>
+      ) : null}
+      {isHampton2 ? (
+        <g id="Hampton">
+          <g id="Text-BC">
+            <rect
+              width="360.39"
+              height="28.82"
+              x="615.39"
+              y="620.49"
+              className="cls-3"
+              rx="3.44"
+            ></rect>
+
+            <text x="625.39" y="640.49" fill="black">
+              1225, Riverside Road, Abbotsford, BC, Canada
             </text>
           </g>
         </g>
@@ -773,13 +954,30 @@ function Map({ Af, Ca, toranto, surey, edmenton }) {
             <rect
               width="215.39"
               height="28.82"
-              x="208.96"
-              y="629.84"
+              x="190.52"
+              y="560.07"
               className="cls-3"
               rx="3.44"
             ></rect>
-            <text x="210.96" y="649.84" fill="black">
+            <text x="190.52" y="560.07" fill="black">
               9115 52 St SE, AB T2C 2R4
+            </text>
+          </g>
+        </g>
+      ) : null}
+      {isAtlanta2 ? (
+        <g id="Atlanta">
+          <g id="Text-BC">
+            <rect
+              width="275.39"
+              height="28.82"
+              x="825.39"
+              y="840.49"
+              className="cls-3"
+              rx="3.44"
+            ></rect>
+            <text x="828.39" y="855.49" fill="black">
+              3435 Jonesboro Rd Se Atlanta GA 30354
             </text>
           </g>
         </g>

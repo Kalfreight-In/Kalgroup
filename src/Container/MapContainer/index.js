@@ -4,6 +4,20 @@ import { motion } from 'framer-motion';
 import { useHover } from '../../Hooks/Hover';
 import { MapData } from '../../data';
 import MapDropdown from './MapDropdown';
+import styled from 'styled-components';
+import SubMenu from './SidebarMenu';
+const SidebarNav = styled.nav`
+  background: #15171c;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
+  transition: 350ms;
+  z-index: 10;
+`;
 export const MapConatiner = () => {
   const [AfhoverRef, AfisHovered] = useHover();
   const [CahoverRef, CaisHovered] = useHover();
@@ -41,6 +55,10 @@ export const MapConatiner = () => {
               <div className="m-2 w-1/3">{MapDropdown((data = { data }))}</div>
             </div>
           ))}
+          {MapData[1].Sites.map((item, index) => {
+            return <SubMenu item={item} key={index} />;
+          })}
+
           {/* <div id="mainnewnavcontainer">
             <div id="innermainnavcontainer">
               <div class="group inline-block">
