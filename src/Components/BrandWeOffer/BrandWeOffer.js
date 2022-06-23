@@ -6,7 +6,7 @@ const BrandWeOffer = () => {
   const [slderData, setsliderData] = useState(BigTireBrands);
   const [select, setSelect] = useState(1);
   useEffect(() => {
-    var data = slderData;
+    // var data = slderData;
   }, [slderData]);
   return (
     <>
