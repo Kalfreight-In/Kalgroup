@@ -13,7 +13,7 @@ export default function AboutUs() {
             style={{ flex: '0  3  30%' }}
           >
             <h1 className="text-white  sm:text-3xl md:text-4xl   2xl:text-5xl font-heading lg:text-2xl  lg:text-left px-0 mb-4  text-center">
-              About us
+              About Us
             </h1>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"

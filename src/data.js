@@ -28,7 +28,7 @@ export const NavbarData = [
   },
   {
     id: 2,
-    navItem: 'About us',
+    navItem: 'About Us',
     link: '/BusinessVerticals',
     navItems: [
       {
