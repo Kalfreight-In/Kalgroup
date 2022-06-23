@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+
 import styled from 'styled-components';
+import { animateScroll as scroll, Link } from 'react-scroll';
 const Gradients = styled.div`
   background: linear-gradient(9.15deg, #000000 -4.43%, rgba(0, 0, 0, 0) 93.09%);
 
@@ -10,6 +12,7 @@ const Gradients = styled.div`
 
   z-index: 5;
 `;
+
 const NewsShowcase = (data) => {
   const [CTA, setCTA] = useState(data.data.CTA.heading);
   var imageurl = data.data.imageUrl;
@@ -28,20 +31,37 @@ const NewsShowcase = (data) => {
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white  2xl:text-xl text-sm px-0 text-justify lg:h-32 "
             >
-              {data.data.desc}
+              {data.data.desc ? <div>{data.data.desc}</div> : null}
+              <br />
+              {data.data.desc1 ? <div>{data.data.desc1}</div> : null}
+              <br />
+              {data.data.desc2 ? <div>{data.data.desc2}</div> : null}
+              <br />
+              {data.data.desc3 ? <div>{data.data.desc3}</div> : null}
             </p>
             <div>
               {data.data.CTA.heading ? (
-                <button
-                  onClick={() => {
-                    setCTA(data.data.CTA.heading);
-                  }}
-                  className="text-white bg-yellow-bg  font-semibold  mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-12 h-12 2xl:text-descnew lg:text-base md:text-base text-base   2xl:p-0  "
+                <Link
+                  to="ContactSection"
+                  smooth={true}
+                  duration={1000}
+                  spy={true}
+                  exact={true}
+                  offset={-80}
                 >
-                  <p className="text-center justify-center items-center">
-                    {CTA}
-                  </p>
-                </button>
+                  <button
+                    onClick={() => {
+                      setCTA(data.data.CTA.heading);
+                    }}
+                    className={`text-white bg-yellow-bg  font-semibold ${
+                      data.data.desc3 ? 'mt-20' : 'mt-4'
+                    }   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-12 h-12 2xl:text-descnew lg:text-base md:text-base text-base   2xl:p-0  `}
+                  >
+                    <p className="text-center justify-center items-center">
+                      {CTA}
+                    </p>
+                  </button>
+                </Link>
               ) : null}
             </div>
           </div>

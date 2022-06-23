@@ -264,12 +264,16 @@ export const EventsData = [
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
     desc: `   California Trucking Show at the Ontario Convention Center coming this October.  
 
-    Dates will be shared soon.  
     
-    Save a seat to have “Dinner with the KAL group”.  
     
-    ShapeEarly Bird registration click below`,
-    CTA: { heading: 'Register', link: 'register' },
+     
+    
+    `,
+    desc1: `Dates Will Be Shared Soon`,
+    desc2: ` Save a seat to have "Dinner with the KAL group".`,
+
+    desc3: `ShapeEarly Bird registration click below`,
+    CTA: { heading: 'Register', link: 'ContactSection' },
     Tag: 'One click away',
   },
   // {
