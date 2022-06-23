@@ -84,7 +84,7 @@ const Navbar = ({ toggle }) => {
 
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
+      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>
         <Nav scrollNav={scrollNav}>
           <div className="flex flex-row ml-8">
             <NavLogo to="/" onClick={toggleHome}>
@@ -210,7 +210,7 @@ const Navbar = ({ toggle }) => {
               <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navmaplogo.svg"
                 alt=""
-                className="h-8 w-8"
+                className="h-8 w-8 lg:mt-2 xl:mt-0"
               />
             </Link>
 
@@ -225,7 +225,7 @@ const Navbar = ({ toggle }) => {
               <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                 alt=""
-                className="h-6 w-8 mt-1"
+                className="h-6 w-8 mt-1 mr-8 lg:mt-3 xl:mt-0"
               />
             </Link>
 
