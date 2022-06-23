@@ -184,7 +184,7 @@ const Navbar = ({ toggle }) => {
             </NavMenu>
           </div>
 
-          <div id="navicons" className="flex pr-16">
+          <div id="navicons" className="pr-16 lg:flex hidden">
             {/* <NavItem>
               <NavLinks
                 to="/Contact"

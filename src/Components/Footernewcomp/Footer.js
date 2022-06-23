@@ -112,7 +112,7 @@ export default function Footer() {
                       <div className="flex justify-start items-start text-left 2xl:-ml-6 font-medium">
                         Reach out to us
                       </div>
-                      <div className="md:text-xl text-16px ml-2 xl:ml-4 text-xl md:font-bold font-semibold ">
+                      <div className="md:text-2xl text-16px ml-2 xl:ml-4 text-xl md:font-bold font-semibold ">
                         info@kalgroup.com
                         {/* (Monday to Friday)  */}
                       </div>
@@ -133,7 +133,7 @@ export default function Footer() {
                     <div className="ml-4">
                       <a href="tel:8009770010" target="_blank">
                         {" "}
-                        <div className="md:text-xl xl:text-2xl text-xl font-bold xl:font-semibold ml-2  ">
+                        <div className="md:text-xl xl:text-2xl text-xl  xl:font-bold font-semibold ml-2  ">
                           800-385-8006
                         </div>{" "}
                       </a>
@@ -411,14 +411,14 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     </div>
 
                     <div
-                      className={`text-black 2xl:leading-8 leading-6 xl:block ${
+                      className={`text-black 2xl:leading-8 leading-6 xl:block   ${
                         Hcontactus ? "" : "hidden"
                       }`}
                     >
                       <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start mt-3">
                         <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
                           <span className="flex">
-                            <span className="text-xl px-1">&#8250;</span>
+                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow">&#8250;</span>
                             <span className="mt-5px">Careers</span>
                           </span>
                         </div>
@@ -438,7 +438,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start mt-3">
                         <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex">
-                            <span className="text-xl px-1">&#8250;</span>
+                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow">&#8250;</span>
                             <span className="mt-5px">Newsroom</span>
                           </span>
                         </div>
@@ -458,7 +458,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
                         <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex">
-                            <span className="text-xl px-1">&#8250;</span>
+                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow">&#8250;</span>
                             <span className="mt-5px">Services</span>
                           </span>
                         </div>
@@ -476,7 +476,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
                         <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex">
-                            <span className="text-xl px-1">&#8250;</span>
+                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow">&#8250;</span>
                             <span className="mt-5px">Financing Solutions</span>
                           </span>
                         </div>
@@ -493,7 +493,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
                         <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex">
-                            <span className="text-xl px-1">&#8250;</span>
+                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow">&#8250;</span>
                             <span className="mt-5px">
                               24x7 Roadside Assistance
                             </span>

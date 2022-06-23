@@ -40,11 +40,9 @@ const Sidebar = ({ isOpen, toggle }) => {
         <SidebarMenu>
           <SidebarLinkR to="/">HOME</SidebarLinkR>
 
-          <SidebarLinkR to="/trailerandleasing">
-            Business Verticals
-          </SidebarLinkR>
-          <SidebarLinkR to="/partz">About Us</SidebarLinkR>
-          <SidebarLinkR to="/tires"> Newsroom</SidebarLinkR>
+          <SidebarLinkR to="/kalgroup/tires">Business Verticals</SidebarLinkR>
+          <SidebarLinkR to="/kalgroup/tires">About Us</SidebarLinkR>
+          <SidebarLinkR to="/kalgroup/tires"> Newsroom</SidebarLinkR>
           <Divlink
             onClick={() => {
               setServices(!Services);
@@ -66,8 +64,8 @@ const Sidebar = ({ isOpen, toggle }) => {
                 </div>
               ))
             : null}
-          <SidebarLinkR to="/newsevents">Careers</SidebarLinkR>
-          <SidebarLinkR to="/creditapplication">Contact Us</SidebarLinkR>
+          <SidebarLinkR to="/kalgroup/tires">Careers</SidebarLinkR>
+          <SidebarLinkR to="/kalgroup/tires">Contact Us</SidebarLinkR>
           <SidebarLinkR to="/Location">
             <Link
               to="Location"

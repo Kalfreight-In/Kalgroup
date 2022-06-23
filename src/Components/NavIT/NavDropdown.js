@@ -9,7 +9,7 @@ export default function NavDropdown({ data, hidden }) {
         <div id="innermainnavcontainer">
           <div class="group inline-block">
             <button class="outline-none focus:outline-none  px-3 py-1  rounded-sm flex justify-start items-start text-left min-w-32">
-              <span class="pr-1 font-medium flex-1 md:text-xs xl:text-navlgtext text-sm ">
+              <span class="pr-1 font-medium flex-1 md:text-xs xl:text-navlgtext text-sm">
                 {data.navItem}
               </span>
               <span>

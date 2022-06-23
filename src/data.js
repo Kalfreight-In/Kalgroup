@@ -22,7 +22,7 @@ export const NavbarData = [
       },
       {
         id: 5,
-        navItem: 'KALway',
+        navItem: 'KALWAY',
       },
     ],
   },

@@ -114,8 +114,8 @@ const Contactform = () => {
             </div>
 
             <p className="text-neautralform  font-Poppins md:text-xl text-xs font-normal  my-1 mb-3 ">
-              We are ready to work on a project of any complexity, whether{' '}
-              <br /> it's commercial or
+             Got a question? Or request a quote? Contact us directly or fill up the form 
+              <br /> and we will get back to you promptly.
             </p>
           </div>
           <div class="flex flex-wrap -mx-3 mb-6">

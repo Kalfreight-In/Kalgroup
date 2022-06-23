@@ -90,7 +90,7 @@ export const MapConatiner = () => {
                         <span class="pr-1 font-semibold flex-1">
                           British Columbia
                         </span>
-                        <span class="mr-auto">
+                        {/* <span class="mr-auto">
                           <svg
                             class="fill-current h-4 w-4 transform hover:-rotate-180
  transition duration-150 ease-in-out"
@@ -99,7 +99,7 @@ export const MapConatiner = () => {
                           >
                             <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
                           </svg>
-                        </span>
+                        </span> */}
                       </button>
                       <ul
                         class=" bg-white border rounded-sm absolute  right-0 
