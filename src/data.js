@@ -212,7 +212,7 @@ export const NewsData = [
     PhotoHeading: 'KAL Group Dinner',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
-    desc: 'KAL Group was one of the sponsored Atlanta Kabaddi Cup',
+    desc: ' KAL Group was one of the sponsored Atlanta Kabaddi Cup',
     CTA: { heading: 'See More', link: 'contactus' },
     Tag: 'One click away',
   },
