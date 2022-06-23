@@ -5,7 +5,7 @@ export default function AboutUs() {
 
   return (
     <>
-      <div className="flex flex-col-reverse lg:flex-row-reverse md:pt-4 w-screen ">
+      <div className="flex md:pt-4 w-screen ">
         <div className="bg-Lightblue flex lg:flex-row-reverse flex-col-reverse w-screen">
           <div
             // className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 flex-1"
@@ -60,8 +60,8 @@ export default function AboutUs() {
           >
             <img
               src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/officephotokalg.png"
-              alt="truck"
-              className="w-full block md:hidden"
+              alt="truck" 
+              className="w-full block xl:hidden bg-no-repeat" 
             />
           </div>
         </div>

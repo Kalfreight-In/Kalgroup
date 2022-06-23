@@ -37,7 +37,7 @@ module.exports = {
         navlgtext: "18px",
         navdropdown: "0.9rem",
         contactdesc: "16px",
-        aboutbutton:'22px'
+        aboutbutton: "22px",
       },
       fontWeight: {
         heading: "700",
@@ -101,7 +101,7 @@ module.exports = {
         "50rem": "30rem",
         "35vw": "35vw",
         contacttabinput: "90%",
-        inputmap:'40rem'
+        inputmap: "40rem",
       },
       height: {
         "40rem": "40rem",
@@ -125,8 +125,10 @@ module.exports = {
       },
       maxWidth: {
         emailcontacticon: "3rem",
-       
       },
+      margin:{
+        '5px':'6.5px'
+      }
     },
   },
 };

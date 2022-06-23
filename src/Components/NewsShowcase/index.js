@@ -15,7 +15,7 @@ const NewsShowcase = (data) => {
   var imageurl = data.data.imageUrl;
   return (
     <>
-      <div class="flex bg-Lightblue   sm:m-4">
+      <div class="flex bg-Lightblue   sm:m-4 w-full">
         <div class="flex  flex-row-reverse ">
           <div class="sm:block hidden 2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-10 mt-10 2xl:pt-12 pt-0 mx-6 flex-1 pb-1 ">
             <h1 class="text-white text-sm sm:text- 2xl:text-xl font-heading lg:text-2xl  px-0 mb-4">
@@ -28,23 +28,23 @@ const NewsShowcase = (data) => {
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white  2xl:text-xl text-sm px-0 text-justify lg:h-32 "
             >
-              {data.data.desc}
+                {data.data.desc}
             </p>
             <div>
               <button
                 onClick={() => {
                   setCTA(data.data.CTA.heading);
                 }}
-                className="text-white bg-yellow-bg  font-semibold  mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-12 h-12 2xl:text-descnew lg:text-base md:text-base text-base   2xl:p-0 p-4"
+                className="text-white bg-yellow-bg  font-semibold  mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-12 h-12 2xl:text-descnew lg:text-base md:text-base text-base   2xl:p-0  "
               >
-                <p>{CTA}</p>
+                <p className='text-center justify-center items-center'>{CTA}</p>
               </button>
             </div>
           </div>
           <div className="  sm:flex-1 flex w-full">
             <div
               className={
-                'md:h-full h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-center'
+                "md:h-full h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-center"
               }
               style={{
                 backgroundImage: `url(${imageurl})`,
