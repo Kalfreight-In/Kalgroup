@@ -133,7 +133,7 @@ const Contactform = () => {
         </div>
         <div class="md:block  flex items-center justify-center">
           <div>
-            <button className="text-white bg-yellow-bg rounded p-4 w-48 mt-2">
+            <button className="text-white bg-yellow-bg rounded h-12 p-4 w-48 mt-2 flex justify-center items-center ">
               {buttonText}
             </button>
           </div>

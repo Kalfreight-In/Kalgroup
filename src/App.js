@@ -17,7 +17,7 @@ function App() {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
-
+ 
   return (
     <Router>
       <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>

@@ -57,7 +57,7 @@ const HeroSection = (data) => {
                   // onClick={() => {
                   //   setCTA('800-977-0010');
                   // }}
-                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md   2xl:p-0 p-4 md:text-left"
+                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md md:text-md   2xl:p-0 p-4 md:text-left"
                 >
                   <p>Learn More</p>
                 </button>

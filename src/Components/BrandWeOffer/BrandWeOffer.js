@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import { BigPArtzBrands, BigTireBrands, BrandCompnentBrands } from '../../data';
+import { BigPArtzBrands, BigTireBrands, OurMajorClient} from '../../data';
 import { Slideshow } from '../Slider/slideshow';
 
 const BrandWeOffer = () => {
   const [slderData, setsliderData] = useState(BigTireBrands);
   const [select, setSelect] = useState(1);
   useEffect(() => {
-    var data = slderData;
+    // var data = slderData;
   }, [slderData]);
   return (
     <>
@@ -32,7 +32,7 @@ const BrandWeOffer = () => {
               : 'text-gray-500'
           }`}
           onClick={() => {
-            setsliderData(BigPArtzBrands);
+            setsliderData(OurMajorClient);
             setSelect(2);
           }}
         >

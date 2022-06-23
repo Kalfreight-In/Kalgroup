@@ -1,6 +1,5 @@
 import React from 'react';
 import Map from '../../assets/Map';
-import { motion } from 'framer-motion';
 import { useHover } from '../../Hooks/Hover';
 import { MapData } from '../../data';
 import MapDropdown from './MapDropdown';
@@ -25,7 +24,10 @@ export const MapConatiner = () => {
   const [SureyRef, SureyisHovered] = useHover();
   const [EdmentonRef, EdmentonisHovered] = useHover();
   return (
-    <div className="bg-Lightblue flex flex-col-reverse  md:flex-row p-8">
+    <div
+      id="mainmapcontainer"
+      className="bg-Lightblue flex flex-col-reverse  md:flex-row p-8"
+    >
       <div className=" svg-container">
         <Map
           Af={AfisHovered}

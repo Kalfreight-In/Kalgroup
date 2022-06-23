@@ -35,7 +35,7 @@ const NewsShowcase = (data) => {
                 onClick={() => {
                   setCTA(data.data.CTA.heading);
                 }}
-                className="text-white bg-yellow-bg  font-semibold  mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-base md:text-base text-base   2xl:p-0 p-4"
+                className="text-white bg-yellow-bg  font-semibold  mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-12 h-12 2xl:text-descnew lg:text-base md:text-base text-base   2xl:p-0 p-4"
               >
                 <p>{CTA}</p>
               </button>
