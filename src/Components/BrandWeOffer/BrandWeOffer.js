@@ -18,7 +18,7 @@ const BrandWeOffer = () => {
               : 'text-gray-500'
           }`}
           onClick={() => {
-            setsliderData(BigTireBrands);
+            setsliderData(BigPArtzBrands);
             setSelect(1);
           }}
         >

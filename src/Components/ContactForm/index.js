@@ -101,14 +101,14 @@ const Contactform = () => {
           <div className="xl:text-left text-center xl:pl-2">
             <div
               id="contactnew"
-              className="flex justify-center items-center xl:justify-start xl:items-start"
+              className="flex justify-center items-center xl:justify-start xl:items-start "
             >
               <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               />
-              <h1 className="text-Heading md:text-36px text-3xl font-bold pl-2 text-center ">
+              <h1 className="text-Heading md:text-36px text-3xl font-bold pl-2 text-center">
                 Contact Us
               </h1>
             </div>
@@ -118,7 +118,7 @@ const Contactform = () => {
               the form and we will get back to you promptly.
             </p>
           </div>
-          <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="flex flex-wrap -mx-3 mb-6 md:mt-8 lg:mt-0">
             <div
               class="w-full flex justify-center items-center md:w-1/2 xl:px-3 mb-6 md:mb-0"
               id="input_placeholder"
