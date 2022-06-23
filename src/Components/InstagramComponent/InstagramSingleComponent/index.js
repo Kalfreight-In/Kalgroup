@@ -96,10 +96,10 @@ const InstagramSingleComponent = (data) => {
             </div> */}
           </div>
         </div>
-        <div className=" w-full hidden xl:block" style={{ flex: '0  3  40%' }}>
+        <div className=" w-full hidden xl:block" style={{ flex: '0  3  45%' }}>
           <div
             className={
-              'md:h-full  h-mobileMainImageHeight bg-cover bg-no-repeat bg-center'
+              'md:h-full  h-mobileMainImageHeight bg-contain bg-no-repeat bg-center'
             }
             style={{
               backgroundImage: `url(${data.data.img})`,

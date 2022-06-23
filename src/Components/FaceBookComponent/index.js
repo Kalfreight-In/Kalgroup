@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import { Pagination, Navigation } from 'swiper';
+import { Pagination, Navigation, Autoplay } from 'swiper';
 import { Facbookfeeds } from '../../data';
 import FaceBookSingleCompnent from './FaceBookSingleCompnent';
 const FaceBookComponent = () => {
@@ -18,8 +18,12 @@ const FaceBookComponent = () => {
         pagination={{
           clickable: true,
         }}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
         // navigation={true}
-        // modules={[Pagination]}
+        modules={[Autoplay]}
         className="mySwiper xl:w-40vw md:w-50vw w-full md:bg-white bg-facebookblue"
       >
         {Facbookfeeds.map((data, index) => (
