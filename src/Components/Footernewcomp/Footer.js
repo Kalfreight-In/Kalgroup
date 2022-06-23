@@ -24,9 +24,9 @@ export default function Footer() {
         style={{
           backgroundImage:
             'url(' +
-            'https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg2.png' +
+            'https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png' +
             ')',
-          // backgroundBlendMode: 'difference',
+          backgroundBlendMode: 'difference',
           backgroundPosition: 'center',
           // backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',

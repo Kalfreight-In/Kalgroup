@@ -199,7 +199,7 @@ export const NewsData = [
     heading: 'Trucking Show',
     PhotoHeading: 'American Trucking Show',
     imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/americatrucking.png',
     desc: 'KAL Group made a successful appearance at American Trucking Show, Fresno',
     CTA: { heading: 'See More', link: 'contactus' },
     Tag: 'Fresno',
@@ -211,7 +211,7 @@ export const NewsData = [
     heading: 'Atlanta Kabaddi Cup',
     PhotoHeading: 'Atlanta Kabaddi Cup',
     imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/kabbdi.png',
     desc: ' KAL Group was one of the sponsored Atlanta Kabaddi Cup',
     CTA: { heading: 'See More', link: 'contactus' },
     Tag: 'Atlanta',
@@ -249,7 +249,7 @@ export const EventsData = [
     heading: 'Texas Trucking Show',
     PhotoHeading: 'Texas Trucking Show',
     imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Texas.png',
     desc: 'Texas Trucking Show, Join us at NRG Center, Texas',
     CTA: { heading: null, link: 'register' },
     Tag: 'Texas',
@@ -261,7 +261,7 @@ export const EventsData = [
     heading: 'California Trucking Show ',
     PhotoHeading: 'California Trucking Show ',
     imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Ontario-Upcomiing.png',
     desc: `   California Trucking Show at the Ontario Convention Center coming this October.  
 
     

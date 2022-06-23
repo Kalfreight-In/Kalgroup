@@ -71,7 +71,7 @@
   width: 100%;
   min-height: 70vh;
   @media (min-width: 1360px) {
-    min-height: 80vh;
+    min-height: 75vh;
   }
 }
 .svg-container {
@@ -90,7 +90,7 @@
   transition: flex 0.8s ease;
 
   &:hover {
-    flex: 7;
+    flex: 10;
   }
 }
 .itemM {
