@@ -105,13 +105,13 @@ export default function Business() {
       <div className="bg-businessbackground">
         <div className="lg:p-6 p-2 drop-shadow-2xl">
           <div className="flex justify-center items-center font-semibold ">
-            <h1 className="md:text-3xl text-2xl font-bold link link-underline link-underline-black text-Description mb-6 pb-2 md:pt-12 xl:pt-0">
+            <h1 className="md:text-3xl text-2xl font-bold link link-underline link-underline-black text-Description mb-6 pb-2 md:pt-6 xl:pt-0">
               {mydata.heading}
             </h1>
           </div>
 
           <div className={`flex w-full flex-row `}>
-            <div class=" flex w-full">
+            <div class=" flex w-full ">
               <div class="gallery-wrap flex flex-row  w-fill " ref={hoverRef}>
                 {returnView()}
               </div>

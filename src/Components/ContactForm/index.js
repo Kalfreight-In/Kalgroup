@@ -181,15 +181,15 @@ const Contactform = () => {
               <textarea
                 onChange={(e) => setMessage(e.target.value)}
                 value={message}
-                class=" no-resize appearance-none block xl:w-full w-contacttabinput bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-36 resize-none"
+                class=" no-resize appearance-none block xl:w-contacttextarea md:w-contacttextareatab w-contacttabinput bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-36 resize-none"
                 id="message"
                 placeholder="What can we do for you?"
               ></textarea>
             </div>
           </div>
           <div class="md:block  flex items-center justify-center">
-            <div>
-              <button className="text-white bg-yellow-bg rounded h-12 p-4 w-48 mt-2 flex justify-center items-center ">
+            <div className='ml-4'>
+              <button className="text-white bg-yellow-bg rounded h-12 p-4 w-48 mt-2 flex justify-center items-center">
                 {buttonText}
               </button>
             </div>

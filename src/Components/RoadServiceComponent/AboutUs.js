@@ -32,7 +32,7 @@ export default function AboutUs() {
               a vast ecosystem of facilities, we ensure that small fleet
               business owners are empowered to achieve operational excellence.
             </p>
-            <div className="flex md:justify-start justify-center items-center ">
+            <div className="flex xl:justify-start  xl:items-start justify-center items-center md:mt-6 xl:mt-0">
               {/* <button
                 onClick={() => {
                   setCTA("800-977-0010");
@@ -46,7 +46,7 @@ export default function AboutUs() {
                 // onClick={() => {
                 //   setCTA('800-977-0010');
                 // }}
-                className="text-white bg-yellow-bg  font-semibold px-8 py-3 2xl:mt-12 xl:mt-8 lg:mt-4   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg"
+                className="text-white bg-yellow-bg  font-semibold px-8 py-3 2xl:mt-12 xl:mt-8 lg:mt-4 md:px-24 xl:px-12  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg "
               >
                 <p>{CTA}</p>
               </button>
