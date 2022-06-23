@@ -10,7 +10,7 @@ export const NavbarData = [
       },
       {
         id: 2,
-        navItem: 'KAL Trailers',
+        navItem: 'KAL Trailers & Leasing',
       },
       {
         id: 3,
@@ -22,7 +22,7 @@ export const NavbarData = [
       },
       {
         id: 5,
-        navItem: 'KALway',
+        navItem: 'KALWAY',
       },
     ],
   },
@@ -272,7 +272,7 @@ export const EventsData = [
     desc1: `Dates Will Be Shared Soon`,
     desc2: ` Save a seat to have "Dinner with the KAL group".`,
 
-    desc3: `ShapeEarly Bird registration click below`,
+    desc3: `Early Bird registration click below`,
     CTA: { heading: 'Register', link: 'ContactSection' },
     Tag: 'One click away',
   },

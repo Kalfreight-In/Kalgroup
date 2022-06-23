@@ -9,15 +9,15 @@ export default function AboutUs() {
         <div className="bg-Lightblue flex lg:flex-row-reverse flex-col-reverse w-screen">
           <div
             // className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 flex-1"
-            className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 lg:mx-6  mx-12  "
+            className="2xl:ml-42 xl:ml-28   lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 lg:mx-6  mx-12  "
             style={{ flex: '0  3  30%' }}
           >
-            <h1 className="text-white  sm:text-3xl md:text-4xl   2xl:text-5xl font-heading lg:text-2xl  lg:text-left px-0 mb-4 md:px-8 text-center">
+            <h1 className="text-white  sm:text-3xl md:text-4xl   2xl:text-5xl font-heading lg:text-2xl  lg:text-left px-0 mb-4  text-center">
               About us
             </h1>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-              className="text-white font-desc 2xl:text-xl text-descnew md:text-base px-0   text-justify md:px-8 pt-8"
+              className="text-white font-desc 2xl:text-xl text-descnew md:text-base px-0   text-justify  pt-8"
             >
               {/* For more than 30 years we have been delivering world-class
               construction and we’ve built many lasting relationships along the
@@ -32,7 +32,7 @@ export default function AboutUs() {
               a vast ecosystem of facilities, we ensure that small fleet
               business owners are empowered to achieve operational excellence.
             </p>
-            <div className="flex md:justify-start justify-center items-center md:px-8 md:my-10 my-0 lg:pb-32">
+            <div className="flex md:justify-start justify-center items-center ">
               {/* <button
                 onClick={() => {
                   setCTA("800-977-0010");
@@ -46,7 +46,7 @@ export default function AboutUs() {
                 // onClick={() => {
                 //   setCTA('800-977-0010');
                 // }}
-                className="text-white bg-yellow-bg  font-semibold  mt-12  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 md:32 w-96 2xl:h-12 h-12 2xl:text-aboutbutton lg:text-md md:text-md   2xl:p-0 p-4"
+                className="text-white bg-yellow-bg  font-semibold px-8 py-3 2xl:mt-12 xl:mt-8 lg:mt-4   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg"
               >
                 <p>{CTA}</p>
               </button>
@@ -60,8 +60,8 @@ export default function AboutUs() {
           >
             <img
               src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/officephotokalg.png"
-              alt="truck" 
-              className="w-full block xl:hidden bg-no-repeat" 
+              alt="truck"
+              className="w-full block xl:hidden bg-no-repeat"
             />
           </div>
         </div>

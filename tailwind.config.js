@@ -131,7 +131,7 @@ module.exports = {
         emailcontacticon: '3rem',
       },
       margin: {
-        '5px': '6.5px',
+        '5px': '3.5px',
       },
     },
   },
