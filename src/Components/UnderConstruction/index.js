@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrandCompnentBrands } from '../../data.js';
+import BrandWeOffer from '../BrandWeOffer/BrandWeOffer.js';
 import { Slideshow } from '../Slider/slideshow/index.js';
 // import { BigTrailersBrand } from '../../data.js';
 export const UnderConstruction = ({
@@ -23,12 +24,12 @@ export const UnderConstruction = ({
           <div className="flex flex-row align-center justify-center md:text-5xl text-2xl text-Heading font-bold  pb-8 md:pr-16">
             Page Under Construction
           </div>
-          <div className="flex flex-row align-center justify-center mt-2 text-Description font-desc text-desc w-full text-center content-center">
+          <div>
             {/* <div className="justify-self-center md:w-1/3 w-max">
               {data1[0].desc}
             </div> */}
 
-            <br />
+            <BrandWeOffer></BrandWeOffer>
           </div>
           {/* <Slideshow
             data={BigTrailersBrand[0].Brands}

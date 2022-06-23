@@ -110,10 +110,14 @@ module.exports = {
         "40vh": "40vh",
         "50vh": "50vh",
         "60vh": "60vh",
-        "70vh": "70vh",
-        "80vh": "80vh",
-        "65vh": "67vh",
         "55vh": "55vh",
+        "65vh": "65vh",
+        "70vh": "70vh",
+        "75vh": "75vh",
+        "85vh": "85vh",
+        "80vh": "80vh",
+        "67vh": "67vh",
+        30: "30rem",
         "medium-height": "90vh",
         mobileMainImageHeight: "80vh",
         mobileSecondImage: "54vh",
@@ -126,10 +130,14 @@ module.exports = {
       maxWidth: {
         emailcontacticon: "3rem",
       },
-      margin:{
-        '5px':'6.5px',
-        QuickLinkarrow:'3px'
-      }
+      margin: {
+        "5px": "3.5px",
+        QuickLinkarrow: "3px",
+      },
+      // margin:{
+      //   '5px':'6.5px',
+      //   QuickLinkarrow:'3px'
+      // }
     },
   },
 };
