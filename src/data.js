@@ -1151,7 +1151,7 @@ export const BigPArtzBrands = [
       },
       {
         id: "57",
-        imageurl:
+        imageurl: 
           "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/valvoline.png",
         heading: "valvoline",
       },

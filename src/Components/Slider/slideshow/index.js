@@ -114,7 +114,7 @@ export function Slideshow({
                   // }}
                   className={`${
                     smallSlider ? 'p-0' : 'p-0'
-                  }     self-center slide justify-self-center justify-items-center`}
+                  }     self-center slide justify-self-center justify-items-center border grayscale hover:grayscale-0`}
                 ></img>
               )}
             </div>
