@@ -34,7 +34,7 @@ export const ContactFormContainer = () => {
         <div
           className={
             // 'lg:h-5/6 md:h-mobileMainImageHeight xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 '
-            'lg:h-5/6 md:h-contacttabimage md:w-full xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 '
+            'lg:h-5/6 md:h-mobileMainImageHeight xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 '
          
           }
           style={{
