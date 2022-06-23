@@ -197,24 +197,24 @@ export const NewsData = [
     category: 'News',
     date: '15th & 16th April 2022',
     heading: 'Trucking Show',
-    PhotoHeading: 'Trucking Show',
+    PhotoHeading: 'American Trucking Show',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
     desc: 'KAL Group made a successful appearance at American Trucking Show, Fresno',
     CTA: { heading: 'See More', link: 'contactus' },
-    Tag: 'One click away',
+    Tag: 'Fresno',
   },
   {
     id: '2',
     category: 'News',
     date: '24th April 2022',
-    heading: 'Indiana Truck Show',
-    PhotoHeading: 'KAL Group Dinner',
+    heading: 'Atlanta Kabaddi Cup',
+    PhotoHeading: 'Atlanta Kabaddi Cup',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/news.png',
     desc: ' KAL Group was one of the sponsored Atlanta Kabaddi Cup',
     CTA: { heading: 'See More', link: 'contactus' },
-    Tag: 'One click away',
+    Tag: 'Atlanta',
   },
   // {
   //   id: '3',
@@ -252,7 +252,7 @@ export const EventsData = [
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
     desc: 'Texas Trucking Show, Join us at NRG Center, Texas',
     CTA: { heading: null, link: 'register' },
-    Tag: 'One click away',
+    Tag: 'Texas',
   },
   {
     id: '2',
@@ -270,11 +270,12 @@ export const EventsData = [
     
     `,
     desc1: `Dates Will Be Shared Soon`,
-    desc2: ` Save a seat to have "Dinner with the KAL group".`,
+    desc2: ` Reserved a seat for `,
+    desc3: `"Dinner with the KAL group"`,
 
-    desc3: `Early Bird registration click below`,
+    desc4: `Early Bird registration click below`,
     CTA: { heading: 'Register', link: 'ContactSection' },
-    Tag: 'One click away',
+    Tag: 'Ontario',
   },
   // {
   //   id: '3',

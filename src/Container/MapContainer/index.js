@@ -38,7 +38,14 @@ export const MapConatiner = () => {
   return (
     <div
       id="mainmapcontainer"
-      className="bg-Lightblue flex flex-col-reverse  md:flex-row p-8"
+      className="bg-Lightblue flex flex-col-reverse  md:flex-row p-8 bg-cover"
+      style={{
+        backgroundImage: `${
+          isDesktop
+            ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
+            : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
+        }`,
+      }}
     >
       <div className=" svg-container">
         <Map
@@ -55,19 +62,19 @@ export const MapConatiner = () => {
           abbotsford={isabbotsford}
         ></Map>
       </div>
-      <div className="md:-m-8 w-full flex-1">
+      <div className="md:-m-8 -mx-8 w-full flex-1 ">
         <div
-          class=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center  lg:ml-12  lg:mb-0 mb-60 h-full"
+          class=" flex-col flex content-center justify-center w-full flex-1  self-start items-start bg-cover bg-no-repeat bg-center  lg:ml-12  lg:mb-0 mb-2  h-full"
           style={{
             backgroundImage: `${
               isDesktop
                 ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
-                : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icon.png)'
+                : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
             }`,
             display: 'flex',
           }}
         >
-          <div className="lg:-mt-28 -mt-0 w-full">
+          <div className="lg:-mt-28 -mt-0 w-full pl-16 md:mb-0 mb-24">
             <div class="w-full ">
               <div className="flex flex-row">
                 <svg
@@ -102,7 +109,7 @@ export const MapConatiner = () => {
               </div>
             </div>
             <div class="w-full lg:mt-8 mt-2">
-              <div class="m-2 w-1/3">
+              <div class="m-2 lg:w-1/3 w-1/2">
                 {' '}
                 <div id="mainnewnavcontainer">
                   <div id="innermainnavcontainer">
@@ -118,7 +125,7 @@ export const MapConatiner = () => {
                           >
                             <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
                           </svg>
-                        </span> 
+                        </span>
                       </button>
                       <ul
                         class="bg-white  rounded-sm transform scale-0 group-hover:scale-100 absolute 
@@ -196,7 +203,7 @@ min-w-32
               </div>
             </div>
             <div class="w-full">
-              <div class="m-2 w-1/3">
+              <div class="m-2 lg:w-1/3 w-1/2">
                 {' '}
                 <div id="mainnewnavcontainer">
                   <div id="innermainnavcontainer">
