@@ -32,12 +32,23 @@ const NewsShowcase = (data) => {
               className="text-white  2xl:text-lg text-sm px-0 text-justify lg:h-32 "
             >
               {data.data.desc ? <div>{data.data.desc}</div> : null}
-              <br />
-              {data.data.desc1 ? <div>{data.data.desc1}</div> : null}
-              <br />
-              {data.data.desc2 ? <div>{data.data.desc2}</div> : null}
-              <br />
-              {data.data.desc3 ? <div>{data.data.desc3}</div> : null}
+
+              {data.data.desc1 ? (
+                <div className="pt-2">{data.data.desc1}</div>
+              ) : null}
+
+              {data.data.desc2 ? (
+                <div className="pt-2">{data.data.desc2}</div>
+              ) : null}
+
+              {data.data.desc3 ? (
+                <div className="pt-2 underline  underline-offset-4  italic">
+                  {data.data.desc3}
+                </div>
+              ) : null}
+              {data.data.desc4 ? (
+                <div className="pt-2">{data.data.desc4}</div>
+              ) : null}
             </p>
             <div>
               {data.data.CTA.heading ? (

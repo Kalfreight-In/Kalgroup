@@ -9,7 +9,7 @@ export default function AboutUs() {
         <div className="bg-Lightblue flex lg:flex-row-reverse flex-col-reverse w-screen">
           <div
             // className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 flex-1"
-            className="2xl:ml-42 xl:ml-28   lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 lg:mx-6  mx-12  "
+            className="2xl:ml-42 xl:ml-28   lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 lg:mx-12  mx-20  "
             style={{ flex: '0  3  30%' }}
           >
             <h1 className="text-white  sm:text-3xl md:text-4xl   2xl:text-5xl font-heading lg:text-2xl  lg:text-left px-0 mb-4  text-center">

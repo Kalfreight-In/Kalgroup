@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from './media/Bgvideo.mp4';
+import Video from './media/bgvideo.mp4';
 import {
   HeroContainer,
   HeroContent,
@@ -9,6 +9,7 @@ import {
 } from './HeroElements';
 import styled from 'styled-components';
 import { isMobile } from 'react-device-detect';
+import { Link } from 'react-router-dom';
 
 const Gradients = styled.div`
   background-image: linear-gradient(
@@ -73,14 +74,16 @@ const HeroSection = (data) => {
                 Convenient
               </div>
               <div className="lg:mt-4 mt-16 flex lg:justify-start justify-center  lg:items-start items-center">
-                <button
-                  // onClick={() => {
-                  //   setCTA('800-977-0010');
-                  // }}
-                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-xl lg:text-md lg:text-sm  2xl:p-0 p-4 lg:text-left"
-                >
-                  <p>Learn More</p>
-                </button>
+                <Link to="learnmoore">
+                  <button
+                    // onClick={() => {
+                    //   setCTA('800-977-0010');
+                    // }}
+                    className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-xl lg:text-md lg:text-sm  2xl:p-0 p-4 lg:text-left"
+                  >
+                    <p>Learn More</p>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

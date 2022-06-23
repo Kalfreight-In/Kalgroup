@@ -23,14 +23,14 @@ export default function Footer() {
         className="bg-footerbackground md:bg-cover bg-contain "
         style={{
           backgroundImage:
-            "url(" +
-            "https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png" +
-            ")",
-          backgroundBlendMode: "difference",
-          backgroundPosition: "center",
+            'url(' +
+            'https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg2.png' +
+            ')',
+          // backgroundBlendMode: 'difference',
+          backgroundPosition: 'center',
           // backgroundSize: 'cover',
-          backgroundRepeat: "no-repeat",
-          width: "full",
+          backgroundRepeat: 'no-repeat',
+          width: 'full',
         }}
       >
         <div className="p-8  md:p-0 xl:block flex justify-center ">
@@ -87,7 +87,7 @@ export default function Footer() {
             </div>
           </div> */}
           <div className=" ">
-            <div className="xl:flex xl:flex-wrap xl:-mx-4 pt-6 xl:pb-12 w-screen">
+            <div className="xl:flex xl:flex-wrap xl:-mx-4 pt-2 xl:pb-2 w-screen">
               <div className="footer-info xl:w-3/12 xl:px-4 xl:block hidden items- start justify- start">
                 <div className="xl:ml-16 w-max justify- start ml-4 xl:mt-0">
                   <div>
@@ -112,14 +112,12 @@ export default function Footer() {
                       </a>
                     </div>
                     <div className="block xl:ml-0 ">
-                      <div className="flex justify-start items-start text-left 2xl:-ml-6 font-medium">
+                      <div className="flex justify-start  items-start  text-left 2xl:-ml-6 font-medium">
                         Reach out to us
                       </div>
-                      <div className="md:text-2xl text-16px ml-2 xl:ml-4 text-xl md:font-bold font-semibold ">
-                        <a href="mailto:info@kalgroup.com" target="_blank">
-                          info@kalgroup.com
-                        </a>
 
+                      <div className="md:text-xl text-16px ml-2 xl:ml-4 text-xl md:font-bold font-semibold ">
+                        info@kalgroup.com
                         {/* (Monday to Friday)  */}
                       </div>
                     </div>
@@ -138,10 +136,10 @@ export default function Footer() {
                     </div>
                     <div className="ml-4">
                       <a href="tel:8009770010" target="_blank">
-                        {" "}
-                        <div className="md:text-xl xl:text-2xl text-xl  xl:font-bold font-semibold ml-2  ">
+                        {' '}
+                        <div className="md:text-xl xl:text-xl text-xl  xl:font-bold font-semibold ml-2  ">
                           800-385-8006
-                        </div>{" "}
+                        </div>{' '}
                       </a>
                     </div>
                   </div>
@@ -209,33 +207,33 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black  2xl:leading-8 leading-6 xl:block   ${
-                        Hinventery ? "" : "hidden"
+                        Hinventery ? '' : 'hidden'
                       }`}
                     >
                       <Link
                         to="#"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center  "
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
                       >
-                        <span className="text-xl px-1">&#8250;</span>
+                        <span className="text-xl px-1"> </span>
                         Company Overview
                       </Link>
                       <Link
                         to="#"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                       >
-                        <span className="text-xl px-1">&#8250;</span>
+                        <span className="text-xl px-1"> </span>
                         Core Values
                       </Link>
                       <Link
                         to="#"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       >
-                        <span className="text-xl px-1">&#8250;</span>
+                        <span className="text-xl px-1"> </span>
                         CSR
                       </Link>
                       {/* <Link
                         to="/newsevents"
-                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
+                        className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       >
                         KAL Partz
                       </Link> */}
@@ -259,42 +257,42 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black 2xl:leading-8 leading-6 xl:block   ${
-                        H_WA ? "" : "hidden"
+                        H_WA ? '' : 'hidden'
                       }`}
                     >
                       <Link
                         to="/newsevents"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center  "
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
                       >
-                        <span className="text-xl px-1">&#8250;</span>
+                        <span className="text-xl px-1"> </span>
                         KAL Freight
                       </Link>
                       <Link
                         to="/newsevents"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                       >
-                        <span className="text-xl px-1">&#8250;</span>
+                        <span className="text-xl px-1"> </span>
                         KAL Trailers & Leasing
                       </Link>
                       <Link
                         to="/newsevents"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       >
-                        <span className="text-xl px-1">&#8250;</span>
+                        <span className="text-xl px-1"> </span>
                         KVL Tires
                       </Link>
                       <Link
                         to="/newsevents"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       >
-                        <span className="text-xl px-1">&#8250;</span>
+                        <span className="text-xl px-1"> </span>
                         KAL Partz
                       </Link>
                       <Link
                         to="/newsevents"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center "
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       >
-                        <span className="text-xl px-1">&#8250;</span>
+                        <span className="text-xl px-1"> </span>
                         KALWAY
                       </Link>
                     </div>
@@ -317,20 +315,20 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black  2xl:leading-8 leading-6 xl:block  ${
-                        Hquicklinks ? "" : "hidden"
+                        Hquicklinks ? '' : 'hidden'
                       }`}
                     >
                       <div>
                         {/* <Link
                     to="#aboutus "
-                    className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
+                    className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                   >
                     About us
                   </Link> */}
 
                         {/* {window.location.pathname == "/" ? (
                           <Slink
-                            className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center cursor-pointer "
+                            className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer "
                             to="aboutus"
                             smooth={true}
                             duration={1000}
@@ -342,7 +340,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           </Slink>
                         ) : (
                           <a
-                            className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center cursor-pointer "
+                            className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center cursor-pointer "
                             href="/#aboutus"
                             smooth={true}
                             duration={1000}
@@ -357,45 +355,45 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <div>
                         <Link
                           to="/newsevents"
-                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
+                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
                         >
-                          <span className="text-xl px-1">&#8250;</span>
+                          <span className="text-xl px-1"> </span>
                           Flatbed for sale
                         </Link>
                       </div>
                       <div>
                         <Link
                           to="/newsevents"
-                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
+                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
                         >
-                          <span className="text-xl px-1">&#8250;</span>
+                          <span className="text-xl px-1"> </span>
                           Used Dry van for sale
                         </Link>
                       </div>
                       <div>
                         <Link
                           to="/newsevents"
-                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center  "
+                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center  "
                         >
-                          <span className="text-xl px-1">&#8250;</span>
+                          <span className="text-xl px-1"> </span>
                           Reefer Trailer for sale
                         </Link>
                       </div>
                       <div>
                         <Link
                           to="/newsevents"
-                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center "
+                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
                         >
-                          <span className="text-xl px-1">&#8250;</span>
+                          <span className="text-xl px-1"> </span>
                           New Trailers for sale
                         </Link>
                       </div>
                       <div>
                         <Link
                           to="/newsevents"
-                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover  mt-3   xl:text-left text-center"
+                          className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center"
                         >
-                          <span className="text-xl px-1">&#8250;</span>
+                          <span className="text-xl px-1"> </span>
                           Used Trucks for sale
                         </Link>
                       </div>
@@ -418,15 +416,13 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black 2xl:leading-8 leading-6 xl:block   ${
-                        Hcontactus ? "" : "hidden"
+                        Hcontactus ? '' : 'hidden'
                       }`}
                     >
-                      <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start mt-3">
+                      <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start  mt-1">
                         <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8 ">
-                          <span className="flex">
-                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow">
-                              &#8250;
-                            </span>
+                          <span className="flex cursor-pointer">
+                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow"></span>
                             <span className="mt-5px">Careers</span>
                           </span>
                         </div>
@@ -438,17 +434,15 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8"
                         >
                           {/* <span className="flex">
-                            <span className='text-xl px-1'>&#8250;</span>
+                            <span className='text-xl px-1'> </span>
                             Newsroom
                           </span> */}
                         </a>
                       </div>
-                      <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start mt-3">
+                      <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-1">
                         <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
-                          <span className="flex">
-                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow">
-                              &#8250;
-                            </span>
+                          <span className="flex cursor-pointer">
+                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow"></span>
                             <span className="mt-5px">Newsroom</span>
                           </span>
                         </div>
@@ -460,17 +454,15 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   xl:text-left text-center md:ml-0 ml-8"
                         >
                           <span className="flex">
-                            <span className='text-xl px-1'>&#8250;</span>
+                            <span className='text-xl px-1'> </span>
                             Financing Solutions
                           </span>
                         </a> */}
                       </div>
-                      <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
+                      <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                         <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                          <span className="flex">
-                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow">
-                              &#8250;
-                            </span>
+                          <span className="flex cursor-pointer">
+                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow"></span>
                             <span className="mt-5px">Services</span>
                           </span>
                         </div>
@@ -485,12 +477,10 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         </a> */}
                       </div>
 
-                      <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
+                      <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                         <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                          <span className="flex">
-                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow">
-                              &#8250;
-                            </span>
+                          <span className="flex cursor-pointer">
+                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow"></span>
                             <span className="mt-5px">Financing Solutions</span>
                           </span>
                         </div>
@@ -504,12 +494,10 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           info@kaltrailers.com
                         </a> */}
                       </div>
-                      <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start  mt-3">
+                      <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start   mt-1">
                         <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
-                          <span className="flex">
-                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow">
-                              &#8250;
-                            </span>
+                          <span className="flex cursor-pointer">
+                            <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow"></span>
                             <span className="mt-5px">
                               24x7 Roadside Assistance
                             </span>
@@ -530,7 +518,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     <span> »  </span>
                     <Link
                       to=""
-                      className="block md:text-16px text-navsmall hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
+                      className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                     >
                       info@bigrigcanada.com{" "}
                     </Link>
@@ -592,7 +580,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                   <div
                     className={`text-black 2xl:leading-8 leading-6 xl:block ${
-                      Hcontactus ? "" : "hidden"
+                      Hcontactus ? '' : 'hidden'
                     }`}
                   >
                     <div class="  mt-8">
@@ -612,7 +600,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-end">
                       <Link
                         to=""
-                        className="block md:text-xl text-navsmall font-semibold hover:text-yellow-shadowhover  mt-3  xl:text-left text-center"
+                        className="block md:text-xl text-navsmall font-semibold hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                       >
                         Subscribe Now
                       </Link>
@@ -620,14 +608,14 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       id="mainiconcontainer"
-                      className=" justify-end  mt-28  "
+                      className=" justify-end  mt-18  "
                     >
                       <div id="allicons" className="flex justify-end">
                         <IoLogoFacebook
                           onClick={() =>
                             window.open(
-                              "https://www.facebook.com/kalgroupusa",
-                              "_blank"
+                              'https://www.facebook.com/kalgroupusa',
+                              '_blank'
                             )
                           }
                           className="text-black hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
@@ -635,14 +623,14 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <RiInstagramFill
                           onClick={() =>
                             window.open(
-                              "https://www.instagram.com/kalgroupusa/",
-                              "_blank"
+                              'https://www.instagram.com/kalgroupusa/',
+                              '_blank'
                             )
                           }
                           className="text-black hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
                         />
                         <IoLogoLinkedin
-                          onClick={() => window.open("", "_blank")}
+                          onClick={() => window.open('', '_blank')}
                           className="text-black hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
                         />
                       </div>
@@ -706,10 +694,10 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     we have subject matter experts just a call away.
                   </div> */}
                         <a href="tel:8009770010" target="_blank">
-                          {" "}
+                          {' '}
                           <div className="md:text-2xl text-lg font-bold xl:font-semibold  ">
                             800-385-8006
-                          </div>{" "}
+                          </div>{' '}
                         </a>
                       </div>
                     </div>
@@ -740,7 +728,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     <div
                       className={`text-black 2xl:leading-8 leading-6 xl:block `}
                     >
-                      <div class="  mt-2">
+                      <div class="  mt-1">
                         <div class="w-full ">
                           <input
                             onChange={(e) => setEmail(e.target.value)}
@@ -772,8 +760,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <IoLogoFacebook
                         onClick={() =>
                           window.open(
-                            "https://www.facebook.com/kalgroupusa",
-                            "_blank"
+                            'https://www.facebook.com/kalgroupusa',
+                            '_blank'
                           )
                         }
                         className="text-black hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
@@ -781,14 +769,14 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <RiInstagramFill
                         onClick={() =>
                           window.open(
-                            "https://www.instagram.com/kalgroupusa/",
-                            "_blank"
+                            'https://www.instagram.com/kalgroupusa/',
+                            '_blank'
                           )
                         }
                         className="text-black hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
                       />
                       <IoLogoLinkedin
-                        onClick={() => window.open("", "_blank")}
+                        onClick={() => window.open('', '_blank')}
                         className="text-black hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
                       />
                     </div>

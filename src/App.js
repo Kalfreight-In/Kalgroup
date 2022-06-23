@@ -31,7 +31,7 @@ function App() {
           path="/trailerandleasing"
           element={<Trailer_and_Leasing />}
         ></Route> */}
-        <Route
+        {/* <Route
           path="/partz"
           element={
             <CommmingSoonComponentindex data="partz"></CommmingSoonComponentindex>
@@ -42,9 +42,9 @@ function App() {
           element={
             <CommmingSoonComponentindex data="tires"></CommmingSoonComponentindex>
           }
-        />
+        /> */}
 
-        <Route path="/Bigrigcananda" element={<></>} />
+        {/* <Route path="/Bigrigcananda" element={<></>} /> */}
         <Route
           exact
           path="*"

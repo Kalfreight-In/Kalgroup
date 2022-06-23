@@ -1,11 +1,14 @@
 import React from 'react';
 import { BrandCompnentBrands } from '../../data.js';
+import useMediaQuery from '../../Hooks/CustomMediaQuery.js';
 import BrandWeOffer from '../BrandWeOffer/BrandWeOffer.js';
 import { Slideshow } from '../Slider/slideshow/index.js';
-// import { BigTrailersBrand } from '../../data.js';
+// import { BigTrailersBrand } from '../../data.js'
+
 export const UnderConstruction = ({
   icon = 'https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Images/BigRig-Big.png',
 }) => {
+  const isDesktop = useMediaQuery('(min-width: 768px)');
   return (
     <>
       <div className="mt-28">
@@ -14,7 +17,7 @@ export const UnderConstruction = ({
             className="flex flex-row align-center justify-center"
             // key={item.id}
           >
-            <img src={icon} className=""></img>
+            <img src={icon} width={`${isDesktop ? '500px' : '200px'}`}></img>
             {/* <img
               src="https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Images/underConstruction.gif"
               className="w-fit"
