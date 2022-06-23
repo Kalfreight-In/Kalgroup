@@ -815,28 +815,40 @@ export const OurMajorClient = [
     desc: 'Our Major Client',
     Brands: [
       {
-        id: '1',
+        id: '25',
         imageurl:
-          'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Peterbilt-logo.png ',
-        heading: 'Peterbilt',
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/haldex.png',
+        heading: 'haldex',
       },
       {
-        id: '2',
+        id: '28',
         imageurl:
-          'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Vanguard-logo.png',
-        heading: 'Vanguard',
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/kinedyne.png',
+        heading: 'kinedyne',
       },
       {
-        id: '3',
+        id: '36',
         imageurl:
-          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/alliant-power.png',
-        heading: 'alliant-power',
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/paccar.png',
+        heading: 'paccar',
       },
       {
-        id: '8',
+        id: '50',
         imageurl:
-          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/bluesky.png',
-        heading: 'bluesky',
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/sns-truck.png',
+        heading: 'sns-truck',
+      },
+      {
+        id: '53',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/webb.png',
+        heading: 'total',
+      },
+      {
+        id: '53',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/total.png',
+        heading: 'total',
       },
     ],
   },

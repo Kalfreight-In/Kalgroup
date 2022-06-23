@@ -95,11 +95,11 @@ export function Slideshow({
             <div
               className={`${
                 smallSlider
-                  ? 'slide_small   hover:scale-75 `'
-                  : 'slide    hover:scale-110 '
+                  ? 'slide_small lg:grayscale-1    hover:scale-75 `'
+                  : 'slide lg:grayscale grayscale-0    hover:scale-110 '
               }  ${
                 singleSlider ? 'w-50vw' : 'w-1/4'
-              }    hover:grayscale-0  transition-all flex items-center content-center justify-center `}
+              }    hover:grayscale-0   transition-all flex items-center content-center justify-center `}
               key={index}
               // style={{ backgroundImage: `url(${brand.imageurl})` }}
             >
@@ -114,7 +114,7 @@ export function Slideshow({
                   // }}
                   className={`${
                     smallSlider ? 'p-0' : 'p-0'
-                  }     self-center slide justify-self-center justify-items-center border grayscale hover:grayscale-0`}
+                  }     self-center slide justify-self-center justify-items-center border `}
                 ></img>
               )}
             </div>

@@ -52,12 +52,15 @@ export const MapConatiner = () => {
           abbotsford={isabbotsford}
         ></Map>
       </div>
-      <div class=" flex-col flex content-center justify-center w-full flex-1 self-start items-start m-4 lg:ml-12 mt-2 ">
+      <div class=" flex-col flex content-center justify-center w-full flex-1 self-start items-start m-4 lg:ml-12 mt-2 lg:mb-0 mb-60">
         <div class="w-full">
-          <h3 class="xl:text-4xl self-start text-white font-bold md:text-2xl ">
-            Our Locations:
-          </h3>
-          <div class="mt-2 text-white font-desc text-descnew m">
+          <div className="flex flex-row">
+            <h3 class="xl:text-4xl self-start text-white font-bold md:text-2xl ">
+              Our Locations:
+            </h3>
+          </div>
+
+          <div class="mt-2 text-white font-desc text-descnew ">
             We serve You at Multiple location
           </div>
         </div>
@@ -67,7 +70,7 @@ export const MapConatiner = () => {
             <div id="mainnewnavcontainer">
               <div id="innermainnavcontainer">
                 <div class="group inline-block w-full">
-                  <button class="outline-none focus:outline-none  px-3 py-1 hover:bg-yellow-shadowhover bg-white rounded-md flex items-center w-full h-12">
+                  <button class="outline-none focus:outline-none  px-3 py-1 bg-white   rounded-md flex items-center w-full h-12">
                     <span class="pr-1 font-semibold flex-1">Canada</span>
                     <span>
                       <svg
@@ -86,7 +89,7 @@ export const MapConatiner = () => {
                   >
                     <span class="w-max mx-4 text-white">Canada</span>
                     <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
-                      <button class="outline-none focus:outline-none  px-3 py-1  bg-white rounded-sm flex items-center w-full h-12">
+                      <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                         <span class="pr-1 font-semibold flex-1">
                           British Columbia
                         </span>
@@ -107,7 +110,10 @@ transition duration-150 ease-in-out origin-top-left
 min-w-32
 "
                       >
-                        <li class="px-3 py-1 " ref={abbotsford}>
+                        <li
+                          class="px-3 py-1 hover:bg-yellow-shadowhover"
+                          ref={abbotsford}
+                        >
                           <li class="sc-bczRLJ gbaUcE">
                             <div class="sc-gsnTZi evWpLA">Abbotsford</div>
                           </li>
@@ -115,7 +121,7 @@ min-w-32
                       </ul>
                     </li>
                     <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
-                      <button class="outline-none focus:outline-none  px-3 py-1  bg-white rounded-sm flex items-center w-full h-12">
+                      <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                         <span class="pr-1 font-semibold flex-1">Alberta</span>
                         <span class="mr-auto">
                           <svg
@@ -134,7 +140,10 @@ transition duration-150 ease-in-out origin-top-left
 min-w-32
 "
                       >
-                        <li class="px-3 py-1 " ref={Calgary}>
+                        <li
+                          class="px-3 py-1 hover:bg-yellow-shadowhover"
+                          ref={Calgary}
+                        >
                           <li class="sc-bczRLJ gbaUcE">
                             <div class="sc-gsnTZi evWpLA">Calgary</div>
                           </li>
@@ -153,7 +162,7 @@ min-w-32
             <div id="mainnewnavcontainer">
               <div id="innermainnavcontainer">
                 <div class="group inline-block w-full">
-                  <button class="outline-none focus:outline-none  px-3 py-1 hover:bg-yellow-shadowhover bg-white rounded-md flex items-center w-full h-12">
+                  <button class="outline-none focus:outline-none  px-3 py-1 hover:bg-yellow-shadowhover bg-white  rounded-md flex items-center w-full h-12">
                     <span class="pr-1 font-semibold flex-1">USA</span>
                     <span>
                       <svg
@@ -172,7 +181,7 @@ min-w-32
                   >
                     <span class="w-max mx-4 text-white">USA</span>
                     <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
-                      <button class="outline-none focus:outline-none  px-3 py-1  bg-white rounded-sm flex items-center w-full h-12">
+                      <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                         <span class="pr-1 font-semibold flex-1">
                           California
                         </span>
@@ -188,27 +197,33 @@ min-w-32
                         </span>
                       </button>
                       <ul
-                        class=" bg-white border rounded-sm absolute  right-0 
+                        class=" bg-white border rounded-sm absolute  right-0 top-16
 transition duration-150 ease-in-out origin-top-left
 min-w-32
 "
                       >
-                        <li class="px-3 py-1 " ref={Fontana}>
+                        <li
+                          class="px-3 py-1 hover:bg-yellow-shadowhover"
+                          ref={Fontana}
+                        >
                           <li class="sc-bczRLJ gbaUcE">
                             <div class="sc-gsnTZi evWpLA">Fontana</div>
                           </li>
                         </li>
-                        <li class="px-3 py-1 " ref={Bakersfield}>
+                        <li
+                          class="px-3 py-1 hover:bg-yellow-shadowhover"
+                          ref={Bakersfield}
+                        >
                           <li class="sc-bczRLJ gbaUcE">
                             <div class="sc-gsnTZi evWpLA">Bakersfield</div>
                           </li>
                         </li>
-                        <li class="px-3 py-1 ">
+                        <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                           <li class="sc-bczRLJ gbaUcE" ref={SanMarcos}>
                             <div class="sc-gsnTZi evWpLA">San Marcos</div>
                           </li>
                         </li>
-                        <li class="px-3 py-1 ">
+                        <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                           <li class="sc-bczRLJ gbaUcE" ref={Stockton}>
                             <div class="sc-gsnTZi evWpLA">Stockton</div>
                           </li>
@@ -216,7 +231,7 @@ min-w-32
                       </ul>
                     </li>
                     <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
-                      <button class="outline-none focus:outline-none  px-3 py-1  bg-white rounded-sm flex items-center w-full h-12">
+                      <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                         <span class="pr-1 font-semibold flex-1">Georgia</span>
                         <span class="mr-auto">
                           <svg
@@ -235,7 +250,10 @@ transition duration-150 ease-in-out origin-top-left
 min-w-32
 "
                       >
-                        <li class="px-3 py-1 " ref={Atlanta}>
+                        <li
+                          class="px-3 py-1 hover:bg-yellow-shadowhover"
+                          ref={Atlanta}
+                        >
                           <li class="sc-bczRLJ gbaUcE">
                             <div class="sc-gsnTZi evWpLA">Atlanta</div>
                           </li>
@@ -243,7 +261,7 @@ min-w-32
                       </ul>
                     </li>
                     <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
-                      <button class="outline-none focus:outline-none  px-3 py-1  bg-white rounded-sm flex items-center w-full h-12">
+                      <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                         <span class="pr-1 font-semibold flex-1">Indiana</span>
                         <span class="mr-auto">
                           <svg
@@ -262,7 +280,10 @@ transition duration-150 ease-in-out origin-top-left
 min-w-32
 "
                       >
-                        <li class="px-3 py-1 " ref={Indianapolis}>
+                        <li
+                          class="px-3 py-1 hover:bg-yellow-shadowhover"
+                          ref={Indianapolis}
+                        >
                           <li class="sc-bczRLJ gbaUcE">
                             <div class="sc-gsnTZi evWpLA">Indianapolis</div>
                           </li>
@@ -270,7 +291,7 @@ min-w-32
                       </ul>
                     </li>
                     <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
-                      <button class="outline-none focus:outline-none  px-3 py-1  bg-white rounded-sm flex items-center w-full h-12">
+                      <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                         <span class="pr-1 font-semibold flex-1">
                           New Jersey
                         </span>
@@ -291,7 +312,10 @@ transition duration-150 ease-in-out origin-top-left
 min-w-32
 "
                       >
-                        <li class="px-3 py-1 " ref={Hampton}>
+                        <li
+                          class="px-3 py-1 hover:bg-yellow-shadowhover"
+                          ref={Hampton}
+                        >
                           <li class="sc-bczRLJ gbaUcE">
                             <div class="sc-gsnTZi evWpLA">Hampton</div>
                           </li>
@@ -299,7 +323,7 @@ min-w-32
                       </ul>
                     </li>
                     <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
-                      <button class="outline-none focus:outline-none  px-3 py-1  bg-white rounded-sm flex items-center w-full h-12">
+                      <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                         <span class="pr-1 font-semibold flex-1">Arkansas</span>
                         <span class="mr-auto">
                           <svg
@@ -318,7 +342,10 @@ transition duration-150 ease-in-out origin-top-left
 min-w-32
 "
                       >
-                        <li class="px-3 py-1 " ref={Springdale}>
+                        <li
+                          class="px-3 py-1 hover:bg-yellow-shadowhover"
+                          ref={Springdale}
+                        >
                           <li class="sc-bczRLJ gbaUcE">
                             <div class="sc-gsnTZi evWpLA">Springdale</div>
                           </li>
@@ -326,7 +353,7 @@ min-w-32
                       </ul>
                     </li>
                     <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
-                      <button class="outline-none focus:outline-none  px-3 py-1  bg-white rounded-sm flex items-center w-full h-12">
+                      <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                         <span class="pr-1 font-semibold flex-1">Texas</span>
                         <span class="mr-auto">
                           <svg
@@ -345,7 +372,10 @@ transition duration-150 ease-in-out origin-top-left
 min-w-32
 "
                       >
-                        <li class="px-3 py-1 " ref={Arlington}>
+                        <li
+                          class="px-3 py-1 hover:bg-yellow-shadowhover"
+                          ref={Arlington}
+                        >
                           <li class="sc-bczRLJ gbaUcE">
                             <div class="sc-gsnTZi evWpLA">Arlington</div>
                           </li>
