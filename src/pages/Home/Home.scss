@@ -5,7 +5,7 @@
   fill: #f1f0f1;
 }
 .cls-3 {
-  fill: #e85752;
+  fill: #ffffff;
 }
 .cls-4 {
   fill: #fefefe;
@@ -74,7 +74,7 @@
 }
 .svg-container {
   width: 50%;
-  @media (max-width: 1024px) {
+  @media (max-width: 768px) {
     width: 100%;
   }
 }
@@ -138,6 +138,9 @@
 .svg-container {
   width: 60%;
   @media (max-width: 1024px) {
+    width: 60%;
+  }
+  @media (max-width: 768px) {
     width: 100%;
   }
 }

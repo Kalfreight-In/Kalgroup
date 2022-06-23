@@ -33,51 +33,51 @@ const HeroSection = (data) => {
         <VideoBg playsInline autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <div className=" md:pl-48  text-center items-center">
+        <div className=" lg:pl-48  text-center items-center">
           {/* <button
           
-            className="text-white  font-semibold mb-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-20 lg:w-18 md:8 2xl:h-8 h-8 2xl:text-md lg:text-md md:text-md   2xl:p-0 p-4"
+            className="text-white  font-semibold mb-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-20 lg:w-18 lg:8 2xl:h-8 h-8 2xl:text-md lg:text-md lg:text-md   2xl:p-0 p-4"
           >
             <p>{data.data.site.heading}</p>
           </button> */}
 
-          <div className="2xl:text-5xl xl:text-4xl lg:text-3xl md:text-2xl text-3xl text-white font-bold md:w-4/5 md:text-left text-center">
+          <div className="2xl:text-5xl xl:text-4xl lg:text-3xl lg:text-2xl text-3xl text-white font-bold lg:w-4/5 lg:text-left text-center">
             Transforming Trucking Dynamics
           </div>
-          <div className="md:flex flex-row md:mt-16 mt-8 hidden">
-            <div className="md:border-l-2 border-x-amber-400 sm:block hidden"></div>
+          <div className="lg:flex flex-row lg:mt-16 mt-8 hidden">
+            <div className="lg:border-l-2 border-x-amber-400 sm:block hidden"></div>
 
-            <div className="md:ml-8 ml-0">
+            <div className="lg:ml-8 ml-0">
               <div className="2xl:text-1xl text-white font-medium">
                 Comprehensive, Consistent {isMobile ? <br /> : null} &
                 Convenient
               </div>
-              <div className="md:mt-4 mt-16 flex md:justify-start justify-center  md:items-start items-center">
+              <div className="lg:mt-4 mt-16 flex lg:justify-start justify-center  lg:items-start items-center">
                 <button
                   // onClick={() => {
                   //   setCTA('800-977-0010');
                   // }}
-                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md md:text-md   2xl:p-0 p-4 md:text-left"
+                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-descnew lg:text-md lg:text-md   2xl:p-0 p-4 lg:text-left"
                 >
                   <p>Learn More</p>
                 </button>
               </div>
             </div>
           </div>
-          <div className="flex flex-row md:mt-16 mt-8  justify-center items-center md:hidden">
-            <div className="md:border-l-2 border-x-amber-400 sm:block hidden"></div>
+          <div className="flex flex-row lg:mt-16 mt-8  justify-center items-center lg:hidden">
+            <div className="lg:border-l-2 border-x-amber-400 sm:block hidden"></div>
 
-            <div className="md:ml-8 ml-0">
+            <div className="lg:ml-8 ml-0">
               <div className="2xl:text-1xl text-white font-medium">
                 Comprehensive, Consistent {isMobile ? <br /> : null} &
                 Convenient
               </div>
-              <div className="md:mt-4 mt-16 flex md:justify-start justify-center  md:items-start items-center">
+              <div className="lg:mt-4 mt-16 flex lg:justify-start justify-center  lg:items-start items-center">
                 <button
                   // onClick={() => {
                   //   setCTA('800-977-0010');
                   // }}
-                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-xl lg:text-md md:text-sm  2xl:p-0 p-4 md:text-left"
+                  className="text-white bg-yellow-bg  font-semibold   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 w-48 2xl:h-12 h-12 2xl:text-xl lg:text-md lg:text-sm  2xl:p-0 p-4 lg:text-left"
                 >
                   <p>Learn More</p>
                 </button>

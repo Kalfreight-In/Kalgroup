@@ -19,7 +19,7 @@ var mydata = Businessdata[0];
 
 export default function Business() {
   const [hoverRef, isHovered] = useHover();
-  const isDesktop = useMediaQuery('(min-width: 1281px)');
+  const isDesktop = useMediaQuery('(min-width: 1280px)');
   const isTablet = useMediaQuery('(min-width: 780px)');
   const titleAnimation = useSpring({
     from: {
@@ -78,7 +78,7 @@ export default function Business() {
           pagination={{
             clickable: true,
           }}
-          centeredSlides={true}
+          // centeredSlides={true}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,

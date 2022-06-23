@@ -10,14 +10,14 @@ import Sidebar from './Components/Sidebar';
 import Footer from './Components/Footernewcomp/Footer';
 import BottomBar from './Components/Bottombar';
 import Trailer_and_Leasing from './pages/TrailerandLeasing';
-
+import { UnderConstruction } from './Components/UnderConstruction';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
- 
+
   return (
     <Router>
       <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
@@ -27,10 +27,10 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} exact />
-        <Route
+        {/* <Route
           path="/trailerandleasing"
           element={<Trailer_and_Leasing />}
-        ></Route>
+        ></Route> */}
         <Route
           path="/partz"
           element={
@@ -45,7 +45,16 @@ function App() {
         />
 
         <Route path="/Bigrigcananda" element={<></>} />
+        <Route
+          exact
+          path="*"
+          title="Error"
+          element={
+            <UnderConstruction icon="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/kalGfooterlogo.png" />
+          }
+        />
       </Routes>
+
       <Footer />
       {/* <FooterSection></FooterSection> */}
       <BottomBar />

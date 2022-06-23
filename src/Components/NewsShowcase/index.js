@@ -22,7 +22,7 @@ const NewsShowcase = (data) => {
               {data.data.date}
             </h1>
             <h1 className="text-white text-lg  2xl:text-xl  font-heading   px-0 mb-4">
-              {data.data.heading}w-full
+              {data.data.heading}
             </h1>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
@@ -31,14 +31,16 @@ const NewsShowcase = (data) => {
               {data.data.desc}
             </p>
             <div>
-              <button
-                onClick={() => {
-                  setCTA(data.data.CTA.heading);
-                }}
-                className="text-white bg-yellow-bg  font-semibold  mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-12 h-12 2xl:text-descnew lg:text-base md:text-base text-base   2xl:p-0 p-4"
-              >
-                <p>{CTA}</p>
-              </button>
+              {data.data.CTA.heading ? (
+                <button
+                  onClick={() => {
+                    setCTA(data.data.CTA.heading);
+                  }}
+                  className="text-white bg-yellow-bg  font-semibold  mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-12 h-12 2xl:text-descnew lg:text-base md:text-base text-base   2xl:p-0 p-4"
+                >
+                  <p>{CTA}</p>
+                </button>
+              ) : null}
             </div>
           </div>
           <div className="  sm:flex-1 flex w-full">
