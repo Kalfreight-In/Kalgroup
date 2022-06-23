@@ -6,11 +6,9 @@ import React from 'react';
 // import { ContactFormContainer } from '../../Container/ContactFormContainer';
 // import Contact from '../../Components/Contactsection/Contact';
 
-import { Slideshow } from '../../Components/Slider/slideshow';
 // import OurBusinessVerticles from '../../Container/OurBusinessVerticles';
 import { MapConatiner } from '../../Container/MapContainer';
 import './Home.scss';
-import { BrandCompnentBrands } from '../../data';
 import Business from '../../Components/BusinessComponent/Business';
 import NewsAndEvents from '../../Container/NewsAndEvents';
 
