@@ -102,18 +102,24 @@ export default function Footer() {
                   <div className="text-black flex justify-start  xl:mt-12  ml-0 ">
                     <div className="mt-8">
                       {/* <AiOutlineClockCircle className="md:h-8 h-6 md:w-8 w-6 " /> */}
-                      <img
-                        src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
-                        alt=""
-                        className="h-4 w-6 "
-                      />
+
+                      <a href="tel:8003858006" target="_blank">
+                        <img
+                          src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
+                          alt=""
+                          className="h-4 w-6 "
+                        />
+                      </a>
                     </div>
                     <div className="block xl:ml-0 ">
                       <div className="flex justify-start items-start text-left 2xl:-ml-6 font-medium">
                         Reach out to us
                       </div>
                       <div className="md:text-2xl text-16px ml-2 xl:ml-4 text-xl md:font-bold font-semibold ">
-                        info@kalgroup.com
+                        <a href="mailto:info@kalgroup.com" target="_blank">
+                          info@kalgroup.com
+                        </a>
+
                         {/* (Monday to Friday)  */}
                       </div>
                     </div>
@@ -636,12 +642,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           className="text-black hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
                         />
                         <IoLogoLinkedin
-                          onClick={() =>
-                            window.open(
-                              "https://www.linkedin.com/company/Kalgroup",
-                              "_blank"
-                            )
-                          }
+                          onClick={() => window.open("", "_blank")}
                           className="text-black hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
                         />
                       </div>
@@ -667,12 +668,17 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     alt=""
                     className="text-black mt-2 "
                   /> */}
-                        <MdEmail className="md:h-8 h-6 md:w-8 w-6 " />
+                        <a href="mailto:info@kalgroup.com">
+                          <MdEmail className="md:h-8 h-6 md:w-8 w-6 " />
+                        </a>
                       </div>
                       <div className="block xl:ml-3 ml-0">
                         {/* <div className="block">Working hours</div> */}
                         <div className="md:text-xl text-16px ml-2 xl:ml-0 text-xl md:font-bold font-semibold pt-2 ">
-                          info@kalgroup.com
+                          <a href="mailto:info@kalgroup.com">
+                            info@kalgroup.com
+                          </a>
+
                           {/* (Monday to Friday)  */}
                         </div>
                       </div>
@@ -766,7 +772,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <IoLogoFacebook
                         onClick={() =>
                           window.open(
-                            "https://www.facebook.com/Kalgroups/",
+                            "https://www.facebook.com/kalgroupusa",
                             "_blank"
                           )
                         }
@@ -775,19 +781,14 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <RiInstagramFill
                         onClick={() =>
                           window.open(
-                            "https://www.instagram.com/Kalgroup/",
+                            "https://www.instagram.com/kalgroupusa/",
                             "_blank"
                           )
                         }
                         className="text-black hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
                       />
                       <IoLogoLinkedin
-                        onClick={() =>
-                          window.open(
-                            "https://www.linkedin.com/company/Kalgroup",
-                            "_blank"
-                          )
-                        }
+                        onClick={() => window.open("", "_blank")}
                         className="text-black hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
                       />
                     </div>
