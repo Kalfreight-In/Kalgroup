@@ -19,7 +19,7 @@ const FaceBookComponent = () => {
           clickable: true,
         }}
         // navigation={true}
-        modules={[Pagination]}
+        // modules={[Pagination]}
         className="mySwiper xl:w-40vw md:w-50vw w-full md:bg-white bg-facebookblue"
       >
         {Facbookfeeds.map((data, index) => (

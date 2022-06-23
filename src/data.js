@@ -1534,7 +1534,7 @@ export const Facbookfeeds = [
 export const Instagramfeeds = [
   {
     id: '1',
-    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/286169510_519570173202421_6328616867636052071_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=5jTiemdm3FAAX-r_MjD&_nc_ht=scontent-maa2-1.xx&oh=00_AT-3VRfW78HsxefCAjwNsBnI7SKxSEh-ouatKG7pKrQNPQ&oe=62B2D9BA',
+    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/286169510_519570173202421_6328616867636052071_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=NdYiKVz2oAoAX8yrGwU&_nc_ht=scontent-maa2-1.xx&oh=00_AT9Hc3gJqxCIiNLyXPO93REQwEYsh417lZ8h049t-zaYAw&oe=62B8C87A',
 
     caption: 'Used Trailers',
     desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
@@ -1544,7 +1544,7 @@ export const Instagramfeeds = [
   {
     id: '2',
 
-    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/282326995_508309244328514_7772227270459412721_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=sxNX65OZBeoAX_p2vLR&_nc_ht=scontent-maa2-1.xx&oh=00_AT9PEMBRWaUZ5_S2lsESrSDlhXfeTXXYJd63J26VwaM7gw&oe=62B1F96F',
+    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/282326995_508309244328514_7772227270459412721_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=j5OjvCF_VxsAX8VT1NQ&_nc_ht=scontent-maa2-1.xx&oh=00_AT_Mm57H4kgiQBWgIR-8rgbdpOPLWcsH7E20gTNcLsqUtQ&oe=62B7E82F',
     caption: 'KVL Tires',
     desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details!',
     time: '21 May',
@@ -1553,7 +1553,7 @@ export const Instagramfeeds = [
 
   {
     id: '3',
-    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/280611353_502279618264810_8376564357247553020_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=YjRO5BBdCPcAX_OJNWu&_nc_ht=scontent-maa2-2.xx&oh=00_AT_xch72VvmUKMRcFs2ZL_OxtY3ABvZJfnXrdUp0EZVSdg&oe=62B17A10',
+    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/280611353_502279618264810_8376564357247553020_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=NhU5girmI84AX9VFe7q&_nc_ht=scontent-maa2-2.xx&oh=00_AT9afeKMGMpvUEvLseOxCca__QyQKN1JMiYanLlC5HWG4g&oe=62B96310',
     caption: 'KalPartz',
     desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
     time: '12 May',
@@ -1561,7 +1561,7 @@ export const Instagramfeeds = [
   },
   {
     id: '4',
-    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/279779116_494988118993960_4082047950062427929_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=Wl-dg-FkrPEAX_ND_2F&_nc_ht=scontent-maa2-2.xx&oh=00_AT_AT9JCfzjVCSED9pCFk6y--n9mV5haCdESsBqjj3lvBQ&oe=62B117EC',
+    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/279779116_494988118993960_4082047950062427929_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=xEO95iBWVrgAX-g6VmW&_nc_ht=scontent-maa2-2.xx&oh=00_AT_CFgops2YDtisXcZzClwQXw6lq2CSH4GFSWF4wuwduPw&oe=62B900EC',
     caption: 'Kalway',
     desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
     time: '2 May',

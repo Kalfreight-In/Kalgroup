@@ -45,7 +45,7 @@ const NewsShowcase = (data) => {
               ) : null}
             </div>
           </div>
-          <div className="  sm:flex-1 flex w-full">
+          <div className="  sm:flex-1 flex w-full lg:h-55vh">
             <div
               className={
                 'md:h-full h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-center'
@@ -65,18 +65,14 @@ const NewsShowcase = (data) => {
                   <div className="text-white text-lg  lg:text-lg font-normal   px-0 mb-2">
                     {data.data.Tag}
                   </div>
-                  {data.data.CTA.heading ? (
-                    <button
-                      onClick={() => {
-                        setCTA(data.data.CTA.heading);
-                      }}
-                      className="text-white bg-yellow-bg  font-semibold  mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-12 h-12 2xl:text-descnew lg:text-base md:text-base text-base   2xl:p-0  "
-                    >
-                      <p className="text-center justify-center items-center">
-                        {CTA}
-                      </p>
-                    </button>
-                  ) : null}
+                  <button
+                    onClick={() => {
+                      setCTA(data.data.CTA.heading);
+                    }}
+                    className="sm:hidden   text-white bg-yellow-bg  font-semibold text-lg mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center w-1/2    h-12   p-4"
+                  >
+                    <p>{CTA}</p>
+                  </button>
                 </div>
               </Gradients>
             </div>
