@@ -102,6 +102,9 @@ module.exports = {
         "35vw": "35vw",
         contacttabinput: "90%",
         inputmap: "40rem",
+        contacttextarea:'96%',
+        contacttextareatab:'94%',
+       
       },
       height: {
         "40rem": "40rem",
