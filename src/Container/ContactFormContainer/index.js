@@ -1,5 +1,6 @@
 import React from 'react';
 import Contactform from '../../Components/ContactForm/';
+
 // import { isMobile } from 'react-device-detect';
 
 export const ContactFormContainer = () => {
@@ -30,16 +31,15 @@ export const ContactFormContainer = () => {
         />
       </div> */}
 
-      <div className="flex-1 ">
+      <div className="flex-1 lg:block sm:hidden">
         <div
           className={
             // 'lg:h-5/6 md:h-mobileMainImageHeight xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 '
-            'lg:h-5/6 md:h-mobileMainImageHeight xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 '
-         
+            "lg:h-5/6 md:h-mobileMainImageHeight xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 "
           }
           style={{
             backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/contactimagenew.png)`,
-            display: 'flex',
+            display: "flex",
           }}
         >
           {/* <div>
@@ -84,6 +84,21 @@ export const ContactFormContainer = () => {
               </div>
             </div>
           </div> */}
+        </div>
+      </div>
+
+      <div className="flex-1 lg:hidden">
+        <div
+          className={
+            // 'lg:h-5/6 md:h-mobileMainImageHeight xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 '
+            "lg:h-5/6 md:h-cropcontact xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 "
+          }
+          style={{
+            backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/contactcropmain.png)`,
+            display: "flex",
+          }}
+        >
+         
         </div>
       </div>
     </div>
