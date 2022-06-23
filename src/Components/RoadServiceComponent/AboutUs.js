@@ -43,10 +43,10 @@ export default function AboutUs() {
               </button> */}
 
               <button
-                onClick={() => {
-                  setCTA('800-977-0010');
-                }}
-                className="text-white bg-yellow-bg  font-semibold  mt-12  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 md:32 w-96 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md   2xl:p-0 p-4"
+                // onClick={() => {
+                //   setCTA('800-977-0010');
+                // }}
+                className="text-white bg-yellow-bg  font-semibold  mt-12  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-52 lg:w-36 md:32 w-96 2xl:h-12 h-12 2xl:text-aboutbutton lg:text-md md:text-md   2xl:p-0 p-4"
               >
                 <p>{CTA}</p>
               </button>

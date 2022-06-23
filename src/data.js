@@ -803,6 +803,40 @@ export const BrandCompnentBrands = [
     heading: 'wd-40',
   },
 ];
+export const OurMajorClient = [
+  {
+    id: "0",
+    logo: "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/bigpartzlogo.png",
+    name: "Our Major Client",
+    desc: "Our Major Client",
+    Brands: [
+      {
+        id: "1",
+        imageurl:
+          "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Peterbilt-logo.png ",
+        heading: "Peterbilt",
+      },
+      {
+        id: "2",
+        imageurl:
+          "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Vanguard-logo.png",
+        heading: "Vanguard",
+      },
+      {
+        id: "3",
+        imageurl:
+          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/alliant-power.png",
+        heading: "alliant-power",
+      },
+      {
+        id: "8",
+        imageurl:
+          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/bluesky.png",
+        heading: "bluesky",
+      },
+    ],
+  },
+];
 
 export const BigPArtzBrands = [
   {

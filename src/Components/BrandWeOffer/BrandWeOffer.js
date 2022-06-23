@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BigPArtzBrands, BigTireBrands} from '../../data';
+import { BigPArtzBrands, BigTireBrands, OurMajorClient} from '../../data';
 import { Slideshow } from '../Slider/slideshow';
 
 const BrandWeOffer = () => {
@@ -32,7 +32,7 @@ const BrandWeOffer = () => {
               : 'text-gray-500'
           }`}
           onClick={() => {
-            setsliderData(BigPArtzBrands);
+            setsliderData(OurMajorClient);
             setSelect(2);
           }}
         >
