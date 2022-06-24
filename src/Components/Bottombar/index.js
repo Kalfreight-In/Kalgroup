@@ -138,7 +138,7 @@ const BottomBar = ({ toggle }) => {
             Copyright © Kal Group, 2022. All Rights Reserved
           </h3> */}
             <h3 className="2xl:text-desc mr-4 text-navsmall md:text-sm lg:text-xs text-white">
-              Copyright © Kal Group, 2022. All Rights Reserved
+              Copyright © KAL Group, 2022. All Rights Reserved
             </h3>
           </NavBtn>
         </div>

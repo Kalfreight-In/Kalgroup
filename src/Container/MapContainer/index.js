@@ -25,14 +25,14 @@ export const MapConatiner = () => {
   const [Bakersfield, isBakersfield] = useHover();
   const [SanMarcos, isSanMarcos] = useHover();
   const [Calgary, isCalgary] = useHover();
-
   const [Arlington, isArlington] = useHover();
   const [Hampton, isHampton] = useHover();
   const [Stockton, isStockton] = useHover();
   const [Atlanta, isAtlanta] = useHover();
-
+  const [Lathrop, isLathrop] = useHover();
+  // const [Almondfontana,isAlmondfontana] = useHover();
+  // const [ValleyFontana,isValleyFontana] = useHover();
   const [Indianapolis, isIndianapolis] = useHover();
-
   const [Springdale, isSpringdale] = useHover();
   const [abbotsford, isabbotsford] = useHover();
   return (
@@ -42,8 +42,8 @@ export const MapConatiner = () => {
       style={{
         backgroundImage: `${
           isDesktop
-            ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
-            : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
+            ? "url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)"
+            : "url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)"
         }`,
       }}
     >
@@ -60,6 +60,9 @@ export const MapConatiner = () => {
           Indianapolis={isIndianapolis}
           Springdale={isSpringdale}
           abbotsford={isabbotsford}
+          Lathrop={isLathrop}
+          // AlmondFontana = {isAlmondfontana}
+          // ValleyFontana = {isValleyFontana}
         ></Map>
       </div>
       <div className="md:-m-8 -mx-8 w-full flex-1 ">
@@ -68,10 +71,10 @@ export const MapConatiner = () => {
           style={{
             backgroundImage: `${
               isDesktop
-                ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
-                : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
+                ? "url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)"
+                : "url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)"
             }`,
-            display: 'flex',
+            display: "flex",
           }}
         >
           <div className="lg:-mt-28 -mt-0 w-full pl-16 md:mb-0 mb-24">
@@ -110,7 +113,7 @@ export const MapConatiner = () => {
             </div>
             <div class="w-full lg:mt-8 mt-2">
               <div class="m-2 lg:w-1/3 w-1/2">
-                {' '}
+                {" "}
                 <div id="mainnewnavcontainer">
                   <div id="innermainnavcontainer">
                     <div class="group inline-block w-full">
@@ -204,7 +207,7 @@ min-w-32
             </div>
             <div class="w-full">
               <div class="m-2 lg:w-1/3 w-1/2">
-                {' '}
+                {" "}
                 <div id="mainnewnavcontainer">
                   <div id="innermainnavcontainer">
                     <div class="group inline-block w-full">
@@ -274,6 +277,21 @@ min-w-32
                                 <div class="sc-gsnTZi evWpLA">Stockton</div>
                               </li>
                             </li>
+                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                              <li class="sc-bczRLJ gbaUcE" ref={Lathrop}>
+                                <div class="sc-gsnTZi evWpLA"> Lathrop</div>
+                              </li>
+                            </li>
+                            {/* <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                              <li class="sc-bczRLJ gbaUcE" ref={Almondfontana}>
+                                <div class="sc-gsnTZi evWpLA">AlmondAve</div>
+                              </li>
+                            </li> */}
+                            {/* <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                              <li class="sc-bczRLJ gbaUcE" ref={ValleyFontana}>
+                                <div class="sc-gsnTZi evWpLA">ValleyBlvd</div>
+                              </li>
+                            </li> */}
                           </ul>
                         </li>
                         <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">

@@ -35,7 +35,11 @@ export const NavbarData = [
         id: 1,
         navItem: 'Company Overview',
       },
-    ],
+      {
+        id:2,
+        navItem:'CSR'
+      }
+    ]
   },
   {
     id: 3,
