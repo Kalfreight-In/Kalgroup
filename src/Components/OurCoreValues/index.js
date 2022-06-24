@@ -45,7 +45,7 @@ export default function OurCoreValues() {
   return (
     <>
       {/* <div class="social"></div> */}
-      <div className="bg-businessbackground">
+      <div className="bg-businessbackground" id='corevaluemain'>
         <div className="lg:p-8 p-2 ">
           <div className="flex justify-center items-center font-semibold">
             <h1 className="text-3xl font-bold link link-underline link-underline-black text-Description mb-6 pb-2">

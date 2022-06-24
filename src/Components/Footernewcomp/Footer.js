@@ -23,14 +23,14 @@ export default function Footer() {
         className="bg-footerbackground md:bg-cover bg-contain "
         style={{
           backgroundImage:
-            'url(' +
-            'https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png' +
-            ')',
-          backgroundBlendMode: 'difference',
-          backgroundPosition: 'center',
+            "url(" +
+            "https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png" +
+            ")",
+          backgroundBlendMode: "difference",
+          backgroundPosition: "center",
           // backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          width: 'full',
+          backgroundRepeat: "no-repeat",
+          width: "full",
         }}
       >
         <div className="p-8  md:p-0 xl:block flex justify-center ">
@@ -136,10 +136,10 @@ export default function Footer() {
                     </div>
                     <div className="ml-4">
                       <a href="tel:8009770010" target="_blank">
-                        {' '}
+                        {" "}
                         <div className="md:text-xl xl:text-xl text-xl  xl:font-bold font-semibold ml-2  ">
                           800-385-8006
-                        </div>{' '}
+                        </div>{" "}
                       </a>
                     </div>
                   </div>
@@ -207,36 +207,42 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black  2xl:leading-8 leading-6 xl:block   ${
-                        Hinventery ? '' : 'hidden'
+                        Hinventery ? "" : "hidden"
                       }`}
                     >
-                      <Link
-                        to="#"
+                      <a
+                        href="#"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
                       >
                         <span className="text-xl px-1"> </span>
                         Company Overview
-                      </Link>
-                      <Link
-                        to="#"
-                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
+                      </a>
+                      <Slink
+                        to="corevaluemain"
+                        smooth={true}
+                        duration={1000}
+                        spy={true}
+                        exact={true}
+                        offset={-80}
+                        className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center cursor-pointer"
                       >
                         <span className="text-xl px-1"> </span>
                         Core Values
-                      </Link>
-                      <Link
-                        to="#"
+                      </Slink>
+                      <a
+                        href="https://kalfreight.com/who-we-are/csr"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                        target="_blank"
                       >
                         <span className="text-xl px-1"> </span>
                         CSR
-                      </Link>
-                      {/* <Link
+                      </a>
+                      {/* <a
                         to="/newsevents"
                         className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       >
                         KAL Partz
-                      </Link> */}
+                      </a> */}
                     </div>
                   </div>
 
@@ -257,44 +263,49 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black 2xl:leading-8 leading-6 xl:block   ${
-                        H_WA ? '' : 'hidden'
+                        H_WA ? "" : "hidden"
                       }`}
                     >
-                      <Link
-                        to="/newsevents"
+                      <a
+                        href="https://kalfreight.com/"
+                        target="_blank"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
                       >
                         <span className="text-xl px-1"> </span>
                         KAL Freight
-                      </Link>
-                      <Link
-                        to="/newsevents"
+                      </a>
+                      <a
+                        href="https://kaltrailers.com/"
+                        target="_blank"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                       >
                         <span className="text-xl px-1"> </span>
                         KAL Trailers & Leasing
-                      </Link>
-                      <Link
-                        to="/newsevents"
+                      </a>
+                      <a
+                        href="https://kaltires.com/"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                        target="_blank"
                       >
                         <span className="text-xl px-1"> </span>
                         KVL Tires
-                      </Link>
-                      <Link
-                        to="/newsevents"
+                      </a>
+                      <a
+                        href="https://kalpartz.com/"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                        target="_blank"
                       >
                         <span className="text-xl px-1"> </span>
                         KAL Partz
-                      </Link>
-                      <Link
-                        to="/newsevents"
+                      </a>
+                      <a
+                        href="https://kalway.com/"
+                        target="_blank"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                       >
                         <span className="text-xl px-1"> </span>
                         KALWAY
-                      </Link>
+                      </a>
                     </div>
                   </div>
 
@@ -315,16 +326,16 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black  2xl:leading-8 leading-6 xl:block  ${
-                        Hquicklinks ? '' : 'hidden'
+                        Hquicklinks ? "" : "hidden"
                       }`}
                     >
                       <div>
-                        {/* <Link
+                        {/* <a
                     to="#aboutus "
                     className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                   >
                     About us
-                  </Link> */}
+                  </a> */}
 
                         {/* {window.location.pathname == "/" ? (
                           <Slink
@@ -353,49 +364,54 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         )} */}
                       </div>
                       <div>
-                        <Link
-                          to="/newsevents"
+                        <a
+                          href="https://kaltrailers.com/product-category/trucks/"
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
+                          target="_blank"
                         >
                           <span className="text-xl px-1"> </span>
                           Flatbed for sale
-                        </Link>
+                        </a>
                       </div>
                       <div>
-                        <Link
-                          to="/newsevents"
+                        <a
+                          href="https://kaltrailers.com/product-tag/dry-van/"
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
+                          target="_blank"
                         >
                           <span className="text-xl px-1"> </span>
                           Used Dry van for sale
-                        </Link>
+                        </a>
                       </div>
                       <div>
-                        <Link
-                          to="/newsevents"
+                        <a
+                          href="https://kaltrailers.com/product-tag/reefer/"
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center  "
+                          target="_blank"
                         >
                           <span className="text-xl px-1"> </span>
                           Reefer Trailer for sale
-                        </Link>
+                        </a>
                       </div>
                       <div>
-                        <Link
-                          to="/newsevents"
+                        <a
+                          href="https://kaltrailers.com/product-category/trailers/new-trailers/"
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
+                          target="_blank"
                         >
                           <span className="text-xl px-1"> </span>
                           New Trailers for sale
-                        </Link>
+                        </a>
                       </div>
                       <div>
-                        <Link
-                          to="/newsevents"
+                        <a
+                          href="https://kaltrailers.com/product-category/trucks/used-trucks/"
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center"
+                          target="_blank"
                         >
                           <span className="text-xl px-1"> </span>
                           Used Trucks for sale
-                        </Link>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -416,7 +432,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black 2xl:leading-8 leading-6 xl:block   ${
-                        Hcontactus ? '' : 'hidden'
+                        Hcontactus ? "" : "hidden"
                       }`}
                     >
                       <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start  mt-1">
@@ -443,7 +459,16 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover     xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex cursor-pointer">
                             <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow"></span>
-                            <span className="mt-5px">Newsroom</span>
+                            <Slink
+                              to="NewsRoom"
+                              smooth={true}
+                              duration={1000}
+                              spy={true}
+                              exact={true}
+                              offset={-80}
+                            >
+                              <span className="mt-5px">Newsroom</span>
+                            </Slink>
                           </span>
                         </div>
                         {/* <span> » </span> */}
@@ -481,13 +506,20 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex cursor-pointer">
                             <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow"></span>
-                            <span className="mt-5px">Financing Solutions</span>
+                            <a
+                              href="https://kaltrailers.com/credit-application/"
+                              target="_blank"
+                            >
+                              <span className="mt-5px">
+                                Financing Solutions
+                              </span>
+                            </a>
                           </span>
                         </div>
                         {/* <span> » </span> */}
                         {/* <a
                           href="mailto:trailers@bigrigcanada.com"
-                          target="_blank"
+                          target="_blank  "
                           rel="noreferrer"
                           className="block md:text-16px text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8"
                         >
@@ -498,9 +530,13 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <div className=" antialiased w-max block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex cursor-pointer">
                             <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow"></span>
-                            <span className="mt-5px">
-                              24x7 Roadside Assistance
-                            </span>
+                            <a href="http://kaltires.com/#Advantages" 
+                            target='_blank'
+                            >
+                              <span className="mt-5px">
+                                24x7 Roadside Assistance
+                              </span>
+                            </a>
                           </span>
                         </div>
                         {/* <span> » </span> */}
@@ -516,12 +552,12 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       {/* <div className="flex flex-row space-x-2 align-center justify-center xl:justify-start">
                     <div>For all other enquires reach us at</div>
                     <span> »  </span>
-                    <Link
+                    <a
                       to=""
                       className="block md:text-16px text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                     >
                       info@bigrigcanada.com{" "}
-                    </Link>
+                    </a>
                   </div> */}
 
                       {/* <div
@@ -580,7 +616,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                   <div
                     className={`text-black 2xl:leading-8 leading-6 xl:block ${
-                      Hcontactus ? '' : 'hidden'
+                      Hcontactus ? "" : "hidden"
                     }`}
                   >
                     <div class="  mt-8">
@@ -598,12 +634,12 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     </div>
 
                     <div className="flex flex-row space-x-2 align-center justify-center xl:justify-end">
-                      <Link
+                      <a
                         to=""
                         className="block md:text-xl text-navsmall font-semibold hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
                       >
                         Subscribe Now
-                      </Link>
+                      </a>
                     </div>
 
                     <div
@@ -614,8 +650,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <IoLogoFacebook
                           onClick={() =>
                             window.open(
-                              'https://www.facebook.com/kalgroupusa',
-                              '_blank'
+                              "https://www.facebook.com/kalgroupusa",
+                              "_blank"
                             )
                           }
                           className="text-black hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
@@ -623,8 +659,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <RiInstagramFill
                           onClick={() =>
                             window.open(
-                              'https://www.instagram.com/kalgroupusa/',
-                              '_blank'
+                              "https://www.instagram.com/kalgroupusa/",
+                              "_blank"
                             )
                           }
                           className="text-black hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
@@ -699,10 +735,10 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     we have subject matter experts just a call away.
                   </div> */}
                         <a href="tel:8009770010" target="_blank">
-                          {' '}
+                          {" "}
                           <div className="md:text-2xl text-lg font-bold xl:font-semibold  ">
                             800-385-8006
-                          </div>{' '}
+                          </div>{" "}
                         </a>
                       </div>
                     </div>
@@ -748,12 +784,12 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
 
                       <div className="flex flex-row align-center justify-center xl:justify-end">
-                        <Link
+                        <a
                           to=""
                           className="block md:text-xl text-navsmall font-normal hover:text-yellow-shadowhover  text-Description   text-center"
                         >
                           Subscribe Now
-                        </Link>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -765,8 +801,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <IoLogoFacebook
                         onClick={() =>
                           window.open(
-                            'https://www.facebook.com/kalgroupusa',
-                            '_blank'
+                            "https://www.facebook.com/kalgroupusa",
+                            "_blank"
                           )
                         }
                         className="text-black hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
@@ -774,14 +810,14 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <RiInstagramFill
                         onClick={() =>
                           window.open(
-                            'https://www.instagram.com/kalgroupusa/',
-                            '_blank'
+                            "https://www.instagram.com/kalgroupusa/",
+                            "_blank"
                           )
                         }
                         className="text-black hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
                       />
                       <IoLogoLinkedin
-                        onClick={() => window.open('', '_blank')}
+                        onClick={() => window.open("", "_blank")}
                         className="text-black hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
                       />
                     </div>
@@ -836,7 +872,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
         {/* <div id="mainiconcontainer">
         <div id="allicons" className="flex justify-end mx-48 ">
         <RiFacebookCircleLine onClick={()=> window.open('https://www.facebook.com/kaxlroupusa','_blank')} className="text-black mx-2 cursor-pointer h-1.8rem w-1.8rem" />
-        <LinkiOutlineInstagram onClick={()=> window.open('https://www.instagram.com/Kalgroup/', '_blank')} className='text-black  mx-2 cursor-pointer h-1.8rem w-1.8rem' />
+        <aiOutlineInstagram onClick={()=> window.open('https://www.instagram.com/Kalgroup/', '_blank')} className='text-black  mx-2 cursor-pointer h-1.8rem w-1.8rem' />
         <TiSocialLinkedinCircular onClick={()=> window.open('https://www.linkedin.com/company/Kalgroup','_blank')} className="text-black mx-2 cursor-pointer h-8 w-8" />    
         </div> */}
         {/* </div>   */}
