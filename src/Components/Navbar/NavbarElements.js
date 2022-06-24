@@ -26,8 +26,6 @@ export const Nav = styled.nav`
     position: relative;
   }
 
- 
-
   /* Third Nav */
   /* justify-content: flex-start; */
 `;
@@ -58,11 +56,13 @@ export const NavLogo = styled(LinkR)`
   margin-left: 2px;
   font-weight: bold;
   text-decoration: none;
+  padding: 9px, 0px, 9px, 0px;
   @media screen and (max-width: 480px) {
   }
   @media screen and (max-width: 768px) {
   }
   img {
+    padding: 9px, 0px, 9px, 0px;
     height: '92px';
     @media screen and (max-width: 480px) {
       height: '42px';
@@ -153,7 +153,7 @@ export const NavItem = styled.li`
     padding: 0 0.1rem;
   }
 
-  @media screen and (max-width:1080px) {
+  @media screen and (max-width: 1080px) {
     display: none;
   }
   // &:hover {

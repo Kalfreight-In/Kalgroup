@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-scroll';
+import { animateScroll as scroll, Link } from 'react-scroll';
 import { NavItemnew } from './NavDropStyles';
 import { NavLinksnew } from './NavDropStyles';
 
@@ -63,6 +63,7 @@ export default function NavDropdown({ data, hidden }) {
                               <span class="pr-1 font-normal flex-1  text-contactdesc  ">
                                 {data.navItem}
                               </span>
+
                               <span class="mr-auto">
                                 <svg
                                   class="fill-current h-4 w-4 transform -rotate-90 
@@ -113,13 +114,13 @@ export default function NavDropdown({ data, hidden }) {
                           </a>
                         ) : (
                           <Link
-                            className="w-full"
                             to={data.url.url}
                             smooth={true}
                             duration={1000}
                             spy={true}
                             exact={true}
                             offset={-80}
+                            className="cursor-pointer"
                           >
                             <NavItemnew key={data.id}>
                               <NavLinksnew>{data.navItem}</NavLinksnew>

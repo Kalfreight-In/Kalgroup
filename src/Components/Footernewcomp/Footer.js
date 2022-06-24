@@ -112,7 +112,7 @@ export default function Footer() {
                       </a>
                     </div>
                     <div className="block xl:ml-0 ">
-                      <div className="flex justify-start  items-start  text-left 2xl:-ml-6 font-medium">
+                      <div className="flex justify-start  items-start  text-left -ml-6  font-medium">
                         Reach out to us
                       </div>
 
@@ -666,7 +666,12 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           className="text-black hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
                         />
                         <IoLogoLinkedin
-                          onClick={() => window.open("", "_blank")}
+                          onClick={() =>
+                            window.open(
+                              'https://www.linkedin.com/company/kal-trailers-and-leasing',
+                              '_blank'
+                            )
+                          }
                           className="text-black hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
                         />
                       </div>
