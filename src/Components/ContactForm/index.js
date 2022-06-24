@@ -115,13 +115,13 @@ const Contactform = () => {
               </h1>
             </div>
             <div className="2xl:hidden">
-              <p className="text-neautralform  font-Poppins md:text-xl text-xs font-normal  my-1 mb-3 ">
+              <p className="text-neautralform  font-Poppins md:text-lg text-xs font-normal  my-1 mb-3 ">
                 Got a question? Or request a quote? Contact us directly or fill
                 up the form and we will get back to you promptly.
               </p>
             </div>
             <div className="hidden 2xl:block">
-              <p className="text-neautralform  font-Poppins md:text-xl text-xs font-normal  my-1 mb-3 ">
+              <p className="text-neautralform  font-Poppins md:text-lg text-xs font-normal  my-1 mb-3 ">
                 Got a question? Or request a quote? Contact us directly or fill
                 up the form <br /> and we will get back to you promptly.
               </p>

@@ -9,7 +9,7 @@ const FaceBookSingleCompnent = (data) => {
             // className="2xl:ml-42 xl:ml-28 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0 flex-1"
             className="2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-4 mt-20   2xl:pt-12 pt-0 mx-6 flex-1  max-w-screen-lg pr-20 "
           >
-            <h1 className="text-white text-sm sm:text-lg 2xl:text-xl font-heading lg:text-2xl  px-0 mb-4">
+            <h1 className="text-white text-sm md:text-sm 2xl:text-xl font-heading   px-0 mb-4">
               {data.data.caption}
             </h1>
 
