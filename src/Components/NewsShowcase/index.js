@@ -21,7 +21,10 @@ const NewsShowcase = (data) => {
     <>
       <div class="flex bg-Lightblue   sm:m-4 w-full md:h-96 xl:h-96 2xl:h-30">
         <div class="flex  flex-row-reverse ">
-          <div class="sm:block hidden 2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-10 mt-4 2xl:pt-4 pt-0 mx-6 flex-1 pb-1 ">
+          <div class="sm:block hidden 2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-10 mt-10 2xl:pt-4 pt-0 mx-6 flex-1 pb-1 ">
+            <h1 class="text-white text-sm sm:text- 2xl:text-xl font-heading lg:text-2xl  px-0 mb-4">
+              {data.data.date}
+            </h1>
             <h1 className="text-white text-lg  2xl:text-xl  font-heading   px-0 mb-4">
               {data.data.heading}
             </h1>
@@ -78,11 +81,11 @@ const NewsShowcase = (data) => {
               ) : null}
             </div>
           </div>
-          <div className="  sm:flex-1 flex w-full ">
+          <div className="   flex w-full " style={{ flex: '0  3  60%' }}>
             <div
-              className={`md:h-full h-mobileMainImageHeight w-full bg-cover bg-no-repeat ${
-                isDesktop ? 'bg-left' : 'bg-center'
-              }`}
+              className={
+                'md:h-full h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-center'
+              }
               style={{
                 backgroundImage: `url(${imageurl})`,
               }}
