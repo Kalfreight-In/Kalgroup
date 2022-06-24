@@ -205,7 +205,7 @@ const Navbar = ({ toggle }) => {
               spy={true}
               exact={true}
               offset={-80}
-              className="px-8"
+              className="px-8 cursor-pointer"
             >
               <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navmaplogo.svg"
@@ -221,6 +221,7 @@ const Navbar = ({ toggle }) => {
               spy={true}
               exact={true}
               offset={-80}
+              className="cursor-pointer"
             >
               <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"

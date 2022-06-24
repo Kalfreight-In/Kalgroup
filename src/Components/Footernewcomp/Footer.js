@@ -116,7 +116,7 @@ export default function Footer() {
                         Reach out to us
                       </div>
 
-                      <div className="md:text-xl text-16px ml-2 xl:ml-4 text-xl md:font-bold font-semibold ">
+                      <div className="md:text-xl text-16px ml-2 xl:ml-4 text-xl md:font-bold font-semibold cursor-pointer">
                         info@kalgroup.com
                         {/* (Monday to Friday)  */}
                       </div>

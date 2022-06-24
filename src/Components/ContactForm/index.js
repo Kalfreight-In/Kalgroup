@@ -103,33 +103,25 @@ const Contactform = () => {
           <div className="xl:text-left text-center xl:pl-2">
             <div
               id="contactnew"
-              className="flex justify-center items-center xl:justify-start xl:items-start "
+              className="flex justify-center items-center xl:justify-start xl:items-start pb-8"
             >
               <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               />
-              <h1 className="text-Heading md:text-36px text-3xl font-bold pl-2 pb-8 text-center">
+              <h1 className="text-Heading md:text-36px text-3xl font-bold pl-2  text-center">
                 Contact Us
               </h1>
             </div>
             <div className="2xl:hidden">
-<<<<<<< HEAD
-              <p className="text-neautralform  font-Poppins md:text-xl text-xs font-normal  my-1 mb-3 ">
-=======
               <p className="text-neautralform  font-Poppins md:text-lg text-xs font-normal  my-1 mb-3 ">
->>>>>>> parent of f31cb7c (Merge branch 'main' of https://github.com/Kalfreight-In/Kalgroup)
                 Got a question? Or request a quote? Contact us directly or fill
                 up the form and we will get back to you promptly.
               </p>
             </div>
             <div className="hidden 2xl:block">
-<<<<<<< HEAD
-              <p className="text-neautralform  font-Poppins md:text-xl text-xs font-normal  my-1 mb-3 ">
-=======
               <p className="text-neautralform  font-Poppins md:text-lg text-xs font-normal  my-1 mb-3 ">
->>>>>>> parent of f31cb7c (Merge branch 'main' of https://github.com/Kalfreight-In/Kalgroup)
                 Got a question? Or request a quote? Contact us directly or fill
                 up the form <br /> and we will get back to you promptly.
               </p>

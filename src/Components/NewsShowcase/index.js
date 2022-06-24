@@ -76,11 +76,7 @@ const NewsShowcase = (data) => {
               ) : null}
             </div>
           </div>
-<<<<<<< HEAD
-          <div className="   flex w-full " style={{ flex: '0  3  60%' }}>
-=======
           <div className="   flex w-full " style={{ flex: '0  3  55%' }}>
->>>>>>> parent of f31cb7c (Merge branch 'main' of https://github.com/Kalfreight-In/Kalgroup)
             <div
               className={
                 'md:h-full h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-left'
