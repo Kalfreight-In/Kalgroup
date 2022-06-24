@@ -391,7 +391,12 @@ export const EventsData = [
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Texas.png',
     desc: 'Texas Trucking Show, Join us at NRG Center, Texas',
-    CTA: { heading: null, link: 'register' },
+
+    desc2: ` Reserved a seat for `,
+    desc3: `"Dinner with the KAL group"`,
+
+    desc4: `Early Bird registration click below`,
+    CTA: { heading: 'Register', link: 'register' },
     Tag: 'Texas',
   },
   {

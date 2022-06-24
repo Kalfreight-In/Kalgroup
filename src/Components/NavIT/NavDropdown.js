@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 import { NavItemnew } from './NavDropStyles';
 import { NavLinksnew } from './NavDropStyles';
 
@@ -104,12 +105,26 @@ export default function NavDropdown({ data, hidden }) {
                               ))}
                             </ul>
                           </>
-                        ) : (
-                          <a href={data.url.url}>
+                        ) : data.url.link === 'a' ? (
+                          <a href={data.url.url} className="w-full">
                             <NavItemnew key={data.id}>
                               <NavLinksnew>{data.navItem}</NavLinksnew>
                             </NavItemnew>
                           </a>
+                        ) : (
+                          <Link
+                            className="w-full"
+                            to={data.url.url}
+                            smooth={true}
+                            duration={1000}
+                            spy={true}
+                            exact={true}
+                            offset={-80}
+                          >
+                            <NavItemnew key={data.id}>
+                              <NavLinksnew>{data.navItem}</NavLinksnew>
+                            </NavItemnew>
+                          </Link>
                         )}
                       </li>
                     ))
