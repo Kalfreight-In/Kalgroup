@@ -38,7 +38,6 @@ module.exports = {
         navdropdown: '0.9rem',
         contactdesc: '16px',
         aboutbutton: '22px',
-        SmallDesc: '0.55rem',
       },
       fontWeight: {
         heading: '700',
@@ -122,7 +121,7 @@ module.exports = {
         '67vh': '67vh',
         30: '30rem',
         'medium-height': '90vh',
-        mobileMainImageHeight: '70vh',
+        mobileMainImageHeight: '80vh',
         mobileSecondImage: '54vh',
         contactimg: '80vh',
         cropcontact: '41vh',

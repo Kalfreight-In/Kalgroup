@@ -84,7 +84,7 @@ export function Slideshow({
         ref={hoverRef}
       >
         <div
-          className="slideshowSlider  transition ease-linear delay-75 mb-16 "
+          className="slideshowSlider  transition ease-linear delay-100 mb-16 "
           style={{
             transform: `translate3d(${
               -index * (!isDesktop || singleSlider ? 100 : 25)
@@ -96,7 +96,7 @@ export function Slideshow({
               className={`${
                 smallSlider
                   ? 'slide_small lg:grayscale-1    hover:scale-75 `'
-                  : 'slide lg:grayscale-0 grayscale-0    hover:scale-110 '
+                  : 'slide lg:grayscale grayscale-0    hover:scale-110 '
               }  ${
                 singleSlider ? 'w-50vw' : 'w-1/4'
               }    hover:grayscale-0   transition-all flex items-center content-center justify-center `}

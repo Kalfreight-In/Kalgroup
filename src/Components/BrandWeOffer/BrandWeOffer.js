@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BigPArtzBrands, BigTireBrands, OurMajorClient } from '../../data';
+import { BigPArtzBrands, BigTireBrands, OurMajorClient} from '../../data';
 import { Slideshow } from '../Slider/slideshow';
 
 const BrandWeOffer = () => {

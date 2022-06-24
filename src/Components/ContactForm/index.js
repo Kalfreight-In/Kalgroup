@@ -4,6 +4,7 @@ import Sparkles from '../../animation/Sparkel';
 import { motion } from 'framer-motion';
 import { isDesktop } from 'react-device-detect';
 
+
 const Contactform = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -88,7 +89,7 @@ const Contactform = () => {
               <motion.div
                 animate={{ scale: [0.8, 1] }}
                 transition={{
-                  ease: 'linear',
+                  ease: "linear",
                   duration: 0.9,
                   repeat: Infinity,
                 }}
@@ -110,20 +111,22 @@ const Contactform = () => {
                 alt=""
                 className="max-w-emailcontacticon max-h-8 pt-2 hidden md:block"
               />
-              <h1 className="text-Heading md:text-36px text-3xl font-bold pl-2 pb-8 text-center">
+              <h1 className="text-Heading md:text-36px text-3xl font-bold pl-2 text-center">
                 Contact Us
               </h1>
             </div>
-            <div className="2xl:hidden">
-              <p className="text-neautralform  font-Poppins md:text-lg text-xs font-normal  my-1 mb-3 ">
+            <div className='2xl:hidden'> 
+              <p className="text-neautralform  font-Poppins md:text-xl text-xs font-normal  my-1 mb-3 ">
                 Got a question? Or request a quote? Contact us directly or fill
-                up the form and we will get back to you promptly.
+                up the form and we will get back to
+                you promptly.
               </p>
             </div>
-            <div className="hidden 2xl:block">
-              <p className="text-neautralform  font-Poppins md:text-lg text-xs font-normal  my-1 mb-3 ">
+            <div className='hidden 2xl:block'> 
+              <p className="text-neautralform  font-Poppins md:text-xl text-xs font-normal  my-1 mb-3 ">
                 Got a question? Or request a quote? Contact us directly or fill
-                up the form <br /> and we will get back to you promptly.
+                up the form <br/> and we will get back to
+                you promptly.
               </p>
             </div>
           </div>
@@ -138,7 +141,7 @@ const Contactform = () => {
                 id="grid-first-name"
                 type="text"
                 value={name}
-                placeholder="Name *"
+                placeholder="Name"
                 required
               />
             </div>
@@ -150,7 +153,7 @@ const Contactform = () => {
                   value={email}
                   class="appearance-none block xl:w-72 w-contacttabinput bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="email"
-                  placeholder="Email Address *"
+                  placeholder="Email Address"
                   type="email"
                   required
                 />
@@ -162,7 +165,7 @@ const Contactform = () => {
               <input
                 type="text"
                 onChange={(e) => setlocation(e.target.value)}
-                placeholder=" Location *"
+                placeholder=" Location"
                 className="appearance-none block xl:w-72 w-contacttabinput bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                 required
               />
@@ -175,8 +178,8 @@ const Contactform = () => {
                   value={phoneno}
                   class="appearance-none block xl:w-72 w-contacttabinput bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="email"
-                  placeholder="Mobile No *"
-                  type="Phone *"
+                  placeholder="Mobile No"
+                  type="Phone"
                   required
                 />
               </div>
@@ -191,8 +194,8 @@ const Contactform = () => {
                 onChange={(e) => setMessage(e.target.value)}
                 value={message}
                 class=" no-resize appearance-none block xl:w-contacttextarea md:w-contacttextareatab w-contacttabinput bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-36 resize-none"
-                id="message  *"
-                placeholder="What can we do for you? *"
+                id="message"
+                placeholder="What can we do for you?"
               ></textarea>
             </div>
           </div>

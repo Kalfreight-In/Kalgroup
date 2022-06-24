@@ -208,7 +208,7 @@ const Navbar = ({ toggle }) => {
               <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navmaplogo.svg"
                 alt=""
-                className="h-8 w-8 "
+                className="h-8 w-8 lg:mt-2 xl:mt-0 cursor-pointer"
               />
             </Link>
 
@@ -223,7 +223,7 @@ const Navbar = ({ toggle }) => {
               <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                 alt=""
-                className="h-6 w-8 mt-1"
+                className="h-6 w-8 mt-1 cursor-pointer"
               />
             </Link>
 

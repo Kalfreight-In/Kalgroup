@@ -137,8 +137,8 @@ const BottomBar = ({ toggle }) => {
             {/* <h3 className="2xl:text-desc text-navsmall md:text-sm md:text-xs text-white">
             Copyright © BigRig Group, 2022. All Rights Reserved
           </h3> */}
-            <h3 className="2xl:text-desc md:mr-4 text-navsmall md:text-sm md:text-xs text-white md:justify">
-              Copyright © KAl Group, 2022. All Rights Reserved
+            <h3 className="2xl:text-desc mr-4 text-navsmall md:text-sm lg:text-xs text-white">
+              Copyright © KAL Group, 2022. All Rights Reserved
             </h3>
           </NavBtn>
         </div>

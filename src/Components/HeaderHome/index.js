@@ -1,5 +1,5 @@
 import React from 'react';
-import Video from './media/bgvideo.mp4';
+import Video from './media/Bgvideo.mp4';
 import {
   HeroContainer,
   HeroContent,
@@ -34,7 +34,7 @@ const HeroSection = (data) => {
         <VideoBg playsInline autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <div className=" lg:pl-48 lg:-mb-20 2xl:-mb-0  text-center items-center">
+        <div className=" lg:pl-48  text-center items-center">
           {/* <button
           
             className="text-white  font-semibold mb-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-20 lg:w-18 lg:8 2xl:h-8 h-8 2xl:text-md lg:text-md lg:text-md   2xl:p-0 p-4"
@@ -42,18 +42,18 @@ const HeroSection = (data) => {
             <p>{data.data.site.heading}</p>
           </button> */}
 
-          <div className="2xl:text-5xl xl:text-4xl lg:text-3xl  text-3xl text-white font-bold lg:w-4/5 lg:text-left text-center">
+          <div className="2xl:text-5xl xl:text-4xl lg:text-3xl lg:text-2xl text-3xl text-white font-bold lg:w-4/5 lg:text-left text-center">
             Transforming Trucking Dynamics
           </div>
-          <div className="lg:flex flex-row 2xl:mt-12 mt-4 hidden">
+          <div className="lg:flex flex-row lg:mt-16 mt-8 hidden">
             <div className="lg:border-l-2 border-x-amber-400 sm:block hidden"></div>
 
             <div className="lg:ml-8 ml-0">
-              <div className="2xl:text-2xl text-white font-xl">
+              <div className="2xl:text-1xl text-white font-medium">
                 Comprehensive, Consistent {isMobile ? <br /> : null} &
                 Convenient
               </div>
-              <div className="lg:mt-4 mt-16 text-lg flex lg:justify-start justify-center  lg:items-start items-center">
+              <div className="lg:mt-4 mt-16 flex lg:justify-start justify-center  lg:items-start items-center">
                 <Link to="learnmoore">
                   <button
                     // onClick={() => {
@@ -71,7 +71,7 @@ const HeroSection = (data) => {
             <div className="lg:border-l-2 border-x-amber-400 sm:block hidden"></div>
 
             <div className="lg:ml-8 ml-0">
-              <div className="2xl:text-2xl text-lg text-white font-xl">
+              <div className="2xl:text-1xl text-white font-medium">
                 Comprehensive, Consistent {isMobile ? <br /> : null} &
                 Convenient
               </div>
