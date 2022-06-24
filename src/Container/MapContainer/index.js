@@ -30,6 +30,7 @@ export const MapConatiner = () => {
   // const [Stockton, isStockton] = useHover();
   const [Atlanta, isAtlanta] = useHover();
   const [Lathrop, isLathrop] = useHover();
+  const [Calexico,isCalexico] = useHover();
   // const [Almondfontana,isAlmondfontana] = useHover();
   // const [ValleyFontana,isValleyFontana] = useHover();
   const [Indianapolis, isIndianapolis] = useHover();
@@ -61,6 +62,7 @@ export const MapConatiner = () => {
           Springdale={isSpringdale}
           abbotsford={isabbotsford}
           Lathrop={isLathrop}
+          Calexico = {isCalexico}
           // AlmondFontana = {isAlmondfontana}
           // ValleyFontana = {isValleyFontana}
         ></Map>
@@ -280,6 +282,11 @@ min-w-32
                             <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                               <li class="sc-bczRLJ gbaUcE" ref={Lathrop}>
                                 <div class="sc-gsnTZi evWpLA"> Lathrop</div>
+                              </li>
+                            </li>
+                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                              <li class="sc-bczRLJ gbaUcE" ref={Calexico}>
+                                <div class="sc-gsnTZi evWpLA">Calexico</div>
                               </li>
                             </li>
                             {/* <li class="px-3 py-1 hover:bg-yellow-shadowhover">

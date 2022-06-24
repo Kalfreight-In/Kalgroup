@@ -9,12 +9,12 @@ function Map({
   Calgary,
   Arlington,
   Hampton,
-  Stockton,
   Atlanta,
   Indianapolis,
   Springdale,
   abbotsford,
   Lathrop,
+  Calexico
   // AlmondFontana,
 }) {
   // const [hoverRef, isHovered] = useHover();
@@ -28,6 +28,7 @@ function Map({
   const [SanMarcos2, isSanMarcos2] = useHover();
   const [Calgary2, isCalgary2] = useHover();
   const [Lathrope2, isLathrop2] = useHover();
+  const [Calexico2,isCalexico2] = useHover();
   // const [AlmondFontana2,isAlmondFontana2] = useHover();
   // const [ValleyFontanta2,isValleyFontana2] = useHover();
   const [Arlington2, isArlington2] = useHover();
@@ -36,7 +37,7 @@ function Map({
   const [Atlanta2, isAtlanta2] = useHover();
 
   const [Indianapolis2, isIndianapolis2] = useHover();
-
+  
   const [Springdale2, isSpringdale2] = useHover();
   const [abbotsford2, isabbotsford2] = useHover();
 
@@ -634,6 +635,8 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           className="cls-5 UC"
         />
       </svg>
+
+      
       <svg
         className="marker    Atlanta UC"
         width="29"
@@ -693,6 +696,23 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         ref={SanMarcos2}
+      >
+        <path
+          d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
+          className="cls-5 UC"
+        />
+      </svg>
+
+      <svg
+        className="marker Calexico UC"
+        width="29"
+        height="25"
+        x="110.96"
+        y="832.88"
+        viewBox="0 0 29 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        ref={Calexico2}
       >
         <path
           d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
@@ -939,6 +959,23 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
 
           <text x="95.96" y="830.88" fill="black">
             160 Industrial St, San Marcos, CA 92078
+          </text>
+        </g>
+      ) : null}
+
+      {Calexico || isCalexico2 ? (
+        <g id="Surey">
+          <rect
+            width="292.39"
+            height="28.82"
+            x="95.96"
+            y="810.88"
+            className="cls-3"
+            rx="3.44"
+          ></rect>
+
+          <text x="95.96" y="830.88" fill="black">
+            840 Emerson ave calexico 92231
           </text>
         </g>
       ) : null}
