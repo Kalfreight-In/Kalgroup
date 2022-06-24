@@ -147,7 +147,7 @@ export default function Footer() {
                   <div className="text-black flex mb-8 xl:mb-2  pt-5">
                     <div className=" ml-0">
                       <div className="w-full  md:ml-0  ml:-0 ">
-                        English, ਪੰਜਾਬੀ, Español, हिन्दी,
+                        English, ਪੰਜਾਬੀ, Español, हिन्दी, Français
                       </div>
                     </div>
                   </div>
@@ -608,7 +608,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       id="mainiconcontainer"
-                      className=" justify-end  mt-18  "
+                      className=" justify-end  mt-20  "
                     >
                       <div id="allicons" className="flex justify-end">
                         <IoLogoFacebook
@@ -706,7 +706,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                   <div className="text-black flex mb-8 xl:mb-2  pt-5">
                     <div className="xl:ml-4 ml-0">
                       <div className="w-full  md:ml-0 xl:ml-12 ml:-0 ">
-                        English, ਪੰਜਾਬੀ, Español, हिन्दी,
+                        English, ਪੰਜਾਬੀ, Español, हिन्दी, Français
                       </div>
                     </div>
                   </div>

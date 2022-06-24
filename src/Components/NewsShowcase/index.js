@@ -76,7 +76,7 @@ const NewsShowcase = (data) => {
               ) : null}
             </div>
           </div>
-          <div className="  sm:flex-1 flex w-full ">
+          <div className="   flex w-full " style={{ flex: '0  3  60%' }}>
             <div
               className={
                 'md:h-full h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-center'

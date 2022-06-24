@@ -58,14 +58,14 @@ const InstagramSingleComponent = (data) => {
 
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-              className="text-white  2xl:text-3xl font-bold lg:text-base md:text-sm px-0"
+              className="text-white  2xl:text-xl font-bold lg:text-base md:text-sm px-0"
             >
               {data.data.caption}
             </p>
             <div>
               <p
                 //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-                className="text-white  2xl:text-lg lg:text-base md:text-sm px-0"
+                className="text-white  2xl:text-lg lg:text-base md:text-sm mt-2 px-0"
               >
                 {data.data.desc}
               </p>
