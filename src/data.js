@@ -61,21 +61,10 @@ export const NavbarData = [
         navItem: 'Company Overview',
       },
       {
-<<<<<<< HEAD
-        url: {
-          url: 'https://kalfreight.com/who-we-are/csr',
-          link: 'a',
-        },
-        id: 1,
+        id: 2,
         navItem: 'CSR',
       },
     ],
-=======
-        id:2,
-        navItem:'CSR'
-      }
-    ]
->>>>>>> 6838542ed798a8f2e243c22cdb72bb403d372e38
   },
   {
     id: 3,

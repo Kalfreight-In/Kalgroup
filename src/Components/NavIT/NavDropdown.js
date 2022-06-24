@@ -3,7 +3,6 @@ import { NavItemnew } from './NavDropStyles';
 import { NavLinksnew } from './NavDropStyles';
 
 export default function NavDropdown({ data, hidden }) {
-  function AnchorRedirect(data) {}
   return (
     <>
       <div id="mainnewnavcontainer">
