@@ -115,6 +115,10 @@ export const NavbarData = [
     link: '/BusinessVerticals',
     navItems: [
       {
+        url: {
+          url: 'https://kalfreight.com/what-we-do/dry-van',
+          link: 'a',
+        },
         id: 1,
         navItem: 'Logistics',
 
@@ -154,6 +158,10 @@ export const NavbarData = [
         ],
       },
       {
+        url: {
+          url: 'https://kalpartz.com/products/',
+          link: 'a',
+        },
         id: 2,
         navItem: 'Partz',
         navItems: [
@@ -184,6 +192,10 @@ export const NavbarData = [
         ],
       },
       {
+        url: {
+          url: 'http://kaltires.com/#Advantages',
+          link: 'a',
+        },
         id: 3,
         navItem: 'Tires',
         navItems: [
@@ -247,6 +259,10 @@ export const NavbarData = [
       },
 
       {
+        url: {
+          url: 'C',
+          link: 'a',
+        },
         id: 4,
         navItem: 'Trailers & Leasing',
         navItems: [

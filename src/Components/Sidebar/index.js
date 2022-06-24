@@ -91,20 +91,30 @@ const Sidebar = ({ isOpen, toggle }) => {
             About Us
           </Divlink>
           {AboutUs
-            ? NavbarData[1].navItems.map((data) => (
-                <a href={data.url.url}>
-                  <div className=" text-black  justify-center items-center text-center p-1">
-                    {data.navItem}
-                    {/* {data.navItems
-                ? data.navItems.map((data) => (
-                    <div className=" text-Heading  justify-center text-center items-center">
+            ? NavbarData[1].navItems.map((data) =>
+                data.url.link === 'a' ? (
+                  <a href={data.url.url} className="w-full">
+                    <div className=" text-black  justify-center items-center text-center p-1">
                       {data.navItem}
                     </div>
-                  ))
-                : null} */}
-                  </div>
-                </a>
-              ))
+                  </a>
+                ) : (
+                  <Link
+                    to={data.url.url}
+                    onClick={toggle}
+                    smooth={true}
+                    duration={1000}
+                    spy={true}
+                    exact={true}
+                    offset={-80}
+                    className="cursor-pointer"
+                  >
+                    <div className=" text-black  justify-center items-center text-center p-1">
+                      {data.navItem}
+                    </div>
+                  </Link>
+                )
+              )
             : null}
           <Divlink
             onClick={() => {
@@ -118,20 +128,30 @@ const Sidebar = ({ isOpen, toggle }) => {
             News Room
           </Divlink>
           {NewsRoom
-            ? NavbarData[2].navItems.map((data) => (
-                <a href={data.url.url}>
-                  <div className=" text-black  justify-center items-center text-center p-1">
-                    {data.navItem}
-                    {/* {data.navItems
-                ? data.navItems.map((data) => (
-                    <div className=" text-Heading  justify-center text-center items-center">
+            ? NavbarData[2].navItems.map((data) =>
+                data.url.link === 'a' ? (
+                  <a href={data.url.url} className="w-full">
+                    <div className=" text-black  justify-center items-center text-center p-1">
                       {data.navItem}
                     </div>
-                  ))
-                : null} */}
-                  </div>
-                </a>
-              ))
+                  </a>
+                ) : (
+                  <Link
+                    to={data.url.url}
+                    onClick={toggle}
+                    smooth={true}
+                    duration={1000}
+                    spy={true}
+                    exact={true}
+                    offset={-80}
+                    className="cursor-pointer"
+                  >
+                    <div className=" text-black  justify-center items-center text-center p-1">
+                      {data.navItem}
+                    </div>
+                  </Link>
+                )
+              )
             : null}
           <Divlink
             onClick={() => {
@@ -144,20 +164,30 @@ const Sidebar = ({ isOpen, toggle }) => {
             Services
           </Divlink>
           {Services
-            ? NavbarData[3].navItems.map((data) => (
-                // <a href={data.url.url}>
-                <div className=" text-black  justify-center items-center text-center p-1">
-                  {data.navItem}
-                  {/* {data.navItems
-                ? data.navItems.map((data) => (
-                    <div className=" text-Heading  justify-center text-center items-center">
+            ? NavbarData[3].navItems.map((data) =>
+                data.url.link === 'a' ? (
+                  <a href={data.url.url} className="w-full">
+                    <div className=" text-black  justify-center items-center text-center p-1">
                       {data.navItem}
                     </div>
-                  ))
-                : null} */}
-                </div>
-                // </a>
-              ))
+                  </a>
+                ) : (
+                  <Link
+                    to={data.url.url}
+                    onClick={toggle}
+                    smooth={true}
+                    duration={1000}
+                    spy={true}
+                    exact={true}
+                    offset={-80}
+                    className="cursor-pointer"
+                  >
+                    <div className=" text-black  justify-center items-center text-center p-1">
+                      {data.navItem}
+                    </div>
+                  </Link>
+                )
+              )
             : null}
           <SidebarLinkR to="ContactSection">
             <Link
