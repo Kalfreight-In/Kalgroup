@@ -71,7 +71,7 @@ export default function OurCoreValues() {
                         <div className="text-Description text-center  2xl:text-2xl font-bold lg:text-base md:text-sm px-0">
                           {data.heading}
                         </div>
-                        <div className="text-Description text-center  2xl:text-lg lg:text-base md:text-sm px-0  pt-4 mx-8 mb-8">
+                        <div className="text-Description text-left  2xl:text-lg lg:text-base md:text-sm px-0  pt-4 mx-8 mb-8">
                           {data.desc}
                         </div>
                       </div>
@@ -106,7 +106,7 @@ export default function OurCoreValues() {
                           <div className="text-Description text-center  2xl:text-3xl font-bold lg:text-base text-lg px-0">
                             {data.heading}
                           </div>
-                          <div className="text-Description  text-center   lg:text-base md:text-sm px-0 pt-2 h-26 mx-8 mb-8">
+                          <div className="text-Description  text-left   lg:text-base md:text-sm px-0 pt-2 h-26 mx-8 mb-8">
                             {data.desc}
                           </div>
                         </div>
