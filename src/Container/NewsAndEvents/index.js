@@ -13,10 +13,7 @@ const NewsAndEvents = () => {
           Newsroom
         </h2>
         {/* <SwiperSlider></SwiperSlider> */}
-        <div
-          className="flex lg:flex-row flex-col   items-center  relative"
-          id="NewsRoom"
-        >
+        <div className="flex lg:flex-row flex-col   items-center  relative">
           <NewsSlider className="z-10 absolute"></NewsSlider>
           <EventsSlider className="z-0 absolute"></EventsSlider>
           {/* <SwiperSlider></SwiperSlider> */}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useMediaQuery from '../../Hooks/CustomMediaQuery';
+
 import styled from 'styled-components';
 import { animateScroll as scroll, Link } from 'react-scroll';
 const Gradients = styled.div`
@@ -14,24 +14,19 @@ const Gradients = styled.div`
 `;
 
 const NewsShowcase = (data) => {
-  const isDesktop = useMediaQuery('(min-width: 768px)');
   const [CTA, setCTA] = useState(data.data.CTA.heading);
   var imageurl = data.data.imageUrl;
   return (
     <>
       <div class="flex bg-Lightblue   sm:m-4 w-full md:h-96 xl:h-96 2xl:h-30">
         <div class="flex  flex-row-reverse ">
-          <div class="sm:block hidden 2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-10 mt-10 2xl:pt-4 pt-0 mx-6 flex-1 pb-1 ">
-            <h1 class="text-white text-sm sm:text- 2xl:text-xl font-heading lg:text-2xl  px-0 mb-4">
+          <div class="sm:block hidden 2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-10 mt-4 2xl:pt-4 pt-0 mx-6 flex-1 pb-1 ">
+            <h1 class="text-white text-sm sm:text- 2xl:text-xl font-heading lg:text-xl  px-0 mb-4">
               {data.data.date}
             </h1>
             <h1 className="text-white text-lg  2xl:text-xl  font-heading   px-0 mb-4">
               {data.data.heading}
             </h1>
-            <h1 class="text-white   2xl:text-lg font-heading lg:text-sm  px-0 mb-4">
-              Date: {data.data.date}
-            </h1>
-
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white  2xl:text-lg text-sm px-0 text-justify lg:h-32 "
@@ -84,7 +79,7 @@ const NewsShowcase = (data) => {
           <div className="   flex w-full " style={{ flex: '0  3  60%' }}>
             <div
               className={
-                'md:h-full h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-center'
+                'md:h-full h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-left'
               }
               style={{
                 backgroundImage: `url(${imageurl})`,

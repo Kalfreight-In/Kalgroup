@@ -662,7 +662,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                       <div className="block xl:ml-3 ml-0">
                         {/* <div className="block">Working hours</div> */}
-                        <div className="md:text-xl  ml-2 xl:ml-0 text-xl md:font-bold font-semibold pt-2 ">
+                        <div className="md:text-xl text-16px ml-2 xl:ml-0 text-xl md:font-bold font-semibold pt-2 ">
                           <a href="mailto:info@kalgroup.com">
                             info@kalgroup.com
                           </a>

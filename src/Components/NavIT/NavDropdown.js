@@ -91,25 +91,21 @@ export default function NavDropdown({ data, hidden }) {
                                       : 'bg-navdropdownbgtransparent hover:bg-white '
                                   }border-navdropdownbottom `}
                                 >
-                                  <a href={data.url.url}>
-                                    <li class="px-3 h-8 font-normal w-max ">
-                                      <NavItemnew key={data.id}>
-                                        <NavLinksnew className="pt-2">
-                                          {data.navItem}
-                                        </NavLinksnew>
-                                      </NavItemnew>
-                                    </li>
-                                  </a>
+                                  <li class="px-3 h-8 font-normal w-max ">
+                                    <NavItemnew key={data.id}>
+                                      <NavLinksnew className="pt-2">
+                                        {data.navItem}
+                                      </NavLinksnew>
+                                    </NavItemnew>
+                                  </li>
                                 </div>
                               ))}
                             </ul>
                           </>
                         ) : (
-                          <a href={data.url.url}>
-                            <NavItemnew key={data.id}>
-                              <NavLinksnew>{data.navItem}</NavLinksnew>
-                            </NavItemnew>
-                          </a>
+                          <NavItemnew key={data.id}>
+                            <NavLinksnew>{data.navItem}</NavLinksnew>
+                          </NavItemnew>
                         )}
                       </li>
                     ))

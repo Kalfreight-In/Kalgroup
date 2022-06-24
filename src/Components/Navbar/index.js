@@ -121,12 +121,14 @@ const Navbar = ({ toggle }) => {
 
               {NavbarData.map((data) => (
                 <NavItem>
-                  <NavLinks
-                    onClick={toggleHome}
-                    className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
-                  >
-                    <NavDropdown data={data} hidden={scrollNav} />
-                  </NavLinks>
+                  <a href="/kalgroup/tires">
+                    <NavLinks
+                      onClick={toggleHome}
+                      className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
+                    >
+                      <NavDropdown data={data} hidden={scrollNav} />
+                    </NavLinks>
+                  </a>
                 </NavItem>
               ))}
 
