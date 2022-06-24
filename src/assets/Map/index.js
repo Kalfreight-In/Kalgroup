@@ -14,8 +14,6 @@ function Map({
   Indianapolis,
   Springdale,
   abbotsford,
-  Lathrop,
-  // AlmondFontana,
 }) {
   // const [hoverRef, isHovered] = useHover();
   // const [hoverRef1, isHovered1] = useHover();
@@ -27,9 +25,7 @@ function Map({
   const [Bakersfield2, isBakersfield2] = useHover();
   const [SanMarcos2, isSanMarcos2] = useHover();
   const [Calgary2, isCalgary2] = useHover();
-  const [Lathrope2, isLathrop2] = useHover();
-  // const [AlmondFontana2,isAlmondFontana2] = useHover();
-  // const [ValleyFontanta2,isValleyFontana2] = useHover();
+
   const [Arlington2, isArlington2] = useHover();
   const [Hampton2, isHampton2] = useHover();
   const [Stockton2, isStockton2] = useHover();
@@ -698,39 +694,6 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           className="cls-5 UC"
         />
       </svg>
-
-      {/* <svg
-        className="marker AlmondAve UC"
-        width="29"
-        height="25"
-        x="86.96"
-        y="790.88"
-        viewBox="0 0 29 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        ref={AlmondFontana2}
-      >
-        <path
-          d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
-          className="cls-5 UC"
-        />
-      </svg> */}
-      {/* <svg
-        className="marker ValleyFontana UC"
-        width="29"
-        height="25"
-        x="62.96"
-        y="790.88"
-        viewBox="0 0 29 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        ref={ValleyFontanta2}
-      >
-        <path
-          d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
-          className="cls-5 UC"
-        />
-      </svg> */}
       {/* <svg
         className="marker abbotsford"
         width="29"
@@ -805,22 +768,6 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         ref={Bakersfield2}
-      >
-        <path
-          d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
-          className="cls-5"
-        />
-      </svg>
-      <svg
-        className="marker Lathrop"
-        width="29"
-        height="25"
-        x="60.52"
-        y="749.25"
-        viewBox="0 0 29 41"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        ref={Lathrope2}
       >
         <path
           d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
@@ -941,40 +888,6 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           </text>
         </g>
       ) : null}
-
-      {/* {AlmondFontana || isAlmondFontana2 ? (
-        <g id="Surey">
-          <rect
-            width="292.39"
-            height="28.82"
-            x="86.96"
-            y="790.88"
-            className="cls-3"
-            rx="3.44"
-          ></rect>
-
-          <text x="95.96" y="810.88" fill="black">
-            11184 Almond Ave, Fontana, CA 92337, USA
-          </text>
-        </g>
-      ) : null} */}
-      {/* {ValleyFontanta2 || isValleyFontana2 ? (
-        <g id="Surey">
-          <rect
-            width="292.39"
-            height="28.82"
-            x="62.96"
-            y="790.88"
-            className="cls-3"
-            rx="3.44"
-          ></rect>
-
-          <text x="65.96" y="810.88" fill="black">
-            15083 Valley Blvd, Fontana, CA 92335, USA
-          </text>
-        </g>
-      ) : null} */}
-
       {isabbotsford2 || abbotsford ? (
         <g id="Abbotsford">
           <g id="Text-BC">
@@ -1128,75 +1041,6 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
             ></rect>
             <text x="105.52" y="780.25" fill="black">
               10156 Live Oak Ave, Fontana, CA, 92335
-            </text>
-          </g>
-        </g>
-      ) : null}
-      {isFontana2 || Fontana ? (
-        <g id="Atlanta">
-          <g id="Text-BC">
-            <rect
-              width="320.39"
-              height="28.82"
-              x="105.52"
-              y="729.25"
-              className="cls-3"
-              rx="3.44"
-            ></rect>
-            <text x="105.52" y="750.25" fill="black">
-              15083 Valley Blvd, Fontana, CA 92335, USA
-            </text>
-          </g>
-        </g>
-      ) : null}
-      {isFontana2 || Fontana ? (
-        <g id="Atlanta">
-          <g id="Text-BC">
-            <rect
-              width="320.39"
-              height="28.82"
-              x="105.52"
-              y="790.25"
-              className="cls-3"
-              rx="3.44"
-            ></rect>
-            <text x="105.52" y="810.25" fill="black">
-              11184 Almond Ave, Fontana, CA 92337, USA
-            </text>
-          </g>
-        </g>
-      ) : null}
-      {isFontana2 || Fontana ? (
-        <g id="Atlanta">
-          <g id="Text-BC">
-            <rect
-              width="320.39"
-              height="28.82"
-              x="105.52"
-              y="820.25"
-              className="cls-3"
-              rx="3.44"
-            ></rect>
-            <text x="105.52" y="840.25" fill="black">
-              11090 Almond Ave, Fontana, CA 92337, USA
-            </text>
-          </g>
-        </g>
-      ) : null}
-
-      {isLathrop2 || Lathrop ? (
-        <g id=" ">
-          <g id="Text-BC">
-            <rect
-              width="320.39"
-              height="28.82"
-              x="80.52"
-              y="749.25"
-              className="cls-3"
-              rx="3.44"
-            ></rect>
-            <text x="80.52" y="769.25" fill="black">
-              17100 S Harlan Rd, Lathrop, CA 95330, USA
             </text>
           </g>
         </g>

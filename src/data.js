@@ -36,12 +36,23 @@ export const NavbarData = [
         navItem: 'Company Overview',
       },
 <<<<<<< HEAD
+<<<<<<< HEAD
       {
         id: 2,
         navItem: 'CSR',
       },
 =======
 >>>>>>> parent of b63b56c (ischanges)
+=======
+      {
+        url: {
+          url: 'https://kalfreight.com/who-we-are/csr',
+          link: 'a',
+        },
+        id: 1,
+        navItem: 'CSR',
+      },
+>>>>>>> parent of f31cb7c (Merge branch 'main' of https://github.com/Kalfreight-In/Kalgroup)
     ],
   },
   {
@@ -258,7 +269,11 @@ export const EventsData = [
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Texas.png',
     desc: 'Texas Trucking Show, Join us at NRG Center, Texas',
-    CTA: { heading: null, link: 'register' },
+    desc2: ` Reserved a seat for `,
+    desc3: `"Dinner with the KAL group"`,
+
+    desc4: `Early Bird registration click below`,
+    CTA: { heading: 'Register', link: 'register' },
     Tag: 'Texas',
   },
   {
@@ -1526,14 +1541,14 @@ export const CoreValuedata = [
 export const Facbookfeeds = [
   {
     id: '1',
-    caption: 'Used Trailers',
+    caption: 'KAL TRAILERS & LEASING',
     desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
     time: '7 June',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
   {
     id: '2',
-    caption: 'KVL Tires',
+    caption: 'KVL TIRES',
     desc: 'KVL Tires proudly carries the General HS 2 - a tire that offers optimal performance and a comfortable ride, without compromising on fuel efficiency. ',
     time: '21 May',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
@@ -1541,14 +1556,14 @@ export const Facbookfeeds = [
 
   {
     id: '3',
-    caption: 'KalPartz',
+    caption: 'KAL PARTZ',
     desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
     time: '12 May',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
   {
     id: '4',
-    caption: 'Kalway',
+    caption: 'KALWAY',
     desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
     time: '2 May',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
@@ -1560,7 +1575,7 @@ export const Instagramfeeds = [
     id: '1',
     img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/286169510_519570173202421_6328616867636052071_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=NdYiKVz2oAoAX8yrGwU&_nc_ht=scontent-maa2-1.xx&oh=00_AT9Hc3gJqxCIiNLyXPO93REQwEYsh417lZ8h049t-zaYAw&oe=62B8C87A',
 
-    caption: 'Used Trailers',
+    caption: 'KAL TRAILERS & LEASING',
     desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
     time: '7 June',
     follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
@@ -1569,7 +1584,7 @@ export const Instagramfeeds = [
     id: '2',
 
     img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/282326995_508309244328514_7772227270459412721_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=j5OjvCF_VxsAX8VT1NQ&_nc_ht=scontent-maa2-1.xx&oh=00_AT_Mm57H4kgiQBWgIR-8rgbdpOPLWcsH7E20gTNcLsqUtQ&oe=62B7E82F',
-    caption: 'KVL Tires',
+    caption: 'KVL TIRES',
     desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details!',
     time: '21 May',
     follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
@@ -1578,7 +1593,7 @@ export const Instagramfeeds = [
   {
     id: '3',
     img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/280611353_502279618264810_8376564357247553020_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=NhU5girmI84AX9VFe7q&_nc_ht=scontent-maa2-2.xx&oh=00_AT9afeKMGMpvUEvLseOxCca__QyQKN1JMiYanLlC5HWG4g&oe=62B96310',
-    caption: 'KalPartz',
+    caption: 'KALPARTZ',
     desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
     time: '12 May',
     follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
@@ -1586,7 +1601,7 @@ export const Instagramfeeds = [
   {
     id: '4',
     img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/279779116_494988118993960_4082047950062427929_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=xEO95iBWVrgAX-g6VmW&_nc_ht=scontent-maa2-2.xx&oh=00_AT_CFgops2YDtisXcZzClwQXw6lq2CSH4GFSWF4wuwduPw&oe=62B900EC',
-    caption: 'Kalway',
+    caption: 'KALWAY',
     desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
     time: '2 May',
     follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',

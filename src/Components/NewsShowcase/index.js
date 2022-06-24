@@ -65,7 +65,7 @@ const NewsShowcase = (data) => {
                       setCTA(data.data.CTA.heading);
                     }}
                     className={`text-white bg-yellow-bg  font-semibold ${
-                      data.data.desc3 ? '2xl:mt-36 mt-16 ' : 'mt-4'
+                      data.data.desc3 ? '2xl:mt-36 mt-12 ' : 'mt-4'
                     }   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-12 h-12 2xl:text-descnew lg:text-base md:text-base text-base   2xl:p-0  `}
                   >
                     <p className="text-center justify-center items-center">
@@ -76,7 +76,11 @@ const NewsShowcase = (data) => {
               ) : null}
             </div>
           </div>
+<<<<<<< HEAD
           <div className="   flex w-full " style={{ flex: '0  3  60%' }}>
+=======
+          <div className="   flex w-full " style={{ flex: '0  3  55%' }}>
+>>>>>>> parent of f31cb7c (Merge branch 'main' of https://github.com/Kalfreight-In/Kalgroup)
             <div
               className={
                 'md:h-full h-mobileMainImageHeight w-full bg-cover bg-no-repeat bg-left'
