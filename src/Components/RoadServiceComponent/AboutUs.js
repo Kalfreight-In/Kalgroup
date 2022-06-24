@@ -17,7 +17,7 @@ export default function AboutUs() {
             </h1>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-              className="text-white font-desc 2xl:text-xl text-descnew md:text-base px-0   text-justify  pt-8"
+              className="text-white font-desc 2xl:text-xl text-descnew md:text-base px-0   text-justify  pt-2"
             >
               {/* For more than 30 years we have been delivering world-class
               construction and we’ve built many lasting relationships along the
@@ -32,7 +32,7 @@ export default function AboutUs() {
               a vast ecosystem of facilities, we ensure that small fleet
               business owners are empowered to achieve operational excellence.
             </p>
-            <div className="flex xl:justify-start  xl:items-start justify-center items-center md:mt-6 xl:mt-0">
+            <div className="flex xl:justify-start lg:mt-0 mt-8  xl:items-start justify-center items-center ">
               {/* <button
                 onClick={() => {
                   setCTA("800-977-0010");
