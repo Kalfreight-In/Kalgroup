@@ -3,7 +3,7 @@ import { BigPArtzBrands, BigTireBrands, OurMajorClient} from '../../data';
 import { Slideshow } from '../Slider/slideshow';
 
 const BrandWeOffer = () => {
-  const [slderData, setsliderData] = useState(BigTireBrands);
+  const [slderData, setsliderData] = useState(BigPArtzBrands);
   const [select, setSelect] = useState(1);
   useEffect(() => {
     // var data = slderData;
