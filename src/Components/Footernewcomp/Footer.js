@@ -650,19 +650,19 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                   </div>
                   <div className="md:flex block md:flex-row gap-x-8">
                     <div className="text-black flex justify-center  xl:mt-12 mt-4 ml-0 ">
-                      <div className="mt-3">
+                      <div className="mt-0">
                         {/* <img
                     src="https://raw.githubusercontent.com/kalfreight-in/Kalgroups/master/src/assets/Images/Vectoremail.svg"
                     alt=""
                     className="text-black mt-2 "
                   /> */}
                         <a href="mailto:info@kalgroup.com">
-                          <MdEmail className="md:h-8 h-6 md:w-8 w-6 " />
+                          <MdEmail className="md:h-8 h-6 md:w-8 w-6  " />
                         </a>
                       </div>
-                      <div className="block xl:ml-3 ml-0">
+                      <div className="block xl:ml-3 ml-2 text-center">
                         {/* <div className="block">Working hours</div> */}
-                        <div className="md:text-xl text-16px ml-2 xl:ml-0 text-xl md:font-bold font-semibold pt-2 ">
+                        <div className="md:text-xl text-lg font-bold xl:font-semibold text-center">
                           <a href="mailto:info@kalgroup.com">
                             info@kalgroup.com
                           </a>
@@ -672,7 +672,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                     </div>
 
-                    <div className="text-black flex xl:justify-center justify-start mt-4 md:ml-0 ml-0 ">
+                    <div className="text-black flex xl:justify-center justify-start mt-4 md:ml-0 ml- ">
                       <div className="mt-2">
                         <a
                           href="tel:8009770010"
