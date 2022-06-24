@@ -5,22 +5,43 @@ export const NavbarData = [
     link: '/BusinessVerticals',
     navItems: [
       {
+        url: {
+          url: 'https://kalfreight.com/',
+          link: 'a',
+        },
         id: 1,
         navItem: 'KAL Freight',
       },
       {
+        url: {
+          url: 'https://kaltrailers.com/',
+          link: 'a',
+        },
+
         id: 2,
         navItem: 'KAL Trailers & Leasing',
       },
       {
+        url: {
+          url: 'https://kaltires.com/',
+          link: 'a',
+        },
         id: 3,
         navItem: 'KVL Tires',
       },
       {
+        url: {
+          url: 'https://kalpartz.com/',
+          link: 'a',
+        },
         id: 4,
         navItem: 'KAL Partz',
       },
       {
+        url: {
+          url: 'https://kalway.com/',
+          link: 'a',
+        },
         id: 5,
         navItem: 'KALWAY',
       },
@@ -32,8 +53,20 @@ export const NavbarData = [
     link: '/BusinessVerticals',
     navItems: [
       {
+        url: {
+          url: 'AboutUs-Scroll',
+          link: 's',
+        },
         id: 1,
         navItem: 'Company Overview',
+      },
+      {
+        url: {
+          url: 'https://kalfreight.com/who-we-are/csr',
+          link: 'a',
+        },
+        id: 1,
+        navItem: 'CSR',
       },
     ],
   },
@@ -43,10 +76,18 @@ export const NavbarData = [
     link: '/BusinessVerticals',
     navItems: [
       {
+        url: {
+          url: 'NewsRoom',
+          link: 's',
+        },
         id: 1,
         navItem: 'Events',
       },
       {
+        url: {
+          url: 'NewsRoom',
+          link: 's',
+        },
         id: 2,
         navItem: 'Blog',
       },
@@ -63,18 +104,34 @@ export const NavbarData = [
 
         navItems: [
           {
+            url: {
+              url: 'https://kalfreight.com/what-we-do/FTL-services',
+              link: 'a',
+            },
             id: 1,
             navItem: 'FTL Services',
           },
           {
+            url: {
+              url: 'https://kalfreight.com/what-we-do/dedicated-loads',
+              link: 'a',
+            },
             id: 2,
             navItem: 'Dedicated Loads',
           },
           {
+            url: {
+              url: 'https://kalfreight.com/what-we-do/dry-van',
+              link: 'a',
+            },
             id: 3,
             navItem: 'Dry Vans',
           },
           {
+            url: {
+              url: 'https://kalfreight.com/what-we-do/trailer-interchange',
+              link: 'a',
+            },
             id: 4,
             navItem: 'Trailer Interchange',
           },
@@ -85,14 +142,26 @@ export const NavbarData = [
         navItem: 'Partz',
         navItems: [
           {
+            url: {
+              url: 'https://kalpartz.com/products/',
+              link: 'a',
+            },
             id: 1,
             navItem: 'O.E & O.E.M Parts',
           },
           {
+            url: {
+              url: 'https://kalpartz.com/products/',
+              link: 'a',
+            },
             id: 2,
             navItem: 'Custom Parts & Accessories',
           },
           {
+            url: {
+              url: 'https://kalpartz.com/products/',
+              link: 'a',
+            },
             id: 3,
             navItem: 'Aftermarket Parts',
           },
@@ -103,78 +172,149 @@ export const NavbarData = [
         navItem: 'Tires',
         navItems: [
           {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
             id: 1,
             navItem: '24x7 Roadside Assistance',
           },
           {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
             id: 2,
             navItem: 'Tire Mounting & Balancing',
           },
           {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
             id: 3,
             navItem: 'Wheel Alignment',
           },
           {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
             id: 4,
             navItem: 'Heavy Duty Front-end Work',
           },
           {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
             id: 5,
             navItem: 'Scheduled Maintenance',
           },
           {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
             id: 6,
             navItem: 'On Site Service',
           },
           {
+            url: {
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
+            },
             id: 7,
             navItem: 'Pick up and Delivery Service',
           },
         ],
       },
+
       {
         id: 4,
         navItem: 'Trailers & Leasing',
         navItems: [
           {
+            url: {
+              url: 'https://kaltrailers.com/product-category/trucks/used-trucks/',
+              link: 'a',
+            },
             id: 1,
             navItem: 'Used Trucks Sale & Purchase',
           },
           {
+            url: {
+              url: 'https://kaltrailers.com/product-category/trailers/new-trailers/',
+              link: 'a',
+            },
             id: 2,
             navItem: 'New Trailers Sale & Purchase',
           },
         ],
       },
       {
+        url: {
+          url: 'https://kaltrailers.com/credit-application/',
+          link: 'a',
+        },
         id: 5,
+        navItem: 'Financial Solutions',
+      },
+      {
+        id: 6,
         navItem: 'Brokerage',
         navItems: [
           {
+            url: {
+              url: 'https://kalway.com/services/#Products',
+              link: 'a',
+            },
             id: 1,
             navItem: '3PL Service ',
           },
           {
+            url: {
+              url: 'https://kalway.com/Carriers',
+              link: 'a',
+            },
             id: 2,
             navItem: 'Load Management',
           },
           {
+            url: {
+              url: 'https://kalway.com/services/#Products',
+              link: 'a',
+            },
             id: 3,
             navItem: 'Full Truck Service',
           },
         ],
       },
+
       {
-        id: 6,
+        url: {
+          url: 'https://kalfreight.com/drivers',
+          link: 'a',
+        },
+        id: 7,
         navItem: 'Driver Assistance',
       },
+
       {
-        id: 7,
+        url: {
+          url: 'ContactSection',
+          link: 'a',
+        },
+        id: 8,
         navItem: 'Customer Support',
       },
     ],
   },
   {
+    url: {
+      url: 'ContactSection',
+      link: 'a',
+    },
     id: 3,
     navItem: 'Careers',
 
@@ -196,7 +336,7 @@ export const NewsData = [
     id: '1',
     category: 'News',
     date: '15th & 16th April 2022',
-    heading: 'Trucking Show',
+    heading: 'American Trucking Show',
     PhotoHeading: 'American Trucking Show',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/americatrucking.png',
@@ -244,7 +384,7 @@ export const NewsData = [
 export const EventsData = [
   {
     id: '1',
-    category: 'Upcoming events',
+    category: 'Upcoming Events',
     date: '25th & 26th June 2022',
     heading: 'Texas Trucking Show',
     PhotoHeading: 'Texas Trucking Show',
@@ -260,8 +400,8 @@ export const EventsData = [
   },
   {
     id: '2',
-    category: 'Upcoming events',
-    date: ' ',
+    category: 'Upcoming Events',
+    date: 'Coming Soon',
     heading: 'California Trucking Show ',
     PhotoHeading: 'California Trucking Show ',
     imageUrl:
@@ -273,7 +413,7 @@ export const EventsData = [
      
     
     `,
-    desc1: `Dates Will Be Shared Soon`,
+
     desc2: ` Reserved a seat for `,
     desc3: `"Dinner with the KAL group"`,
 
@@ -1396,6 +1536,7 @@ export const Businessdata = [
     thebox: [
       {
         id: '4',
+        url: 'https://kalfreight.com/',
         Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Sfreight.png',
         Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/freight.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
@@ -1407,6 +1548,7 @@ export const Businessdata = [
       },
       {
         id: '1',
+        url: 'https://kaltrailers.com/',
         Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Strailers.png',
         Bimg: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/trailers.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstrllogo.png',
@@ -1418,6 +1560,7 @@ export const Businessdata = [
       },
       {
         id: '3',
+        url: 'http://kaltires.com/',
         Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Stires.png',
         Bimg: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/tires.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
@@ -1429,6 +1572,7 @@ export const Businessdata = [
       },
       {
         id: '2',
+        url: 'https://kalpartz.com/',
         Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Sparts.png',
         Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Bparts.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesspartzlogo.png',
@@ -1441,6 +1585,7 @@ export const Businessdata = [
 
       {
         id: '4',
+        url: 'https://kalway.com/',
         Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Skalway.png',
         Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/kalway.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',

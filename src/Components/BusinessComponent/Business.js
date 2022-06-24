@@ -32,12 +32,13 @@ export default function Business() {
     if (isDesktop) {
       console.log(`it is desktop`);
       return mydata.thebox.map((element) => (
-        <div
+        <a
+          href={element.url}
           className={`demo item bg-cover bg-no-repeat bg-left `}
           style={{
             backgroundImage: `url(${isHovered ? element.Bimg : element.Simg})`,
           }}
-        ></div>
+        ></a>
       ));
     }
     if (isTablet) {
@@ -59,12 +60,13 @@ export default function Business() {
         >
           {mydata.thebox.map((element) => (
             <SwiperSlide>
-              <div
+              <a
+                href={element.url}
                 className={` flex-1 h-80 itemM  transition-all delay-75 bg-cover bg-no-repeat bg-center `}
                 style={{
                   backgroundImage: `url(${element.Simg})`,
                 }}
-              ></div>
+              ></a>
             </SwiperSlide>
           ))}
         </Swiper>
@@ -88,12 +90,13 @@ export default function Business() {
         >
           {mydata.thebox.map((element) => (
             <SwiperSlide>
-              <div
+              <a
+                href={element.url}
                 className={`demo itemM  bg-contain bg-no-repeat bg-left h-full flex-1`}
                 style={{
                   backgroundImage: `url(${element.Simg})`,
                 }}
-              ></div>
+              ></a>
             </SwiperSlide>
           ))}
         </Swiper>

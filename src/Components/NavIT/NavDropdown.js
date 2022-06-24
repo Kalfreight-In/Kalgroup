@@ -3,6 +3,7 @@ import { NavItemnew } from './NavDropStyles';
 import { NavLinksnew } from './NavDropStyles';
 
 export default function NavDropdown({ data, hidden }) {
+  function AnchorRedirect(data) {}
   return (
     <>
       <div id="mainnewnavcontainer">
@@ -91,21 +92,25 @@ export default function NavDropdown({ data, hidden }) {
                                       : 'bg-navdropdownbgtransparent hover:bg-white '
                                   }border-navdropdownbottom `}
                                 >
-                                  <li class="px-3 h-8 font-normal w-max ">
-                                    <NavItemnew key={data.id}>
-                                      <NavLinksnew className="pt-2">
-                                        {data.navItem}
-                                      </NavLinksnew>
-                                    </NavItemnew>
-                                  </li>
+                                  <a href={data.url.url}>
+                                    <li class="px-3 h-8 font-normal w-max ">
+                                      <NavItemnew key={data.id}>
+                                        <NavLinksnew className="pt-2">
+                                          {data.navItem}
+                                        </NavLinksnew>
+                                      </NavItemnew>
+                                    </li>
+                                  </a>
                                 </div>
                               ))}
                             </ul>
                           </>
                         ) : (
-                          <NavItemnew key={data.id}>
-                            <NavLinksnew>{data.navItem}</NavLinksnew>
-                          </NavItemnew>
+                          <a href={data.url.url}>
+                            <NavItemnew key={data.id}>
+                              <NavLinksnew>{data.navItem}</NavLinksnew>
+                            </NavItemnew>
+                          </a>
                         )}
                       </li>
                     ))

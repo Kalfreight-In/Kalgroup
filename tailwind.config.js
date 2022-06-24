@@ -122,7 +122,7 @@ module.exports = {
         '67vh': '67vh',
         30: '30rem',
         'medium-height': '90vh',
-        mobileMainImageHeight: '80vh',
+        mobileMainImageHeight: '70vh',
         mobileSecondImage: '54vh',
         contactimg: '80vh',
         cropcontact: '41vh',

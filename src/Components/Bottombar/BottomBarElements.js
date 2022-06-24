@@ -21,7 +21,8 @@ export const Nav = styled.nav`
   // padding: 0.5rem calc((100vw - 1000px) / 2);
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
-    display: none;
+
+    display: block;
   }
 
   /* Third Nav */
@@ -30,11 +31,14 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;
+
   z-index: 1;
   width: 100%;
   padding: 0 24px;
   max-width: 1100px;
+  @media screen and (max-width: 768px) {
+    dispaly: none;
+  }
 `;
 export const NavLogo = styled(LinkR)`
   color: #fff;
@@ -97,8 +101,9 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
   margin-right: -1px;
+
   @media screen and (max-width: 768px) {
-    dispaly: none;
+    flex-direction: column;
   }
 `;
 
@@ -111,7 +116,8 @@ export const NavItem = styled.li`
     color: #101010;
   }
   @media screen and (max-width: 768px) {
-    display: none;
+    height: 30px;
+    padding-left: 0rem;
   }
 `;
 export const NavLinks = styled(LinkR)`
@@ -132,6 +138,9 @@ export const NavLinks = styled(LinkR)`
   }
   &.active {
     border-bottom: 3px solid #15cdfc;
+  }
+  @media screen and (max-width: 768px) {
+    width: full;
   }
 `;
 export const Bars = styled(FaBars)`
@@ -177,7 +186,8 @@ export const NavBtn = styled.div`
   padding: 25px;
 
   @media screen and (max-width: 768px) {
-    display: none;
+    text-align: center;
+    display: block;
   }
 `;
 

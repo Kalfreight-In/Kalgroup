@@ -121,14 +121,12 @@ const Navbar = ({ toggle }) => {
 
               {NavbarData.map((data) => (
                 <NavItem>
-                  <a href="/kalgroup/tires">
-                    <NavLinks
-                      onClick={toggleHome}
-                      className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
-                    >
-                      <NavDropdown data={data} hidden={scrollNav} />
-                    </NavLinks>
-                  </a>
+                  <NavLinks
+                    onClick={toggleHome}
+                    className="2xl:text-16px text-navsmall lg:text-xs md:text-xs"
+                  >
+                    <NavDropdown data={data} hidden={scrollNav} />
+                  </NavLinks>
                 </NavItem>
               ))}
 
@@ -210,7 +208,7 @@ const Navbar = ({ toggle }) => {
               <img
                 src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navmaplogo.svg"
                 alt=""
-                className="h-8 w-8 lg:mt-2 xl:mt-0"
+                className="h-8 w-8 "
               />
             </Link>
 

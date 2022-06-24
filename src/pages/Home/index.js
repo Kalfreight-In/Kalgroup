@@ -19,7 +19,7 @@ import HeroSection from '../../Components/HeaderHome';
 import { ContactFormContainer } from '../../Container/ContactFormContainer';
 import BrandWeOffer from '../../Components/BrandWeOffer/BrandWeOffer';
 
-function Home() {
+function  Home() {
   return (
     <>
       {/* <HeaderCustomSlider></HeaderCustomSlider> */}
