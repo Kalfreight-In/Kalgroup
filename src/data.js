@@ -1,5 +1,9 @@
 export const NavbarData = [
   {
+    url: {
+      url: 'C',
+      link: 'a',
+    },
     id: 1,
     navItem: 'Business Verticals',
     link: '/BusinessVerticals',
@@ -48,6 +52,10 @@ export const NavbarData = [
     ],
   },
   {
+    url: {
+      url: 'C',
+      link: 'a',
+    },
     id: 2,
     navItem: 'About Us',
     link: '/BusinessVerticals',
@@ -71,6 +79,10 @@ export const NavbarData = [
     ],
   },
   {
+    url: {
+      url: 'C',
+      link: 'a',
+    },
     id: 3,
     navItem: 'Newsroom',
     link: '/BusinessVerticals',
@@ -94,6 +106,10 @@ export const NavbarData = [
     ],
   },
   {
+    url: {
+      url: 'C',
+      link: 'a',
+    },
     id: 4,
     navItem: 'Services',
     link: '/BusinessVerticals',
@@ -261,6 +277,10 @@ export const NavbarData = [
         navItem: 'Financial Solutions',
       },
       {
+        url: {
+          url: 'ContactSection',
+          link: 'a',
+        },
         id: 6,
         navItem: 'Brokerage',
         navItems: [
@@ -313,7 +333,7 @@ export const NavbarData = [
   {
     url: {
       url: 'ContactSection',
-      link: 'a',
+      link: 's',
     },
     id: 3,
     navItem: 'Careers',
