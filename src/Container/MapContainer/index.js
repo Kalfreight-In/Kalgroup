@@ -108,7 +108,7 @@ export const MapConatiner = () => {
               </div>
 
               <div class="lg:mt-8 mt-2 text-white font-desc text-descnew ">
-                We serve You at multiple location
+                We serve you at multiple location
               </div>
             </div>
             <div class="w-full lg:mt-8 mt-2">
