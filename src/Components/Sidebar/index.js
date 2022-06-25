@@ -41,7 +41,9 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLinkR to="/">HOME</SidebarLinkR>
+          <SidebarLinkR to="/" onClick={toggle}>
+            HOME
+          </SidebarLinkR>
 
           {/* <SidebarLinkR onClick={toggle} to="/kalgroup/tires">
            

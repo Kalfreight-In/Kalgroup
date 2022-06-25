@@ -7,9 +7,9 @@ import {
   HeroPromoContainer,
   VideoBg,
 } from './HeroElements';
+import { Link } from 'react-scroll';
 import styled from 'styled-components';
 import { isMobile } from 'react-device-detect';
-import { Link } from 'react-router-dom';
 
 const Gradients = styled.div`
   background-image: linear-gradient(
@@ -54,7 +54,7 @@ const HeroSection = (data) => {
                 Convenient
               </div>
               <div className="lg:mt-4 mt-16 text-lg flex lg:justify-start justify-center  lg:items-start items-center">
-                <Link to="learnmoore">
+                <Link to="AboutUs-Scroll">
                   <button
                     // onClick={() => {
                     //   setCTA('800-977-0010');
@@ -76,7 +76,14 @@ const HeroSection = (data) => {
                 Convenient
               </div>
               <div className="lg:mt-4 mt-16 flex lg:justify-start justify-center  lg:items-start items-center">
-                <Link to="learnmoore">
+                <Link
+                  to="learnmoore"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact={true}
+                  offset={-80}
+                >
                   <button
                     // onClick={() => {
                     //   setCTA('800-977-0010');

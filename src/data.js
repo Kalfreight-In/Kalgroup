@@ -338,7 +338,7 @@ export const NavbarData = [
 
       {
         url: {
-          url: 'ContactSection',
+          url: 'https://kaltrailers.com/credit-application/',
           link: 'a',
         },
         id: 8,
@@ -425,7 +425,7 @@ export const EventsData = [
     heading: 'Texas Trucking Show',
     PhotoHeading: 'Texas Trucking Show',
     imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Texas.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Texas.jpg',
     desc: 'Texas Trucking Show, Join us at NRG Center, Texas',
 
     desc2: ` Reserved a seat for `,

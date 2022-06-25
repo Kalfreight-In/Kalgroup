@@ -102,7 +102,7 @@ export default function Business() {
   }
   return (
     <>
-      <div className="bg-businessbackground">
+      <div className="bg-businessbackground" id="BusinessVerticles">
         <div className="lg:p-6 p-2 drop-shadow-2xl">
           <div className="flex justify-center items-center font-semibold ">
             <h1 className="md:text-3xl text-2xl font-bold link link-underline link-underline-black text-Description mb-6 pb-2 md:pt-6 xl:pt-0">
