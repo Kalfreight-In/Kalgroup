@@ -16,7 +16,7 @@ export default function Footer() {
   const [email, setEmail] = useState('');
   const [Hquicklinks, setHquicklinks] = useState(false);
   const [Hcontactus, setHcontactus] = useState(false);
-  
+
   return (
     <>
       <div
@@ -499,7 +499,12 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <div className="block md:text-sm text-navsmall hover:text-yellow-shadowhover    xl:text-left text-center md:ml-0 ml-8">
                           <span className="flex cursor-pointer">
                             <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow"></span>
-                            <span className="mt-5px">Services</span>
+                            <a
+                              href="https://kalfreight.com/what-we-do"
+                              target="_blank"
+                            >
+                              <span className="mt-5px">Services</span>
+                            </a>
                           </span>
                         </div>
                         {/* <span> » </span> */}
@@ -680,8 +685,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <IoLogoLinkedin
                           onClick={() =>
                             window.open(
-                              "https://www.linkedin.com/company/kal-trailers-and-leasing",
-                              "_blank"
+                              'https://www.linkedin.com/company/kal-trailers-and-leasing',
+                              '_blank'
                             )
                           }
                           className="text-black hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "

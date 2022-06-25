@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { BigPArtzBrands, BigTireBrands, OurMajorClient } from '../../data';
+import useMediaQuery from '../../Hooks/CustomMediaQuery';
 import { Slideshow } from '../Slider/slideshow';
 
 const BrandWeOffer = () => {
+  const isDesktop = useMediaQuery('(min-width: 768px)');
   const [slderData, setsliderData] = useState(BigPArtzBrands);
   const [select, setSelect] = useState(1);
   useEffect(() => {

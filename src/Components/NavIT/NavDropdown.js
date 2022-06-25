@@ -9,12 +9,21 @@ export default function NavDropdown({ data, hidden }) {
       <div id="mainnewnavcontainer">
         <div id="innermainnavcontainer">
           <div class="group inline-block">
-            <button class="outline-none focus:outline-none  px-3 py-1  rounded-sm flex justify-start items-start text-left min-w-32">
-              <span class="pr-1 font-medium flex-1 md:text-xs xl:text-navlgtext text-sm">
-                {data.navItem}
-              </span>
-              <span>
-                {/* <svg
+            <Link
+              to={data.url.url}
+              smooth={true}
+              duration={1000}
+              spy={true}
+              exact={true}
+              offset={-80}
+              className="cursor-pointer"
+            >
+              <button class="outline-none focus:outline-none  px-3 py-1  rounded-sm flex justify-start items-start text-left min-w-32">
+                <span class="pr-1 font-medium flex-1 md:text-xs xl:text-navlgtext text-sm">
+                  {data.navItem}
+                </span>
+                <span>
+                  {/* <svg
                   class="fill-current h-4 w-4 transform group-hover:-rotate-180
         transition duration-150 ease-in-out"
                   xmlns="http://www.w3.org/2000/svg"
@@ -22,8 +31,9 @@ export default function NavDropdown({ data, hidden }) {
                 >
                   <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                 </svg> */}
-              </span>
-            </button>
+                </span>
+              </button>
+            </Link>
             {data.navItems ? (
               <ul
                 class={`${

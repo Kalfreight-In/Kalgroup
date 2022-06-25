@@ -54,7 +54,14 @@ const HeroSection = (data) => {
                 Convenient
               </div>
               <div className="lg:mt-4 mt-16 text-lg flex lg:justify-start justify-center  lg:items-start items-center">
-                <Link to="AboutUs-Scroll">
+                <Link
+                  to="AboutUs-Scroll"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact={true}
+                  offset={-80}
+                >
                   <button
                     // onClick={() => {
                     //   setCTA('800-977-0010');
@@ -77,7 +84,7 @@ const HeroSection = (data) => {
               </div>
               <div className="lg:mt-4 mt-16 flex lg:justify-start justify-center  lg:items-start items-center">
                 <Link
-                  to="learnmoore"
+                  to="AboutUs-Scroll"
                   smooth={true}
                   duration={500}
                   spy={true}

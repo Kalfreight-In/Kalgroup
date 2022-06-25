@@ -260,7 +260,7 @@ export const NavbarData = [
 
       {
         url: {
-          url: 'C',
+          url: 'https://kaltrailers.com/product-category/trucks/used-trucks/',
           link: 'a',
         },
         id: 4,
@@ -294,7 +294,7 @@ export const NavbarData = [
       },
       {
         url: {
-          url: 'ContactSection',
+          url: 'https://kalway.com/services/#Products',
           link: 'a',
         },
         id: 6,
