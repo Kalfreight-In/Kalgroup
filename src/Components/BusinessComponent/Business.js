@@ -33,6 +33,7 @@ export default function Business() {
       console.log(`it is desktop`);
       return mydata.thebox.map((element) => (
         <a
+          target="_blank"
           href={element.url}
           className={`demo item bg-cover bg-no-repeat bg-left `}
           style={{
@@ -61,6 +62,7 @@ export default function Business() {
           {mydata.thebox.map((element) => (
             <SwiperSlide>
               <a
+                target="_blank"
                 href={element.url}
                 className={` flex-1 h-80 itemM  transition-all delay-75 bg-cover bg-no-repeat bg-center `}
                 style={{
@@ -91,6 +93,7 @@ export default function Business() {
           {mydata.thebox.map((element) => (
             <SwiperSlide>
               <a
+                target="_blank"
                 href={element.url}
                 className={`demo itemM  bg-contain bg-no-repeat bg-left h-full flex-1`}
                 style={{

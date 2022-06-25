@@ -97,14 +97,23 @@ const NewsShowcase = (data) => {
                     {data.data.Tag}
                   </div>
                   {data.data.CTA.heading ? (
-                    <button
-                      onClick={() => {
-                        setCTA(data.data.CTA.heading);
-                      }}
-                      className="sm:hidden   text-white bg-yellow-bg  font-semibold text-lg mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center w-1/2    h-12   p-4"
+                    <Link
+                      to="ContactSection"
+                      smooth={true}
+                      duration={1000}
+                      spy={true}
+                      exact={true}
+                      offset={-80}
                     >
-                      <p>{CTA}</p>
-                    </button>
+                      <button
+                        onClick={() => {
+                          setCTA(data.data.CTA.heading);
+                        }}
+                        className="sm:hidden   text-white bg-yellow-bg  font-semibold text-lg mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center w-1/2    h-12   p-4"
+                      >
+                        <p>{CTA}</p>
+                      </button>
+                    </Link>
                   ) : null}
                 </div>
               </Gradients>

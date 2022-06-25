@@ -93,7 +93,7 @@ export default function NavDropdown({ data, hidden }) {
                                       : 'bg-navdropdownbgtransparent hover:bg-white '
                                   }border-navdropdownbottom `}
                                 >
-                                  <a href={data.url.url}>
+                                  <a href={data.url.url} target="_blank">
                                     <li class="px-3 h-8 font-normal w-max ">
                                       <NavItemnew key={data.id}>
                                         <NavLinksnew className="pt-2">
@@ -107,7 +107,11 @@ export default function NavDropdown({ data, hidden }) {
                             </ul>
                           </>
                         ) : data.url.link === 'a' ? (
-                          <a href={data.url.url} className="w-full">
+                          <a
+                            href={data.url.url}
+                            target="_blank"
+                            className="w-full"
+                          >
                             <NavItemnew key={data.id}>
                               <NavLinksnew>{data.navItem}</NavLinksnew>
                             </NavItemnew>
