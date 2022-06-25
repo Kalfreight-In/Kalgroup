@@ -8,7 +8,10 @@ import EventsSlider from '../../Components/EventsSlider';
 const NewsAndEvents = () => {
   return (
     <>
-      <div className="   flex flex-col justify-center items-center" id='NewsRoom'>
+      <div
+        className="   flex flex-col justify-center items-center"
+        id="NewsRoom"
+      >
         <h2 className="text-Description text-4xl font-bold py-4 link link-underline link-underline-black">
           Newsroom
         </h2>
