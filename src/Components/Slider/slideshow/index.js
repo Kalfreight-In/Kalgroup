@@ -46,7 +46,9 @@ export function Slideshow({
       timeoutRef.current = setTimeout(
         () =>
           setIndex((prevIndex) =>
-            prevIndex === slides.length - 4 ? 0 : prevIndex + 1
+            prevIndex === slides.length - (isDesktop ? 4 : 1)
+              ? 0
+              : prevIndex + 1
           ),
         delay
       );
