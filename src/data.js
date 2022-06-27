@@ -1043,7 +1043,6 @@ export const BigPArtzBrands = [
     name: "Kalpartz",
     desc: "With an extensive inventory of 50000+ parts, our experts always keep you on the move. ",
     Brands: [
-     
       {
         id: "1",
         imageurl:
@@ -1051,17 +1050,31 @@ export const BigPArtzBrands = [
         heading: "Pirelli",
       },
 
-     
       {
         id: "2",
         imageurl:
           "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/bkt.png",
         heading: "bkt",
       },
-
-   
-
-     
+      {
+        id: "3",
+        imageurl:
+          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/cooper.png",
+        heading: "cooper",
+      },
+      {
+        id: "4",
+        imageurl:
+          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/marangoni.png",
+        heading: "marangoni",
+      },
+      {
+        id: "5",
+        imageurl:
+          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/prinx.png",
+        heading: "prinx",
+      },
+  
       {
         id: "6",
         imageurl:
