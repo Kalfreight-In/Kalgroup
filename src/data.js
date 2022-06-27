@@ -1,358 +1,358 @@
 export const NavbarData = [
   {
     url: {
-      url: 'C',
-      link: 'a',
+      url: "C",
+      link: "a",
     },
     id: 1,
-    navItem: 'Business Verticals',
-    link: '/BusinessVerticals',
+    navItem: "Business Verticals",
+    link: "/BusinessVerticals",
     navItems: [
       {
         url: {
-          url: 'https://kalfreight.com/',
-          link: 'a',
+          url: "https://kalfreight.com/",
+          link: "a",
         },
         id: 1,
-        navItem: 'KAL Freight',
+        navItem: "KAL Freight",
       },
       {
         url: {
-          url: 'https://kaltrailers.com/',
-          link: 'a',
+          url: "https://kaltrailers.com/",
+          link: "a",
         },
 
         id: 2,
-        navItem: 'KAL Trailers & Leasing',
+        navItem: "KAL Trailers & Leasing",
       },
       {
         url: {
-          url: 'https://kaltires.com/',
-          link: 'a',
+          url: "https://kaltires.com/",
+          link: "a",
         },
         id: 3,
-        navItem: 'KVL Tires',
+        navItem: "KVL Tires",
       },
       {
         url: {
-          url: 'https://kalpartz.com/',
-          link: 'a',
+          url: "https://kalpartz.com/",
+          link: "a",
         },
         id: 4,
-        navItem: 'KAL Partz',
+        navItem: "KAL Partz",
       },
       {
         url: {
-          url: 'https://kalway.com/',
-          link: 'a',
+          url: "https://kalway.com/",
+          link: "a",
         },
         id: 5,
-        navItem: 'KALWAY',
+        navItem: "KALWAY",
       },
     ],
   },
   {
     url: {
-      url: 'C',
-      link: 'a',
+      url: "C",
+      link: "a",
     },
     id: 2,
-    navItem: 'About Us',
-    link: '/BusinessVerticals',
+    navItem: "About Us",
+    link: "/BusinessVerticals",
     navItems: [
       {
         url: {
-          url: 'AboutUs-Scroll',
-          link: 's',
+          url: "AboutUs-Scroll",
+          link: "s",
         },
         id: 1,
-        navItem: 'Company Overview',
+        navItem: "Company Overview",
       },
       {
         url: {
-          url: 'https://kalfreight.com/who-we-are/csr',
-          link: 'a',
+          url: "https://kalfreight.com/who-we-are/csr",
+          link: "a",
         },
         id: 2,
-        navItem: 'CSR',
+        navItem: "CSR",
       },
     ],
   },
   {
     url: {
-      url: 'C',
-      link: 'a',
+      url: "C",
+      link: "a",
     },
     id: 3,
-    navItem: 'Newsroom',
-    link: '/BusinessVerticals',
+    navItem: "Newsroom",
+    link: "/BusinessVerticals",
     navItems: [
       {
         url: {
-          url: 'NewsRoom',
-          link: 's',
+          url: "NewsRoom",
+          link: "s",
         },
         id: 1,
-        navItem: 'Events',
+        navItem: "Events",
       },
       {
         url: {
-          url: 'NewsRoom',
-          link: 's',
+          url: "NewsRoom",
+          link: "s",
         },
         id: 2,
-        navItem: 'Blog',
+        navItem: "Blog",
       },
     ],
   },
   {
     url: {
-      url: 'C',
-      link: 'a',
+      url: "C",
+      link: "a",
     },
     id: 4,
-    navItem: 'Services',
-    link: '/BusinessVerticals',
+    navItem: "Services",
+    link: "/BusinessVerticals",
     navItems: [
       {
         url: {
-          url: 'https://kalfreight.com/what-we-do/dry-van',
-          link: 'a',
+          url: "https://kalfreight.com/what-we-do/dry-van",
+          link: "a",
         },
         id: 1,
-        navItem: 'Logistics',
+        navItem: "Logistics",
 
         navItems: [
           {
             url: {
-              url: 'https://kalfreight.com/what-we-do/FTL-services',
-              link: 'a',
+              url: "https://kalfreight.com/what-we-do/FTL-services",
+              link: "a",
             },
             id: 1,
-            navItem: 'FTL Services',
+            navItem: "FTL Services",
           },
           {
             url: {
-              url: 'https://kalfreight.com/what-we-do/dedicated-loads',
-              link: 'a',
+              url: "https://kalfreight.com/what-we-do/dedicated-loads",
+              link: "a",
             },
             id: 2,
-            navItem: 'Dedicated Loads',
+            navItem: "Dedicated Loads",
           },
           {
             url: {
-              url: 'https://kalfreight.com/what-we-do/dry-van',
-              link: 'a',
+              url: "https://kalfreight.com/what-we-do/dry-van",
+              link: "a",
             },
             id: 3,
-            navItem: 'Dry Vans',
+            navItem: "Dry Vans",
           },
           {
             url: {
-              url: 'https://kalfreight.com/what-we-do/trailer-interchange',
-              link: 'a',
+              url: "https://kalfreight.com/what-we-do/trailer-interchange",
+              link: "a",
             },
             id: 4,
-            navItem: 'Trailer Interchange',
+            navItem: "Trailer Interchange",
           },
         ],
       },
       {
         url: {
-          url: 'https://kalpartz.com/products/',
-          link: 'a',
+          url: "https://kalpartz.com/products/",
+          link: "a",
         },
         id: 2,
-        navItem: 'Partz',
+        navItem: "Partz",
         navItems: [
           {
             url: {
-              url: 'https://kalpartz.com/products/',
-              link: 'a',
+              url: "https://kalpartz.com/products/",
+              link: "a",
             },
             id: 1,
-            navItem: 'O.E & O.E.M Parts',
+            navItem: "O.E & O.E.M Parts",
           },
           {
             url: {
-              url: 'https://kalpartz.com/products/',
-              link: 'a',
+              url: "https://kalpartz.com/products/",
+              link: "a",
             },
             id: 2,
-            navItem: 'Custom Parts & Accessories',
+            navItem: "Custom Parts & Accessories",
           },
           {
             url: {
-              url: 'https://kalpartz.com/products/',
-              link: 'a',
+              url: "https://kalpartz.com/products/",
+              link: "a",
             },
             id: 3,
-            navItem: 'Aftermarket Parts',
+            navItem: "Aftermarket Parts",
           },
         ],
       },
       {
         url: {
-          url: 'http://kaltires.com/#Advantages',
-          link: 'a',
+          url: "http://kaltires.com/#Advantages",
+          link: "a",
         },
         id: 3,
-        navItem: 'Tires',
+        navItem: "Tires",
         navItems: [
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
-              link: 'a',
+              url: "http://kaltires.com/#Advantages",
+              link: "a",
             },
             id: 1,
-            navItem: '24x7 Roadside Assistance',
+            navItem: "24x7 Roadside Assistance",
           },
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
-              link: 'a',
+              url: "http://kaltires.com/#Advantages",
+              link: "a",
             },
             id: 2,
-            navItem: 'Tire Mounting & Balancing',
+            navItem: "Tire Mounting & Balancing",
           },
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
-              link: 'a',
+              url: "http://kaltires.com/#Advantages",
+              link: "a",
             },
             id: 3,
-            navItem: 'Wheel Alignment',
+            navItem: "Wheel Alignment",
           },
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
-              link: 'a',
+              url: "http://kaltires.com/#Advantages",
+              link: "a",
             },
             id: 4,
-            navItem: 'Heavy Duty Front-end Work',
+            navItem: "Heavy Duty Front-end Work",
           },
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
-              link: 'a',
+              url: "http://kaltires.com/#Advantages",
+              link: "a",
             },
             id: 5,
-            navItem: 'Scheduled Maintenance',
+            navItem: "Scheduled Maintenance",
           },
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
-              link: 'a',
+              url: "http://kaltires.com/#Advantages",
+              link: "a",
             },
             id: 6,
-            navItem: 'On Site Service',
+            navItem: "On Site Service",
           },
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
-              link: 'a',
+              url: "http://kaltires.com/#Advantages",
+              link: "a",
             },
             id: 7,
-            navItem: 'Pick up and Delivery Service',
+            navItem: "Pick up and Delivery Service",
           },
         ],
       },
 
       {
         url: {
-          url: 'https://kaltrailers.com/product-category/trucks/used-trucks/',
-          link: 'a',
+          url: "https://kaltrailers.com/product-category/trucks/used-trucks/",
+          link: "a",
         },
         id: 4,
-        navItem: 'Trailers & Leasing',
+        navItem: "Trailers & Leasing",
         navItems: [
           {
             url: {
-              url: 'https://kaltrailers.com/product-category/trucks/used-trucks/',
-              link: 'a',
+              url: "https://kaltrailers.com/product-category/trucks/used-trucks/",
+              link: "a",
             },
             id: 1,
-            navItem: 'Used Trucks Sale & Purchase',
+            navItem: "Used Trucks Sale & Purchase",
           },
           {
             url: {
-              url: 'https://kaltrailers.com/product-category/trailers/new-trailers/',
-              link: 'a',
+              url: "https://kaltrailers.com/product-category/trailers/new-trailers/",
+              link: "a",
             },
             id: 2,
-            navItem: 'New Trailers Sale & Purchase',
+            navItem: "New Trailers Sale & Purchase",
           },
         ],
       },
       {
         url: {
-          url: 'https://kaltrailers.com/credit-application/',
-          link: 'a',
+          url: "https://kaltrailers.com/credit-application/",
+          link: "a",
         },
         id: 5,
-        navItem: 'Financial Solutions',
+        navItem: "Credit Application",
       },
       {
         url: {
-          url: 'https://kalway.com/services/#Products',
-          link: 'a',
+          url: "https://kalway.com/services/#Products",
+          link: "a",
         },
         id: 6,
-        navItem: 'Brokerage',
+        navItem: "Brokerage",
         navItems: [
           {
             url: {
-              url: 'https://kalway.com/services/#Products',
-              link: 'a',
+              url: "https://kalway.com/services/#Products",
+              link: "a",
             },
             id: 1,
-            navItem: '3PL Service ',
+            navItem: "3PL Service ",
           },
           {
             url: {
-              url: 'https://kalway.com/Carriers',
-              link: 'a',
+              url: "https://kalway.com/Carriers",
+              link: "a",
             },
             id: 2,
-            navItem: 'Load Management',
+            navItem: "Load Management",
           },
           {
             url: {
-              url: 'https://kalway.com/services/#Products',
-              link: 'a',
+              url: "https://kalway.com/services/#Products",
+              link: "a",
             },
             id: 3,
-            navItem: 'Full Truck Service',
+            navItem: "Full Truck Service",
           },
         ],
       },
 
       {
         url: {
-          url: 'https://kalfreight.com/drivers',
-          link: 'a',
+          url: "https://kalfreight.com/drivers",
+          link: "a",
         },
         id: 7,
-        navItem: 'Driver Assistance',
+        navItem: "Driver Assistance",
       },
 
       {
         url: {
-          url: 'https://kaltrailers.com/credit-application/',
-          link: 'a',
+          url: "ContactSection",
+          link: "s",
         },
         id: 8,
-        navItem: 'Customer Support',
+        navItem: "Customer Support",
       },
     ],
   },
   {
     url: {
-      url: 'ContactSection',
-      link: 's',
+      url: "ContactSection",
+      link: "s",
     },
     id: 3,
-    navItem: 'Careers',
+    navItem: "Careers",
 
     // link: "/BusinessVerticals",
     // navItems: [
@@ -1768,39 +1768,66 @@ export const Facbookfeeds = [
 
 export const Instagramfeeds = [
   {
-    id: '1',
-    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/286169510_519570173202421_6328616867636052071_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=NdYiKVz2oAoAX8yrGwU&_nc_ht=scontent-maa2-1.xx&oh=00_AT9Hc3gJqxCIiNLyXPO93REQwEYsh417lZ8h049t-zaYAw&oe=62B8C87A',
+    id: "0",
+    img: "https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/289273207_531333352026103_8215607595006799601_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=TCSeRJhP-RgAX8KSjRC&_nc_ht=scontent-maa2-2.xx&oh=00_AT-ZWuZidBemmdiOMO_1LeCkCuaNfFA5wECqIeJmq245PQ&oe=62BE7E18",
+    caption: "Texas Trucking Show",
+    desc: " Join KAL Group for a weekend of entertainment, hourly giveaways, and networking with our trucking professionals! GRAND PRIZE BARBECUE ISLAND! Meet us June 25th and 26th at the Texas Trucking Show at NRG Center, Houston. If you are interested in adding trucks or trailers to your fleet, tires and services, or in need of aftermarket parts, KAL is ready to meet your demands.",
+    time: "25 June",
+    follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
+  },
+  // {
+  //   id: "",
+  //   img: "https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/290221739_531561168669988_7763453442248434723_n.jpg?stp=dst-jpg_p526x296&_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=KjCrz8u0qWgAX_9g55n&_nc_ht=scontent-maa2-2.xx&oh=00_AT8lkAg00JMLNtHVpGnxgl6FCHQgRozaekg837L715-ZXA&oe=62BF3AF3",
 
-    caption: 'Used Trailers',
-    desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
-    time: '7 June',
-    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
+  //   caption: "Hourly Giveaways",
+  //   desc: "BOOTH #461 - Join KAL Group for a weekend of entertainment, hourly giveaways, and networking with our trucking professionals! GRAND PRIZE.",
+  //   time: "25 June",
+  //   follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
+  // },
+
+  {
+    id: "0",
+    img: "https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/290221739_531561168669988_7763453442248434723_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=KjCrz8u0qWgAX_9g55n&_nc_ht=scontent-maa2-2.xx&oh=00_AT9DiGsIUvBLtMUbcywsrH2LqK1MJFgO9kdvzVT2KQUJjQ&oe=62BF3AF3",
+
+    caption: "Used Trailers",
+    desc: "New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ",
+    time: "7 June",
+    follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
   },
   {
-    id: '2',
+    id: "1",
+    img: "https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/286169510_519570173202421_6328616867636052071_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=xTqT8uSJs2UAX-0JqIO&_nc_ht=scontent-maa2-1.xx&oh=00_AT-koCy5NhsQdVn4eKdWdLnCbB_vFluoKY58r9ZYRPwAUQ&oe=62BEB73A",
 
-    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/282326995_508309244328514_7772227270459412721_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=j5OjvCF_VxsAX8VT1NQ&_nc_ht=scontent-maa2-1.xx&oh=00_AT_Mm57H4kgiQBWgIR-8rgbdpOPLWcsH7E20gTNcLsqUtQ&oe=62B7E82F',
-    caption: 'KVL Tires',
-    desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details!',
-    time: '21 May',
-    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
+    caption: "Used Trailers",
+    desc: "New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ",
+    time: "7 June",
+    follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
+  },
+  {
+    id: "2",
+
+    img: "https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/282326995_508309244328514_7772227270459412721_n.jpg?stp=dst-jpg_p526x296&_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=qeVQ9oZZCWsAX8gY1OU&_nc_ht=scontent-maa2-1.xx&oh=00_AT9-bH8phNTqlm-PdO-QDjcbQl14F-gQsaOuZcpVo3I_Qw&oe=62BFD12F",
+    caption: "KVL Tires",
+    desc: "KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details!",
+    time: "21 May",
+    follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
   },
 
   {
-    id: '3',
-    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/280611353_502279618264810_8376564357247553020_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=NhU5girmI84AX9VFe7q&_nc_ht=scontent-maa2-2.xx&oh=00_AT9afeKMGMpvUEvLseOxCca__QyQKN1JMiYanLlC5HWG4g&oe=62B96310',
-    caption: 'KalPartz',
-    desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
-    time: '12 May',
-    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
+    id: "3",
+    img: "https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/280611353_502279618264810_8376564357247553020_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=ZPCNj4bAjMIAX87u1nc&_nc_ht=scontent-maa2-2.xx&oh=00_AT9d0Fhp9Z_kC8toXDkRzjUqVE-At4GWZxbkRW9FHvO6hg&oe=62BF51D0",
+    caption: "KalPartz",
+    desc: "KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ",
+    time: "12 May",
+    follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
   },
   {
-    id: '4',
-    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/279779116_494988118993960_4082047950062427929_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=xEO95iBWVrgAX-g6VmW&_nc_ht=scontent-maa2-2.xx&oh=00_AT_CFgops2YDtisXcZzClwQXw6lq2CSH4GFSWF4wuwduPw&oe=62B900EC',
-    caption: 'Kalway',
-    desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
-    time: '2 May',
-    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
+    id: "4",
+    img: "https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/279779116_494988118993960_4082047950062427929_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=sxDX0t_NSF8AX-8ldID&_nc_ht=scontent-maa2-2.xx&oh=00_AT-Ozp_s3Wu-JUQrK9dBFtJj6lQvi6qwJbBBN5CDNNHJoQ&oe=62BEEFAC",
+    caption: "Kalway",
+    desc: "Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076",
+    time: "2 May",
+    follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
   },
 ];
 export const MapData = [

@@ -527,7 +527,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                               target="_blank"
                             >
                               <span className="mt-5px">
-                                Financing Solutions
+                                Credit Application
                               </span>
                             </a>
                           </span>
