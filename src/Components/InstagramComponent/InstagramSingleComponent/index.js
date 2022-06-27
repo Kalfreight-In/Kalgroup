@@ -65,7 +65,7 @@ const InstagramSingleComponent = (data) => {
             <div>
               <p
                 //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-                className="text-white  2xl:text-lg lg:text-base md:text-sm mt-2 px-0"
+                className="text-white  2xl:text-lg lg:text-base md:text-sm mt-2 px-0 h-36"
               >
                 {data.data.desc}
               </p>
@@ -79,7 +79,7 @@ const InstagramSingleComponent = (data) => {
             </p>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
-              className="text-white underline underline-offset-8   2xl:text-md lg:text-base md:text-sm px-0  underline-offset-4 mt-10"
+              className="text-white underline   2xl:text-md lg:text-base md:text-sm px-0  underline-offset-4 mt-10"
             >
               <a href={data.data.follow}>Go to our Feed</a>
             </p>
