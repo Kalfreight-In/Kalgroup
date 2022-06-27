@@ -1043,35 +1043,25 @@ export const BigPArtzBrands = [
     name: "Kalpartz",
     desc: "With an extensive inventory of 50000+ parts, our experts always keep you on the move. ",
     Brands: [
+     
       {
         id: "1",
-        imageurl: "https://kalfreight.com/uploads/Image/2klf_logo.png",
-        heading: "Kalfreight",
+        imageurl:
+          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/pirelli.png",
+        heading: "Pirelli",
       },
+
+     
       {
         id: "2",
         imageurl:
-          "https://kaltrailers.com/wp-content/uploads/2022/06/Ktl-newlogo.png",
-        heading: "Kaltrailers",
-      },
-      {
-        id: "3",
-        imageurl: "https://kaltires.com/static/media/logo.69019044.png",
-        heading: "Kvl tires",
-      },
-      {
-        id: "4",
-        imageurl:
-          "https://i0.wp.com/kalpartz.com/wp-content/uploads/2022/04/kalpartz-logo.png?fit=224%2C98&ssl=1",
-        heading: "Kalpartz",
-      },
-      {
-        id: "5",
-        imageurl:
-          "https://cdn.sanity.io/images/y10nshsc/production/685b25dd64820b9a07e568d21133e04232fd13ee-273x86.webp",
-        heading: "Kalway",
+          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/bkt.png",
+        heading: "bkt",
       },
 
+   
+
+     
       {
         id: "6",
         imageurl:
