@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 
 import { animateScroll as scroll, Link } from 'react-scroll';
 import { NavbarData } from '../../data';
+import { SidebarFr } from './sidebarFr';
 
 import {
   CloseIcon,

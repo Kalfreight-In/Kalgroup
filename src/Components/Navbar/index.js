@@ -15,6 +15,7 @@ import {
 } from './NavbarElements';
 import { NavbarData } from '../../data';
 import NavDropdown from '../NavIT/NavDropdown';
+import { SidebarFr } from '../Sidebar/sidebarFr';
 
 const Navbar = ({ toggle }) => {
   console.log(window.scrollY);
@@ -179,6 +180,7 @@ const Navbar = ({ toggle }) => {
 
               <MobileIcon onClick={toggle} className="">
                 <FaBars color="#111" />
+                {/* <SidebarFr /> */}
               </MobileIcon>
             </NavMenu>
           </div>
