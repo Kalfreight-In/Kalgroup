@@ -1057,7 +1057,7 @@ export const BigPArtzBrands = [
         heading: "bkt",
       },
       {
-        id: "3",
+        id: "3 ",
         imageurl:
           "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/cooper.png",
         heading: "cooper",
