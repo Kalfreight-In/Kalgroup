@@ -19,9 +19,9 @@ export default function NavDropdown({ data, hidden }) {
               className="cursor-pointer"
             >
               <button class="outline-none focus:outline-none  px-3 py-1  rounded-sm flex justify-start items-start text-left min-w-32">
-                <span class="pr-1 font-medium flex-1 md:text-xs xl:text-navlgtext text-sm">
+                <span class="pr-1 font-medium flex-1 md:text-xs xl:text-navlgtext text-sm ">
                   {data.navItem}
-                </span>
+                </span> 
                 <span>
                   {/* <svg
                   class="fill-current h-4 w-4 transform group-hover:-rotate-180
@@ -41,9 +41,9 @@ export default function NavDropdown({ data, hidden }) {
                     ? 'bg-navdropdownbgtransparent'
                     : 'bg-footerbackground'
                 }  rounded-sm transform scale-0 group-hover:scale-100 absolute 
-  transition duration-150 ease-in-out origin-top min-w-32 mt-3 w-max font-normal`}
+  transition duration-150 ease-in-out origin-top min-w-32 mt-3 w-max font-normal `}
               >
-                <span className="w-12"></span>
+                <span className="w-12 "></span>
                 {/* <span
                   className={`w-max mx-4 ${
                     !hidden
@@ -61,7 +61,7 @@ export default function NavDropdown({ data, hidden }) {
                 {data.navItems
                   ? data.navItems.map((data, index) => (
                       <li
-                        class={`rounded-sm px-3 py-1  ${
+                        class={`rounded-sm px-3 py-1   ${
                           !hidden
                             ? 'bg-navdropdownbgtransparent hover:bg-navdropdownbottom'
                             : 'bg-footerbackground hover:bg-white'
@@ -97,7 +97,7 @@ export default function NavDropdown({ data, hidden }) {
                             >
                               {data.navItems.map((data, index) => (
                                 <div
-                                  className={` text-left border-b ${
+                                  className={` text-left border-b  ${
                                     !hidden
                                       ? 'bg-navdropdownbgtransparent'
                                       : 'bg-navdropdownbgtransparent hover:bg-white '
@@ -106,7 +106,7 @@ export default function NavDropdown({ data, hidden }) {
                                   <a href={data.url.url} target="_blank">
                                     <li class="px-3 h-8 font-normal w-max ">
                                       <NavItemnew key={data.id}>
-                                        <NavLinksnew className="pt-2">
+                                        <NavLinksnew className="pt-2 ">
                                           {data.navItem}
                                         </NavLinksnew>
                                       </NavItemnew>
@@ -134,7 +134,7 @@ export default function NavDropdown({ data, hidden }) {
                             spy={true}
                             exact={true}
                             offset={-80}
-                            className="cursor-pointer"
+                            className="cursor-pointer "
                           >
                             <NavItemnew key={data.id}>
                               <NavLinksnew>{data.navItem}</NavLinksnew>

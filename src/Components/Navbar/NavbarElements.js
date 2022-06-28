@@ -3,7 +3,7 @@ import { NavLink as LinkR } from 'react-router-dom';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background-color: ${({ scrollNav }) => (scrollNav ? '#e0e0e0' : '#e6e6e626')};
+  background-color: ${({ scrollNav }) => (scrollNav ? "#e0e0e0" : "#e6e6e68c")};
 
   // height: 90px;
   //  margin-top:-80px

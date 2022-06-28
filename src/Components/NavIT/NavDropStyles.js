@@ -15,6 +15,7 @@ export const NavLinksnew = styled.div`
   text-decoration: none;
   font-weight: 400;
   font-size: 1rem;
+  margin-top:0.4rem;
   width: 100%;
 
   height: 100%;
