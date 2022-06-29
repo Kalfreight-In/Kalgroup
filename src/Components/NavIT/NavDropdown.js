@@ -95,13 +95,13 @@ export default function NavDropdown({ data, hidden }) {
   min-w-32 font-normal   
   `}
                             >
-                              {data.navItems.map((data, index) => (
+                              {data.navItems.map((data, index) => ( 
                                 <div
                                   className={` text-left border-b  ${
                                     !hidden
-                                      ? 'bg-navdropdownbgtransparent'
-                                      : 'bg-navdropdownbgtransparent hover:bg-white '
-                                  }border-navdropdownbottom `}
+                                      ? 'bg-navdropdownbgtransparent '
+                                      : 'bg-navdropdownbgtransparent  '
+                                  } ${!hidden? 'hover:bg-navdropdownbottom':'hover:bg-white'} border-navdropdownbottom `}
                                 >
                                   <a href={data.url.url} target="_blank">
                                     <li class="px-3 h-8 font-normal w-max ">
