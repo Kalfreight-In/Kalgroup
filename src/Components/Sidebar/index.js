@@ -67,7 +67,7 @@ const Sidebar = ({ isOpen, toggle }) => {
             </span>
           </Divlink>
           <div
-            className={`Transition-Height-${BusinessVerticles ? "in" : "out"}`}
+            className={`Transition-Height-${BusinessVerticles ? 'in' : 'out'}`}
           >
             <ul>
               {BusinessVerticles
@@ -103,32 +103,35 @@ const Sidebar = ({ isOpen, toggle }) => {
             About Us
             <span>{AboutUs ? <BiMinus></BiMinus> : <BsPlus></BsPlus>}</span>
           </Divlink>
-          {AboutUs
-            ? NavbarData[1].navItems.map((data) =>
-                data.url.link === "a" ? (
-                  <a href={data.url.url} className="w-full">
-                    <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
-                      {data.navItem}
-                    </div>
-                  </a>
-                ) : (
-                  <Link
-                    to={data.url.url}
-                    onClick={toggle}
-                    smooth={true}
-                    duration={1000}
-                    spy={true}
-                    exact={true}
-                    offset={-80}
-                    className="cursor-pointer"
-                  >
-                    <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
-                      {data.navItem}
-                    </div>
-                  </Link>
+          <div className={`Transition-Height-${AboutUs ? 'in' : 'out'}`}>
+            {AboutUs
+              ? NavbarData[1].navItems.map((data) =>
+                  data.url.link === 'a' ? (
+                    <a href={data.url.url} className="w-full">
+                      <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
+                        {data.navItem}
+                      </div>
+                    </a>
+                  ) : (
+                    <Link
+                      to={data.url.url}
+                      onClick={toggle}
+                      smooth={true}
+                      duration={1000}
+                      spy={true}
+                      exact={true}
+                      offset={-80}
+                      className="cursor-pointer"
+                    >
+                      <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
+                        {data.navItem}
+                      </div>
+                    </Link>
+                  )
                 )
-              )
-            : null}
+              : null}
+          </div>
+
           <Divlink
             onClick={() => {
               setNewsRoom(!NewsRoom);
@@ -141,32 +144,36 @@ const Sidebar = ({ isOpen, toggle }) => {
             News Room
             <span>{NewsRoom ? <BiMinus></BiMinus> : <BsPlus></BsPlus>}</span>
           </Divlink>
-          {NewsRoom
-            ? NavbarData[2].navItems.map((data) =>
-                data.url.link === "a" ? (
-                  <a href={data.url.url} className="w-full">
-                    <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
-                      {data.navItem}
-                    </div>
-                  </a>
-                ) : (
-                  <Link
-                    to={data.url.url}
-                    onClick={toggle}
-                    smooth={true}
-                    duration={1000}
-                    spy={true}
-                    exact={true}
-                    offset={-80}
-                    className="cursor-pointer"
-                  >
-                    <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
-                      {data.navItem}
-                    </div>
-                  </Link>
+          <div className={`Transition-Height-${NewsRoom ? 'in' : 'out'}`}>
+            {' '}
+            {NewsRoom
+              ? NavbarData[2].navItems.map((data) =>
+                  data.url.link === 'a' ? (
+                    <a href={data.url.url} className="w-full">
+                      <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
+                        {data.navItem}
+                      </div>
+                    </a>
+                  ) : (
+                    <Link
+                      to={data.url.url}
+                      onClick={toggle}
+                      smooth={true}
+                      duration={1000}
+                      spy={true}
+                      exact={true}
+                      offset={-80}
+                      className="cursor-pointer"
+                    >
+                      <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
+                        {data.navItem}
+                      </div>
+                    </Link>
+                  )
                 )
-              )
-            : null}
+              : null}
+          </div>
+
           <Divlink
             onClick={() => {
               setServices(!Services);
@@ -178,32 +185,35 @@ const Sidebar = ({ isOpen, toggle }) => {
             Services
             <span>{Services ? <BiMinus></BiMinus> : <BsPlus></BsPlus>}</span>
           </Divlink>
-          {Services
-            ? NavbarData[3].navItems.map((data) =>
-                data.url.link === "a" ? (
-                  <a href={data.url.url} className="w-full">
-                    <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
-                      {data.navItem}
-                    </div>
-                  </a>
-                ) : (
-                  <Link
-                    to={data.url.url}
-                    onClick={toggle}
-                    smooth={true}
-                    duration={1000}
-                    spy={true}
-                    exact={true}
-                    offset={-80}
-                    className="cursor-pointer"
-                  >
-                    <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
-                      {data.navItem}
-                    </div>
-                  </Link>
+          <div className={`Transition-Height-${Services ? 'in' : 'out'}`}>
+            {Services
+              ? NavbarData[3].navItems.map((data) =>
+                  data.url.link === 'a' ? (
+                    <a href={data.url.url} className="w-full">
+                      <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
+                        {data.navItem}
+                      </div>
+                    </a>
+                  ) : (
+                    <Link
+                      to={data.url.url}
+                      onClick={toggle}
+                      smooth={true}
+                      duration={1000}
+                      spy={true}
+                      exact={true}
+                      offset={-80}
+                      className="cursor-pointer"
+                    >
+                      <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
+                        {data.navItem}
+                      </div>
+                    </Link>
+                  )
                 )
-              )
-            : null}
+              : null}
+          </div>
+
           <SidebarLinkR to="ContactSection">
             <Link
               to="ContactSection"
