@@ -67,22 +67,27 @@ const Sidebar = ({ isOpen, toggle }) => {
               </svg>
             </span>
           </Divlink>
-          {BusinessVerticles
-            ? NavbarData[0].navItems.map((data) => (
-                <a href={data.url.url}>
-                  <div className=" text-black  justify-center items-center text-center p-1">
-                    {data.navItem}
-                    {/* {data.navItems
+          <div
+            className={`Transition-Height-${BusinessVerticles ? 'in' : 'out'}`}
+          >
+            {BusinessVerticles
+              ? NavbarData[0].navItems.map((data) => (
+                  <a href={data.url.url}>
+                    <div className=" text-black  text-center p-1">
+                      {data.navItem}
+                      {/* {data.navItems
                 ? data.navItems.map((data) => (
                     <div className=" text-Heading  justify-center text-center items-center">
                       {data.navItem}
                     </div>
                   ))
                 : null} */}
-                  </div>
-                </a>
-              ))
-            : null}
+                    </div>
+                  </a>
+                ))
+              : null}
+          </div>
+
           <Divlink
             onClick={() => {
               setAboutUs(!AboutUs);
