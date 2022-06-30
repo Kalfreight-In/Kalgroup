@@ -3,6 +3,8 @@ import React, { useRef, useState } from 'react';
 import { animateScroll as scroll, Link } from 'react-scroll';
 import { NavbarData } from '../../data';
 import { SidebarFr } from './sidebarFr';
+import {BsPlus} from 'react-icons/bs';
+import {BiMinus} from 'react-icons/bi';
 
 import {
   CloseIcon,
@@ -27,6 +29,8 @@ const Sidebar = ({ isOpen, toggle }) => {
   // const [Tires, setTires] = useState(false);
   // const [TrailersLeasing, setTrailersLeasing] = useState(false);
   // const [Brokerage, setBrokerage] = useState(false);
+
+  const [Plus,setPlus] = useState(<BsPlus/>);
 
   function disabel() {
     const path = window.location.pathname;
@@ -57,14 +61,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             Business Verticals
             <span>
-              <svg
-                class="fill-current h-4 w-4 transform group-hover:-rotate-180
- transition duration-150 ease-in-out"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
-                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-              </svg>
+              {BusinessVerticles ? <BiMinus></BiMinus> : <BsPlus></BsPlus>}
+
+              {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
             </span>
           </Divlink>
           {BusinessVerticles
@@ -93,20 +92,11 @@ const Sidebar = ({ isOpen, toggle }) => {
             }}
           >
             About Us
-            <span>
-              <svg
-                class="fill-current h-4 w-4 transform group-hover:-rotate-180
- transition duration-150 ease-in-out"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
-                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-              </svg>
-            </span>
+            <span>{AboutUs ? <BiMinus></BiMinus> : <BsPlus></BsPlus>}</span>
           </Divlink>
           {AboutUs
             ? NavbarData[1].navItems.map((data) =>
-                data.url.link === 'a' ? (
+                data.url.link === "a" ? (
                   <a href={data.url.url} className="w-full">
                     <div className=" text-black  justify-center items-center text-center p-1">
                       {data.navItem}
@@ -140,20 +130,11 @@ const Sidebar = ({ isOpen, toggle }) => {
             }}
           >
             News Room
-            <span>
-              <svg
-                class="fill-current h-4 w-4 transform group-hover:-rotate-180
- transition duration-150 ease-in-out"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
-                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-              </svg>
-            </span>
+            <span>{NewsRoom ? <BiMinus></BiMinus> : <BsPlus></BsPlus>}</span>
           </Divlink>
           {NewsRoom
             ? NavbarData[2].navItems.map((data) =>
-                data.url.link === 'a' ? (
+                data.url.link === "a" ? (
                   <a href={data.url.url} className="w-full">
                     <div className=" text-black  justify-center items-center text-center p-1">
                       {data.navItem}
@@ -186,20 +167,11 @@ const Sidebar = ({ isOpen, toggle }) => {
             }}
           >
             Services
-            <span>
-              <svg
-                class="fill-current h-4 w-4 transform group-hover:-rotate-180
- transition duration-150 ease-in-out"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-              >
-                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
-              </svg>
-            </span>
+            <span>{Services ? <BiMinus></BiMinus> : <BsPlus></BsPlus>}</span>
           </Divlink>
           {Services
             ? NavbarData[3].navItems.map((data) =>
-                data.url.link === 'a' ? (
+                data.url.link === "a" ? (
                   <a href={data.url.url} className="w-full">
                     <div className=" text-black  justify-center items-center text-center p-1">
                       {data.navItem}
