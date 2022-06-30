@@ -44,19 +44,9 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLinkR to="/" onClick={toggle}>
-            HOME
+            Home
           </SidebarLinkR>
 
-          {/* <SidebarLinkR onClick={toggle} to="/kalgroup/tires">
-           
-          </SidebarLinkR>
-          <SidebarLinkR onClick={toggle} to="/kalgroup/tires">
-            About Us
-          </SidebarLinkR>
-          <SidebarLinkR onClick={toggle} to="/kalgroup/tires">
-            {' '}
-            Newsroom
-          </SidebarLinkR> */}
           <Divlink
             onClick={() => {
               setBusinessVerticles(!BusinessVerticles);

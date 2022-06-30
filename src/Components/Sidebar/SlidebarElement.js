@@ -6,25 +6,25 @@ import { Link as LinkS } from 'react-scroll';
 export const SlidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
-  width: 99.5%;
+  width:80%;
   height: 100%;
-  background: #fff;
+  background: #282828;
   display: flex;
   overflow-y: auto;
   flex-direction: column;
   align-items: right;
-  justify-content: center;
+  justify-content:space-between;
   top: 0;
-  left: 0;
+  right: 0;
   transition: 0.3s ease-in-out;
-  opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
-  top: ${({ isOpen }) => (isOpen ? '0' : '-100%')};
+  opacity: ${({ isOpen }) => (isOpen ? "100%" : "0")};
+  right: ${({ isOpen }) => (isOpen ? "0" : "-100%")};
 
 
   }
 `;
 export const CloseIcon = styled(FaTimes)`
-  color: #00000;
+  color: #fff;
 `;
 export const Icon = styled.div`
   position: absolute;
@@ -37,12 +37,14 @@ export const Icon = styled.div`
 `;
 export const SidebarWrapper = styled.div`
   color: #fff;
+  margin-top:5rem;
 `;
 export const SidebarMenu = styled.ul`
   display: flex;
   flex-direction: column;
   items-align: center;
   justify-content: center;
+  padding-left:2rem;
 `;
 export const SidebarLink = styled(LinkS)`
   display: flex;
@@ -62,16 +64,19 @@ export const SidebarLink = styled(LinkS)`
 `;
 export const SidebarLinkR = styled(LinkR)`
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  border-bottom: 1px solid #fff;
   font-size: 1rem;
   font-weight: 600;
-  padding: 1rem;
+  width: 85%;
+  padding: 1rem 1rem 1rem 0rem;
   text-decoration: none;
   // padding-right: 3rem;
   transition: 0.2s ease-in-out;
   text-decoration: none;
-  color: #000000;
+  color: #fff;
   cursor: pointer;
   &:hover {
     color: #000000;
@@ -80,16 +85,18 @@ export const SidebarLinkR = styled(LinkR)`
 `;
 export const Divlink = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+  width: 85%;
   font-size: 1rem;
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 0rem;
   font-weight: 600;
   text-decoration: none;
   // padding-right: 3rem;
   transition: 0.2s ease-in-out;
   text-decoration: none;
-  color: #000000;
+  border-bottom: 1px solid white;
+  color: #fff;
   cursor: pointer;
   &:hover {
     color: #000000;
