@@ -86,7 +86,7 @@ export const SidebarLinkR = styled(LinkR)`
 export const Divlink = styled.div`
   display: flex;
   align-items: left;
-  justify-content: left;
+  justify-content: space-between;
   width: 85%;
   font-size: 1rem;
   padding: 1rem 1rem 1rem 0rem;
