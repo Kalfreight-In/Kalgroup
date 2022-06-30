@@ -3,8 +3,8 @@ import React, { useRef, useState } from 'react';
 import { animateScroll as scroll, Link } from 'react-scroll';
 import { NavbarData } from '../../data';
 import { SidebarFr } from './sidebarFr';
-import {BsPlus} from 'react-icons/bs';
-import {BiMinus} from 'react-icons/bi';
+import { BsPlus } from 'react-icons/bs';
+import { BiMinus } from 'react-icons/bi';
 
 import {
   CloseIcon,
@@ -30,7 +30,7 @@ const Sidebar = ({ isOpen, toggle }) => {
   // const [TrailersLeasing, setTrailersLeasing] = useState(false);
   // const [Brokerage, setBrokerage] = useState(false);
 
-  const [Plus,setPlus] = useState(<BsPlus/>);
+  const [Plus, setPlus] = useState(<BsPlus />);
 
   function disabel() {
     const path = window.location.pathname;
@@ -69,22 +69,26 @@ const Sidebar = ({ isOpen, toggle }) => {
           <div
             className={`Transition-Height-${BusinessVerticles ? 'in' : 'out'}`}
           >
-            {BusinessVerticles
-              ? NavbarData[0].navItems.map((data) => (
-                  <a href={data.url.url}>
-                    <div className=" text-black  text-center p-1">
-                      {data.navItem}
-                      {/* {data.navItems
+            <ul>
+              {BusinessVerticles
+                ? NavbarData[0].navItems.map((data) => (
+                    <a href={data.url.url}>
+                      <li>
+                        <div className=" text-black  text-center p-1">
+                          {data.navItem}
+                          {/* {data.navItems
                 ? data.navItems.map((data) => (
                     <div className=" text-Heading  justify-center text-center items-center">
                       {data.navItem}
                     </div>
                   ))
                 : null} */}
-                    </div>
-                  </a>
-                ))
-              : null}
+                        </div>
+                      </li>
+                    </a>
+                  ))
+                : null}
+            </ul>
           </div>
 
           <Divlink
@@ -101,7 +105,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </Divlink>
           {AboutUs
             ? NavbarData[1].navItems.map((data) =>
-                data.url.link === "a" ? (
+                data.url.link === 'a' ? (
                   <a href={data.url.url} className="w-full">
                     <div className=" text-black  justify-center items-center text-center p-1">
                       {data.navItem}
@@ -139,7 +143,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </Divlink>
           {NewsRoom
             ? NavbarData[2].navItems.map((data) =>
-                data.url.link === "a" ? (
+                data.url.link === 'a' ? (
                   <a href={data.url.url} className="w-full">
                     <div className=" text-black  justify-center items-center text-center p-1">
                       {data.navItem}
@@ -176,7 +180,7 @@ const Sidebar = ({ isOpen, toggle }) => {
           </Divlink>
           {Services
             ? NavbarData[3].navItems.map((data) =>
-                data.url.link === "a" ? (
+                data.url.link === 'a' ? (
                   <a href={data.url.url} className="w-full">
                     <div className=" text-black  justify-center items-center text-center p-1">
                       {data.navItem}
