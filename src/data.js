@@ -1,358 +1,358 @@
 export const NavbarData = [
   {
     url: {
-      url: "C",
-      link: "a",
+      url: 'C',
+      link: 'a',
     },
     id: 1,
-    navItem: "Business Verticals",
-    link: "/BusinessVerticals",
+    navItem: 'Business Verticals',
+    link: '/BusinessVerticals',
     navItems: [
       {
         url: {
-          url: "https://kalfreight.com/",
-          link: "a",
+          url: 'https://kalfreight.com/',
+          link: 'a',
         },
         id: 1,
-        navItem: "KAL Freight",
+        navItem: 'KAL Freight',
       },
       {
         url: {
-          url: "https://kaltrailers.com/",
-          link: "a",
+          url: 'https://kaltrailers.com/',
+          link: 'a',
         },
 
         id: 2,
-        navItem: "KAL Trailers & Leasing",
+        navItem: 'KAL Trailers & Leasing',
       },
       {
         url: {
-          url: "https://kaltires.com/",
-          link: "a",
+          url: 'https://kaltires.com/',
+          link: 'a',
         },
         id: 3,
-        navItem: "KVL Tires",
+        navItem: 'KVL Tires',
       },
       {
         url: {
-          url: "https://kalpartz.com/",
-          link: "a",
+          url: 'https://kalpartz.com/',
+          link: 'a',
         },
         id: 4,
-        navItem: "KAL Partz",
+        navItem: 'KAL Partz',
       },
       {
         url: {
-          url: "https://kalway.com/",
-          link: "a",
+          url: 'https://kalway.com/',
+          link: 'a',
         },
         id: 5,
-        navItem: "KALWAY",
+        navItem: 'KALWAY',
       },
     ],
   },
   {
     url: {
-      url: "C",
-      link: "a",
+      url: 'C',
+      link: 'a',
     },
     id: 2,
-    navItem: "About Us",
-    link: "/BusinessVerticals",
+    navItem: 'About Us',
+    link: '/BusinessVerticals',
     navItems: [
       {
         url: {
-          url: "AboutUs-Scroll",
-          link: "s",
+          url: 'AboutUs-Scroll',
+          link: 's',
         },
         id: 1,
-        navItem: "Company Overview",
+        navItem: 'Company Overview',
       },
       {
         url: {
-          url: "https://kalfreight.com/who-we-are/csr",
-          link: "a",
+          url: 'https://kalfreight.com/who-we-are/csr',
+          link: 'a',
         },
         id: 2,
-        navItem: "CSR",
+        navItem: 'CSR',
       },
     ],
   },
   {
     url: {
-      url: "C",
-      link: "a",
+      url: 'C',
+      link: 'a',
     },
     id: 3,
-    navItem: "Newsroom",
-    link: "/BusinessVerticals",
+    navItem: 'Newsroom',
+    link: '/BusinessVerticals',
     navItems: [
       {
         url: {
-          url: "NewsRoom",
-          link: "s",
+          url: 'NewsRoom',
+          link: 's',
         },
         id: 1,
-        navItem: "Events",
+        navItem: 'Events',
       },
       {
         url: {
-          url: "NewsRoom",
-          link: "s",
+          url: 'NewsRoom',
+          link: 's',
         },
         id: 2,
-        navItem: "Blog",
+        navItem: 'Blog',
       },
     ],
   },
   {
     url: {
-      url: "C",
-      link: "a",
+      url: 'C',
+      link: 'a',
     },
     id: 4,
-    navItem: "Services",
-    link: "/BusinessVerticals",
+    navItem: 'Services',
+    link: '/BusinessVerticals',
     navItems: [
       {
         url: {
-          url: "https://kalfreight.com/what-we-do/dry-van",
-          link: "a",
+          url: 'https://kalfreight.com/what-we-do/dry-van',
+          link: 'a',
         },
         id: 1,
-        navItem: "Logistics",
+        navItem: 'Logistics',
 
         navItems: [
           {
             url: {
-              url: "https://kalfreight.com/what-we-do/FTL-services",
-              link: "a",
+              url: 'https://kalfreight.com/what-we-do/FTL-services',
+              link: 'a',
             },
             id: 1,
-            navItem: "FTL Services",
+            navItem: 'FTL Services',
           },
           {
             url: {
-              url: "https://kalfreight.com/what-we-do/dedicated-loads",
-              link: "a",
+              url: 'https://kalfreight.com/what-we-do/dedicated-loads',
+              link: 'a',
             },
             id: 2,
-            navItem: "Dedicated Loads",
+            navItem: 'Dedicated Loads',
           },
           {
             url: {
-              url: "https://kalfreight.com/what-we-do/dry-van",
-              link: "a",
+              url: 'https://kalfreight.com/what-we-do/dry-van',
+              link: 'a',
             },
             id: 3,
-            navItem: "Dry Vans",
+            navItem: 'Dry Vans',
           },
           {
             url: {
-              url: "https://kalfreight.com/what-we-do/trailer-interchange",
-              link: "a",
+              url: 'https://kalfreight.com/what-we-do/trailer-interchange',
+              link: 'a',
             },
             id: 4,
-            navItem: "Trailer Interchange",
+            navItem: 'Trailer Interchange',
           },
         ],
       },
       {
         url: {
-          url: "https://kalpartz.com/products/",
-          link: "a",
+          url: 'https://kalpartz.com/products/',
+          link: 'a',
         },
         id: 2,
-        navItem: "Partz",
+        navItem: 'Partz',
         navItems: [
           {
             url: {
-              url: "https://kalpartz.com/products/",
-              link: "a",
+              url: 'https://kalpartz.com/products/',
+              link: 'a',
             },
             id: 1,
-            navItem: "O.E & O.E.M Parts",
+            navItem: 'O.E & O.E.M Parts',
           },
           {
             url: {
-              url: "https://kalpartz.com/products/",
-              link: "a",
+              url: 'https://kalpartz.com/products/',
+              link: 'a',
             },
             id: 2,
-            navItem: "Custom Parts & Accessories",
+            navItem: 'Custom Parts & Accessories',
           },
           {
             url: {
-              url: "https://kalpartz.com/products/",
-              link: "a",
+              url: 'https://kalpartz.com/products/',
+              link: 'a',
             },
             id: 3,
-            navItem: "Aftermarket Parts",
+            navItem: 'Aftermarket Parts',
           },
         ],
       },
       {
         url: {
-          url: "http://kaltires.com/#Advantages",
-          link: "a",
+          url: 'http://kaltires.com/#Advantages',
+          link: 'a',
         },
         id: 3,
-        navItem: "Tires",
+        navItem: 'Tires',
         navItems: [
           {
             url: {
-              url: "http://kaltires.com/#Advantages",
-              link: "a",
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
             },
             id: 1,
-            navItem: "24x7 Roadside Assistance",
+            navItem: '24x7 Roadside Assistance',
           },
           {
             url: {
-              url: "http://kaltires.com/#Advantages",
-              link: "a",
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
             },
             id: 2,
-            navItem: "Tire Mounting & Balancing",
+            navItem: 'Tire Mounting & Balancing',
           },
           {
             url: {
-              url: "http://kaltires.com/#Advantages",
-              link: "a",
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
             },
             id: 3,
-            navItem: "Wheel Alignment",
+            navItem: 'Wheel Alignment',
           },
           {
             url: {
-              url: "http://kaltires.com/#Advantages",
-              link: "a",
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
             },
             id: 4,
-            navItem: "Heavy Duty Front-end Work",
+            navItem: 'Heavy Duty Front-end Work',
           },
           {
             url: {
-              url: "http://kaltires.com/#Advantages",
-              link: "a",
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
             },
             id: 5,
-            navItem: "Scheduled Maintenance",
+            navItem: 'Scheduled Maintenance',
           },
           {
             url: {
-              url: "http://kaltires.com/#Advantages",
-              link: "a",
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
             },
             id: 6,
-            navItem: "On Site Service",
+            navItem: 'On Site Service',
           },
           {
             url: {
-              url: "http://kaltires.com/#Advantages",
-              link: "a",
+              url: 'http://kaltires.com/#Advantages',
+              link: 'a',
             },
             id: 7,
-            navItem: "Pick up and Delivery Service",
+            navItem: 'Pick up and Delivery Service',
           },
         ],
       },
 
       {
         url: {
-          url: "https://kaltrailers.com/product-category/trucks/used-trucks/",
-          link: "a",
+          url: 'https://kaltrailers.com/product-category/trucks/used-trucks/',
+          link: 'a',
         },
         id: 4,
-        navItem: "Trailers & Leasing",
+        navItem: 'Trailers & Leasing',
         navItems: [
           {
             url: {
-              url: "https://kaltrailers.com/product-category/trucks/used-trucks/",
-              link: "a",
+              url: 'https://kaltrailers.com/product-category/trucks/used-trucks/',
+              link: 'a',
             },
             id: 1,
-            navItem: "Used Trucks Sale & Purchase",
+            navItem: 'Used Trucks Sale & Purchase',
           },
           {
             url: {
-              url: "https://kaltrailers.com/product-category/trailers/new-trailers/",
-              link: "a",
+              url: 'https://kaltrailers.com/product-category/trailers/new-trailers/',
+              link: 'a',
             },
             id: 2,
-            navItem: "New Trailers Sale & Purchase",
+            navItem: 'New Trailers Sale & Purchase',
           },
         ],
       },
       {
         url: {
-          url: "https://kaltrailers.com/credit-application/",
-          link: "a",
+          url: 'https://kaltrailers.com/credit-application/',
+          link: 'a',
         },
         id: 5,
-        navItem: "Credit Application",
+        navItem: 'Credit Application',
       },
       {
         url: {
-          url: "https://kalway.com/services/#Products",
-          link: "a",
+          url: 'https://kalway.com/services/#Products',
+          link: 'a',
         },
         id: 6,
-        navItem: "Brokerage",
+        navItem: 'Brokerage',
         navItems: [
           {
             url: {
-              url: "https://kalway.com/services/#Products",
-              link: "a",
+              url: 'https://kalway.com/services/#Products',
+              link: 'a',
             },
             id: 1,
-            navItem: "3PL Service ",
+            navItem: '3PL Service ',
           },
           {
             url: {
-              url: "https://kalway.com/Carriers",
-              link: "a",
+              url: 'https://kalway.com/Carriers',
+              link: 'a',
             },
             id: 2,
-            navItem: "Load Management",
+            navItem: 'Load Management',
           },
           {
             url: {
-              url: "https://kalway.com/services/#Products",
-              link: "a",
+              url: 'https://kalway.com/services/#Products',
+              link: 'a',
             },
             id: 3,
-            navItem: "Full Truck Service",
+            navItem: 'Full Truck Service',
           },
         ],
       },
 
       {
         url: {
-          url: "https://kalfreight.com/drivers",
-          link: "a",
+          url: 'https://kalfreight.com/drivers',
+          link: 'a',
         },
         id: 7,
-        navItem: "Driver Assistance",
+        navItem: 'Driver Assistance',
       },
 
       {
         url: {
-          url: "ContactSection",
-          link: "s",
+          url: 'ContactSection',
+          link: 's',
         },
         id: 8,
-        navItem: "Customer Support",
+        navItem: 'Customer Support',
       },
     ],
   },
   {
     url: {
-      url: "ContactSection",
-      link: "s",
+      url: 'ContactSection',
+      link: 's',
     },
     id: 3,
-    navItem: "Careers",
+    navItem: 'Careers',
 
     // link: "/BusinessVerticals",
     // navItems: [
@@ -392,6 +392,23 @@ export const NewsData = [
     CTA: { heading: 'See More', link: 'contactus' },
     Tag: 'Atlanta',
   },
+  {
+    id: '3',
+    category: 'Upcoming Events',
+    date: '25th & 26th June 2022',
+    heading: 'Texas Trucking Show',
+    PhotoHeading: 'Texas Trucking Show',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Texas.jpg',
+    desc: 'Texas Trucking Show, Join us at NRG Center, Texas',
+
+    desc2: ` Reserved a seat for `,
+    desc3: `"Dinner with the KAL group"`,
+
+    desc4: `Early Bird registration click below`,
+    CTA: { heading: 'Register', link: 'register' },
+    Tag: 'Texas',
+  },
   // {
   //   id: '3',
   //   category: 'News',
@@ -418,23 +435,6 @@ export const NewsData = [
   // },
 ];
 export const EventsData = [
-  {
-    id: '1',
-    category: 'Upcoming Events',
-    date: '25th & 26th June 2022',
-    heading: 'Texas Trucking Show',
-    PhotoHeading: 'Texas Trucking Show',
-    imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Texas.jpg',
-    desc: 'Texas Trucking Show, Join us at NRG Center, Texas',
-
-    desc2: ` Reserved a seat for `,
-    desc3: `"Dinner with the KAL group"`,
-
-    desc4: `Early Bird registration click below`,
-    CTA: { heading: 'Register', link: 'register' },
-    Tag: 'Texas',
-  },
   {
     id: '2',
     category: 'Upcoming Events',
@@ -1038,481 +1038,480 @@ export const OurMajorClient = [
 
 export const BigPArtzBrands = [
   {
-    id: "0",
-    logo: "https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/bigpartzlogo.png",
-    name: "Kalpartz",
-    desc: "With an extensive inventory of 50000+ parts, our experts always keep you on the move. ",
+    id: '0',
+    logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/bigpartzlogo.png',
+    name: 'Kalpartz',
+    desc: 'With an extensive inventory of 50000+ parts, our experts always keep you on the move. ',
     Brands: [
       {
-        id: "1",
+        id: '1',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/vanguard.png",
-        heading: "vanguard",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/vanguard.png',
+        heading: 'vanguard',
       },
       {
-        id: "2",
+        id: '2',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/carrier%20logo.png",
-        heading: "carrier",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/carrier%20logo.png',
+        heading: 'carrier',
       },
       {
-        id: "3",
+        id: '3',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Freightliner-logo.png",
-        heading: "Freightliner-logo",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Freightliner-logo.png',
+        heading: 'Freightliner-logo',
       },
       {
-        id: "4",
+        id: '4',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Kenworth-logo.png",
-        heading: "Kenworth",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Kenworth-logo.png',
+        heading: 'Kenworth',
       },
       {
-        id: "5",
+        id: '5',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/og-iron-mark.jpg",
-        heading: "Volvo",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/og-iron-mark.jpg',
+        heading: 'Volvo',
       },
       {
-        id: "6",
+        id: '6',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Peterbilt-logo.png",
-        heading: "Peterbilt",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Peterbilt-logo.png',
+        heading: 'Peterbilt',
       },
       {
-        id: "7",
+        id: '7',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Thermoking%20Logo.png",
-        heading: "Thermoking",
-      },
-
-      {
-        id: "8",
-        imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/ameri.png",
-        heading: "ameri",
-      },
-      {
-        id: "9",
-        imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/apollo.png",
-        heading: "apollo",
-      },
-      {
-        id: "10",
-        imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/bkt.png",
-        heading: "bkt",
-      },
-      {
-        id: "11",
-        imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/continental.png",
-        heading: "continental",
-      },
-      {
-        id: "12",
-        imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/contitread.png",
-        heading: "contitread",
-      },
-      {
-        id: "13",
-        imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/cooper.png",
-        heading: "cooper",
-      },
-      {
-        id: "14",
-        imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/general-tire.png",
-        heading: "general-tire",
-      },
-      {
-        id: "15",
-        imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/michelin.png",
-        heading: "michelin",
-      },
-      {
-        id: "16",
-        imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/pirelli.png",
-        heading: "pirelli",
-      },
-      {
-        id: "17",
-        imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/prinx.png",
-        heading: "",
-      },
-      {
-        id: "18",
-        imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/tornado.png",
-        heading: "tornado",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Thermoking%20Logo.png',
+        heading: 'Thermoking',
       },
 
       {
-        id: "19",
+        id: '8',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/alliant-power.png",
-        heading: "alliant-power",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/ameri.png',
+        heading: 'ameri',
       },
       {
-        id: "20",
+        id: '9',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/american-forge-foundry.png",
-        heading: "american-forge-foundry",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/apollo.png',
+        heading: 'apollo',
       },
       {
-        id: "21",
+        id: '10',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/amsted-seals.png",
-        heading: "amsted-seals",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/bkt.png',
+        heading: 'bkt',
       },
       {
-        id: "22",
+        id: '11',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/Atro-es.png",
-        heading: "Atroe-es",
-      },
-
-      {
-        id: "23",
-        imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/Automann.png",
-        heading: "Automann",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/continental.png',
+        heading: 'continental',
       },
       {
-        id: "24",
+        id: '12',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/bbs.png",
-        heading: "bbs",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/contitread.png',
+        heading: 'contitread',
       },
       {
-        id: "25",
+        id: '13',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/black.png",
-        heading: "black.png",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/cooper.png',
+        heading: 'cooper',
       },
       {
-        id: "26",
+        id: '14',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/bluesky.png",
-        heading: "bluesky",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/general-tire.png',
+        heading: 'general-tire',
       },
       {
-        id: "27",
+        id: '15',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/bremskerl.png",
-        heading: "bremskerl",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/michelin.png',
+        heading: 'michelin',
       },
       {
-        id: "28",
+        id: '16',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/buffers.png",
-        heading: "buffers",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/pirelli.png',
+        heading: 'pirelli',
       },
       {
-        id: "29",
+        id: '17',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/dayco.png",
-        heading: "dayco",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/prinx.png',
+        heading: '',
       },
       {
-        id: "30",
+        id: '18',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/dayton-parts.png",
-        heading: "dayton-parts",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/tornado.png',
+        heading: 'tornado',
       },
 
       {
-        id: "31",
+        id: '19',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/denso.png",
-        heading: "denso",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/alliant-power.png',
+        heading: 'alliant-power',
       },
       {
-        id: "32",
+        id: '20',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/dorman.png",
-        heading: "dorman",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/american-forge-foundry.png',
+        heading: 'american-forge-foundry',
       },
       {
-        id: "33",
+        id: '21',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/dpfgasket.png",
-        heading: "dpfgasket",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/amsted-seals.png',
+        heading: 'amsted-seals',
       },
       {
-        id: "34",
+        id: '22',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/emp.png",
-        heading: "emp",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/Atro-es.png',
+        heading: 'Atroe-es',
+      },
+
+      {
+        id: '23',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/Automann.png',
+        heading: 'Automann',
       },
       {
-        id: "35",
+        id: '24',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/everco.png",
-        heading: "everco",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/bbs.png',
+        heading: 'bbs',
       },
       {
-        id: "36",
+        id: '25',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/eyman.png",
-        heading: "eyman",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/black.png',
+        heading: 'black.png',
       },
       {
-        id: "37",
+        id: '26',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/gates.png",
-        heading: "gates",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/bluesky.png',
+        heading: 'bluesky',
       },
       {
-        id: "38",
+        id: '27',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/goldenstate.png",
-        heading: "goldenstate",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/bremskerl.png',
+        heading: 'bremskerl',
       },
       {
-        id: "39",
+        id: '28',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/goodyear.png",
-        heading: "goodyear",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/buffers.png',
+        heading: 'buffers',
       },
       {
-        id: "40",
+        id: '29',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/grand-rock.png",
-        heading: "grand-rock",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/dayco.png',
+        heading: 'dayco',
       },
       {
-        id: "41",
+        id: '30',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/grote.png",
-        heading: "grote",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/dayton-parts.png',
+        heading: 'dayton-parts',
+      },
+
+      {
+        id: '31',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/denso.png',
+        heading: 'denso',
       },
       {
-        id: "42",
+        id: '32',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/grote-lighting.png",
-        heading: "grote-lighting",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/dorman.png',
+        heading: 'dorman',
       },
       {
-        id: "43",
+        id: '33',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/haldex.png",
-        heading: "haldex",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/dpfgasket.png',
+        heading: 'dpfgasket',
       },
       {
-        id: "44",
+        id: '34',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/insulated-transport.png",
-        heading: "insulated-transport",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/emp.png',
+        heading: 'emp',
       },
       {
-        id: "45",
+        id: '35',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/interstate.png",
-        heading: "interstate",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/everco.png',
+        heading: 'everco',
       },
       {
-        id: "46",
+        id: '36',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/kinedyne.png",
-        heading: "kinedyne",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/eyman.png',
+        heading: 'eyman',
       },
       {
-        id: "47",
+        id: '37',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/lucas.png",
-        heading: "lucas",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/gates.png',
+        heading: 'gates',
       },
       {
-        id: "48",
+        id: '38',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/majestic.png",
-        heading: "majestic",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/goldenstate.png',
+        heading: 'goldenstate',
       },
       {
-        id: "49",
+        id: '39',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/merritt.png",
-        heading: "merritt",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/goodyear.png',
+        heading: 'goodyear',
       },
       {
-        id: "50",
+        id: '40',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/mid-america.png",
-        heading: "mid-america",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/grand-rock.png',
+        heading: 'grand-rock',
       },
       {
-        id: "51",
+        id: '41',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/midwest.png",
-        heading: "midwest",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/grote.png',
+        heading: 'grote',
       },
       {
-        id: "52",
+        id: '42',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/mule.png",
-        heading: "mule",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/grote-lighting.png',
+        heading: 'grote-lighting',
       },
       {
-        id: "53",
+        id: '43',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/na-williams.png",
-        heading: "na-williams",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/haldex.png',
+        heading: 'haldex',
       },
       {
-        id: "54",
+        id: '44',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/paccar.png",
-        heading: "paccar",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/insulated-transport.png',
+        heading: 'insulated-transport',
       },
       {
-        id: "55",
+        id: '45',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/pai.png",
-        heading: "pai",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/interstate.png',
+        heading: 'interstate',
       },
       {
-        id: "56",
+        id: '46',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/philatron.png",
-        heading: "philatron",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/kinedyne.png',
+        heading: 'kinedyne',
       },
       {
-        id: "57",
+        id: '47',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/premier.png",
-        heading: "premier",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/lucas.png',
+        heading: 'lucas',
       },
       {
-        id: "58",
+        id: '48',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/prochem.png",
-        heading: "prochem",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/majestic.png',
+        heading: 'majestic',
       },
       {
-        id: "59",
+        id: '49',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/prt.png",
-        heading: "prt",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/merritt.png',
+        heading: 'merritt',
       },
       {
-        id: "60",
+        id: '50',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/revhd.png",
-        heading: "revhd",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/mid-america.png',
+        heading: 'mid-america',
       },
       {
-        id: "61",
+        id: '51',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/right-weigh.png",
-        heading: "right-weigh",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/midwest.png',
+        heading: 'midwest',
       },
       {
-        id: "62",
+        id: '52',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/roadmaster.png",
-        heading: "roadmaster",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/mule.png',
+        heading: 'mule',
       },
       {
-        id: "63",
+        id: '53',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/rush-truck-centers.png",
-        heading: "rush-truck-center",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/na-williams.png',
+        heading: 'na-williams',
       },
       {
-        id: "64",
+        id: '54',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/SAF-holand.png",
-        heading: "SAF-holand",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/paccar.png',
+        heading: 'paccar',
       },
       {
-        id: "65",
+        id: '55',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/sampa.png",
-        heading: "sampa",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/pai.png',
+        heading: 'pai',
       },
       {
-        id: "66",
+        id: '56',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/sas-safety.png",
-        heading: "sas-safety",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/philatron.png',
+        heading: 'philatron',
       },
       {
-        id: "67",
+        id: '57',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/smp.png",
-        heading: "smp",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/premier.png',
+        heading: 'premier',
       },
       {
-        id: "68",
+        id: '58',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/sns-truck.png",
-        heading: "sns-truck",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/prochem.png',
+        heading: 'prochem',
       },
       {
-        id: "69",
+        id: '59',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/sonsary.png",
-        heading: "sonsary",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/prt.png',
+        heading: 'prt',
       },
       {
-        id: "70",
+        id: '60',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/torque-parts.png",
-        heading: "torque-parts",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/revhd.png',
+        heading: 'revhd',
       },
       {
-        id: "71",
+        id: '61',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/total.png",
-        heading: "total",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/right-weigh.png',
+        heading: 'right-weigh',
       },
       {
-        id: "72",
+        id: '62',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/trico.png",
-        heading: "trico",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/roadmaster.png',
+        heading: 'roadmaster',
       },
       {
-        id: "73",
+        id: '63',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/tsm.png",
-        heading: "tsm",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/rush-truck-centers.png',
+        heading: 'rush-truck-center',
       },
       {
-        id: "74",
+        id: '64',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/ts-tramecsolan.png",
-        heading: "ts-tramecsolan",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/SAF-holand.png',
+        heading: 'SAF-holand',
       },
       {
-        id: "75",
+        id: '65',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/valvoline.png",
-        heading: "valvoline",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/sampa.png',
+        heading: 'sampa',
       },
       {
-        id: "76",
+        id: '66',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/whiting.png",
-        heading: "whiting",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/sas-safety.png',
+        heading: 'sas-safety',
       },
       {
-        id: "77",
+        id: '67',
         imageurl:
-          "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/wix.png",
-        heading: "wix",
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/smp.png',
+        heading: 'smp',
+      },
+      {
+        id: '68',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/sns-truck.png',
+        heading: 'sns-truck',
+      },
+      {
+        id: '69',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/sonsary.png',
+        heading: 'sonsary',
+      },
+      {
+        id: '70',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/torque-parts.png',
+        heading: 'torque-parts',
+      },
+      {
+        id: '71',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/total.png',
+        heading: 'total',
+      },
+      {
+        id: '72',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/trico.png',
+        heading: 'trico',
+      },
+      {
+        id: '73',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/tsm.png',
+        heading: 'tsm',
+      },
+      {
+        id: '74',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/ts-tramecsolan.png',
+        heading: 'ts-tramecsolan',
+      },
+      {
+        id: '75',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/valvoline.png',
+        heading: 'valvoline',
+      },
+      {
+        id: '76',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/whiting.png',
+        heading: 'whiting',
+      },
+      {
+        id: '77',
+        imageurl:
+          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigpartzSponsers/wix.png',
+        heading: 'wix',
       },
     ],
   },
 ];
-
 
 export const BigTireBrands = [
   {
@@ -1546,7 +1545,7 @@ export const BigTireBrands = [
         imageurl:
           'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BigRigTireSponsers/cooper.png',
         heading: 'Havco',
-      },  
+      },
       {
         id: '6',
         imageurl:
@@ -1847,12 +1846,12 @@ export const Facbookfeeds = [
 
 export const Instagramfeeds = [
   {
-    id: "0",
-    img: "https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/289273207_531333352026103_8215607595006799601_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=TCSeRJhP-RgAX8KSjRC&_nc_ht=scontent-maa2-2.xx&oh=00_AT-ZWuZidBemmdiOMO_1LeCkCuaNfFA5wECqIeJmq245PQ&oe=62BE7E18",
-    caption: "Texas Trucking Show",
-    desc: " Join KAL Group for a weekend of entertainment, hourly giveaways, and networking with our trucking professionals! GRAND PRIZE BARBECUE ISLAND! Meet us June 25th and 26th at the Texas Trucking Show at NRG Center, Houston. If you are interested in adding trucks or trailers to your fleet, tires and services, or in need of aftermarket parts, KAL is ready to meet your demands.",
-    time: "25 June",
-    follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
+    id: '0',
+    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/289273207_531333352026103_8215607595006799601_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=TCSeRJhP-RgAX8KSjRC&_nc_ht=scontent-maa2-2.xx&oh=00_AT-ZWuZidBemmdiOMO_1LeCkCuaNfFA5wECqIeJmq245PQ&oe=62BE7E18',
+    caption: 'Texas Trucking Show',
+    desc: ' Join KAL Group for a weekend of entertainment, hourly giveaways, and networking with our trucking professionals! GRAND PRIZE BARBECUE ISLAND! Meet us June 25th and 26th at the Texas Trucking Show at NRG Center, Houston. If you are interested in adding trucks or trailers to your fleet, tires and services, or in need of aftermarket parts, KAL is ready to meet your demands.',
+    time: '25 June',
+    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
   },
   // {
   //   id: "",
@@ -1865,48 +1864,48 @@ export const Instagramfeeds = [
   // },
 
   {
-    id: "0",
-    img: "https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/290221739_531561168669988_7763453442248434723_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=KjCrz8u0qWgAX_9g55n&_nc_ht=scontent-maa2-2.xx&oh=00_AT9DiGsIUvBLtMUbcywsrH2LqK1MJFgO9kdvzVT2KQUJjQ&oe=62BF3AF3",
+    id: '0',
+    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/290221739_531561168669988_7763453442248434723_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=KjCrz8u0qWgAX_9g55n&_nc_ht=scontent-maa2-2.xx&oh=00_AT9DiGsIUvBLtMUbcywsrH2LqK1MJFgO9kdvzVT2KQUJjQ&oe=62BF3AF3',
 
-    caption: "Used Trailers",
-    desc: "New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ",
-    time: "7 June",
-    follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
+    caption: 'Used Trailers',
+    desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
+    time: '7 June',
+    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
   },
   {
-    id: "1",
-    img: "https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/286169510_519570173202421_6328616867636052071_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=xTqT8uSJs2UAX-0JqIO&_nc_ht=scontent-maa2-1.xx&oh=00_AT-koCy5NhsQdVn4eKdWdLnCbB_vFluoKY58r9ZYRPwAUQ&oe=62BEB73A",
+    id: '1',
+    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/286169510_519570173202421_6328616867636052071_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=xTqT8uSJs2UAX-0JqIO&_nc_ht=scontent-maa2-1.xx&oh=00_AT-koCy5NhsQdVn4eKdWdLnCbB_vFluoKY58r9ZYRPwAUQ&oe=62BEB73A',
 
-    caption: "Used Trailers",
-    desc: "New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ",
-    time: "7 June",
-    follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
+    caption: 'Used Trailers',
+    desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
+    time: '7 June',
+    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
   },
   {
-    id: "2",
+    id: '2',
 
-    img: "https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/282326995_508309244328514_7772227270459412721_n.jpg?stp=dst-jpg_p526x296&_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=qeVQ9oZZCWsAX8gY1OU&_nc_ht=scontent-maa2-1.xx&oh=00_AT9-bH8phNTqlm-PdO-QDjcbQl14F-gQsaOuZcpVo3I_Qw&oe=62BFD12F",
-    caption: "KVL Tires",
-    desc: "KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details!",
-    time: "21 May",
-    follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
+    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/282326995_508309244328514_7772227270459412721_n.jpg?stp=dst-jpg_p526x296&_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=qeVQ9oZZCWsAX8gY1OU&_nc_ht=scontent-maa2-1.xx&oh=00_AT9-bH8phNTqlm-PdO-QDjcbQl14F-gQsaOuZcpVo3I_Qw&oe=62BFD12F',
+    caption: 'KVL Tires',
+    desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details!',
+    time: '21 May',
+    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
   },
 
   {
-    id: "3",
-    img: "https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/280611353_502279618264810_8376564357247553020_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=ZPCNj4bAjMIAX87u1nc&_nc_ht=scontent-maa2-2.xx&oh=00_AT9d0Fhp9Z_kC8toXDkRzjUqVE-At4GWZxbkRW9FHvO6hg&oe=62BF51D0",
-    caption: "KalPartz",
-    desc: "KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ",
-    time: "12 May",
-    follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
+    id: '3',
+    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/280611353_502279618264810_8376564357247553020_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=ZPCNj4bAjMIAX87u1nc&_nc_ht=scontent-maa2-2.xx&oh=00_AT9d0Fhp9Z_kC8toXDkRzjUqVE-At4GWZxbkRW9FHvO6hg&oe=62BF51D0',
+    caption: 'KalPartz',
+    desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
+    time: '12 May',
+    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
   },
   {
-    id: "4",
-    img: "https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/279779116_494988118993960_4082047950062427929_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=sxDX0t_NSF8AX-8ldID&_nc_ht=scontent-maa2-2.xx&oh=00_AT-Ozp_s3Wu-JUQrK9dBFtJj6lQvi6qwJbBBN5CDNNHJoQ&oe=62BEEFAC",
-    caption: "Kalway",
-    desc: "Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076",
-    time: "2 May",
-    follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
+    id: '4',
+    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/279779116_494988118993960_4082047950062427929_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=sxDX0t_NSF8AX-8ldID&_nc_ht=scontent-maa2-2.xx&oh=00_AT-Ozp_s3Wu-JUQrK9dBFtJj6lQvi6qwJbBBN5CDNNHJoQ&oe=62BEEFAC',
+    caption: 'Kalway',
+    desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
+    time: '2 May',
+    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
   },
 ];
 export const MapData = [
