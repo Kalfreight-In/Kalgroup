@@ -30,8 +30,6 @@ const Sidebar = ({ isOpen, toggle }) => {
   // const [TrailersLeasing, setTrailersLeasing] = useState(false);
   // const [Brokerage, setBrokerage] = useState(false);
 
-  const [Plus, setPlus] = useState(<BsPlus />);
-
   function disabel() {
     const path = window.location.pathname;
 
