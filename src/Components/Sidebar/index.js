@@ -3,8 +3,8 @@ import React, { useRef, useState } from 'react';
 import { animateScroll as scroll, Link } from 'react-scroll';
 import { NavbarData } from '../../data';
 import { SidebarFr } from './sidebarFr';
-import {BsPlus} from 'react-icons/bs';
-import {BiMinus} from 'react-icons/bi';
+import { BsPlus } from 'react-icons/bs';
+import { BiMinus } from 'react-icons/bi';
 
 import {
   CloseIcon,
@@ -30,7 +30,7 @@ const Sidebar = ({ isOpen, toggle }) => {
   // const [TrailersLeasing, setTrailersLeasing] = useState(false);
   // const [Brokerage, setBrokerage] = useState(false);
 
-  const [Plus,setPlus] = useState(<BsPlus/>);
+  const [Plus, setPlus] = useState(<BsPlus />);
 
   function disabel() {
     const path = window.location.pathname;
@@ -66,22 +66,31 @@ const Sidebar = ({ isOpen, toggle }) => {
               {/* <BsPlus onClick={()=>setPlus(<BiMinus/>)}/> */}
             </span>
           </Divlink>
-          {BusinessVerticles
-            ? NavbarData[0].navItems.map((data) => (
-                <a href={data.url.url}>
-                  <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
-                    {data.navItem}
-                    {/* {data.navItems
+          <div
+            className={`Transition-Height-${BusinessVerticles ? "in" : "out"}`}
+          >
+            <ul>
+              {BusinessVerticles
+                ? NavbarData[0].navItems.map((data) => (
+                    <a href={data.url.url}>
+                      <li>
+                        <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
+                          {data.navItem}
+                          {/* {data.navItems
                 ? data.navItems.map((data) => (
                     <div className=" text-Heading  justify-center text-center items-center">
                       {data.navItem}
                     </div>
                   ))
                 : null} */}
-                  </div>
-                </a>
-              ))
-            : null}
+                        </div>
+                      </li>
+                    </a>
+                  ))
+                : null}
+            </ul>
+          </div>
+
           <Divlink
             onClick={() => {
               setAboutUs(!AboutUs);
