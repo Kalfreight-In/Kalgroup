@@ -370,7 +370,7 @@ export const NavbarData = [
 export const NewsData = [
   {
     id: '1',
-    category: 'News',
+    category: 'Past Events',
     date: '15th & 16th April 2022',
     heading: 'American Trucking Show',
     PhotoHeading: 'American Trucking Show',
@@ -382,7 +382,7 @@ export const NewsData = [
   },
   {
     id: '2',
-    category: 'News',
+    category: 'Past Events',
     date: '24th April 2022',
     heading: 'Atlanta Kabaddi Cup',
     PhotoHeading: 'Atlanta Kabaddi Cup',
@@ -394,7 +394,7 @@ export const NewsData = [
   },
   {
     id: '3',
-    category: 'Upcoming Events',
+    category: 'Past Events',
     date: '25th & 26th June 2022',
     heading: 'Texas Trucking Show',
     PhotoHeading: 'Texas Trucking Show',
