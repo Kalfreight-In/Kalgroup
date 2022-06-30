@@ -67,14 +67,14 @@ const Sidebar = ({ isOpen, toggle }) => {
             </span>
           </Divlink>
           <div
-            className={`Transition-Height-${BusinessVerticles ? 'in' : 'out'}`}
+            className={`Transition-Height-${BusinessVerticles ? "in" : "out"}`}
           >
             <ul>
               {BusinessVerticles
                 ? NavbarData[0].navItems.map((data) => (
                     <a href={data.url.url}>
                       <li>
-                        <div className=" text-black  text-center p-1">
+                        <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
                           {data.navItem}
                           {/* {data.navItems
                 ? data.navItems.map((data) => (
@@ -105,9 +105,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           </Divlink>
           {AboutUs
             ? NavbarData[1].navItems.map((data) =>
-                data.url.link === 'a' ? (
+                data.url.link === "a" ? (
                   <a href={data.url.url} className="w-full">
-                    <div className=" text-black  justify-center items-center text-center p-1">
+                    <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
                       {data.navItem}
                     </div>
                   </a>
@@ -122,7 +122,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     offset={-80}
                     className="cursor-pointer"
                   >
-                    <div className=" text-black  justify-center items-center text-center p-1">
+                    <div className=" text-white text-sm font-normal  justify-left items-left text-left p-1">
                       {data.navItem}
                     </div>
                   </Link>
@@ -143,9 +143,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           </Divlink>
           {NewsRoom
             ? NavbarData[2].navItems.map((data) =>
-                data.url.link === 'a' ? (
+                data.url.link === "a" ? (
                   <a href={data.url.url} className="w-full">
-                    <div className=" text-black  justify-center items-center text-center p-1">
+                    <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
                       {data.navItem}
                     </div>
                   </a>
@@ -160,7 +160,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     offset={-80}
                     className="cursor-pointer"
                   >
-                    <div className=" text-black  justify-center items-center text-center p-1">
+                    <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
                       {data.navItem}
                     </div>
                   </Link>
@@ -180,9 +180,9 @@ const Sidebar = ({ isOpen, toggle }) => {
           </Divlink>
           {Services
             ? NavbarData[3].navItems.map((data) =>
-                data.url.link === 'a' ? (
+                data.url.link === "a" ? (
                   <a href={data.url.url} className="w-full">
-                    <div className=" text-black  justify-center items-center text-center p-1">
+                    <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
                       {data.navItem}
                     </div>
                   </a>
@@ -197,7 +197,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                     offset={-80}
                     className="cursor-pointer"
                   >
-                    <div className=" text-black  justify-center items-center text-center p-1">
+                    <div className=" text-white text-sm font-normal justify-left items-left text-left p-1">
                       {data.navItem}
                     </div>
                   </Link>
