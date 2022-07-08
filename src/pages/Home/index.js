@@ -18,6 +18,7 @@ import AboutUs from '../../Components/RoadServiceComponent/AboutUs';
 import HeroSection from '../../Components/HeaderHome';
 import { ContactFormContainer } from '../../Container/ContactFormContainer';
 import BrandWeOffer from '../../Components/BrandWeOffer/BrandWeOffer';
+import ChatBot from '../../Chat-Bot';
 
 function Home() {
   return (
@@ -39,7 +40,7 @@ function Home() {
       {/* <Slideshow data={BrandCompnentBrands}></Slideshow> */}
       <BrandWeOffer></BrandWeOffer>
       <ContactFormContainer></ContactFormContainer>
-
+      <ChatBot></ChatBot>
       {/* <ContactFormContainer></ContactFormContainer> */}
     </>
   );
