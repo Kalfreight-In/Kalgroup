@@ -23,14 +23,14 @@ export default function Footer() {
         className="bg-footerbackground md:bg-cover bg-contain "
         style={{
           backgroundImage:
-            "url(" +
-            "https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png" +
-            ")",
-          backgroundBlendMode: "difference",
-          backgroundPosition: "center",
+            'url(' +
+            'https://raw.githubusercontent.com/Kalfreight-In/BigRigGroups/main/src/assets/Map/map-bg.png' +
+            ')',
+          backgroundBlendMode: 'difference',
+          backgroundPosition: 'center',
           // backgroundSize: 'cover',
-          backgroundRepeat: "no-repeat",
-          width: "full",
+          backgroundRepeat: 'no-repeat',
+          width: 'full',
         }}
       >
         <div className="p-8  md:p-0 xl:block flex justify-center ">
@@ -103,7 +103,7 @@ export default function Footer() {
                     <div className="mt-8">
                       {/* <AiOutlineClockCircle className="md:h-8 h-6 md:w-8 w-6 " /> */}
 
-                      <a href="tel:8003858006" target="_blank">
+                      <a href="tel:8003858006" target="_blank" rel="noreferrer">
                         <img
                           src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/navemaillogo.png"
                           alt=""
@@ -135,11 +135,11 @@ export default function Footer() {
                       </a>
                     </div>
                     <div className="ml-4">
-                      <a href="tel:8009770010" target="_blank">
-                        {" "}
+                      <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                        {' '}
                         <div className="md:text-xl xl:text-xl text-xl  xl:font-bold font-semibold ml-2  ">
                           800-385-8006
-                        </div>{" "}
+                        </div>{' '}
                       </a>
                     </div>
                   </div>
@@ -207,7 +207,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black  2xl:leading-8 leading-6 xl:block   ${
-                        Hinventery ? "" : "hidden"
+                        Hinventery ? '' : 'hidden'
                       }`}
                     >
                       <a
@@ -233,6 +233,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         href="https://kalfreight.com/who-we-are/csr"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <span className="text-xl px-1"> </span>
                         CSR
@@ -263,13 +264,14 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black 2xl:leading-8 leading-6 xl:block   ${
-                        H_WA ? "" : "hidden"
+                        H_WA ? '' : 'hidden'
                       }`}
                     >
                       <a
                         href="https://kalfreight.com/"
                         target="_blank"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center  "
+                        rel="noreferrer"
                       >
                         <span className="text-xl px-1"> </span>
                         KAL Freight
@@ -278,6 +280,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         href="https://kaltrailers.com/"
                         target="_blank"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center"
+                        rel="noreferrer"
                       >
                         <span className="text-xl px-1"> </span>
                         KAL Trailers & Leasing
@@ -286,6 +289,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         href="https://kaltires.com/"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <span className="text-xl px-1"> </span>
                         KVL Tires
@@ -294,6 +298,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         href="https://kalpartz.com/"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <span className="text-xl px-1"> </span>
                         KAL Partz
@@ -302,6 +307,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         href="https://kalway.com/"
                         target="_blank"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
+                        rel="noreferrer"
                       >
                         <span className="text-xl px-1"> </span>
                         KALWAY
@@ -326,7 +332,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black  2xl:leading-8 leading-6 xl:block  ${
-                        Hquicklinks ? "" : "hidden"
+                        Hquicklinks ? '' : 'hidden'
                       }`}
                     >
                       <div>
@@ -368,6 +374,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           href="https://kaltrailers.com/product-category/trucks/"
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <span className="text-xl px-1"> </span>
                           Flatbed for sale
@@ -378,6 +385,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           href="https://kaltrailers.com/product-tag/dry-van/"
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <span className="text-xl px-1"> </span>
                           Used Dry van for sale
@@ -388,6 +396,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           href="https://kaltrailers.com/product-tag/reefer/"
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center  "
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <span className="text-xl px-1"> </span>
                           Reefer Trailer for sale
@@ -398,6 +407,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           href="https://kaltrailers.com/product-category/trailers/new-trailers/"
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <span className="text-xl px-1"> </span>
                           New Trailers for sale
@@ -408,6 +418,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           href="https://kaltrailers.com/product-category/trucks/used-trucks/"
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center"
                           target="_blank"
+                          rel="noreferrer"
                         >
                           <span className="text-xl px-1"> </span>
                           Used Trucks for sale
@@ -432,7 +443,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                     <div
                       className={`text-black 2xl:leading-10 leading-6 xl:block    ${
-                        Hcontactus ? "" : "hidden"
+                        Hcontactus ? '' : 'hidden'
                       }`}
                     >
                       <div className="flex flex-row space-x-2  align-center justify-center xl:justify-start  mt-1">
@@ -504,6 +515,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                             <a
                               href="https://kalfreight.com/what-we-do"
                               target="_blank"
+                              rel="noreferrer"
                             >
                               <span className="mt-5px lg:leading-7">
                                 Services
@@ -529,6 +541,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                             <a
                               href="https://kaltrailers.com/credit-application/"
                               target="_blank"
+                              rel="noreferrer"
                             >
                               <span className="mt-5px lg:leading-7">
                                 Credit Application
@@ -553,6 +566,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                             <a
                               href="http://kaltires.com/#Advantages"
                               target="_blank"
+                              rel="noreferrer"
                             >
                               <span className="mt-5px lg:leading-7">
                                 24x7 Roadside Assistance
@@ -637,7 +651,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
 
                   <div
                     className={`text-black 2xl:leading-8 leading-6 xl:block ${
-                      Hcontactus ? "" : "hidden"
+                      Hcontactus ? '' : 'hidden'
                     }`}
                   >
                     <div class="  mt-8">
@@ -671,8 +685,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <IoLogoFacebook
                           onClick={() =>
                             window.open(
-                              "https://www.facebook.com/kalgroupusa",
-                              "_blank"
+                              'https://www.facebook.com/kalgroupusa',
+                              '_blank'
                             )
                           }
                           className="text-black hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
@@ -680,8 +694,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <RiInstagramFill
                           onClick={() =>
                             window.open(
-                              "https://www.instagram.com/kalgroupusa/",
-                              "_blank"
+                              'https://www.instagram.com/kalgroupusa/',
+                              '_blank'
                             )
                           }
                           className="text-black hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
@@ -689,8 +703,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <IoLogoLinkedin
                           onClick={() =>
                             window.open(
-                              "https://www.linkedin.com/company/kal-trailers-and-leasing",
-                              "_blank"
+                              'https://www.linkedin.com/company/kal-trailers-and-leasing',
+                              '_blank'
                             )
                           }
                           className="text-black hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "
@@ -755,11 +769,15 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     <br></br>
                     we have subject matter experts just a call away.
                   </div> */}
-                        <a href="tel:8009770010" target="_blank">
-                          {" "}
+                        <a
+                          href="tel:8009770010"
+                          target="_blank"
+                          rel="noreferrer"
+                        >
+                          {' '}
                           <div className="md:text-2xl text-lg font-bold xl:font-semibold  ">
                             800-385-8006
-                          </div>{" "}
+                          </div>{' '}
                         </a>
                       </div>
                     </div>
@@ -822,8 +840,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <IoLogoFacebook
                         onClick={() =>
                           window.open(
-                            "https://www.facebook.com/kalgroupusa",
-                            "_blank"
+                            'https://www.facebook.com/kalgroupusa',
+                            '_blank'
                           )
                         }
                         className="text-black hover:text-footersocialnew  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-facebook ease-in duration-300"
@@ -831,8 +849,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <RiInstagramFill
                         onClick={() =>
                           window.open(
-                            "https://www.instagram.com/kalgroupusa/",
-                            "_blank"
+                            'https://www.instagram.com/kalgroupusa/',
+                            '_blank'
                           )
                         }
                         className="text-black hover:text-instafooterhover  h-8 w-8 mx-4 cursor-pointer hover:drop-shadow-socialicons hover:text-instagram ease-in duration-300"
@@ -840,8 +858,8 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <IoLogoLinkedin
                         onClick={() =>
                           window.open(
-                            "https://www.linkedin.com/company/kal-trailers-and-leasing",
-                            "_blank"
+                            'https://www.linkedin.com/company/kal-trailers-and-leasing',
+                            '_blank'
                           )
                         }
                         className="text-black hover:text-linkdenfooterhover   h-8 w-8 mx-4  cursor-pointer hover:drop-shadow-socialicons hover:text-linkden ease-in duration-300 "

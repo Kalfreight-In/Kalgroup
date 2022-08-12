@@ -21,7 +21,7 @@ export default function NavDropdown({ data, hidden }) {
               <button class="outline-none focus:outline-none  px-3 py-1  rounded-sm flex justify-start items-start text-left min-w-32">
                 <span class="pr-1 font-medium flex-1 md:text-xs xl:text-navlgtext text-sm ">
                   {data.navItem}
-                </span> 
+                </span>
                 <span>
                   {/* <svg
                   class="fill-current h-4 w-4 transform group-hover:-rotate-180
@@ -95,15 +95,23 @@ export default function NavDropdown({ data, hidden }) {
   min-w-32 font-normal   
   `}
                             >
-                              {data.navItems.map((data, index) => ( 
+                              {data.navItems.map((data, index) => (
                                 <div
                                   className={` text-left border-b  ${
                                     !hidden
                                       ? 'bg-navdropdownbgtransparent '
                                       : 'bg-navdropdownbgtransparent  '
-                                  } ${!hidden? 'hover:bg-navdropdownbottom':'hover:bg-white'} border-navdropdownbottom `}
+                                  } ${
+                                    !hidden
+                                      ? 'hover:bg-navdropdownbottom'
+                                      : 'hover:bg-white'
+                                  } border-navdropdownbottom `}
                                 >
-                                  <a href={data.url.url} target="_blank">
+                                  <a
+                                    href={data.url.url}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                  >
                                     <li class="px-3 h-8 font-normal w-max ">
                                       <NavItemnew key={data.id}>
                                         <NavLinksnew className="pt-2 ">
@@ -121,6 +129,7 @@ export default function NavDropdown({ data, hidden }) {
                             href={data.url.url}
                             target="_blank"
                             className="w-full"
+                            rel="noreferrer"
                           >
                             <NavItemnew key={data.id}>
                               <NavLinksnew>{data.navItem}</NavLinksnew>
