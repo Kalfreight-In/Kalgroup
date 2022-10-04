@@ -19,70 +19,70 @@ import {
   SidebarRoute,
 } from './SlidebarElement';
 
-export const SidebarMenu = styled.ul`
-  display: flex;
-  flex-direction: column;
-  items-align: center;
-  justify-content: center;
-  padding-left: 2rem;
-`;
-export const SidebarLink = styled(LinkS)`
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  font-size: 1.5rem;
-  text-decoration: none;
-  padding-right: 3rem;
-  transition: 0.2s ease-in-out;
-  text-decoration: none;
-  color: #fff;
-  cursor: pointer;
-  &:hover {
-    color: #ffffff;
-    transition: 0.2s ease-in-out;
-  }
-`;
-export const SidebarLinkR = styled(LinkR)`
-  display: flex;
-  align-items: left;
-  justify-content: left;
-  text-align: left;
-  border-bottom: 1px solid #fff;
-  font-size: 1rem;
-  font-weight: 600;
-  width: 85%;
-  padding: 1rem 1rem 1rem 0rem;
-  text-decoration: none;
-  // padding-right: 3rem;
-  transition: 0.2s ease-in-out;
-  text-decoration: none;
-  color: #fff;
-  cursor: pointer;
-  &:hover {
-    // color: #000000;
-    transition: 0.2s ease-in-out;
-  }
-`;
-export const Divlink = styled.div`
-  display: flex;
-  align-items: left;
-  justify-content: space-between;
-  width: 85%;
-  font-size: 1rem;
-  padding: 1rem 1rem 1rem 0rem;
-  font-weight: 600;
-  text-decoration: none;
-  // padding-right: 3rem;
-  transition: 0.2s ease-in-out;
-  text-decoration: none;
-  border-bottom: 1px solid white;
-  color: #fff;
-  cursor: pointer;
-  &:hover {
-    // color: #000000;
-    transition: 0.2s ease-in-out;
-  }
-`;
+// export const SidebarMenu = styled.ul`
+//   display: flex;
+//   flex-direction: column;
+//   items-align: center;
+//   justify-content: center;
+//   padding-left: 2rem;
+// `;
+// export const SidebarLink = styled(LinkS)`
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-end;
+//   font-size: 1.5rem;
+//   text-decoration: none;
+//   padding-right: 3rem;
+//   transition: 0.2s ease-in-out;
+//   text-decoration: none;
+//   color: #fff;
+//   cursor: pointer;
+//   &:hover {
+//     color: #ffffff;
+//     transition: 0.2s ease-in-out;
+//   }
+// `;
+// export const SidebarLinkR = styled(LinkR)`
+//   display: flex;
+//   align-items: left;
+//   justify-content: left;
+//   text-align: left;
+//   border-bottom: 1px solid #fff;
+//   font-size: 1rem;
+//   font-weight: 600;
+//   width: 85%;
+//   padding: 1rem 1rem 1rem 0rem;
+//   text-decoration: none;
+//   // padding-right: 3rem;
+//   transition: 0.2s ease-in-out;
+//   text-decoration: none;
+//   color: #fff;
+//   cursor: pointer;
+//   &:hover {
+//     // color: #000000;
+//     transition: 0.2s ease-in-out;
+//   }
+// `;
+// export const Divlink = styled.div`
+//   display: flex;
+//   align-items: left;
+//   justify-content: space-between;
+//   width: 85%;
+//   font-size: 1rem;
+//   padding: 1rem 1rem 1rem 0rem;
+//   font-weight: 600;
+//   text-decoration: none;
+//   // padding-right: 3rem;
+//   transition: 0.2s ease-in-out;
+//   text-decoration: none;
+//   border-bottom: 1px solid white;
+//   color: #fff;
+//   cursor: pointer;
+//   &:hover {
+//     // color: #000000;
+//     transition: 0.2s ease-in-out;
+//   }
+// `;
 // import { animateScroll as scroll, Link } from 'react-scroll';
 const Sidebar = ({ isOpen, toggle }) => {
   const [Services, setServices] = useState(false);

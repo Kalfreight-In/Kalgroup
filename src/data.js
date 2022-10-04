@@ -27,7 +27,7 @@ export const NavbarData = [
       },
       {
         url: {
-          url: 'https://kaltires.com/',
+          url: 'https://kvltires.com/',
           link: 'a',
         },
         id: 3,
@@ -35,7 +35,7 @@ export const NavbarData = [
       },
       {
         url: {
-          url: 'https://kalpartz.com/',
+          url: 'https://kalpartz.com/air-brake-wheel/',
           link: 'a',
         },
         id: 4,

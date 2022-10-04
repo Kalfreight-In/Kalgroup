@@ -40,7 +40,7 @@ function Home() {
       {/* <Slideshow data={BrandCompnentBrands}></Slideshow> */}
       <BrandWeOffer></BrandWeOffer>
       <ContactFormContainer></ContactFormContainer>
-      <ChatBot></ChatBot>
+      {/* <ChatBot></ChatBot> */}
       {/* <ContactFormContainer></ContactFormContainer> */}
     </>
   );
