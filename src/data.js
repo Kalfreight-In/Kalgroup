@@ -377,7 +377,7 @@ export const NewsData = [
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/americatrucking.png',
     desc: 'KAL Group made a successful appearance at American Trucking Show, Fresno',
-    CTA: { heading: 'See More', link: 'contactus' },
+    CTA: { heading: 'See More', link: '#ContactSection' },
     Tag: 'Fresno',
   },
   {
@@ -389,7 +389,7 @@ export const NewsData = [
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/kabbdi.png',
     desc: ' KAL Group was one of the sponsored Atlanta Kabaddi Cup',
-    CTA: { heading: 'See More', link: 'contactus' },
+    CTA: { heading: 'See More', link: '#ContactSection' },
     Tag: 'Atlanta',
   },
   {
@@ -406,7 +406,7 @@ export const NewsData = [
     desc3: `"Dinner with the KAL group"`,
 
     desc4: `Early Bird registration click below`,
-    CTA: { heading: 'Register', link: 'register' },
+    CTA: { heading: 'SeeMore', link: '#ContactSection' },
     Tag: 'Texas',
   },
   // {
@@ -455,7 +455,7 @@ export const EventsData = [
     desc3: `"Dinner with the KAL group"`,
 
     desc4: `Early Bird registration click below`,
-    CTA: { heading: 'Register', link: 'Register' },
+    CTA: { heading: 'Register', link: '/Register' },
     Tag: 'Ontario',
   },
   // {

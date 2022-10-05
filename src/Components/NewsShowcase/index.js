@@ -52,7 +52,7 @@ const NewsShowcase = (data) => {
             </p>
             <div>
               {data.data.CTA.heading ? (
-                <a href="/Register">
+                <a href={`${data.data.CTA.link}`}>
                   <div
                     onClick={() => {
                       setCTA(data.data.CTA.heading);
@@ -90,7 +90,7 @@ const NewsShowcase = (data) => {
                     {data.data.Tag}
                   </div>
                   {data.data.CTA.heading ? (
-                    <a href="/Register">
+                    <a href={`${data.data.CTA.link}`}>
                       <div
                         onClick={() => {
                           setCTA(data.data.CTA.heading);
