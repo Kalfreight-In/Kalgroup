@@ -455,7 +455,7 @@ export const EventsData = [
     desc3: `"Dinner with the KAL group"`,
 
     desc4: `Early Bird registration click below`,
-    CTA: { heading: 'Register', link: 'ContactSection' },
+    CTA: { heading: 'Register', link: 'Register' },
     Tag: 'Ontario',
   },
   // {

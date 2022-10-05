@@ -12,6 +12,7 @@ import BottomBar from './Components/Bottombar';
 import Trailer_and_Leasing from './pages/TrailerandLeasing';
 
 import { UnderConstruction } from './Components/UnderConstruction';
+import Register from './pages/Register';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -28,6 +29,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} exact />
+        <Route path="/Register" element={<Register />} exact></Route>
         {/* <Route
           path="/trailerandleasing"
           element={<Trailer_and_Leasing />}
