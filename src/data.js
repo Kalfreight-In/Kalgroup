@@ -449,16 +449,18 @@ export const EventsData = [
     PhotoHeading: 'California Trucking Show ',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Ontario-Upcomiing.png',
-    desc: `   California Trucking Show at the Ontario Convention Center coming this October.  
+    desc: `  
 
     
     
-     
+    Venue: Ontario Convention Center, Ontario, California
+
+   
     
     `,
 
     desc2: ` Reserved a seat for `,
-    // desc3: `"Dinner with the KAL group"`,
+    desc3: ` Booth No: 431`,
 
     desc4: `Early Bird registration click below`,
     CTA: { heading: 'Register', link: '/Register' },
