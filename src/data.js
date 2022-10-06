@@ -1048,7 +1048,7 @@ export const BigPArtzBrands = [
   {
     id: '0',
     logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/bigpartzlogo.png',
-    name: 'Kalpartz',
+    name: 'KALpartz',
     desc: 'With an extensive inventory of 50000+ parts, our experts always keep you on the move. ',
     Brands: [
       {
@@ -1838,14 +1838,14 @@ export const Facbookfeeds = [
 
   {
     id: '3',
-    caption: 'KalPartz',
+    caption: 'KALPartz',
     desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
     time: '12 May',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
   {
     id: '4',
-    caption: 'Kalway',
+    caption: 'KALWAY',
     desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
     time: '2 May',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
@@ -1856,7 +1856,7 @@ export const Instagramfeeds = [
   {
     id: '0',
     img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/307452991_587914043034700_1112800000142241526_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=JQ9bx_LCdX0AX8MgMxa&_nc_ht=scontent.fdel72-1.fna&oh=00_AT8Voftm9Q7wY7-69kSHDYaQRijxRYncnkRMpimqOzn8tg&oe=6344C344',
-    caption: 'BakersField Kabaddi cup',
+    caption: 'Bakersfield Kabaddi cup',
     desc: `KAL Group is the Grand Sponsor at Bakersfield Kabaddi Cup. Join us TODAY Sunday, September 18th 2022 for an unforgettable tournament. Wishing all players the best of luck during today's game!`,
     time: '18 September',
     follow: 'https://www.instagram.com/Kalgroupusa/',
@@ -1906,7 +1906,7 @@ export const Instagramfeeds = [
   {
     id: '0',
     img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/298768251_562316318927806_7998893368306419799_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=051J96J_RZUAX-a-wgx&tn=6wKKFrZEgg7uYqJF&_nc_ht=scontent.fdel72-1.fna&oh=00_AT8nyazKsOjDMzW3gWQaxOwIbb_dB4u83I8vlFlO1KlOGw&oe=634463AD',
-    caption: 'KalPartz',
+    caption: 'KALPartz',
     desc: `Keep that engine alive and well with Lucas Heavy Duty Oil Stabilizer! This product adds total protection in newer engines and extends the life of worn engines.
     Stop by a Kal Partz store location near you and pick up a bottle of Lucas Heavy Duty Oil Stabilizer for your vehicle. 
     Call 800-832-0092 for More Information! `,
