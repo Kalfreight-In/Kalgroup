@@ -377,7 +377,10 @@ export const NewsData = [
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/americatrucking.png',
     desc: 'KAL Group made a successful appearance at American Trucking Show, Fresno',
-    CTA: { heading: 'See More', link: '#ContactSection' },
+    CTA: {
+      heading: 'See More',
+      link: 'https://www.facebook.com/kalgroupusa/photos/a.372032174622889/482380710254701/',
+    },
     Tag: 'Fresno',
   },
   {
@@ -389,7 +392,10 @@ export const NewsData = [
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/kabbdi.png',
     desc: ' KAL Group was one of the sponsored Atlanta Kabaddi Cup',
-    CTA: { heading: 'See More', link: '#ContactSection' },
+    CTA: {
+      heading: 'See More',
+      link: 'https://www.facebook.com/kalgroupusa/photos/a.372032174622889/598654438627327/',
+    },
     Tag: 'Atlanta',
   },
   {
@@ -403,10 +409,10 @@ export const NewsData = [
     desc: 'Texas Trucking Show, Join us at NRG Center, Texas',
 
     desc2: ` Reserved a seat for `,
-    desc3: `"Dinner with the KAL group"`,
+    // desc3: `"Dinner with the KAL group"`,
 
     desc4: `Early Bird registration click below`,
-    CTA: { heading: 'SeeMore', link: '#ContactSection' },
+    CTA: { heading: 'SeeMore', link: 'https://www.facebook.com/kalgroupusa' },
     Tag: 'Texas',
   },
   // {
@@ -438,7 +444,7 @@ export const EventsData = [
   {
     id: '2',
     category: 'Upcoming Events',
-    date: 'Coming Soon',
+    date: '15-16 October’22',
     heading: 'California Trucking Show ',
     PhotoHeading: 'California Trucking Show ',
     imageUrl:
@@ -452,7 +458,7 @@ export const EventsData = [
     `,
 
     desc2: ` Reserved a seat for `,
-    desc3: `"Dinner with the KAL group"`,
+    // desc3: `"Dinner with the KAL group"`,
 
     desc4: `Early Bird registration click below`,
     CTA: { heading: 'Register', link: '/Register' },
@@ -1847,11 +1853,63 @@ export const Facbookfeeds = [
 export const Instagramfeeds = [
   {
     id: '0',
-    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/289273207_531333352026103_8215607595006799601_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=TCSeRJhP-RgAX8KSjRC&_nc_ht=scontent-maa2-2.xx&oh=00_AT-ZWuZidBemmdiOMO_1LeCkCuaNfFA5wECqIeJmq245PQ&oe=62BE7E18',
+    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/307452991_587914043034700_1112800000142241526_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=JQ9bx_LCdX0AX8MgMxa&_nc_ht=scontent.fdel72-1.fna&oh=00_AT8Voftm9Q7wY7-69kSHDYaQRijxRYncnkRMpimqOzn8tg&oe=6344C344',
+    caption: 'BakersField Kabaddi cup',
+    desc: `KAL Group is the Grand Sponsor at Bakersfield Kabaddi Cup. Join us TODAY Sunday, September 18th 2022 for an unforgettable tournament. Wishing all players the best of luck during today's game!`,
+    time: '18 September',
+    follow: 'https://www.instagram.com/Kalgroupusa/',
+  },
+  {
+    id: '0',
+    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/308637981_595981678894603_2603972648266685896_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=e8_diRNPB_8AX86X8dh&_nc_ht=scontent.fdel72-1.fna&oh=00_AT9VnwZxPEmg4vPcBnmq_HYIffLoUjfkaZ09bdOxM9nFtw&oe=6343E5C0',
+    caption: 'Used Truck For Sale',
+    desc: `Used Volvo Dump Truck, a true work horse for your business.
+    Huge Inventory of Trucks and Trailers!
+    Leasing Options Available!
+    In-House Financing Available! 
+    Call Today: 1.800.310.0079
+    Our agents speak English, Punjabi, Spanish, French and more.`,
+    time: '28 September',
+    follow: 'https://www.instagram.com/Kalgroupusa/',
+  },
+  {
+    id: '0',
+    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/307024991_591383709354400_525494324518015193_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=GL8EpGuOSuUAX8-9Rp0&_nc_oc=AQl3TMWd8VoiYEY50d2PG1S1D_hUuxZrzQttPPfAotKGvHbR4hHg6BCDI--wDt3J7Yo&_nc_ht=scontent.fdel72-1.fna&oh=00_AT-lccSvxWI-1CWomPkiWafmngL8G5JEHoo0HayLsDZkjQ&oe=6344FC71',
     caption: 'Texas Trucking Show',
-    desc: ' Join KAL Group for a weekend of entertainment, hourly giveaways, and networking with our trucking professionals! GRAND PRIZE BARBECUE ISLAND! Meet us June 25th and 26th at the Texas Trucking Show at NRG Center, Houston. If you are interested in adding trucks or trailers to your fleet, tires and services, or in need of aftermarket parts, KAL is ready to meet your demands.',
-    time: '25 June',
-    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
+    desc: `Looking for a Vanguard Dry Van? KAL Trailers & Leasing has you covered!
+    Every Vanguard trailer is built with premium performance features that provide valuable operational savings and years of trouble free service.
+    Call Today: 1.800.310.0079
+    Our agents speak: English, Spanish, Punjabi, Hindi and more. `,
+    time: '23 September',
+    follow: 'https://www.instagram.com/Kalgroupusa/',
+  },
+  {
+    id: '0',
+    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/306861220_586217373204367_296027070679321224_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=rT7yoEiUqKoAX-wjQJe&tn=6wKKFrZEgg7uYqJF&_nc_ht=scontent.fdel72-1.fna&oh=00_AT8V8zBmgRid7XAfi-Sr6uFzbQk7Z0Xge-LlMsrylyZBgA&oe=6343A181',
+    caption: 'Let Your Good Chills',
+    desc: `Happy National Truck Driver Appreciation Week!
+     We thank you for all the hard work you do. You are the frontline to delivering goods to our grocery stores, lifesaving medicines across the nation, supplies to communities and so much more. Thank you for the continued dedication! `,
+    time: '16 September',
+    follow: 'https://www.instagram.com/Kalgroupusa/',
+  },
+  {
+    id: '0',
+    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/306269793_585582313267873_4359630065443320343_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a26aad&_nc_ohc=TyCx9_TQhU0AX-3VOim&_nc_ht=scontent.fdel72-1.fna&oh=00_AT9h7-PMj2xq9wb99HVpONQNPJvNkKdrca0Ei1lxcf-dfQ&oe=6344486B',
+    caption: 'National Truck Driver Apllication Week',
+    desc: `Reefers Available Today! KAL Trailers & Leasing offers great deals on reefers; used to store or transport perishable goods that require temperature control.
+    Call Today: 800.310.0079`,
+    time: '15 September',
+    follow: 'https://www.instagram.com/Kalgroupusa/',
+  },
+  {
+    id: '0',
+    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/298768251_562316318927806_7998893368306419799_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=051J96J_RZUAX-a-wgx&tn=6wKKFrZEgg7uYqJF&_nc_ht=scontent.fdel72-1.fna&oh=00_AT8nyazKsOjDMzW3gWQaxOwIbb_dB4u83I8vlFlO1KlOGw&oe=634463AD',
+    caption: 'KalPartz',
+    desc: `Keep that engine alive and well with Lucas Heavy Duty Oil Stabilizer! This product adds total protection in newer engines and extends the life of worn engines.
+    Stop by a Kal Partz store location near you and pick up a bottle of Lucas Heavy Duty Oil Stabilizer for your vehicle. 
+    Call 800-832-0092 for More Information! `,
+    time: '11 August',
+    follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   // {
   //   id: "",
@@ -1860,53 +1918,53 @@ export const Instagramfeeds = [
   //   caption: "Hourly Giveaways",
   //   desc: "BOOTH #461 - Join KAL Group for a weekend of entertainment, hourly giveaways, and networking with our trucking professionals! GRAND PRIZE.",
   //   time: "25 June",
-  //   follow: "https://www.instagram.com/accounts/login/?next=/Kalgroup/",
+  //   follow: "https://www.instagram.com/Kalgroupusa/",
   // },
 
   {
     id: '0',
-    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/290221739_531561168669988_7763453442248434723_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=KjCrz8u0qWgAX_9g55n&_nc_ht=scontent-maa2-2.xx&oh=00_AT9DiGsIUvBLtMUbcywsrH2LqK1MJFgO9kdvzVT2KQUJjQ&oe=62BF3AF3',
+    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/277524187_479177810574991_6430554347700695806_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=aTvi1d_Vn5IAX8olZ9a&tn=6wKKFrZEgg7uYqJF&_nc_ht=scontent.fdel72-1.fna&oh=00_AT9lbV2AYGaZQCfdVwD9n5Ebl_2UwLXKdRekSCFVEfo9Sg&oe=6344B43C',
 
     caption: 'Used Trailers',
     desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
     time: '7 June',
-    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
+    follow: 'https://www.instagram.com/Kalgroupusa/',
   },
-  {
-    id: '1',
-    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/286169510_519570173202421_6328616867636052071_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=xTqT8uSJs2UAX-0JqIO&_nc_ht=scontent-maa2-1.xx&oh=00_AT-koCy5NhsQdVn4eKdWdLnCbB_vFluoKY58r9ZYRPwAUQ&oe=62BEB73A',
+  // {
+  //   id: '1',
+  //   img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/286169510_519570173202421_6328616867636052071_n.jpg?stp=dst-jpg_p526x296&_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=xTqT8uSJs2UAX-0JqIO&_nc_ht=scontent-maa2-1.xx&oh=00_AT-koCy5NhsQdVn4eKdWdLnCbB_vFluoKY58r9ZYRPwAUQ&oe=62BEB73A',
 
-    caption: 'Used Trailers',
-    desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
-    time: '7 June',
-    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
-  },
-  {
-    id: '2',
+  //   caption: 'Used Trailers',
+  //   desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
+  //   time: '7 June',
+  //   follow: 'https://www.instagram.com/Kalgroupusa/',
+  // },
+  // {
+  //   id: '2',
 
-    img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/282326995_508309244328514_7772227270459412721_n.jpg?stp=dst-jpg_p526x296&_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=qeVQ9oZZCWsAX8gY1OU&_nc_ht=scontent-maa2-1.xx&oh=00_AT9-bH8phNTqlm-PdO-QDjcbQl14F-gQsaOuZcpVo3I_Qw&oe=62BFD12F',
-    caption: 'KVL Tires',
-    desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details!',
-    time: '21 May',
-    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
-  },
+  //   img: 'https://scontent-maa2-1.xx.fbcdn.net/v/t39.30808-6/282326995_508309244328514_7772227270459412721_n.jpg?stp=dst-jpg_p526x296&_nc_cat=106&ccb=1-7&_nc_sid=a26aad&_nc_ohc=qeVQ9oZZCWsAX8gY1OU&_nc_ht=scontent-maa2-1.xx&oh=00_AT9-bH8phNTqlm-PdO-QDjcbQl14F-gQsaOuZcpVo3I_Qw&oe=62BFD12F',
+  //   caption: 'KVL Tires',
+  //   desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details!',
+  //   time: '21 May',
+  //   follow: 'https://www.instagram.com/Kalgroupusa/',
+  // },
 
-  {
-    id: '3',
-    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/280611353_502279618264810_8376564357247553020_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=ZPCNj4bAjMIAX87u1nc&_nc_ht=scontent-maa2-2.xx&oh=00_AT9d0Fhp9Z_kC8toXDkRzjUqVE-At4GWZxbkRW9FHvO6hg&oe=62BF51D0',
-    caption: 'KalPartz',
-    desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
-    time: '12 May',
-    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
-  },
-  {
-    id: '4',
-    img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/279779116_494988118993960_4082047950062427929_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=sxDX0t_NSF8AX-8ldID&_nc_ht=scontent-maa2-2.xx&oh=00_AT-Ozp_s3Wu-JUQrK9dBFtJj6lQvi6qwJbBBN5CDNNHJoQ&oe=62BEEFAC',
-    caption: 'Kalway',
-    desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
-    time: '2 May',
-    follow: 'https://www.instagram.com/accounts/login/?next=/Kalgroup/',
-  },
+  // {
+  //   id: '3',
+  //   img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/280611353_502279618264810_8376564357247553020_n.jpg?stp=dst-jpg_p526x296&_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=ZPCNj4bAjMIAX87u1nc&_nc_ht=scontent-maa2-2.xx&oh=00_AT9d0Fhp9Z_kC8toXDkRzjUqVE-At4GWZxbkRW9FHvO6hg&oe=62BF51D0',
+  //   caption: 'KalPartz',
+  //   desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
+  //   time: '12 May',
+  //   follow: 'https://www.instagram.com/Kalgroupusa/',
+  // },
+  // {
+  //   id: '4',
+  //   img: 'https://scontent-maa2-2.xx.fbcdn.net/v/t39.30808-6/279779116_494988118993960_4082047950062427929_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=a26aad&_nc_ohc=sxDX0t_NSF8AX-8ldID&_nc_ht=scontent-maa2-2.xx&oh=00_AT-Ozp_s3Wu-JUQrK9dBFtJj6lQvi6qwJbBBN5CDNNHJoQ&oe=62BEEFAC',
+  //   caption: 'Kalway',
+  //   desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
+  //   time: '2 May',
+  //   follow: 'https://www.instagram.com/Kalgroupusa/',
+  // },
 ];
 export const MapData = [
   {
