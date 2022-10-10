@@ -444,7 +444,7 @@ export const EventsData = [
   {
     id: '2',
     category: 'Upcoming Events',
-    date: '15-16 October’22',
+    date: '15th & 16th October 2022',
     heading: 'California Trucking Show ',
     PhotoHeading: 'California Trucking Show ',
     imageUrl:
@@ -1838,7 +1838,7 @@ export const Facbookfeeds = [
 
   {
     id: '3',
-    caption: 'KALPartz',
+    caption: 'KAL Partz',
     desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
     time: '12 May',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
@@ -1906,7 +1906,7 @@ export const Instagramfeeds = [
   {
     id: '0',
     img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/298768251_562316318927806_7998893368306419799_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=051J96J_RZUAX-a-wgx&tn=6wKKFrZEgg7uYqJF&_nc_ht=scontent.fdel72-1.fna&oh=00_AT8nyazKsOjDMzW3gWQaxOwIbb_dB4u83I8vlFlO1KlOGw&oe=634463AD',
-    caption: 'KALPartz',
+    caption: 'KAL Partz',
     desc: `Keep that engine alive and well with Lucas Heavy Duty Oil Stabilizer! This product adds total protection in newer engines and extends the life of worn engines.
     Stop by a Kal Partz store location near you and pick up a bottle of Lucas Heavy Duty Oil Stabilizer for your vehicle. 
     Call 800-832-0092 for More Information! `,
