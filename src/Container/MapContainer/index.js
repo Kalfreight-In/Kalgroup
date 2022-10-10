@@ -30,7 +30,7 @@ export const MapConatiner = () => {
   // const [Stockton, isStockton] = useHover();
   const [Atlanta, isAtlanta] = useHover();
   const [Lathrop, isLathrop] = useHover();
-  const [Calexico,isCalexico] = useHover();
+  const [Calexico, isCalexico] = useHover();
   // const [Almondfontana,isAlmondfontana] = useHover();
   // const [ValleyFontana,isValleyFontana] = useHover();
   const [Indianapolis, isIndianapolis] = useHover();
@@ -62,7 +62,7 @@ export const MapConatiner = () => {
           Springdale={isSpringdale}
           abbotsford={isabbotsford}
           Lathrop={isLathrop}
-          Calexico = {isCalexico}
+          Calexico={isCalexico}
           // AlmondFontana = {isAlmondfontana}
           // ValleyFontana = {isValleyFontana}
         ></Map>
@@ -110,7 +110,7 @@ export const MapConatiner = () => {
               </div>
 
               <div class="lg:mt-8 mt-2 text-white font-desc text-descnew ">
-                We serve you at multiple location
+                We serve you at multiple locations
               </div>
             </div>
             <div class="w-full lg:mt-8 mt-2">

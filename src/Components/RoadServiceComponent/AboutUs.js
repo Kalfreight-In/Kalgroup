@@ -28,7 +28,7 @@ export default function AboutUs() {
               the U.S. */}
               KAL Group is a diversified transportation and logistics
               service-driven organization formed in 2014, in the United States
-              of America. Our headquarters is based in Fontana, California. With
+              of America. Our headquarter is based in Fontana, California. With
               a vast ecosystem of facilities, we ensure that small fleet
               business owners are empowered to achieve operational excellence.
             </p>

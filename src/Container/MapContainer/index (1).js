@@ -42,8 +42,8 @@ export const MapConatiner = () => {
       style={{
         backgroundImage: `${
           isDesktop
-            ? "url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)"
-            : "url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)"
+            ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
+            : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
         }`,
       }}
     >
@@ -71,10 +71,10 @@ export const MapConatiner = () => {
           style={{
             backgroundImage: `${
               isDesktop
-                ? "url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)"
-                : "url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)"
+                ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
+                : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
             }`,
-            display: "flex",
+            display: 'flex',
           }}
         >
           <div className="lg:-mt-28 -mt-0 w-full pl-16 md:mb-0 mb-24">
@@ -108,12 +108,12 @@ export const MapConatiner = () => {
               </div>
 
               <div class="lg:mt-8 mt-2 text-white font-desc text-descnew ">
-                We serve you at multiple locations
+                We serve you at multiple locationss
               </div>
             </div>
             <div class="w-full lg:mt-8 mt-2">
               <div class="m-2 lg:w-1/3 w-1/2">
-                {" "}
+                {' '}
                 <div id="mainnewnavcontainer">
                   <div id="innermainnavcontainer">
                     <div class="group inline-block w-full">
@@ -207,7 +207,7 @@ min-w-32
             </div>
             <div class="w-full">
               <div class="m-2 lg:w-1/3 w-1/2">
-                {" "}
+                {' '}
                 <div id="mainnewnavcontainer">
                   <div id="innermainnavcontainer">
                     <div class="group inline-block w-full">

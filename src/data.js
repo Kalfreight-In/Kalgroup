@@ -459,8 +459,8 @@ export const EventsData = [
     
     `,
 
-    desc2: ` Reserved a seat for `,
-    desc3: ` Booth No: 431`,
+    desc2: `Reserve a seat`,
+    desc3: `Booth No: 431`,
 
     desc4: `Early Bird registration click below`,
     CTA: { heading: 'Register', link: '/Register' },

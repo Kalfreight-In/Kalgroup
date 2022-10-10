@@ -5,7 +5,7 @@
         Our Locations:
       </h3>
       <div className="mt-2 text-white font-desc text-descnew m">
-        We serve You at Multiple location
+        We serve you at multiple locations
         {/* <a href="#" className="hover:text-yellow-shadowhover transition ">
                 click here
               </a> */}
