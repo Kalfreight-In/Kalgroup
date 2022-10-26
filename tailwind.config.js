@@ -106,6 +106,7 @@ module.exports = {
         '35vw': '35vw',
         contacttabinput: '90%',
         inputmap: '40rem',
+        Business_Verticals: '85%',
         contacttextarea: '96%',
         contacttextareatab: '94%',
       },

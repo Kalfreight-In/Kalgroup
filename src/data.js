@@ -1738,18 +1738,18 @@ export const Businessdata = [
         btn: 'Parts & services',
       },
 
-      {
-        id: '4',
-        url: 'https://kalway.com/',
-        Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Skalway.png',
-        Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/kalway.png',
-        logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
-        heading: 'LOOKING FOR TIRES IS NOT A PROBLEM NOW',
-        desc: 'Contact Us for the best trucks and trailers',
-        logotwo:
-          'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstires.png',
-        btn: 'Freight',
-      },
+      // {
+      //   id: '4',
+      //   url: 'https://kalway.com/',
+      //   Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Skalway.png',
+      //   Bimg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/kalway.png',
+      //   logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',
+      //   heading: 'LOOKING FOR TIRES IS NOT A PROBLEM NOW',
+      //   desc: 'Contact Us for the best trucks and trailers',
+      //   logotwo:
+      //     'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstires.png',
+      //   btn: 'Freight',
+      // },
     ],
   },
 ];

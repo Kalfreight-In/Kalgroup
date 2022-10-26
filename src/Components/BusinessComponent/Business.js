@@ -116,9 +116,9 @@ export default function Business() {
             </h1>
           </div>
 
-          <div className={`flex w-full flex-row `}>
-            <div class=" flex w-full ">
-              <div class="gallery-wrap flex flex-row  w-fill " ref={hoverRef}>
+          <div className={`flex w-full flex-row justify-center`}>
+            <div class=" flex w-Business_Verticals   ">
+              <div class="gallery-wrap flex flex-row   w-fill " ref={hoverRef}>
                 {returnView()}
               </div>
             </div>
