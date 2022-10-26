@@ -303,7 +303,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <span className="text-xl px-1"> </span>
                         KAL Partz
                       </a>
-                      <a
+                      {/* <a
                         href="https://kalway.com/"
                         target="_blank"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
@@ -311,7 +311,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       >
                         <span className="text-xl px-1"> </span>
                         KALWAY
-                      </a>
+                      </a> */}
                     </div>
                   </div>
 

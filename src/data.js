@@ -41,14 +41,14 @@ export const NavbarData = [
         id: 4,
         navItem: 'KAL Partz',
       },
-      {
-        url: {
-          url: 'https://kalway.com/',
-          link: 'a',
-        },
-        id: 5,
-        navItem: 'KALWAY',
-      },
+      // {
+      //   url: {
+      //     url: 'https://kalway.com/',
+      //     link: 'a',
+      //   },
+      //   id: 5,
+      //   navItem: 'KALWAY',
+      // },
     ],
   },
   {
@@ -292,40 +292,40 @@ export const NavbarData = [
         id: 5,
         navItem: 'Credit Application',
       },
-      {
-        url: {
-          url: 'https://kalway.com/services/#Products',
-          link: 'a',
-        },
-        id: 6,
-        navItem: 'Brokerage',
-        navItems: [
-          {
-            url: {
-              url: 'https://kalway.com/services/#Products',
-              link: 'a',
-            },
-            id: 1,
-            navItem: '3PL Service ',
-          },
-          {
-            url: {
-              url: 'https://kalway.com/Carriers',
-              link: 'a',
-            },
-            id: 2,
-            navItem: 'Load Management',
-          },
-          {
-            url: {
-              url: 'https://kalway.com/services/#Products',
-              link: 'a',
-            },
-            id: 3,
-            navItem: 'Full Truck Service',
-          },
-        ],
-      },
+      // {
+      //   url: {
+      //     url: 'https://kalway.com/services/#Products',
+      //     link: 'a',
+      //   },
+      //   id: 6,
+      //   navItem: 'Brokerage',
+      //   navItems: [
+      //     {
+      //       url: {
+      //         url: 'https://kalway.com/services/#Products',
+      //         link: 'a',
+      //       },
+      //       id: 1,
+      //       navItem: '3PL Service ',
+      //     },
+      //     {
+      //       url: {
+      //         url: 'https://kalway.com/Carriers',
+      //         link: 'a',
+      //       },
+      //       id: 2,
+      //       navItem: 'Load Management',
+      //     },
+      //     {
+      //       url: {
+      //         url: 'https://kalway.com/services/#Products',
+      //         link: 'a',
+      //       },
+      //       id: 3,
+      //       navItem: 'Full Truck Service',
+      //     },
+      //   ],
+      // },
 
       {
         url: {
@@ -1843,13 +1843,13 @@ export const Facbookfeeds = [
     time: '12 May',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
-  {
-    id: '4',
-    caption: 'KALWAY',
-    desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
-    time: '2 May',
-    follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
-  },
+  // {
+  //   id: '4',
+  //   caption: 'KALWAY',
+  //   desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
+  //   time: '2 May',
+  //   follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+  // },
 ];
 
 export const Instagramfeeds = [
