@@ -84,7 +84,7 @@ const NewsShowcase = (data) => {
 
           <div className="   flex w-full " style={{ flex: '0  3  55%' }}>
             <div
-              className={`md:h-full h-mobileMainImageHeight w-full    bg-cover bg-no-repeat  bg-center`}
+              className={`md:h-full h-mobileMainImageHeight w-full  xl:w-96   bg-cover bg-no-repeat  bg-center`}
               style={{
                 backgroundImage: `url(${imageurl})`,
               }}
