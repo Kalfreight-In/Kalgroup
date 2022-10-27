@@ -415,6 +415,31 @@ export const NewsData = [
     CTA: { heading: 'SeeMore', link: 'https://www.facebook.com/kalgroupusa' },
     Tag: 'Texas',
   },
+  {
+    id: '4',
+    category: 'Upcoming Events',
+    date: '15th & 16th October 2022',
+    heading: 'California Trucking Show ',
+    PhotoHeading: 'California Trucking Show ',
+    imageUrl:
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Ontario-Upcomiing.png',
+    desc: `  
+
+    
+    
+    Venue: Ontario Convention Center, Ontario, California
+
+   
+    
+    `,
+
+    desc2: `Reserve a seat`,
+    desc3: `Booth No: 431`,
+
+    desc4: `Early Bird registration click below`,
+    CTA: { heading: 'SeeMore', link: 'https://www.facebook.com/kalgroupusa' },
+    Tag: 'Ontario',
+  },
   // {
   //   id: '3',
   //   category: 'News',
@@ -443,7 +468,7 @@ export const NewsData = [
 export const EventsData = [
   {
     id: '2',
-    category: 'Upcoming Events',
+    category: false,
     date: '15th & 16th October 2022',
     heading: 'California Trucking Show ',
     PhotoHeading: 'California Trucking Show ',
