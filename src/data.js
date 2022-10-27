@@ -470,7 +470,7 @@ export const EventsData = [
     id: '2',
     category: false,
     date: '15th & 16th October 2022',
-    heading: ' Holidays Event',
+    heading: ' Holidays Event...',
     PhotoHeading: 'Holidays Event ',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/upcomming.png',
