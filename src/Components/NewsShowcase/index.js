@@ -18,11 +18,17 @@ const NewsShowcase = (data) => {
   var imageurl = data.data.imageUrl;
   return (
     <>
-      <div class="flex bg-Lightblue   sm:m-4 w-full md:h-96 xl:h-96 2xl:h-30">
-        <div class="flex  flex-row-reverse ">
+      <div class={`flex bg-Lightblue   sm:m-4 w-full md:h-96 xl:h-96 2xl:h-30`}>
+        <div
+          class={`flex  flex-row-reverse ${
+            !data.data.category ? 'justify-center ' : ''
+          } `}
+        >
           {!data.data.category ? (
-            <div className="text-black flex font-bold text-4xl justify-center items-center">
-              Coming soon
+            <div className="flex w-full justify-center items-center">
+              <div className="text-white flex font-bold text-4xl ml-24">
+                Coming soon
+              </div>
             </div>
           ) : (
             <div class="sm:block hidden 2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-10 mt-4 2xl:pt-4 pt-0 mx-6 flex-1 pb-1 ">
@@ -78,14 +84,18 @@ const NewsShowcase = (data) => {
 
           <div className="   flex w-full " style={{ flex: '0  3  55%' }}>
             <div
-              className={`md:h-full h-mobileMainImageHeight w-full bg-cover bg-no-repeat  bg-center`}
+              className={`md:h-full h-mobileMainImageHeight    bg-cover bg-no-repeat  bg-center`}
               style={{
                 backgroundImage: `url(${imageurl})`,
               }}
             >
               <Gradients>
                 <div className="flex flex-col justify-end ml-8 sm:mb-4 mb-12 sm:w-fit w-screen ">
-                  <div className="text-white text-base xl:text-base font-heading   px-0 mb-2">
+                  <div
+                    className={`text-white text-base xl:text-base font-heading   px-0 mb-2 ${
+                      !data.data.category ? 'mr-96' : null
+                    }`}
+                  >
                     {data.data.category}
                   </div>
                   <div className="text-white text-3xl  lg:text-3xl font-bold   px-0 mb-2">
