@@ -470,10 +470,10 @@ export const EventsData = [
     id: '2',
     category: false,
     date: '15th & 16th October 2022',
-    heading: 'California Trucking Show ',
-    PhotoHeading: 'California Trucking Show ',
+    heading: ' Holidays Event',
+    PhotoHeading: 'Holidays Event ',
     imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Ontario-Upcomiing.png',
+      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/upcomming.png',
     desc: `  
 
     
@@ -487,9 +487,9 @@ export const EventsData = [
     desc2: `Reserve a seat`,
     desc3: `Booth No: 431`,
 
-    desc4: `Early Bird registration click below`,
+    desc4: `Holidays Event`,
     CTA: { heading: 'Register', link: '/Register' },
-    Tag: 'Ontario',
+    Tag: 'Holidays Event',
   },
   // {
   //   id: '3',
