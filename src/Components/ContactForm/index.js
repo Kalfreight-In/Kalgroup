@@ -3,6 +3,7 @@ import axios from 'axios';
 import Sparkles from '../../animation/Sparkel';
 import { motion } from 'framer-motion';
 import { isDesktop } from 'react-device-detect';
+import { handleInput } from '../../HelpFunctions/PhoneNoFormatter';
 
 const Contactform = () => {
   const [name, setName] = useState('');
@@ -171,7 +172,7 @@ const Contactform = () => {
             <div class="w-full md:w-1/2 xl:px-3">
               <div class="w-full xl:px-3 flex justify-center items-center ">
                 <input
-                  onChange={(e) => setphoneno(e.target.value)}
+                  onChange={(e) => handleInput(e, setphoneno)}
                   value={phoneno}
                   class="appearance-none block xl:w-72 w-contacttabinput bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="email"
