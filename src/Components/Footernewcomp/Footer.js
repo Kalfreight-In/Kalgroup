@@ -703,7 +703,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         <IoLogoLinkedin
                           onClick={() =>
                             window.open(
-                              'https://www.linkedin.com/company/kal-trailers-and-leasing',
+                              'https://www.linkedin.com/company/kalgroup-us',
                               '_blank'
                             )
                           }
@@ -858,7 +858,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       <IoLogoLinkedin
                         onClick={() =>
                           window.open(
-                            'https://www.linkedin.com/company/kal-trailers-and-leasing',
+                            'https://www.linkedin.com/company/kalgroup-us',
                             '_blank'
                           )
                         }
