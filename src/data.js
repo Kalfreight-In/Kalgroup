@@ -193,7 +193,7 @@ export const NavbarData = [
       },
       {
         url: {
-          url: 'http://kaltires.com/#Advantages',
+          url: 'http://kvltires.com/#Advantages',
           link: 'a',
         },
         id: 3,
@@ -201,7 +201,7 @@ export const NavbarData = [
         navItems: [
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
+              url: 'http://kvltires.com/#Advantages',
               link: 'a',
             },
             id: 1,
@@ -209,7 +209,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
+              url: 'http://kvltires.com/#Advantages',
               link: 'a',
             },
             id: 2,
@@ -217,7 +217,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
+              url: 'http://kvltires.com/#Advantages',
               link: 'a',
             },
             id: 3,
@@ -225,7 +225,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
+              url: 'http://kvltires.com/#Advantages',
               link: 'a',
             },
             id: 4,
@@ -233,7 +233,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
+              url: 'http://kvltires.com/#Advantages',
               link: 'a',
             },
             id: 5,
@@ -241,7 +241,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
+              url: 'http://kvltires.com/#Advantages',
               link: 'a',
             },
             id: 6,
@@ -249,7 +249,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'http://kaltires.com/#Advantages',
+              url: 'http://kvltires.com/#Advantages',
               link: 'a',
             },
             id: 7,
@@ -1740,7 +1740,7 @@ export const Businessdata = [
       },
       {
         id: '3',
-        url: 'http://kaltires.com/',
+        url: 'http://kvltires.com/',
         Simg: 'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/icons/Stires.png',
         Bimg: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/icons/tires.png',
         logo: 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/busnesection/businesstirelogo.png',

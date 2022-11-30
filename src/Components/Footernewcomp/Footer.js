@@ -286,7 +286,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                         KAL Trailers & Leasing
                       </a>
                       <a
-                        href="https://kaltires.com/"
+                        href="https://kvltires.com/"
                         className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1  xl:text-left text-center "
                         target="_blank"
                         rel="noreferrer"
@@ -564,7 +564,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                           <span className="flex cursor-pointer">
                             <span className="text-xl px-1 md:mt-0 mt-QuickLinkarrow"></span>
                             <a
-                              href="http://kaltires.com/#Advantages"
+                              href="http://kvltires.com/#Advantages"
                               target="_blank"
                               rel="noreferrer"
                             >
