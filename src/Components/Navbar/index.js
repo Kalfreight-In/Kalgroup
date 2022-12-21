@@ -94,7 +94,7 @@ const Navbar = ({ toggle }) => {
 
                 src={logo}
                 alt="logo"
-                width="50%"
+                width="100%"
                 className="py-2"
               />
             </NavLogo>
