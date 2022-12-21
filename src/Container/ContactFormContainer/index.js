@@ -35,11 +35,11 @@ export const ContactFormContainer = () => {
         <div
           className={
             // 'lg:h-5/6 md:h-mobileMainImageHeight xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 '
-            "lg:h-5/6 md:h-mobileMainImageHeight xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 "
+            'lg:h-5/6 md:h-mobileMainImageHeight xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 '
           }
           style={{
             backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/contactimagenew.png)`,
-            display: "flex",
+            display: 'flex',
           }}
         >
           {/* <div>
@@ -65,7 +65,7 @@ export const ContactFormContainer = () => {
 
             <div className="text-white flex xl:justify- start justify-start mt-4 md:ml-0 ml-0 ">
               <div className="mt-2">
-                <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                <a href="tel:8003858006" target="_blank" rel="noreferrer">
                   <img
                     src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
                     alt=""
@@ -75,7 +75,7 @@ export const ContactFormContainer = () => {
                 </a>
               </div>
               <div className="ml-4">
-                <a href="tel:8009770010" target="_blank">
+                <a href="tel:8003858006" target="_blank">
                   {' '}
                   <div className="md:text-xl xl:text-2xl text-xl font-bold xl:font-semibold ml-2  ">
                     800-385-8006
@@ -91,15 +91,13 @@ export const ContactFormContainer = () => {
         <div
           className={
             // 'lg:h-5/6 md:h-mobileMainImageHeight xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 '
-            "lg:h-5/6 md:h-cropcontact xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 "
+            'lg:h-5/6 md:h-cropcontact xl:w-4/5 w-full 2 bg-contain lg:bg-cover  xl:contain bg-no-repeat bg-center xl:mt-16 mt-2 2xl:ml-36 xl:ml-12 '
           }
           style={{
             backgroundImage: `url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/contactcropmain.png)`,
-            display: "flex",
+            display: 'flex',
           }}
-        >
-         
-        </div>
+        ></div>
       </div>
     </div>
     // </div>

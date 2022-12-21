@@ -125,7 +125,7 @@ export default function Footer() {
 
                   <div className="text-black flex xl:justify- start justify-start mt-4 md:ml-0 ml-0 ">
                     <div className="mt-2">
-                      <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                      <a href="tel:8003858006" target="_blank" rel="noreferrer">
                         <img
                           src="https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/newvectorphonefooter.png"
                           alt=""
@@ -135,7 +135,7 @@ export default function Footer() {
                       </a>
                     </div>
                     <div className="ml-4">
-                      <a href="tel:8009770010" target="_blank" rel="noreferrer">
+                      <a href="tel:8003858006" target="_blank" rel="noreferrer">
                         {' '}
                         <div className="md:text-xl xl:text-xl text-xl  xl:font-bold font-semibold ml-2  ">
                           800-385-8006
@@ -751,7 +751,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     <div className="text-black flex xl:justify-center justify-start mt-4 md:ml-0 ml- ">
                       <div className="mt-2">
                         <a
-                          href="tel:8009770010"
+                          href="tel:8003858006"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -770,7 +770,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                     we have subject matter experts just a call away.
                   </div> */}
                         <a
-                          href="tel:8009770010"
+                          href="tel:8003858006"
                           target="_blank"
                           rel="noreferrer"
                         >
