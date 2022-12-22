@@ -147,6 +147,20 @@ const BottomBar = ({ toggle }) => {
           <FaBars/>
         </MobileIcon> */}
       </Nav>
+      {/* <div
+        style={{
+          backgroundColor: '#1e1b1b',
+          marginTop: '-30px',
+          zIndex: '20',
+        }}
+      >
+        <img
+          style={{ zIndex: '20', position: 'absolute' }}
+          src="http://snowremovalfast.ca/wp-content/uploads/2015/02/snow.png"
+          alt=""
+          className="w-screen h-20 "
+        />
+      </div> */}
     </>
   );
 };

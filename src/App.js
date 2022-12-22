@@ -10,7 +10,7 @@ import Sidebar from './Components/Sidebar';
 import Footer from './Components/Footernewcomp/Footer';
 import BottomBar from './Components/Bottombar';
 import Trailer_and_Leasing from './pages/TrailerandLeasing';
-
+import Snowfall from 'react-snowfall';
 import { UnderConstruction } from './Components/UnderConstruction';
 import Register from './pages/Register';
 function App() {
@@ -26,7 +26,28 @@ function App() {
       <ErrorBoundary>
         <Navbar toggle={toggle}></Navbar>
       </ErrorBoundary>
-
+      <div
+        style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          zIndex: '20',
+          pointerEvents: 'none',
+        }}
+      >
+        <Snowfall
+          style={{ zIndex: '20' }}
+          height="100%"
+          width="100%"
+          color="#ffff"
+          snowflakeCount={100}
+          radius={[0.3, 2.0]}
+          speed={[0.5, 4.0]}
+          wind={[-0.5, 2.0]}
+        />
+      </div>
       <Routes>
         <Route path="/" element={<Home />} exact />
         <Route path="/Register" element={<Register />} exact></Route>

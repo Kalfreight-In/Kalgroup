@@ -1922,7 +1922,7 @@ export const Instagramfeeds = [
   {
     id: '0',
     img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/306269793_585582313267873_4359630065443320343_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a26aad&_nc_ohc=TyCx9_TQhU0AX-3VOim&_nc_ht=scontent.fdel72-1.fna&oh=00_AT9h7-PMj2xq9wb99HVpONQNPJvNkKdrca0Ei1lxcf-dfQ&oe=6344486B',
-    caption: 'National Truck Driver Apllication Week',
+    caption: 'National Truck Driver Application Week',
     desc: `Reefers Available Today! KAL Trailers & Leasing offers great deals on reefers; used to store or transport perishable goods that require temperature control.
     Call Today: 800.310.0079`,
     time: '15 September',
