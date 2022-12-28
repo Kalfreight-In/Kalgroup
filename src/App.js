@@ -26,7 +26,7 @@ function App() {
       <ErrorBoundary>
         <Navbar toggle={toggle}></Navbar>
       </ErrorBoundary>
-      <div
+      {/* <div
         style={{
           position: 'fixed',
           top: 0,
@@ -47,7 +47,7 @@ function App() {
           speed={[0.5, 4.0]}
           wind={[-0.5, 2.0]}
         />
-      </div>
+      </div> */}
       <Routes>
         <Route path="/" element={<Home />} exact />
         <Route path="/Register" element={<Register />} exact></Route>
