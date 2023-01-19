@@ -2045,12 +2045,12 @@ export const MapData = [
             name: 'San Marcos',
             address: '160 Industrial St, San Marcos, CA 92078',
           },
-          {
-            id: 3,
-            name: 'Stockton',
-            address:
-              '7100 S Harland Rd, Lathrop, Stockton-CA 953307100 S Harland Rd, Lathrop, Stockton-CA 9533',
-          },
+          // {
+          //   id: 3,
+          //   name: 'Stockton',
+          //   address:
+          //     '7100 S Harland Rd, Lathrop, Stockton-CA 953307100 S Harland Rd, Lathrop, Stockton-CA 9533',
+          // },
         ],
       },
       {
