@@ -9,6 +9,7 @@ function Map({
   Calgary,
   Arlington,
   Hampton,
+  Stockton,
   Atlanta,
   Indianapolis,
   Springdale,
@@ -33,7 +34,7 @@ function Map({
   // const [ValleyFontanta2,isValleyFontana2] = useHover();
   const [Arlington2, isArlington2] = useHover();
   const [Hampton2, isHampton2] = useHover();
-  // const [Stockton2, isStockton2] = useHover();
+  const [Stockton2, isStockton2] = useHover();
   const [Atlanta2, isAtlanta2] = useHover();
 
   const [Indianapolis2, isIndianapolis2] = useHover();
@@ -799,7 +800,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           className="cls-5"
         />
       </svg>
-      {/* <svg
+      <svg
         className="marker Stockton"
         width="29"
         height="25"
@@ -814,7 +815,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
           className="cls-5"
         />
-      </svg> */}
+      </svg>
       <svg
         className="marker Bakersfield"
         width="29"
@@ -1119,7 +1120,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
         </g>
       ) : null}
 
-      {/* {isStockton2 || Stockton ? (
+      {isStockton2 || Stockton ? (
         <g id="Atlanta">
           <g id="Text-BC">
             <rect
@@ -1131,12 +1132,12 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
               rx="3.44"
             ></rect>
             <text x="40.52" y="720.25" fill="black">
-              3435 Jonesboro Rd Se Atlanta GA 30354
+              825 Navy Dr, Stockton, CA 95206
             </text>
           </g>
         </g>
       ) : null}
-       */}
+
       {isBakersfield2 || Bakersfield ? (
         <g id="Atlanta">
           <g id="Text-BC">

@@ -27,7 +27,7 @@ export const MapConatiner = () => {
   const [Calgary, isCalgary] = useHover();
   const [Arlington, isArlington] = useHover();
   const [Hampton, isHampton] = useHover();
-  // const [Stockton, isStockton] = useHover();
+  const [Stockton, isStockton] = useHover();
   const [Atlanta, isAtlanta] = useHover();
   // const [Lathrop, isLathrop] = useHover();
   const [Calexico, isCalexico] = useHover();
@@ -56,7 +56,7 @@ export const MapConatiner = () => {
           Calgary={isCalgary}
           Arlington={isArlington}
           Hampton={isHampton}
-          // Stockton={isStockton}
+          Stockton={isStockton}
           Atlanta={isAtlanta}
           Indianapolis={isIndianapolis}
           Springdale={isSpringdale}
@@ -274,11 +274,11 @@ min-w-32
                                 <div class="sc-gsnTZi evWpLA">San Marcos</div>
                               </li>
                             </li>
-                            {/* <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                               <li class="sc-bczRLJ gbaUcE" ref={Stockton}>
                                 <div class="sc-gsnTZi evWpLA">Stockton</div>
                               </li>
-                            </li> */}
+                            </li>
                             {/* <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                               <li class="sc-bczRLJ gbaUcE" ref={Lathrop}>
                                 <div class="sc-gsnTZi evWpLA"> Lathrop</div>
