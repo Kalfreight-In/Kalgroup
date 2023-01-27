@@ -1,3 +1,13 @@
+import In1 from './assets/Images/Insta/In1.jpg';
+import In2 from './assets/Images/Insta/In2.jpg';
+import In3 from './assets/Images/Insta/In3.jpg';
+import In4 from './assets/Images/Insta/In4.jpg';
+import In5 from './assets/Images/Insta/In5.jpg';
+import In6 from './assets/Images/Insta/In6.jpg';
+import In7 from './assets/Images/Insta/In7.jpg';
+import Expo from './assets/Images/News/Expo.png';
+import HDAW23 from './assets/Images/News/HDAW23.png';
+
 export const NavbarData = [
   {
     url: {
@@ -35,7 +45,7 @@ export const NavbarData = [
       },
       {
         url: {
-          url: 'https://kalpartz.com/air-brake-wheel/',
+          url: 'https://kalpartz.com/',
           link: 'a',
         },
         id: 4,
@@ -408,16 +418,14 @@ export const NewsData = [
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Texas.jpg',
     desc: 'Texas Trucking Show, Join us at NRG Center, Texas',
 
-    desc2: ` Reserved a seat for `,
     // desc3: `"Dinner with the KAL group"`,
 
-    desc4: `Early Bird registration click below`,
-    CTA: { heading: 'SeeMore', link: 'https://www.facebook.com/kalgroupusa' },
+    CTA: { heading: 'See More', link: 'https://www.facebook.com/kalgroupusa' },
     Tag: 'Texas',
   },
   {
     id: '4',
-    category: 'Upcoming Events',
+    category: 'Past Events',
     date: '15th & 16th October 2022',
     heading: 'California Trucking Show ',
     PhotoHeading: 'California Trucking Show ',
@@ -429,16 +437,32 @@ export const NewsData = [
     
     Venue: Ontario Convention Center, Ontario, California
 
-   
+    Booth No: 43
     
     `,
 
-    desc2: `Reserve a seat`,
-    desc3: `Booth No: 431`,
-
-    desc4: `Early Bird registration click below`,
-    CTA: { heading: 'SeeMore', link: 'https://www.facebook.com/kalgroupusa' },
+    CTA: { heading: 'See More', link: 'https://www.facebook.com/kalgroupusa' },
     Tag: 'Ontario',
+  },
+  {
+    id: '5',
+    category: 'Past Events',
+    date: 'January 17, 2023',
+    heading: 'Heavy Duty Aftermarket Week 2023 (HDAW)',
+    PhotoHeading: 'Heavy Duty Aftermarket Week 2023 ',
+    imageUrl: HDAW23,
+    desc: `  
+
+    
+    
+    The largest North American gathering of heavy-duty aftermarket professionals in the industry
+    
+ 
+    
+    `,
+
+    CTA: { heading: 'See More', link: 'https://www.facebook.com/kalgroupusa' },
+    Tag: 'Grapevine, TX',
   },
   // {
   //   id: '3',
@@ -466,43 +490,39 @@ export const NewsData = [
   // },
 ];
 export const EventsData = [
-  {
-    id: '2',
-    category: false,
-    date: '15th & 16th October 2022',
-    heading: ' Holidays Event...',
-    PhotoHeading: 'Holidays Event ',
-    imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/upcomming.png',
-    desc: `  
-
-    
-    
-    Venue: Ontario Convention Center, Ontario, California
-
-   
-    
-    `,
-
-    desc2: `Reserve a seat`,
-    desc3: `Booth No: 431`,
-
-    desc4: `Holidays Event`,
-    CTA: { heading: 'Register', link: '/Register' },
-    Tag: 'Holidays Event',
-  },
   // {
-  //   id: '3',
-  //   category: 'Upcoming events',
-  //   date: '01/06/2002',
-  //   heading: 'Come to our dinner',
-  //   PhotoHeading: 'KAL Group Dinner',
+  //   id: '2',
+  //   category: false,
+  //   date: '15th & 16th October 2022',
+  //   heading: ' Holidays Event...',
+  //   PhotoHeading: 'Holidays Event ',
   //   imageUrl:
-  //     'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/KalGroupEvents/kalevent1.png',
-  //   desc: "We provide a full range of front end mechanical repairs for all makes and models of car It doesn't matter if you love Peterbilts.",
-  //   CTA: { heading: 'Register', link: 'register' },
-  //   Tag: 'One click away',
+  //     'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/upcomming.png',
+  //   desc: `
+
+  //   Venue: Ontario Convention Center, Ontario, California
+
+  //   `,
+
+  //   desc2: `Reserve a seat`,
+  //   desc3: `Booth No: 431`,
+
+  //   desc4: `Holidays Event`,
+  //   CTA: { heading: 'Register', link: '/Register' },
+  //   Tag: 'Holidays Event',
   // },
+  {
+    id: '3',
+    category: 'See You At The Show!',
+    date: ' February 14-16, 2023',
+    heading: 'See You At The Show!',
+    PhotoHeading: 'World AG Expo',
+    imageUrl: Expo,
+    desc: `Venue: Tulare, CA, USA 
+    See You At The Show!`,
+    CTA: { heading: 'Contact US', link: '/#ContactSection' },
+    Tag: 'Tulare, CA, USA ',
+  },
   // {
   //   id: '4',
   //   category: 'Upcoming events',
@@ -1848,24 +1868,29 @@ export const CoreValuedata = [
 export const Facbookfeeds = [
   {
     id: '1',
-    caption: 'Used Trailers',
-    desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
-    time: '7 June',
+    caption: 'KVL Tires',
+    desc: `The Continental HDL2+ tire is created with the highest standards. The tire offers 20% more mileage, while also having the least amount of stone resistance. Don’t wait, visit a KVL location near you. 
+    With multiple distribution centers nationwide, KVL Tires specializes in Commercial, Industrial, Earthmovers, and Agricultural tires.
+    24×7 Roadside Assistance
+    📞 Call Today: 800.808.0025`,
+    time: '26 Jan',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
   {
     id: '2',
-    caption: 'KVL Tires',
-    desc: 'KVL Tires proudly carries the General HS 2 - a tire that offers optimal performance and a comfortable ride, without compromising on fuel efficiency. ',
-    time: '21 May',
+    caption: 'Kal Trailers',
+    desc: `Come on down to a KAL Trailers & Leasing location today to check out a used Freightliner Cascadia. Speak with our knowledgeable sales staff for the best experience. 
+    With our in-house financing options, you can get your new truck ASAP! Contact a KAL location near you. `,
+    time: '25 Jan',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
 
   {
     id: '3',
     caption: 'KAL Partz',
-    desc: 'KAL Partz now offers Amsted Seals wheel-end products; designed to ALL work together - to fit right, install easily and perform at their best! Our team is available to simplify the selection, buying and stocking process for you. Contact us today for more details! ',
-    time: '12 May',
+    desc: `Are you looking for the best semi-truck engine oils to keep your vehicle running smoothly and efficiently? Look no further! KAL Partz provides truck engine oils that are designed for advanced protection against wear and tear, these oils will help extend the life of your engine and keep it running smoothly for many miles to come.
+    Get your semi-truck oils today at KAL Partz and enjoy the peace of mind that comes with knowing your vehicle is well-maintained!`,
+    time: '17 Jan',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
   // {
@@ -1880,62 +1905,58 @@ export const Facbookfeeds = [
 export const Instagramfeeds = [
   {
     id: '0',
-    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/307452991_587914043034700_1112800000142241526_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a26aad&_nc_ohc=JQ9bx_LCdX0AX8MgMxa&_nc_ht=scontent.fdel72-1.fna&oh=00_AT8Voftm9Q7wY7-69kSHDYaQRijxRYncnkRMpimqOzn8tg&oe=6344C344',
-    caption: 'Bakersfield Kabaddi cup',
-    desc: `KAL Group is the Grand Sponsor at Bakersfield Kabaddi Cup. Join us TODAY Sunday, September 18th 2022 for an unforgettable tournament. Wishing all players the best of luck during today's game!`,
-    time: '18 September',
+    img: In1,
+    caption: 'Kal Partz',
+    desc: `Kal Partz is ready to meet your heavy-duty trucking needs. One of the fastest-expanding distributors, Kal Partz offers heavy-duty OEM & aftermarket stock compatible with light, medium, and heavy-duty vehicles. With a large selection of components and more than 35 partner brands to pick from, our staff will get you on the road for your next load. `,
+    time: '27 October',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/308637981_595981678894603_2603972648266685896_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=e8_diRNPB_8AX86X8dh&_nc_ht=scontent.fdel72-1.fna&oh=00_AT9VnwZxPEmg4vPcBnmq_HYIffLoUjfkaZ09bdOxM9nFtw&oe=6343E5C0',
-    caption: 'Used Truck For Sale',
-    desc: `Used Volvo Dump Truck, a true work horse for your business.
-    Huge Inventory of Trucks and Trailers!
-    Leasing Options Available!
-    In-House Financing Available! 
-    Call Today: 1.800.310.0079
-    Our agents speak English, Punjabi, Spanish, French and more.`,
-    time: '28 September',
+    img: In2,
+    caption: 'Kal Trailers & Leasing',
+    desc: `Kal Trailers & Leasing, your trusted trailer dealer. We are the largest authorized dealers of CIMC Vanguard trailers nationwide. We offer a variety of simple financing & payment options. From used trucks, trailers, reefers, dump trucks, and more, our team will get you ready for your next business venture.`,
+    time: '28 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/307024991_591383709354400_525494324518015193_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=GL8EpGuOSuUAX8-9Rp0&_nc_oc=AQl3TMWd8VoiYEY50d2PG1S1D_hUuxZrzQttPPfAotKGvHbR4hHg6BCDI--wDt3J7Yo&_nc_ht=scontent.fdel72-1.fna&oh=00_AT-lccSvxWI-1CWomPkiWafmngL8G5JEHoo0HayLsDZkjQ&oe=6344FC71',
-    caption: 'Texas Trucking Show',
-    desc: `Looking for a Vanguard Dry Van? KAL Trailers & Leasing has you covered!
-    Every Vanguard trailer is built with premium performance features that provide valuable operational savings and years of trouble free service.
-    Call Today: 1.800.310.0079
-    Our agents speak: English, Spanish, Punjabi, Hindi and more. `,
-    time: '23 September',
+    img: In3,
+    caption: 'KAL Freight',
+    desc: `KAL Freight is a highly dependable trucking company offering a complete range of transport and logistic services to diverse industries nationwide. We are supported by a vast terminal network, and dedicated to making on-time deliveries`,
+    time: '27 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/306861220_586217373204367_296027070679321224_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=rT7yoEiUqKoAX-wjQJe&tn=6wKKFrZEgg7uYqJF&_nc_ht=scontent.fdel72-1.fna&oh=00_AT8V8zBmgRid7XAfi-Sr6uFzbQk7Z0Xge-LlMsrylyZBgA&oe=6343A181',
-    caption: 'Let Your Good Chills',
-    desc: `Happy National Truck Driver Appreciation Week!
-     We thank you for all the hard work you do. You are the frontline to delivering goods to our grocery stores, lifesaving medicines across the nation, supplies to communities and so much more. Thank you for the continued dedication! `,
-    time: '16 September',
+    img: In4,
+    caption: 'The Continental HDL2+ tire',
+    desc: `The Continental HDL2+ tire is created with the highest standards. The tire offers 20% more mileage, while also having the least amount of stone resistance. Don’t wait, visit a KVL location near you. 
+
+    With multiple distribution centers nationwide, KVL Tires specializes in Commercial, Industrial, Earthmovers, and Agricultural tires.
+    
+    24×7 Roadside Assistance`,
+    time: '28 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/306269793_585582313267873_4359630065443320343_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=a26aad&_nc_ohc=TyCx9_TQhU0AX-3VOim&_nc_ht=scontent.fdel72-1.fna&oh=00_AT9h7-PMj2xq9wb99HVpONQNPJvNkKdrca0Ei1lxcf-dfQ&oe=6344486B',
-    caption: 'National Truck Driver Application Week',
-    desc: `Reefers Available Today! KAL Trailers & Leasing offers great deals on reefers; used to store or transport perishable goods that require temperature control.
-    Call Today: 800.310.0079`,
-    time: '15 September',
+    img: In5,
+    caption: 'Come on down to a KAL Trailers & Leasing',
+    desc: `Come on down to a KAL Trailers & Leasing location today to check out a used Freightliner Cascadia. Speak with our knowledgeable sales staff for the best experience.
+
+    With our in-house financing options. `,
+    time: '26 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/298768251_562316318927806_7998893368306419799_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=a26aad&_nc_ohc=051J96J_RZUAX-a-wgx&tn=6wKKFrZEgg7uYqJF&_nc_ht=scontent.fdel72-1.fna&oh=00_AT8nyazKsOjDMzW3gWQaxOwIbb_dB4u83I8vlFlO1KlOGw&oe=634463AD',
-    caption: 'KAL Partz',
-    desc: `Keep that engine alive and well with Lucas Heavy Duty Oil Stabilizer! This product adds total protection in newer engines and extends the life of worn engines.
-    Stop by a Kal Partz store location near you and pick up a bottle of Lucas Heavy Duty Oil Stabilizer for your vehicle. 
-    Call 800-832-0092 for More Information! `,
-    time: '11 August',
+    img: In6,
+    caption: 'The Earthmax SR 33 tire',
+    desc: `The Earthmax SR 33 tire is an ideal option for those needing superior traction on muddy ground, sand, and another off-road terrain. It features a unique self-cleaning tread pattern that helps keep your tires clear of mud and dirt, so you can keep moving without interruption. So don't wait, get your Earthmax SR 33 tire today at a KVL location near you. 
+ 
+    With multiple distribution centers nationwide,Industrial, Earthmovers, and Agricultural tires. Contact our team today!`,
+    time: '25 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   // {
@@ -1950,11 +1971,15 @@ export const Instagramfeeds = [
 
   {
     id: '0',
-    img: 'https://scontent.fdel72-1.fna.fbcdn.net/v/t39.30808-6/277524187_479177810574991_6430554347700695806_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=aTvi1d_Vn5IAX8olZ9a&tn=6wKKFrZEgg7uYqJF&_nc_ht=scontent.fdel72-1.fna&oh=00_AT9lbV2AYGaZQCfdVwD9n5Ebl_2UwLXKdRekSCFVEfo9Sg&oe=6344B43C',
+    img: In7,
 
-    caption: 'Used Trailers',
-    desc: 'New and Used Trailers, Dry Vans and Reefers are at KAL! We are one of the largest authorized dealers for Vanguard trailers in the United States. Flexible in-house financing/leasing options! ',
-    time: '7 June',
+    caption: 'Low-mileage trucks',
+    desc: `Low-mileage trucks by top brands are available today! Lease or purchase with KAL Trailers & Leasing.
+
+    With our in-house financing options, you can get your new truck ASAP! Contact a KAL location near you.
+    
+  📞 Call Today: (800).310.0079`,
+    time: '22 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   // {

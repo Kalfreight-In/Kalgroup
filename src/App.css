@@ -7,7 +7,9 @@
   color: #0f0 !important;
   outline: solid #f00 1px !important;
 }   */
-
+html {
+  scroll-behavior: smooth;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

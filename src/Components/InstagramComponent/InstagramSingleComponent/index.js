@@ -2,7 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 import { RiInstagramLine } from 'react-icons/ri';
 const Gradients = styled.div`
-  background: linear-gradient(9.15deg, #000000 -4.43%, rgba(0, 0, 0, 0) 93.09%);
+  background: linear-gradient(
+    9.15deg,
+    #0000007d -4.43%,
+    rgba(0, 0, 0, 0) 93.09%
+  );
 
   height: 100%;
   display: flex;
@@ -81,7 +85,9 @@ const InstagramSingleComponent = (data) => {
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white underline   2xl:text-md lg:text-base md:text-sm px-0  underline-offset-4 mt-10"
             >
-              <a href={data.data.follow}>Go to our Feed</a>
+              <a href={data.data.follow} target="_blank">
+                Go to our Feed
+              </a>
             </p>
 
             {/* <div>

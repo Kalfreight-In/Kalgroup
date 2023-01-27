@@ -63,20 +63,37 @@ const NewsShowcase = (data) => {
               </p>
               <div>
                 {data.data.CTA.heading ? (
-                  <a href={`${data.data.CTA.link}`}>
-                    <div
-                      onClick={() => {
-                        setCTA(data.data.CTA.heading);
-                      }}
-                      className={`text-white bg-yellow-bg  font-semibold ${
-                        data.data.desc3 ? '2xl:mt-36 mt-12 ' : 'mt-4'
-                      }   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-12 h-12 2xl:text-descnew lg:text-base md:text-base text-base   2xl:p-0  `}
-                    >
-                      <p className="text-center justify-center items-center">
-                        {CTA}
-                      </p>
-                    </div>
-                  </a>
+                  data.data.CTA.link.split('')[1] == '#' ? (
+                    <a href={`${data.data.CTA.link}`}>
+                      <div
+                        onClick={() => {
+                          setCTA(data.data.CTA.heading);
+                        }}
+                        className={`text-white bg-yellow-bg  font-semibold ${
+                          data.data.desc3 ? '2xl:mt-36 mt-12 ' : 'mt-4'
+                        }   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-12 h-12 2xl:text-descnew lg:text-base md:text-base text-base   2xl:p-0  `}
+                      >
+                        <p className="text-center justify-center items-center">
+                          {CTA}
+                        </p>
+                      </div>
+                    </a>
+                  ) : (
+                    <a href={`${data.data.CTA.link}`} target="_blank">
+                      <div
+                        onClick={() => {
+                          setCTA(data.data.CTA.heading);
+                        }}
+                        className={`text-white bg-yellow-bg  font-semibold ${
+                          data.data.desc3 ? '2xl:mt-36 mt-12 ' : 'mt-4'
+                        }   shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center lg:w-32 sm:w-full md:32 2xl:h-12 h-12 2xl:text-descnew lg:text-base md:text-base text-base   2xl:p-0  `}
+                      >
+                        <p className="text-center justify-center items-center">
+                          {CTA}
+                        </p>
+                      </div>
+                    </a>
+                  )
                 ) : null}
               </div>
             </div>
@@ -101,16 +118,29 @@ const NewsShowcase = (data) => {
                     {data.data.Tag}
                   </div>
                   {data.data.CTA.heading ? (
-                    <a href={`${data.data.CTA.link}`}>
-                      <div
-                        onClick={() => {
-                          setCTA(data.data.CTA.heading);
-                        }}
-                        className="sm:hidden   text-white bg-yellow-bg  font-semibold text-lg mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center w-1/2    h-12   p-4"
-                      >
-                        <p>{CTA}</p>
-                      </div>
-                    </a>
+                    data.data.CTA.link.split('')[1] == '#' ? (
+                      <a href={`${data.data.CTA.link}`}>
+                        <div
+                          onClick={() => {
+                            setCTA(data.data.CTA.heading);
+                          }}
+                          className="sm:hidden   text-white bg-yellow-bg  font-semibold text-lg mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center w-1/2    h-12   p-4"
+                        >
+                          <p>{CTA}</p>
+                        </div>
+                      </a>
+                    ) : (
+                      <a href={`${data.data.CTA.link}`} target="_blank">
+                        <div
+                          onClick={() => {
+                            setCTA(data.data.CTA.heading);
+                          }}
+                          className="sm:hidden   text-white bg-yellow-bg  font-semibold text-lg mt-4  shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center w-1/2    h-12   p-4"
+                        >
+                          <p>{CTA}</p>
+                        </div>
+                      </a>
+                    )
                   ) : null}
                 </div>
               </Gradients>

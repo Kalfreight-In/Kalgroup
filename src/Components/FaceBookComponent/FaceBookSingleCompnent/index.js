@@ -29,7 +29,9 @@ const FaceBookSingleCompnent = (data) => {
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white underline underline-offset-8 underline-black  2xl:text-md lg:text-base md:text-sm px-0 text-justify lg:mt-16 mt-8"
             >
-              <a href={data.data.follow}>Follow</a>
+              <a href={data.data.follow} target="_blank">
+                Follow
+              </a>
             </p>
             {/* <div>
               <button

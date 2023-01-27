@@ -7,6 +7,7 @@ function Map({
   Bakersfield,
   SanMarcos,
   Calgary,
+  Edmonton,
   Arlington,
   Hampton,
   Stockton,
@@ -28,7 +29,7 @@ function Map({
   const [Bakersfield2, isBakersfield2] = useHover();
   const [SanMarcos2, isSanMarcos2] = useHover();
   const [Calgary2, isCalgary2] = useHover();
-  // const [Lathrope2, isLathrop2] = useHover();
+  const [Edmonton2, isEdmonton2] = useHover();
   const [Calexico2, isCalexico2] = useHover();
   // const [AlmondFontana2,isAlmondFontana2] = useHover();
   // const [ValleyFontanta2,isValleyFontana2] = useHover();
@@ -719,6 +720,22 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           className="cls-5 UC"
         />
       </svg>
+      <svg
+        className="marker Calexico UC"
+        width="29"
+        height="25"
+        x="54.2294097"
+        y="115.6104758,82"
+        viewBox="0 0 29 41"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        ref={Arlington2}
+      >
+        <path
+          d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
+          className="cls-5 UC"
+        />
+      </svg>
 
       {/* <svg
         className="marker AlmondAve UC"
@@ -929,7 +946,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           </g>
         </g>
       ) : null}
-      {/* {edmenton || isedmenton2 ? (
+      {/* {isEdmonton2 || Edmonton ? (
         <g id="Edmonton">
           <rect
             width="79.39"
@@ -941,7 +958,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           ></rect>
 
           <text x="215.52" y="576.07" fill="black">
-            Edmonton
+            18410 118a Ave NW, Edmonton, AB T5S 2M3, Canada
           </text>
         </g>
       ) : null} */}
@@ -1049,6 +1066,24 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           </g>
         </g>
       ) : null}
+      {/* {isEdmonton2 || Edmonton ? (
+        <g id="Abbotsford">
+          <g id="Text-BC">
+            <rect
+              width="360.39"
+              height="28.82"
+              x="53.570841"
+              y="350.25"
+              className="cls-3"
+              rx="3.44"
+            ></rect>
+
+            <text x="272.52" y="370.25" fill="black">
+              18410 118a Ave NW, Edmonton, AB T5S 2M3, Canada
+            </text>
+          </g>
+        </g>
+      ) : null} */}
       {isIndianapolis2 || Indianapolis ? (
         <g id="Indianapolis">
           <g id="Text-BC">
