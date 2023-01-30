@@ -5,7 +5,7 @@ import In4 from './assets/Images/Insta/In4.jpg';
 import In5 from './assets/Images/Insta/In5.jpg';
 import In6 from './assets/Images/Insta/In6.jpg';
 import In7 from './assets/Images/Insta/In7.jpg';
-import Expo from './assets/Images/News/Expo.png';
+import Expo from './assets/Images/News/WorldExpo2.png';
 import HDAW23 from './assets/Images/News/HDAW23.png';
 
 export const NavbarData = [
@@ -386,7 +386,8 @@ export const NewsData = [
     PhotoHeading: 'American Trucking Show',
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/americatrucking.png',
-    desc: 'KAL Group made a successful appearance at American Trucking Show, Fresno',
+    desc: 'KAL Group made a successful appearance at',
+    desc2: 'American Trucking Show, Fresno',
     CTA: {
       heading: 'See More',
       link: 'https://www.facebook.com/kalgroupusa/photos/a.372032174622889/482380710254701/',
@@ -513,13 +514,13 @@ export const EventsData = [
   // },
   {
     id: '3',
-    category: 'See You At The Show!',
+    category: 'Upcoming Events',
     date: ' February 14-16, 2023',
-    heading: 'See You At The Show!',
-    PhotoHeading: 'World AG Expo',
+    heading: 'World AG Expo',
+    PhotoHeading: 'World AG Expo With KVL',
     imageUrl: Expo,
-    desc: `Venue: Tulare, CA, USA 
-    See You At The Show!`,
+    desc: `Venue: Tulare, CA, USA`,
+    desc2: `See You At The Show!`,
     CTA: { heading: 'Contact US', link: '/#ContactSection' },
     Tag: 'Tulare, CA, USA ',
   },

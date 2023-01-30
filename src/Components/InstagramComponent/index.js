@@ -14,8 +14,9 @@ const InstagramComponent = () => {
       {/* ! making changes in pagination  */}
       <Swiper
         slidesPerView={1}
-        spaceBetween={30}
+        spaceBetween={0}
         loop={true}
+        speed={1400}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,

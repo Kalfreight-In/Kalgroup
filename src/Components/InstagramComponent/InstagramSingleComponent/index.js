@@ -20,7 +20,7 @@ var imageurl =
 const InstagramSingleComponent = (data) => {
   return (
     <>
-      <div className="  flex flex-col-reverse lg:flex-row-reverse w-fit h-full lg:m-2 m-0 ">
+      <div className="  flex flex-col-reverse lg:flex-row-reverse w-fit h-full ">
         <div
           className=" flex flex-1  flex-col max-w-screen-2xl "
           style={{

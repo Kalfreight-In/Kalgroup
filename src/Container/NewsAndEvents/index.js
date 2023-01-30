@@ -20,8 +20,9 @@ const NewsAndEvents = () => {
           className="flex lg:flex-row flex-col   items-center  relative"
           id="NewsRoom"
         >
-          <NewsSlider className="z-10 absolute"></NewsSlider>
           <EventsSlider className="z-0 absolute"></EventsSlider>
+          <NewsSlider className="z-10 absolute"></NewsSlider>
+
           {/* <SwiperSlider></SwiperSlider> */}
 
           {/* <NewsShowcase></NewsShowcase>

@@ -20,7 +20,7 @@ const NewsShowcase = (data) => {
     <>
       <div class={`flex bg-Lightblue   sm:m-4 w-full md:h-96 xl:h-96 2xl:h-30`}>
         <div
-          class={`flex  flex-row-reverse ${
+          class={`flex  flex-row-reverse w-full ${
             !data.data.category ? 'justify-center ' : ''
           } `}
         >
@@ -31,7 +31,7 @@ const NewsShowcase = (data) => {
               </div>
             </div>
           ) : (
-            <div class="sm:block hidden 2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-10 mt-4 2xl:pt-4 pt-0 mx-6 flex-1 pb-1 ">
+            <div class="w-1/2 sm:block hidden 2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-10 mt-4 2xl:pt-4 pt-0 mx-6 pb-1 ">
               <h1 className="text-white text-2xl  2xl:text-xl  font-heading   px-0 mb-4">
                 {data.data.heading}
               </h1>
@@ -99,7 +99,7 @@ const NewsShowcase = (data) => {
             </div>
           )}
 
-          <div className="   flex w-full " style={{ flex: '0  3  55%' }}>
+          <div className="  lg:w-1/2 flex w-full ">
             <div
               className={`md:h-full h-mobileMainImageHeight w-full  xl:w-96   bg-cover bg-no-repeat  bg-center`}
               style={{

@@ -13,13 +13,14 @@ const FaceBookComponent = () => {
     <>
       <Swiper
         slidesPerView={1}
-        spaceBetween={30}
+        spaceBetween={0}
         loop={true}
+        speed={1400}
         pagination={{
           clickable: true,
         }}
         autoplay={{
-          delay: 3500,
+          delay: 2500,
           disableOnInteraction: false,
         }}
         // navigation={true}
