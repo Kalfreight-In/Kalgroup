@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import { Pagination, Navigation } from 'swiper';
+import { Pagination, Navigation, Autoplay } from 'swiper';
 import NewsShowcase from '../NewsShowcase';
 import { NewsData } from '../../data';
 const NewsSlider = () => {
@@ -15,11 +15,16 @@ const NewsSlider = () => {
         slidesPerView={1}
         spaceBetween={30}
         loop={true}
+        speed={1400}
         pagination={{
           clickable: true,
         }}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         // navigation={true}
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
         className="mySwiper lg:w-50vw w-100vw "
       >
         {NewsData.map((data, index) => (

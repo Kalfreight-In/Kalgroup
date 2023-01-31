@@ -99,7 +99,7 @@ const NewsShowcase = (data) => {
             </div>
           )}
 
-          <div className="  lg:w-1/2 flex w-full ">
+          <div className="  md:w-45 lg:w-7/12 flex w-full ">
             <div
               className={`md:h-full h-mobileMainImageHeight w-full  xl:w-96   bg-cover bg-no-repeat  bg-center`}
               style={{

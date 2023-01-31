@@ -104,6 +104,7 @@ module.exports = {
         '25rem': '25%',
         '50rem': '30rem',
         '35vw': '35vw',
+        45: '45%',
         contacttabinput: '90%',
         inputmap: '40rem',
         Business_Verticals: '85%',
