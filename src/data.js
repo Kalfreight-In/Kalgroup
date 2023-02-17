@@ -514,7 +514,7 @@ export const EventsData = [
   // },
   {
     id: '3',
-    category: 'Upcoming Events',
+    category: 'Past Events',
     date: ' February 14-16, 2023',
     heading: 'World AG Expo',
     PhotoHeading: 'World AG Expo With KVL',
