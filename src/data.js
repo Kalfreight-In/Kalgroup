@@ -389,8 +389,8 @@ export const NewsData = [
     desc: 'KAL Group made a successful appearance at',
     desc2: 'American Trucking Show, Fresno',
     CTA: {
-      heading: 'See More',
-      link: 'https://www.facebook.com/kalgroupusa/photos/a.372032174622889/482380710254701/',
+      heading: 'Contact Us',
+      link: '/#ContactSection',
     },
     Tag: 'Fresno',
   },
@@ -404,8 +404,8 @@ export const NewsData = [
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/kabbdi.png',
     desc: ' KAL Group was one of the sponsored Atlanta Kabaddi Cup',
     CTA: {
-      heading: 'See More',
-      link: 'https://www.facebook.com/kalgroupusa/photos/a.372032174622889/598654438627327/',
+      heading: 'Contact Us',
+      link: '/#ContactSection',
     },
     Tag: 'Atlanta',
   },
@@ -421,7 +421,7 @@ export const NewsData = [
 
     // desc3: `"Dinner with the KAL group"`,
 
-    CTA: { heading: 'See More', link: 'https://www.facebook.com/kalgroupusa' },
+    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
     Tag: 'Texas',
   },
   {
@@ -442,7 +442,7 @@ export const NewsData = [
     
     `,
 
-    CTA: { heading: 'See More', link: 'https://www.facebook.com/kalgroupusa' },
+    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
     Tag: 'Ontario',
   },
   {
@@ -462,7 +462,7 @@ export const NewsData = [
     
     `,
 
-    CTA: { heading: 'See More', link: 'https://www.facebook.com/kalgroupusa' },
+    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
     Tag: 'Grapevine, TX',
   },
   // {
@@ -520,8 +520,8 @@ export const EventsData = [
     PhotoHeading: 'World AG Expo With KVL',
     imageUrl: Expo,
     desc: `Venue: Tulare, CA, USA`,
-    desc2: `See You At The Show!`,
-    CTA: { heading: 'Contact US', link: '/#ContactSection' },
+    desc2: `Thank You For Visiting Us!`,
+    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
     Tag: 'Tulare, CA, USA ',
   },
   // {
@@ -1894,70 +1894,63 @@ export const Facbookfeeds = [
     time: '17 Jan',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
-  // {
-  //   id: '4',
-  //   caption: 'KALWAY',
-  //   desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
-  //   time: '2 May',
-  //   follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
-  // },
 ];
 
 export const Instagramfeeds = [
   {
     id: '0',
-    img: In1,
+    full_picturel_picture: In1,
     caption: 'Kal Partz',
-    desc: `Kal Partz is ready to meet your heavy-duty trucking needs. One of the fastest-expanding distributors, Kal Partz offers heavy-duty OEM & aftermarket stock compatible with light, medium, and heavy-duty vehicles. With a large selection of components and more than 35 partner brands to pick from, our staff will get you on the road for your next load. `,
-    time: '27 October',
+    message: `Kal Partz is ready to meet your heavy-duty trucking needs. One of the fastest-expanding distributors, Kal Partz offers heavy-duty OEM & aftermarket stock compatible with light, medium, and heavy-duty vehicles. With a large selection of components and more than 35 partner brands to pick from, our staff will get you on the road for your next load. `,
+    created_time: '27 October',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    img: In2,
+    full_picture: In2,
     caption: 'Kal Trailers & Leasing',
-    desc: `Kal Trailers & Leasing, your trusted trailer dealer. We are the largest authorized dealers of CIMC Vanguard trailers nationwide. We offer a variety of simple financing & payment options. From used trucks, trailers, reefers, dump trucks, and more, our team will get you ready for your next business venture.`,
-    time: '28 Jan',
+    message: `Kal Trailers & Leasing, your trusted trailer dealer. We are the largest authorized dealers of CIMC Vanguard trailers nationwide. We offer a variety of simple financing & payment options. From used trucks, trailers, reefers, dump trucks, and more, our team will get you ready for your next business venture.`,
+    created_time: '28 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    img: In3,
+    full_picture: In3,
     caption: 'KAL Freight',
-    desc: `KAL Freight is a highly dependable trucking company offering a complete range of transport and logistic services to diverse industries nationwide. We are supported by a vast terminal network, and dedicated to making on-time deliveries`,
-    time: '27 Jan',
+    message: `KAL Freight is a highly dependable trucking company offering a complete range of transport and logistic services to diverse industries nationwide. We are supported by a vast terminal network, and dedicated to making on-time deliveries`,
+    created_time: '27 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    img: In4,
+    full_picture: In4,
     caption: 'The Continental HDL2+ tire',
-    desc: `The Continental HDL2+ tire is created with the highest standards. The tire offers 20% more mileage, while also having the least amount of stone resistance. Don’t wait, visit a KVL location near you. 
+    message: `The Continental HDL2+ tire is created with the highest standards. The tire offers 20% more mileage, while also having the least amount of stone resistance. Don’t wait, visit a KVL location near you. 
 
     With multiple distribution centers nationwide, KVL Tires specializes in Commercial, Industrial, Earthmovers, and Agricultural tires.
     
     24×7 Roadside Assistance`,
-    time: '28 Jan',
+    created_time: '28 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    img: In5,
+    full_picture: In5,
     caption: 'Come on down to a KAL Trailers & Leasing',
-    desc: `Come on down to a KAL Trailers & Leasing location today to check out a used Freightliner Cascadia. Speak with our knowledgeable sales staff for the best experience.
+    message: `Come on down to a KAL Trailers & Leasing location today to check out a used Freightliner Cascadia. Speak with our knowledgeable sales staff for the best experience.
 
     With our in-house financing options. `,
-    time: '26 Jan',
+    created_time: '26 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    img: In6,
+    full_picture: In6,
     caption: 'The Earthmax SR 33 tire',
-    desc: `The Earthmax SR 33 tire is an ideal option for those needing superior traction on muddy ground, sand, and another off-road terrain. It features a unique self-cleaning tread pattern that helps keep your tires clear of mud and dirt, so you can keep moving without interruption. So don't wait, get your Earthmax SR 33 tire today at a KVL location near you. 
+    message: `The Earthmax SR 33 tire is an ideal option for those needing superior traction on muddy ground, sand, and another off-road terrain. It features a unique self-cleaning tread pattern that helps keep your tires clear of mud and dirt, so you can keep moving without interruption. So don't wait, get your Earthmax SR 33 tire today at a KVL location near you. 
  
     With multiple distribution centers nationwide,Industrial, Earthmovers, and Agricultural tires. Contact our team today!`,
-    time: '25 Jan',
+    created_time: '25 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   // {
@@ -1972,15 +1965,15 @@ export const Instagramfeeds = [
 
   {
     id: '0',
-    img: In7,
+    full_picture: In7,
 
     caption: 'Low-mileage trucks',
-    desc: `Low-mileage trucks by top brands are available today! Lease or purchase with KAL Trailers & Leasing.
+    message: `Low-mileage trucks by top brands are available today! Lease or purchase with KAL Trailers & Leasing.
 
     With our in-house financing options, you can get your new truck ASAP! Contact a KAL location near you.
     
   📞 Call Today: (800).310.0079`,
-    time: '22 Jan',
+    created_time: '22 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   // {

@@ -19,6 +19,7 @@ import { SidebarFr } from '../Sidebar/sidebarFr';
 
 const Navbar = ({ toggle }) => {
   console.log(window.scrollY);
+
   // function loadLogo(path) {
   //   if (path == '/kalgroup') {
   //     return 'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/navlogo.svg';
