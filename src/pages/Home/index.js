@@ -19,13 +19,13 @@ import HeroSection from '../../Components/HeaderHome';
 import { ContactFormContainer } from '../../Container/ContactFormContainer';
 import BrandWeOffer from '../../Components/BrandWeOffer/BrandWeOffer';
 import ChatBot from '../../Chat-Bot';
-window.fbAsyncInit = function () {
-  FB.init({
-    appId: '{your-app-id}',
-    xfbml: true,
-    version: 'v11.0',
-  });
-};
+// window.fbAsyncInit = function () {
+//   FB.init({
+//     appId: '{your-app-id}',
+//     xfbml: true,
+//     version: 'v11.0',
+//   });
+// };
 
 (function (d, s, id) {
   var js,
