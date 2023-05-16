@@ -465,6 +465,41 @@ export const NewsData = [
     CTA: { heading: 'Contact Us', link: '/#ContactSection' },
     Tag: 'Grapevine, TX',
   },
+  {
+    id: '6',
+    category: 'Past Events',
+    date: 'May 7, 2023',
+    heading: 'Punjabi Mela',
+    PhotoHeading: 'Punjabi Mela',
+    imageUrl: "./assets/Images/Event/Punjabi-mela.jpg",
+    desc: `  
+
+    Venue: Charles F Kennedy Park, 1333 Decto Rd, Union City, CA 94587
+    `,
+
+    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
+    Tag: 'Union City',
+  },
+  {
+    id: '7',
+    category: 'New Events',
+    date: 'May 17, 2023',
+    heading: 'Grand Opening',
+    PhotoHeading: 'Grand Opening BIG RIG GROUP',
+    imageUrl: "./assets/Images/Event/Grand-opening.png",
+    desc: `  
+     
+    You are invited for the Grand Opening Ceremony of BIG RIG GROUP
+
+    9115 52 St. SE, Calgary, AB T2C 2R4, Canada
+
+    10:00 AM to 4:00 PM Wednesday
+
+    `,
+
+    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
+    Tag: 'Calgary, Canada',
+  },
   // {
   //   id: '3',
   //   category: 'News',
