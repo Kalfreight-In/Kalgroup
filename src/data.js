@@ -471,7 +471,7 @@ export const NewsData = [
     date: 'May 7, 2023',
     heading: 'Punjabi Mela',
     PhotoHeading: 'Punjabi Mela',
-    imageUrl: "./assets/Images/Event/Punjabi-mela.jpg",
+    imageUrl: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Punjabi-mela.jpg",
     desc: `Venue: Charles F Kennedy Park, 1333 Decto Rd, Union City, CA 94587`,
 
     CTA: { heading: 'Contact Us', link: '/#ContactSection' },
@@ -483,7 +483,7 @@ export const NewsData = [
     date: 'May 17, 2023',
     heading: 'Grand Opening',
     PhotoHeading: 'Grand Opening BIG RIG GROUP',
-    imageUrl: "./assets/Images/Event/Grand-opening.png",
+    imageUrl: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Grand-opening.png",
     desc: `      
     You are invited for the Grand Opening Ceremony of BIG RIG GROUP
 
