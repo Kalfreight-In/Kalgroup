@@ -19,23 +19,23 @@ import HeroSection from '../../Components/HeaderHome';
 import { ContactFormContainer } from '../../Container/ContactFormContainer';
 import BrandWeOffer from '../../Components/BrandWeOffer/BrandWeOffer';
 import ChatBot from '../../Chat-Bot';
-// window.fbAsyncInit = function () {
-//   FB.init({
-//     appId: '{your-app-id}',
-//     xfbml: true,
-//     version: 'v11.0',
-//   });
-// };
+window.fbAsyncInit = function () {
+  FB.init({
+    appId: '{your-app-id}',
+    xfbml: true,
+    version: 'v11.0',
+  });
+};
 
-// (function (d, s, id) {
-//   var js,
-//     fjs = d.getElementsByTagName(s)[0];
-//   if (d.getElementById(id)) return;
-//   js = d.createElement(s);
-//   js.id = id;
-//   js.src = 'https://connect.facebook.net/en_US/sdk.js';
-//   fjs.parentNode.insertBefore(js, fjs);
-// })(document, 'script', 'facebook-jssdk');
+(function (d, s, id) {
+  var js,
+    fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js';
+  fjs.parentNode.insertBefore(js, fjs);
+})(document, 'script', 'facebook-jssdk');
 function Home() {
   return (
     <>
