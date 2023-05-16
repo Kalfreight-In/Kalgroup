@@ -472,10 +472,7 @@ export const NewsData = [
     heading: 'Punjabi Mela',
     PhotoHeading: 'Punjabi Mela',
     imageUrl: "./assets/Images/Event/Punjabi-mela.jpg",
-    desc: `  
-
-    Venue: Charles F Kennedy Park, 1333 Decto Rd, Union City, CA 94587
-    `,
+    desc: `Venue: Charles F Kennedy Park, 1333 Decto Rd, Union City, CA 94587`,
 
     CTA: { heading: 'Contact Us', link: '/#ContactSection' },
     Tag: 'Union City',
@@ -487,8 +484,7 @@ export const NewsData = [
     heading: 'Grand Opening',
     PhotoHeading: 'Grand Opening BIG RIG GROUP',
     imageUrl: "./assets/Images/Event/Grand-opening.png",
-    desc: `  
-     
+    desc: `      
     You are invited for the Grand Opening Ceremony of BIG RIG GROUP
 
     9115 52 St. SE, Calgary, AB T2C 2R4, Canada
