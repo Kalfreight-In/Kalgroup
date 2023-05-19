@@ -1,12 +1,14 @@
-import In1 from './assets/Images/Insta/In1.jpg';
-import In2 from './assets/Images/Insta/In2.jpg';
-import In3 from './assets/Images/Insta/In3.jpg';
-import In4 from './assets/Images/Insta/In4.jpg';
-import In5 from './assets/Images/Insta/In5.jpg';
-import In6 from './assets/Images/Insta/In6.jpg';
-import In7 from './assets/Images/Insta/In7.jpg';
-import Expo from './assets/Images/News/WorldExpo2.png';
+import ContinentalTires from './assets/Images/Insta/ContinentalTires.jpg';
+import EarthmaxTires from './assets/Images/Insta/EarthMaxTire.jpg';
+import Kalfreight from './assets/Images/Insta/KalFreight.jpg';
+import KalFreight1 from './assets/Images/Insta/kalfrieght1.jpg';
+import KalPartz from './assets/Images/Insta/Kalpartz.jpg';
+import KTLComeDown from './assets/Images/Insta/KTLComeOnDown.jpg';
+import KTLLOwMileage from './assets/Images/Insta/ktlLowMileage.jpg';
+import Expo from './assets/Images/Event/WorldExpo2.png';
 import HDAW23 from './assets/Images/News/HDAW23.png';
+import GrandOpening from './assets/Images/Event/grandOpening.jpg';
+import PunjabiMela from './assets/Images/Event/punjabiMela.jpg';
 
 export const NavbarData = [
   {
@@ -278,7 +280,7 @@ export const NavbarData = [
         navItems: [
           {
             url: {
-              url: 'https://kaltrailers.com/product-category/trucks/used-trucks/',
+              url: 'https://kaltrailers.com/inventory-type/truck',
               link: 'a',
             },
             id: 1,
@@ -286,7 +288,7 @@ export const NavbarData = [
           },
           {
             url: {
-              url: 'https://kaltrailers.com/product-category/trailers/new-trailers/',
+              url: 'https://kaltrailers.com/inventory-type/trailer',
               link: 'a',
             },
             id: 2,
@@ -296,7 +298,7 @@ export const NavbarData = [
       },
       {
         url: {
-          url: 'https://kaltrailers.com/credit-application/',
+          url: 'https://kaltrailers.com/inventory-type/trailer',
           link: 'a',
         },
         id: 5,
@@ -388,10 +390,7 @@ export const NewsData = [
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/americatrucking.png',
     desc: 'KAL Group made a successful appearance at',
     desc2: 'American Trucking Show, Fresno',
-    CTA: {
-      heading: 'Contact Us',
-      link: '/#ContactSection',
-    },
+    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
     Tag: 'Fresno',
   },
   {
@@ -403,10 +402,7 @@ export const NewsData = [
     imageUrl:
       'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/kabbdi.png',
     desc: ' KAL Group was one of the sponsored Atlanta Kabaddi Cup',
-    CTA: {
-      heading: 'Contact Us',
-      link: '/#ContactSection',
-    },
+    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
     Tag: 'Atlanta',
   },
   {
@@ -448,7 +444,7 @@ export const NewsData = [
   {
     id: '5',
     category: 'Past Events',
-    date: 'January 17, 2023',
+    date: ', 2023',
     heading: 'Heavy Duty Aftermarket Week 2023 (HDAW)',
     PhotoHeading: 'Heavy Duty Aftermarket Week 2023 ',
     imageUrl: HDAW23,
@@ -468,34 +464,28 @@ export const NewsData = [
   {
     id: '6',
     category: 'Past Events',
+    date: ' February 14-16, 2023',
+    heading: 'World AG Expo',
+    PhotoHeading: 'World AG Expo With KVL',
+    imageUrl: Expo,
+    desc: `Venue: Tulare, CA, USA`,
+    desc2: `Thank You For Visiting Us!`,
+    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
+    Tag: 'Tulare, CA, USA ',
+  },
+  {
+    id: '7',
+    category: 'Past Events',
     date: 'May 7, 2023',
     heading: 'Punjabi Mela',
     PhotoHeading: 'Punjabi Mela',
-    imageUrl: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/punjabiMela.jpg",
+    imageUrl: PunjabiMela,
     desc: `Venue: Charles F Kennedy Park, 1333 Decto Rd, Union City, CA 94587`,
 
     CTA: { heading: 'Contact Us', link: '/#ContactSection' },
     Tag: 'Union City',
   },
-  {
-    id: '7',
-    category: 'New Events',
-    date: 'May 17, 2023',
-    heading: 'Grand Opening',
-    PhotoHeading: 'Grand Opening BIG RIG GROUP',
-    imageUrl: "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/grandOpening.jpg",
-    desc: `      
-    You are invited for the Grand Opening Ceremony of BIG RIG GROUP
 
-    9115 52 St. SE, Calgary, AB T2C 2R4, Canada
-
-    10:00 AM to 4:00 PM Wednesday
-
-    `,
-
-    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
-    Tag: 'Calgary, Canada',
-  },
   // {
   //   id: '3',
   //   category: 'News',
@@ -544,16 +534,23 @@ export const EventsData = [
   //   Tag: 'Holidays Event',
   // },
   {
-    id: '3',
-    category: 'Past Events',
-    date: ' February 14-16, 2023',
-    heading: 'World AG Expo',
-    PhotoHeading: 'World AG Expo With KVL',
-    imageUrl: Expo,
-    desc: `Venue: Tulare, CA, USA`,
-    desc2: `Thank You For Visiting Us!`,
+    id: '7',
+    category: 'New Events',
+    date: 'May 17, 2023',
+    heading: 'Grand Opening',
+    PhotoHeading: 'Grand Opening BIG RIG GROUP',
+    imageUrl: GrandOpening,
+    desc: `      
+    You are invited to the Grand Opening Ceremony of BIG RIG GROUP
+
+    9115 52 St. SE, Calgary, AB T2C 2R4, Canada
+
+    10:00 AM to 4:00 PM Wednesday
+
+    `,
+
     CTA: { heading: 'Contact Us', link: '/#ContactSection' },
-    Tag: 'Tulare, CA, USA ',
+    Tag: 'Calgary, Canada',
   },
   // {
   //   id: '4',
@@ -1925,63 +1922,70 @@ export const Facbookfeeds = [
     time: '17 Jan',
     follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
   },
+  // {
+  //   id: '4',
+  //   caption: 'KALWAY',
+  //   desc: 'Our KALWAY team has designed a freight program for those interested in lease-to-own with GUARANTEED LOADS. Open Enrollment! For more information or to apply please call: 1-800-303-0076',
+  //   time: '2 May',
+  //   follow: 'https://www.facebook.com/kalgroupusa/?ref=page_internal',
+  // },
 ];
 
 export const Instagramfeeds = [
   {
     id: '0',
-    full_picturel_picture: In1,
+    img: KalPartz,
     caption: 'Kal Partz',
-    message: `Kal Partz is ready to meet your heavy-duty trucking needs. One of the fastest-expanding distributors, Kal Partz offers heavy-duty OEM & aftermarket stock compatible with light, medium, and heavy-duty vehicles. With a large selection of components and more than 35 partner brands to pick from, our staff will get you on the road for your next load. `,
-    created_time: '27 October',
+    desc: `Kal Partz is ready to meet your heavy-duty trucking needs. One of the fastest-expanding distributors, Kal Partz offers heavy-duty OEM & aftermarket stock compatible with light, medium, and heavy-duty vehicles. With a large selection of components and more than 35 partner brands to pick from, our staff will get you on the road for your next load. `,
+    time: '27 October',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    full_picture: In2,
+    img: KalFreight1,
     caption: 'Kal Trailers & Leasing',
-    message: `Kal Trailers & Leasing, your trusted trailer dealer. We are the largest authorized dealers of CIMC Vanguard trailers nationwide. We offer a variety of simple financing & payment options. From used trucks, trailers, reefers, dump trucks, and more, our team will get you ready for your next business venture.`,
-    created_time: '28 Jan',
+    desc: `Kal Trailers & Leasing, your trusted trailer dealer. We are the largest authorized dealers of CIMC Vanguard trailers nationwide. We offer a variety of simple financing & payment options. From used trucks, trailers, reefers, dump trucks, and more, our team will get you ready for your next business venture.`,
+    time: '28 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    full_picture: In3,
+    img: Kalfreight,
     caption: 'KAL Freight',
-    message: `KAL Freight is a highly dependable trucking company offering a complete range of transport and logistic services to diverse industries nationwide. We are supported by a vast terminal network, and dedicated to making on-time deliveries`,
-    created_time: '27 Jan',
+    desc: `KAL Freight is a highly dependable trucking company offering a complete range of transport and logistic services to diverse industries nationwide. We are supported by a vast terminal network, and dedicated to making on-time deliveries`,
+    time: '27 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    full_picture: In4,
+    img: ContinentalTires,
     caption: 'The Continental HDL2+ tire',
-    message: `The Continental HDL2+ tire is created with the highest standards. The tire offers 20% more mileage, while also having the least amount of stone resistance. Don’t wait, visit a KVL location near you. 
+    desc: `The Continental HDL2+ tire is created with the highest standards. The tire offers 20% more mileage, while also having the least amount of stone resistance. Don’t wait, visit a KVL location near you. 
 
     With multiple distribution centers nationwide, KVL Tires specializes in Commercial, Industrial, Earthmovers, and Agricultural tires.
     
     24×7 Roadside Assistance`,
-    created_time: '28 Jan',
+    time: '28 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    full_picture: In5,
+    img: KTLComeDown,
     caption: 'Come on down to a KAL Trailers & Leasing',
-    message: `Come on down to a KAL Trailers & Leasing location today to check out a used Freightliner Cascadia. Speak with our knowledgeable sales staff for the best experience.
+    desc: `Come on down to a KAL Trailers & Leasing location today to check out a used Freightliner Cascadia. Speak with our knowledgeable sales staff for the best experience.
 
     With our in-house financing options. `,
-    created_time: '26 Jan',
+    time: '26 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   {
     id: '0',
-    full_picture: In6,
+    img: EarthmaxTires,
     caption: 'The Earthmax SR 33 tire',
-    message: `The Earthmax SR 33 tire is an ideal option for those needing superior traction on muddy ground, sand, and another off-road terrain. It features a unique self-cleaning tread pattern that helps keep your tires clear of mud and dirt, so you can keep moving without interruption. So don't wait, get your Earthmax SR 33 tire today at a KVL location near you. 
+    desc: `The Earthmax SR 33 tire is an ideal option for those needing superior traction on muddy ground, sand, and another off-road terrain. It features a unique self-cleaning tread pattern that helps keep your tires clear of mud and dirt, so you can keep moving without interruption. So don't wait, get your Earthmax SR 33 tire today at a KVL location near you. 
  
     With multiple distribution centers nationwide,Industrial, Earthmovers, and Agricultural tires. Contact our team today!`,
-    created_time: '25 Jan',
+    time: '25 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   // {
@@ -1996,15 +2000,15 @@ export const Instagramfeeds = [
 
   {
     id: '0',
-    full_picture: In7,
+    img: KTLLOwMileage,
 
     caption: 'Low-mileage trucks',
-    message: `Low-mileage trucks by top brands are available today! Lease or purchase with KAL Trailers & Leasing.
+    desc: `Low-mileage trucks by top brands are available today! Lease or purchase with KAL Trailers & Leasing.
 
     With our in-house financing options, you can get your new truck ASAP! Contact a KAL location near you.
     
   📞 Call Today: (800).310.0079`,
-    created_time: '22 Jan',
+    time: '22 Jan',
     follow: 'https://www.instagram.com/Kalgroupusa/',
   },
   // {

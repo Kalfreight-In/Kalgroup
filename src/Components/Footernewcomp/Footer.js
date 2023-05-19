@@ -371,7 +371,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                       <div>
                         <a
-                          href="https://kaltrailers.com/product-category/trucks/"
+                          href="https://kaltrailers.com/inventory?in_type=&in_condition=&in_category=15&in_make=&in_model=&in_brand=&in_year=&in_location="
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
                           target="_blank"
                           rel="noreferrer"
@@ -382,7 +382,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                       <div>
                         <a
-                          href="https://kaltrailers.com/product-tag/dry-van/"
+                          href="https://kaltrailers.com/inventory?in_type=&in_condition=&in_category=13&in_make=&in_model=&in_brand=&in_year=&in_location="
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
                           target="_blank"
                           rel="noreferrer"
@@ -393,7 +393,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                       <div>
                         <a
-                          href="https://kaltrailers.com/product-tag/reefer/"
+                          href="https://kaltrailers.com/inventory?in_type=&in_condition=&in_category=12&in_make=&in_model=&in_brand=&in_year=&in_location="
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center  "
                           target="_blank"
                           rel="noreferrer"
@@ -404,7 +404,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                       <div>
                         <a
-                          href="https://kaltrailers.com/product-category/trailers/new-trailers/"
+                          href="https://kaltrailers.com/new-trailers"
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center "
                           target="_blank"
                           rel="noreferrer"
@@ -415,7 +415,7 @@ className=" justify-end mr-28 pt-4 pr-16 md:flex xl:hidden block "
                       </div>
                       <div>
                         <a
-                          href="https://kaltrailers.com/product-category/trucks/used-trucks/"
+                          href="https://kaltrailers.com/inventory-type/truck"
                           className="block md:text-sm text-navsmall hover:text-yellow-shadowhover   mt-1   xl:text-left text-center"
                           target="_blank"
                           rel="noreferrer"

@@ -1,6 +1,6 @@
 import React from 'react';
 import { RiFacebookCircleLine } from 'react-icons/ri';
-const FaceBookSingleCompnent = ({ data }) => {
+const FaceBookSingleCompnent = (data) => {
   return (
     <>
       <div className=" bg-facebookblue lg:flex-row-reverse w-full h-full sm:m-2 m-0 ">
@@ -10,26 +10,26 @@ const FaceBookSingleCompnent = ({ data }) => {
             className="2xl:ml-12 xl:ml-8 md:ml-5  lg:ml-4    mb-4 mt-20   2xl:pt-12 pt-0 mx-6 flex-1  max-w-screen-lg pr-0 "
           >
             <h1 className="text-white text-sm md:text-sm 2xl:text-xl font-heading   px-0 mb-4">
-              {data.caption}
+              {data.data.caption}
             </h1>
 
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white  2xl:text-lg lg:text-base md:text-sm mt-2 px-0"
             >
-              {data.message}
+              {data.data.desc}
             </p>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white  2xl:text-md lg:text-base md:text-sm px-0 text-justify lg:mt-4 mt-4"
             >
-              {data.created_time}
+              {data.data.time}
             </p>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white underline underline-offset-8 underline-black  2xl:text-md lg:text-base md:text-sm px-0 text-justify lg:mt-16 mt-8"
             >
-              <a href={data.follow} target="_blank">
+              <a href={data.data.follow} target="_blank">
                 Follow
               </a>
             </p>

@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation, Autoplay } from 'swiper';
 import { Facbookfeeds } from '../../data';
 import FaceBookSingleCompnent from './FaceBookSingleCompnent';
-const FaceBookComponent = ({ FeedData }) => {
+const FaceBookComponent = () => {
   return (
     <>
       <Swiper
@@ -27,7 +27,7 @@ const FaceBookComponent = ({ FeedData }) => {
         modules={[Autoplay]}
         className="mySwiper xl:w-40vw md:w-50vw w-full md:bg-white bg-facebookblue"
       >
-        {FeedData.map((data, index) => (
+        {Facbookfeeds.map((data, index) => (
           <SwiperSlide key={data.id} className=" ">
             <FaceBookSingleCompnent data={data}></FaceBookSingleCompnent>
           </SwiperSlide>

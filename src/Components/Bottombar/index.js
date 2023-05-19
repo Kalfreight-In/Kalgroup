@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from 'react';
-import { FaBars } from 'react-icons/fa';
+import React, { useEffect, useState } from "react";
+import { FaBars } from "react-icons/fa";
 // import logo from "../../assets/TrailerAndLeasing/Images/logo.png";
 // import logo1 from "../../assets/TrailerAndLeasing/Images/vanguard.png";
-import { IconContext } from 'react-icons/lib';
-import { animateScroll as scroll, Link } from 'react-scroll';
+import { IconContext } from "react-icons/lib";
+import { animateScroll as scroll, Link } from "react-scroll";
 
 import {
   Nav,
@@ -13,7 +13,7 @@ import {
   MobileIcon,
   NavItem,
   NavLinks,
-} from './BottomBarElements';
+} from "./BottomBarElements";
 
 const BottomBar = ({ toggle }) => {
   const [scrollNav] = useState(false);
@@ -62,7 +62,7 @@ const BottomBar = ({ toggle }) => {
               <a to="/About">Trailer & Leasing</a>
             </NavLinks>
           </NavItem> */}
-          <NavItem>
+          {/* <NavItem>
             <NavLinks
               to="/About"
               onClick={toggleHome}
@@ -79,7 +79,7 @@ const BottomBar = ({ toggle }) => {
             >
               <a to="/About">Terms of Use</a>
             </NavLinks>
-          </NavItem>
+          </NavItem> */}
           {/* <NavItem>
             <NavLinks
               to="/About"
@@ -112,15 +112,20 @@ const BottomBar = ({ toggle }) => {
               <a to="/Contact">News & Events</a>
             </NavLinks>
           </NavItem> */}
-          <NavItem>
-            <NavLinks
-              to="/Contact"
-              onClick={toggleHome}
-              className="2xl:text-desc text-navsmall md:text-sm md:text-xs"
-            >
-              <a to="/Contact">Privacy Policy</a>
-            </NavLinks>
-          </NavItem>
+        <NavItem>
+  <NavLinks
+    to="/Contact"
+    onClick={(e) => {
+      e.preventDefault();
+      window.open("https://kalfreight.com/privacy-policy", "_blank");
+    }}
+    className="2xl:text-desc text-navsmall md:text-sm md:text-xs"
+  >
+    Privacy Policy
+  </NavLinks>
+</NavItem>
+
+
           {/* <NavItem>
             
           <NavLinks >

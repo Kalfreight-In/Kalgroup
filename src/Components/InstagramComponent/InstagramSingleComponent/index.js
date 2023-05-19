@@ -17,7 +17,7 @@ const Gradients = styled.div`
 `;
 var imageurl =
   'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Instagramfeed-D.png';
-const InstagramSingleComponent = ({ data }) => {
+const InstagramSingleComponent = (data) => {
   return (
     <>
       <div className="  flex flex-col-reverse lg:flex-row-reverse w-fit h-full ">
@@ -64,14 +64,14 @@ const InstagramSingleComponent = ({ data }) => {
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white  2xl:text-xl font-bold lg:text-base md:text-sm px-0"
             >
-              {data.message}
+              {data.data.caption}
             </p>
             <div>
               <p
                 //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
                 className="text-white  2xl:text-lg lg:text-base md:text-sm mt-2 px-0 h-36"
               >
-                {data.created_time}
+                {data.data.desc}
               </p>
             </div>
 
@@ -79,13 +79,13 @@ const InstagramSingleComponent = ({ data }) => {
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white  2xl:text-sm lg:text-base md:text-sm px-0  pt-12"
             >
-              {data.time}
+              {data.data.time}
             </p>
             <p
               //  className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2"
               className="text-white underline   2xl:text-md lg:text-base md:text-sm px-0  underline-offset-4 mt-10"
             >
-              <a href={data.follow} target="_blank">
+              <a href={data.data.follow} target="_blank">
                 Go to our Feed
               </a>
             </p>
@@ -108,7 +108,7 @@ const InstagramSingleComponent = ({ data }) => {
               'md:h-full  h-mobileMainImageHeight bg-contain bg-no-repeat bg-center'
             }
             style={{
-              backgroundImage: `url(${data.full_picture})`,
+              backgroundImage: `url(${data.data.img})`,
             }}
           >
             <Gradients>

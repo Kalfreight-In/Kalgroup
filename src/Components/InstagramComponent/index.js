@@ -6,9 +6,9 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay } from 'swiper';
 import { Pagination, Navigation } from 'swiper';
-
+import { Instagramfeeds } from '../../data';
 import InstagramSingleComponent from './InstagramSingleComponent';
-const InstagramComponent = ({ FeedData }) => {
+const InstagramComponent = () => {
   return (
     <>
       {/* ! making changes in pagination  */}
@@ -28,7 +28,7 @@ const InstagramComponent = ({ FeedData }) => {
         modules={[Pagination, Autoplay]}
         className="mySwiper xl:w-70vw md:w-50vw w-full"
       >
-        {FeedData.map((data, index) => (
+        {Instagramfeeds.map((data, index) => (
           <SwiperSlide key={data.id}>
             <InstagramSingleComponent data={data}></InstagramSingleComponent>
           </SwiperSlide>
