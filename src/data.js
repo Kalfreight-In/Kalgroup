@@ -535,17 +535,13 @@ export const EventsData = [
   // },
   {
     id: '7',
-    category: 'New Events',
+    category: 'Past Events',
     date: 'May 17, 2023',
     heading: 'Grand Opening',
-    PhotoHeading: 'Grand Opening BIG RIG GROUP',
+    PhotoHeading: 'Grand Opening BigRig Group',
     imageUrl: GrandOpening,
     desc: `      
-    You are invited to the Grand Opening Ceremony of BIG RIG GROUP
-
-    9115 52 St. SE, Calgary, AB T2C 2R4, Canada
-
-    10:00 AM to 4:00 PM Wednesday
+    It was great to see you at the Grand Opening Ceremony of BigRig Group in Calgary, Canada and making it a huge success !
 
     `,
 
