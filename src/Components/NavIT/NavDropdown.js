@@ -19,7 +19,7 @@ export default function NavDropdown({ data, hidden }) {
               className="cursor-pointer"
             >
               <button class="outline-none focus:outline-none  px-3 py-1  rounded-sm flex justify-start items-start text-left min-w-32">
-                <span class="pr-1 font-medium flex-1 md:text-xs xl:text-navlgtext text-sm ">
+                <span class="pr-1 font-medium flex-1 md:text-xs xl:text-navlgtext text-sm" style={{ lineHeight: '4rem' }}>
                   {data.navItem}
                 </span>
                 <span>
@@ -41,9 +41,9 @@ export default function NavDropdown({ data, hidden }) {
                     ? 'bg-navdropdownbgtransparent'
                     : 'bg-footerbackground'
                 }  rounded-sm transform scale-0 group-hover:scale-100 absolute 
-  transition duration-150 ease-in-out origin-top min-w-32 mt-3 w-max font-normal `}
+  transition duration-150 ease-in-out origin-top min-w-32 w-max font-normal  border-t-2 border-t-orange-400 `}
               >
-                <span className="w-12 "></span>
+                <span className="w-12"></span>
                 {/* <span
                   className={`w-max mx-4 ${
                     !hidden
