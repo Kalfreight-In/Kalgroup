@@ -24,19 +24,39 @@ export const MapConatiner = () => {
   const [Fontana, isFontana] = useHover();
   const [Bakersfield, isBakersfield] = useHover();
   const [SanMarcos, isSanMarcos] = useHover();
+  const [SantaFeSprings, isSantaFeSprings] = useHover();
+  const [Commerce, isCommerce] = useHover();
+  const [Bloomington, isBloomington] = useHover();
   const [Calgary, isCalgary] = useHover();
   const [Edmonton, isEdmonton] = useHover();
+  const [Brampton, isBrampton] = useHover();
+  const [Bolton, isBolton] = useHover();
 
-  const [Arlington, isArlington] = useHover();
-  const [Hampton, isHampton] = useHover();
+  //const [Arlington, isArlington] = useHover();
+  const [Laredo, isLaredo] = useHover();
+  const [Houston, isHouston] = useHover();
+  const [Phoenix, isPhoenix] = useHover();
   const [Stockton, isStockton] = useHover();
   const [Atlanta, isAtlanta] = useHover();
+  const [Conley, isConley] = useHover();
+
   // const [Lathrop, isLathrop] = useHover();
   const [Calexico, isCalexico] = useHover();
+  const [Brawley, isBrawley] = useHover();
+  const [Fresno, isFresno] = useHover();
+  const [Turlock, isTurlock] = useHover();
+  const [UnionCity, isUnionCity] = useHover();
+  const [Whittier, isWhittier] = useHover();
+  
   // const [Almondfontana,isAlmondfontana] = useHover();
   // const [ValleyFontana,isValleyFontana] = useHover();
   const [Indianapolis, isIndianapolis] = useHover();
+  const [NewCastle, isNewCastle] = useHover();
+  
   const [Springdale, isSpringdale] = useHover();
+  const [KansasCity, isKansasCity] = useHover();
+  const [ KansasCityMo, isKansasCityMo] = useHover();
+ 
   const [abbotsford, isabbotsford] = useHover();
   return (
     <div
@@ -55,17 +75,34 @@ export const MapConatiner = () => {
           Fontana={isFontana}
           Bakersfield={isBakersfield}
           SanMarcos={isSanMarcos}
+          SantaFeSprings={isSantaFeSprings}
+          Commerce={isCommerce}
+          Bloomington={isBloomington}
           Calgary={isCalgary}
           Edmonton={isEdmonton}
-          Arlington={isArlington}
-          Hampton={isHampton}
+          Brampton={isBrampton}
+          Bolton={isBolton}
+
+          //Arlington={isArlington}
+          Laredo={isLaredo}
+          Houston={isHouston}
+          Phoenix={isPhoenix}
           Stockton={isStockton}
           Atlanta={isAtlanta}
+          Conley={isConley}
           Indianapolis={isIndianapolis}
+          NewCastle={isNewCastle}
           Springdale={isSpringdale}
+          KansasCity={isKansasCity}
+          KansasCityMo={isKansasCityMo}
           abbotsford={isabbotsford}
           // Lathrop={isLathrop}
           Calexico={isCalexico}
+          Brawley={isBrawley}
+          Fresno={isFresno}
+          UnionCity={isUnionCity}
+          Turlock={isTurlock}
+          Whittier={isWhittier}
           // AlmondFontana = {isAlmondfontana}
           // ValleyFontana = {isValleyFontana}
         ></Map>
@@ -202,16 +239,62 @@ min-w-32
                                 <div class="sc-gsnTZi evWpLA">Calgary</div>
                               </li>
                             </li>
-                            {/* <li
+                            <li
                               class="px-3 py-1 hover:bg-yellow-shadowhover"
                               ref={Edmonton}
                             >
                               <li class="sc-bczRLJ gbaUcE">
                                 <div class="sc-gsnTZi evWpLA">Edmonton</div>
                               </li>
-                            </li> */}
+                            </li>
                           </ul>
                         </li>
+
+                        <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
+                          <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
+                            <span class="pr-1 font-semibold flex-1">
+                              Ontario
+                            </span>
+                            <span class="mr-auto">
+                              <svg
+                                class="fill-current h-4 w-4 transform hover:-rotate-180
+ transition duration-150 ease-in-out"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                              >
+                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+                              </svg>
+                            </span>
+                          </button>
+                          <ul
+                            class=" bg-white border rounded-sm absolute  right-0 
+transition duration-150 ease-in-out origin-top-left
+min-w-32
+"
+                          >
+                            <li
+                              class="px-3 py-1 hover:bg-yellow-shadowhover"
+                              ref={Brampton}
+                            >
+                              <li class="sc-bczRLJ gbaUcE">
+                                <div class="sc-gsnTZi evWpLA">Bramption</div>
+                              </li>
+                            </li>
+                            <li
+                              class="px-3 py-1 hover:bg-yellow-shadowhover"
+                              ref={Bolton}
+                            >
+                              <li class="sc-bczRLJ gbaUcE">
+                                <div class="sc-gsnTZi evWpLA">Bolton</div>
+                              </li>
+                            </li>
+
+                            
+                          </ul>
+                        </li>
+
+
+
                       </ul>
                     </div>
                   </div>
@@ -286,6 +369,31 @@ min-w-32
                               </li>
                             </li>
                             <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                              <li class="sc-bczRLJ gbaUcE" ref={SantaFeSprings}>
+                                <div class="sc-gsnTZi evWpLA">Santa Fe Springs</div>
+                              </li>
+                            </li>
+                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                              <li class="sc-bczRLJ gbaUcE" ref={Commerce}>
+                                <div class="sc-gsnTZi evWpLA">Commerce</div>
+                              </li>
+                            </li>
+                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                              <li class="sc-bczRLJ gbaUcE" ref={Fresno}>
+                                <div class="sc-gsnTZi evWpLA">Fresno</div>
+                              </li>
+                            </li>
+                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                              <li class="sc-bczRLJ gbaUcE" ref={Turlock}>
+                                <div class="sc-gsnTZi evWpLA">Turlock</div>
+                              </li>
+                            </li>
+                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                              <li class="sc-bczRLJ gbaUcE" ref={UnionCity}>
+                                <div class="sc-gsnTZi evWpLA">Union City</div>
+                              </li>
+                            </li>
+                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                               <li class="sc-bczRLJ gbaUcE" ref={Stockton}>
                                 <div class="sc-gsnTZi evWpLA">Stockton</div>
                               </li>
@@ -300,6 +408,22 @@ min-w-32
                                 <div class="sc-gsnTZi evWpLA">Calexico</div>
                               </li>
                             </li>
+                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                              <li class="sc-bczRLJ gbaUcE" ref={Brawley}>
+                                <div class="sc-gsnTZi evWpLA">Brawley</div>
+                              </li>
+                            </li>
+                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                              <li class="sc-bczRLJ gbaUcE" ref={Bloomington}>
+                                <div class="sc-gsnTZi evWpLA">Bloomington</div>
+                              </li>
+                            </li>
+                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                              <li class="sc-bczRLJ gbaUcE" ref={Whittier}>
+                                <div class="sc-gsnTZi evWpLA">Whittier</div>
+                              </li>
+                            </li>
+
                             {/* <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                               <li class="sc-bczRLJ gbaUcE" ref={Almondfontana}>
                                 <div class="sc-gsnTZi evWpLA">AlmondAve</div>
@@ -342,6 +466,14 @@ min-w-32
                                 <div class="sc-gsnTZi evWpLA">Atlanta</div>
                               </li>
                             </li>
+                            <li
+                              class="px-3 py-1 hover:bg-yellow-shadowhover"
+                              ref={Conley}
+                            >
+                              <li class="sc-bczRLJ gbaUcE">
+                                <div class="sc-gsnTZi evWpLA">Conley</div>
+                              </li>
+                            </li>
                           </ul>
                         </li>
                         <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
@@ -374,12 +506,21 @@ min-w-32
                                 <div class="sc-gsnTZi evWpLA">Indianapolis</div>
                               </li>
                             </li>
+                            <li
+                              class="px-3 py-1 hover:bg-yellow-shadowhover"
+                              ref={NewCastle}
+                            >
+                              <li class="sc-bczRLJ gbaUcE">
+                                <div class="sc-gsnTZi evWpLA">New Castle</div>
+                              </li>
+                            </li>
+
                           </ul>
                         </li>
                         <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
                           <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                             <span class="pr-1 font-semibold flex-1">
-                              New Jersey
+                              Arizona
                             </span>
                             <span class="mr-auto">
                               <svg
@@ -400,10 +541,10 @@ min-w-32
                           >
                             <li
                               class="px-3 py-1 hover:bg-yellow-shadowhover"
-                              ref={Hampton}
+                              ref={Phoenix}
                             >
                               <li class="sc-bczRLJ gbaUcE">
-                                <div class="sc-gsnTZi evWpLA">Hampton</div>
+                                <div class="sc-gsnTZi evWpLA">Phoenix</div>
                               </li>
                             </li>
                           </ul>
@@ -440,6 +581,80 @@ min-w-32
                             </li>
                           </ul>
                         </li>
+
+
+                        <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
+                          <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
+                            <span class="pr-1 font-semibold flex-1">
+                            Kansas City
+                            </span>
+                            <span class="mr-auto">
+                              <svg
+                                class="fill-current h-4 w-4 transform hover:-rotate-180
+ transition duration-150 ease-in-out"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                              >
+                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+                              </svg>
+                            </span>
+                          </button>
+                          <ul
+                            class=" bg-white border rounded-sm absolute  right-0 
+transition duration-150 ease-in-out origin-top-left
+min-w-32
+"
+                          >
+                            <li
+                              class="px-3 py-1 hover:bg-yellow-shadowhover"
+                              ref={KansasCity}
+                            >
+                              <li class="sc-bczRLJ gbaUcE">
+                                <div class="sc-gsnTZi evWpLA">Kansas City</div>
+                              </li>
+                            </li>
+                          </ul>
+                        </li>
+
+
+
+                        <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
+                          <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
+                            <span class="pr-1 font-semibold flex-1">
+                            Missouri
+                            </span>
+                            <span class="mr-auto">
+                              <svg
+                                class="fill-current h-4 w-4 transform hover:-rotate-180
+ transition duration-150 ease-in-out"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 20 20"
+                              >
+                                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
+                              </svg>
+                            </span>
+                          </button>
+                          <ul
+                            class=" bg-white border rounded-sm absolute  right-0 
+transition duration-150 ease-in-out origin-top-left
+min-w-32
+"
+                          >
+                            <li
+                              class="px-3 py-1 hover:bg-yellow-shadowhover"
+                              ref={KansasCityMo}
+                            >
+                              <li class="sc-bczRLJ gbaUcE">
+                                <div class="sc-gsnTZi evWpLA">Kansas City</div>
+                              </li>
+                            </li>
+                          </ul>
+                        </li>
+
+
+
+
+
                         <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
                           <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                             <span class="pr-1 font-semibold flex-1">Texas</span>
@@ -460,14 +675,32 @@ transition duration-150 ease-in-out origin-top-left
 min-w-32
 "
                           >
-                            <li
+                            {/* <li
                               class="px-3 py-1 hover:bg-yellow-shadowhover"
                               ref={Arlington}
                             >
                               <li class="sc-bczRLJ gbaUcE">
                                 <div class="sc-gsnTZi evWpLA">Arlington</div>
                               </li>
+                            </li> */}
+                            <li
+                              class="px-3 py-1 hover:bg-yellow-shadowhover"
+                              ref={Laredo}
+                            >
+                              <li class="sc-bczRLJ gbaUcE">
+                                <div class="sc-gsnTZi evWpLA">Laredo</div>
+                              </li>
                             </li>
+                            <li
+                              class="px-3 py-1 hover:bg-yellow-shadowhover"
+                              ref={Houston}
+                            >
+                              <li class="sc-bczRLJ gbaUcE">
+                                <div class="sc-gsnTZi evWpLA">Houston</div>
+                              </li>
+                            </li>
+
+
                           </ul>
                         </li>
                       </ul>
