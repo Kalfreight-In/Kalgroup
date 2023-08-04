@@ -9,6 +9,8 @@ import Expo from './assets/Images/Event/WorldExpo2.png';
 import HDAW23 from './assets/Images/News/HDAW23.png';
 import GrandOpening from './assets/Images/Event/grandOpening.jpg';
 import PunjabiMela from './assets/Images/Event/punjabiMela.jpg';
+import openingConley from './assets/Images/Event/openingConley.png';
+
 
 export const NavbarData = [
   {
@@ -381,53 +383,53 @@ export const NavbarData = [
 ];
 export const NewsData = [
   {
-    id: '1',
-    category: 'Past Events',
-    date: '15th & 16th April 2022',
-    heading: 'American Trucking Show',
-    PhotoHeading: 'American Trucking Show',
+    id: "1",
+    category: "Past Events",
+    date: "15th & 16th April 2022",
+    heading: "American Trucking Show",
+    PhotoHeading: "American Trucking Show",
     imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/americatrucking.png',
-    desc: 'KAL Group made a successful appearance at',
-    desc2: 'American Trucking Show, Fresno',
-    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
-    Tag: 'Fresno',
+      "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/americatrucking.png",
+    desc: "KAL Group made a successful appearance at",
+    desc2: "American Trucking Show, Fresno",
+    CTA: { heading: "Contact Us", link: "/#ContactSection" },
+    Tag: "Fresno",
   },
   {
-    id: '2',
-    category: 'Past Events',
-    date: '24th April 2022',
-    heading: 'Atlanta Kabaddi Cup',
-    PhotoHeading: 'Atlanta Kabaddi Cup',
+    id: "2",
+    category: "Past Events",
+    date: "24th April 2022",
+    heading: "Atlanta Kabaddi Cup",
+    PhotoHeading: "Atlanta Kabaddi Cup",
     imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/kabbdi.png',
-    desc: ' KAL Group was one of the sponsored Atlanta Kabaddi Cup',
-    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
-    Tag: 'Atlanta',
+      "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/News/kabbdi.png",
+    desc: " KAL Group was one of the sponsored Atlanta Kabaddi Cup",
+    CTA: { heading: "Contact Us", link: "/#ContactSection" },
+    Tag: "Atlanta",
   },
   {
-    id: '3',
-    category: 'Past Events',
-    date: '25th & 26th June 2022',
-    heading: 'Texas Trucking Show',
-    PhotoHeading: 'Texas Trucking Show',
+    id: "3",
+    category: "Past Events",
+    date: "25th & 26th June 2022",
+    heading: "Texas Trucking Show",
+    PhotoHeading: "Texas Trucking Show",
     imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Texas.jpg',
-    desc: 'Texas Trucking Show, Join us at NRG Center, Texas',
+      "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Texas.jpg",
+    desc: "Texas Trucking Show, Join us at NRG Center, Texas",
 
     // desc3: `"Dinner with the KAL group"`,
 
-    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
-    Tag: 'Texas',
+    CTA: { heading: "Contact Us", link: "/#ContactSection" },
+    Tag: "Texas",
   },
   {
-    id: '4',
-    category: 'Past Events',
-    date: '15th & 16th October 2022',
-    heading: 'California Trucking Show ',
-    PhotoHeading: 'California Trucking Show ',
+    id: "4",
+    category: "Past Events",
+    date: "15th & 16th October 2022",
+    heading: "California Trucking Show ",
+    PhotoHeading: "California Trucking Show ",
     imageUrl:
-      'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Ontario-Upcomiing.png',
+      "https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/Event/Ontario-Upcomiing.png",
     desc: `  
 
     
@@ -438,15 +440,15 @@ export const NewsData = [
     
     `,
 
-    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
-    Tag: 'Ontario',
+    CTA: { heading: "Contact Us", link: "/#ContactSection" },
+    Tag: "Ontario",
   },
   {
-    id: '5',
-    category: 'Past Events',
-    date: ', 2023',
-    heading: 'Heavy Duty Aftermarket Week 2023 (HDAW)',
-    PhotoHeading: 'Heavy Duty Aftermarket Week 2023 ',
+    id: "5",
+    category: "Past Events",
+    date: "17 January, 2023",
+    heading: "Heavy Duty Aftermarket Week 2023 (HDAW)",
+    PhotoHeading: "Heavy Duty Aftermarket Week 2023 ",
     imageUrl: HDAW23,
     desc: `  
 
@@ -458,32 +460,47 @@ export const NewsData = [
     
     `,
 
-    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
-    Tag: 'Grapevine, TX',
+    CTA: { heading: "Contact Us", link: "/#ContactSection" },
+    Tag: "Grapevine, TX",
   },
   {
-    id: '6',
-    category: 'Past Events',
-    date: ' February 14-16, 2023',
-    heading: 'World AG Expo',
-    PhotoHeading: 'World AG Expo With KVL',
+    id: "6",
+    category: "Past Events",
+    date: " February 14-16, 2023",
+    heading: "World AG Expo",
+    PhotoHeading: "World AG Expo With KVL",
     imageUrl: Expo,
     desc: `Venue: Tulare, CA, USA`,
     desc2: `Thank You For Visiting Us!`,
-    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
-    Tag: 'Tulare, CA, USA ',
+    CTA: { heading: "Contact Us", link: "/#ContactSection" },
+    Tag: "Tulare, CA, USA ",
   },
   {
-    id: '7',
-    category: 'Past Events',
-    date: 'May 7, 2023',
-    heading: 'Punjabi Mela',
-    PhotoHeading: 'Punjabi Mela',
+    id: "7",
+    category: "Past Events",
+    date: "May 7, 2023",
+    heading: "Punjabi Mela",
+    PhotoHeading: "Punjabi Mela",
     imageUrl: PunjabiMela,
     desc: `Venue: Charles F Kennedy Park, 1333 Decto Rd, Union City, CA 94587`,
 
-    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
-    Tag: 'Union City',
+    CTA: { heading: "Contact Us", link: "/#ContactSection" },
+    Tag: "Union City",
+  },
+  {
+    id: "8",
+    category: "Past Events",
+    date: "May 17, 2023",
+    heading: "Grand Opening",
+    PhotoHeading: "Grand Opening BigRig Group",
+    imageUrl: GrandOpening,
+    desc: `      
+    It was great to see you at the Grand Opening Ceremony of BigRig Group in Calgary, Canada and making it a huge success !
+
+    `,
+
+    CTA: { heading: "Contact Us", link: "/#ContactSection" },
+    Tag: "Calgary, Canada",
   },
 
   // {
@@ -534,19 +551,20 @@ export const EventsData = [
   //   Tag: 'Holidays Event',
   // },
   {
-    id: '7',
-    category: 'Past Events',
-    date: 'May 17, 2023',
-    heading: 'Grand Opening',
-    PhotoHeading: 'Grand Opening BigRig Group',
-    imageUrl: GrandOpening,
+    id: "7",
+    category: "Upcoming Events",
+    date: "9th August, 2023",
+    heading: "Grand Opening",
+    PhotoHeading: "Grand Opening",
+    imageUrl: openingConley,
     desc: `      
-    It was great to see you at the Grand Opening Ceremony of BigRig Group in Calgary, Canada and making it a huge success !
+    Venue: 4285 Moreland Ave, Conley, GA 30288.
+    Please join us in the Grand Opening Ceremony and make the occasion more special with your presence !  
 
     `,
 
-    CTA: { heading: 'Contact Us', link: '/#ContactSection' },
-    Tag: 'Calgary, Canada',
+    CTA: { heading: "Contact Us", link: "/#ContactSection" },
+    Tag: "Conley, Georgia",
   },
   // {
   //   id: '4',
