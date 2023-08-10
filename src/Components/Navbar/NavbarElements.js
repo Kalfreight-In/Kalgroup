@@ -137,7 +137,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
   display: block;
-  height: 45px;
+  // height: 45px;
   padding: 0 2rem;
 
   color: #000;

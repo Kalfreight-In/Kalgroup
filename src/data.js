@@ -552,14 +552,14 @@ export const EventsData = [
   // },
   {
     id: "7",
-    category: "Upcoming Events",
+    category: "Past Events",
     date: "9th August, 2023",
     heading: "Grand Opening",
     PhotoHeading: "Grand Opening",
     imageUrl: openingConley,
-    desc: `      
-    Venue: 4285 Moreland Ave, Conley, GA 30288.
-    Please join us in the Grand Opening Ceremony and make the occasion more special with your presence !  
+    desc: `Venue: 4285 Moreland Ave, Conley, GA 30288.`,  
+
+    desc1: `It was great to see you at the Grand Opening Ceremony in Conley, Georgia and making the occasion more special with your presence !  
 
     `,
 
