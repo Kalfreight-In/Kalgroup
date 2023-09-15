@@ -823,18 +823,18 @@ export const BrandCompnentBrands = [
       'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Freightliner-logo.png',
     heading: 'Freightliner',
   },
-  {
-    id: '2',
-    imageurl:
-      'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Kenworth-logo.png',
-    heading: 'Kenworth',
-  },
-  {
-    id: '3',
-    imageurl:
-      'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Peterbilt-logo.png ',
-    heading: 'Peterbilt',
-  },
+  // {
+  //   id: '2',
+  //   imageurl:
+  //     'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Kenworth-logo.png',
+  //   heading: 'Kenworth',
+  // },
+  // {
+  //   id: '3',
+  //   imageurl:
+  //     'https://raw.githubusercontent.com/kalfreight-in/kalgroup/master/src/assets/Images/BrandsLogo/Peterbilt-logo.png ',
+  //   heading: 'Peterbilt',
+  // },
   {
     id: '4',
     imageurl:
@@ -1157,24 +1157,24 @@ export const BigPArtzBrands = [
           'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Freightliner-logo.png',
         heading: 'Freightliner-logo',
       },
-      {
-        id: '4',
-        imageurl:
-          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Kenworth-logo.png',
-        heading: 'Kenworth',
-      },
+      // {
+      //   id: '4',
+      //   imageurl:
+      //     'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Kenworth-logo.png',
+      //   heading: 'Kenworth',
+      // },
       {
         id: '5',
         imageurl:
           'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/og-iron-mark.jpg',
         heading: 'Volvo',
       },
-      {
-        id: '6',
-        imageurl:
-          'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Peterbilt-logo.png',
-        heading: 'Peterbilt',
-      },
+      // {
+      //   id: '6',
+      //   imageurl:
+      //     'https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/BrandsLogo/Peterbilt-logo.png',
+      //   heading: 'Peterbilt',
+      // },
       {
         id: '7',
         imageurl:
