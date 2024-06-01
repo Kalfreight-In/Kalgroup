@@ -1,12 +1,12 @@
-import React from 'react';
-import Map from '../../assets/Map';
+import React from "react";
+import Map from "../../assets/Map";
 
-import { useHover } from '../../Hooks/Hover';
-import { MapData } from '../../data';
-import MapDropdown from './MapDropdown';
-import styled from 'styled-components';
-import SubMenu from './SidebarMenu';
-import useMediaQuery from '../../Hooks/CustomMediaQuery';
+import { useHover } from "../../Hooks/Hover";
+import { MapData } from "../../data";
+import MapDropdown from "./MapDropdown";
+import styled from "styled-components";
+import SubMenu from "./SidebarMenu";
+import useMediaQuery from "../../Hooks/CustomMediaQuery";
 const SidebarNav = styled.nav`
   background: #15171c;
   width: 250px;
@@ -15,12 +15,12 @@ const SidebarNav = styled.nav`
   justify-content: center;
   position: fixed;
   top: 0;
-  left: ${({ sidebar }) => (sidebar ? '0' : '-100%')};
+  left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
   transition: 350ms;
   z-index: 10;
 `;
 export const MapConatiner = () => {
-  const isDesktop = useMediaQuery('(min-width: 768px)');
+  const isDesktop = useMediaQuery("(min-width: 768px)");
   const [Fontana, isFontana] = useHover();
   const [Bakersfield, isBakersfield] = useHover();
   const [SanMarcos, isSanMarcos] = useHover();
@@ -47,16 +47,16 @@ export const MapConatiner = () => {
   const [Turlock, isTurlock] = useHover();
   const [UnionCity, isUnionCity] = useHover();
   const [Whittier, isWhittier] = useHover();
-  
+
   // const [Almondfontana,isAlmondfontana] = useHover();
   // const [ValleyFontana,isValleyFontana] = useHover();
   const [Indianapolis, isIndianapolis] = useHover();
   const [NewCastle, isNewCastle] = useHover();
-  
+
   const [Springdale, isSpringdale] = useHover();
   const [KansasCity, isKansasCity] = useHover();
-  const [ KansasCityMo, isKansasCityMo] = useHover();
- 
+  const [KansasCityMo, isKansasCityMo] = useHover();
+
   const [abbotsford, isabbotsford] = useHover();
   return (
     <div
@@ -65,8 +65,8 @@ export const MapConatiner = () => {
       style={{
         backgroundImage: `${
           isDesktop
-            ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
-            : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
+            ? "url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)"
+            : "url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)"
         }`,
       }}
     >
@@ -82,7 +82,6 @@ export const MapConatiner = () => {
           Edmonton={isEdmonton}
           Brampton={isBrampton}
           Bolton={isBolton}
-
           //Arlington={isArlington}
           Laredo={isLaredo}
           Houston={isHouston}
@@ -113,10 +112,10 @@ export const MapConatiner = () => {
           style={{
             backgroundImage: `${
               isDesktop
-                ? 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)'
-                : 'url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)'
+                ? "url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/MapBackgroundImage.png)"
+                : "url(https://raw.githubusercontent.com/Kalfreight-In/Kalgroup/main/src/assets/Images/lol.png)"
             }`,
-            display: 'flex',
+            display: "flex",
           }}
         >
           <div className="lg:-mt-28 -mt-0 w-full pl-16 md:mb-0 mb-24">
@@ -155,7 +154,7 @@ export const MapConatiner = () => {
             </div>
             <div class="w-full lg:mt-8 mt-2">
               <div class="m-2 lg:w-1/3 w-1/2">
-                {' '}
+                {" "}
                 <div id="mainnewnavcontainer">
                   <div id="innermainnavcontainer">
                     <div class="group inline-block w-full">
@@ -239,17 +238,17 @@ min-w-32
                                 <div class="sc-gsnTZi evWpLA">Calgary</div>
                               </li>
                             </li>
-                            <li
+                            {/* <li
                               class="px-3 py-1 hover:bg-yellow-shadowhover"
                               ref={Edmonton}
                             >
                               <li class="sc-bczRLJ gbaUcE">
                                 <div class="sc-gsnTZi evWpLA">Edmonton</div>
                               </li>
-                            </li>
+                            </li> */}
                           </ul>
                         </li>
-
+                        {/* 
                         <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
                           <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                             <span class="pr-1 font-semibold flex-1">
@@ -288,13 +287,8 @@ min-w-32
                                 <div class="sc-gsnTZi evWpLA">Bolton</div>
                               </li>
                             </li>
-
-                            
                           </ul>
-                        </li>
-
-
-
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -303,7 +297,7 @@ min-w-32
             </div>
             <div class="w-full">
               <div class="m-2 lg:w-1/3 w-1/2">
-                {' '}
+                {" "}
                 <div id="mainnewnavcontainer">
                   <div id="innermainnavcontainer">
                     <div class="group inline-block w-full">
@@ -370,24 +364,26 @@ min-w-32
                             </li>
                             <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                               <li class="sc-bczRLJ gbaUcE" ref={SantaFeSprings}>
-                                <div class="sc-gsnTZi evWpLA">Santa Fe Springs</div>
+                                <div class="sc-gsnTZi evWpLA">
+                                  Santa Fe Springs
+                                </div>
                               </li>
                             </li>
-                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                            {/* <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                               <li class="sc-bczRLJ gbaUcE" ref={Commerce}>
                                 <div class="sc-gsnTZi evWpLA">Commerce</div>
                               </li>
-                            </li>
+                            </li> */}
                             <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                               <li class="sc-bczRLJ gbaUcE" ref={Fresno}>
                                 <div class="sc-gsnTZi evWpLA">Fresno</div>
                               </li>
                             </li>
-                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                            {/* <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                               <li class="sc-bczRLJ gbaUcE" ref={Turlock}>
                                 <div class="sc-gsnTZi evWpLA">Turlock</div>
                               </li>
-                            </li>
+                            </li> */}
                             <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                               <li class="sc-bczRLJ gbaUcE" ref={UnionCity}>
                                 <div class="sc-gsnTZi evWpLA">Union City</div>
@@ -418,11 +414,11 @@ min-w-32
                                 <div class="sc-gsnTZi evWpLA">Bloomington</div>
                               </li>
                             </li>
-                            <li class="px-3 py-1 hover:bg-yellow-shadowhover">
+                            {/* <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                               <li class="sc-bczRLJ gbaUcE" ref={Whittier}>
                                 <div class="sc-gsnTZi evWpLA">Whittier</div>
                               </li>
-                            </li>
+                            </li> */}
 
                             {/* <li class="px-3 py-1 hover:bg-yellow-shadowhover">
                               <li class="sc-bczRLJ gbaUcE" ref={Almondfontana}>
@@ -506,15 +502,14 @@ min-w-32
                                 <div class="sc-gsnTZi evWpLA">Indianapolis</div>
                               </li>
                             </li>
-                            <li
+                            {/* <li
                               class="px-3 py-1 hover:bg-yellow-shadowhover"
                               ref={NewCastle}
                             >
                               <li class="sc-bczRLJ gbaUcE">
                                 <div class="sc-gsnTZi evWpLA">New Castle</div>
                               </li>
-                            </li>
-
+                            </li> */}
                           </ul>
                         </li>
                         <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
@@ -582,11 +577,10 @@ min-w-32
                           </ul>
                         </li>
 
-
                         <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
                           <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                             <span class="pr-1 font-semibold flex-1">
-                            Kansas City
+                              Kansas City
                             </span>
                             <span class="mr-auto">
                               <svg
@@ -616,12 +610,10 @@ min-w-32
                           </ul>
                         </li>
 
-
-
                         <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
                           <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                             <span class="pr-1 font-semibold flex-1">
-                            Missouri
+                              Missouri
                             </span>
                             <span class="mr-auto">
                               <svg
@@ -651,12 +643,8 @@ min-w-32
                           </ul>
                         </li>
 
-
-
-
-
                         <li class="rounded-sm px-6 py-1 hover:bg-yellow-shadowhover flex justify-center items-center">
-                          <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
+                          {/* <button class="outline-none focus:outline-none  px-3 py-1   rounded-sm flex items-center w-full h-12">
                             <span class="pr-1 font-semibold flex-1">Texas</span>
                             <span class="mr-auto">
                               <svg
@@ -668,7 +656,7 @@ min-w-32
                                 <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"></path>
                               </svg>
                             </span>
-                          </button>
+                          </button> */}
                           <ul
                             class=" bg-white border rounded-sm absolute  right-0 
 transition duration-150 ease-in-out origin-top-left
@@ -699,8 +687,6 @@ min-w-32
                                 <div class="sc-gsnTZi evWpLA">Houston</div>
                               </li>
                             </li>
-
-
                           </ul>
                         </li>
                       </ul>

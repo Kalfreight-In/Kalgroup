@@ -1,6 +1,6 @@
-import { React, useEffect, useState } from 'react';
-import { isMobile, browserName } from 'react-device-detect';
-import { useHover } from '../../Hooks/Hover';
+import { React, useEffect, useState } from "react";
+import { isMobile, browserName } from "react-device-detect";
+import { useHover } from "../../Hooks/Hover";
 
 function Map({
   Fontana,
@@ -982,14 +982,14 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
             <rect
               width="360.39"
               height="28.82"
-              x="120.52"
+              x="120.52"  
               y="360.25"
               className="cls-3"
               rx="3.44"
             ></rect>
 
             <text x="120.52" y="376.25" fill="black">
-              1225, Riverside Road, Abbotsford, BC, Canada
+              2105 Carpenter St, Abbotsford, BC V2T 6L9, Canada
             </text>
           </g>
         </g>

@@ -1,6 +1,6 @@
-import { React, useEffect, useState } from 'react';
-import { isMobile, browserName } from 'react-device-detect';
-import { useHover } from '../../Hooks/Hover';
+import { React, useEffect, useState } from "react";
+import { isMobile, browserName } from "react-device-detect";
+import { useHover } from "../../Hooks/Hover";
 
 function Map({
   Fontana,
@@ -13,7 +13,6 @@ function Map({
   Edmonton,
   Brampton,
   Bolton,
-  
 
   //Arlington,
   //Hampton,
@@ -54,8 +53,6 @@ function Map({
   const [Turlock2, isTurlock2] = useHover();
   const [UnionCity2, isUnionCity2] = useHover();
   const [Whittier2, isWhittier2] = useHover();
-  
-  
 
   const [Bloomington2, isBloomington2] = useHover();
   const [Calgary2, isCalgary2] = useHover();
@@ -64,7 +61,7 @@ function Map({
   const [Bolton2, isBolton2] = useHover();
   const [Calexico2, isCalexico2] = useHover();
   const [Brawley2, isBrawley2] = useHover();
-  
+
   // const [AlmondFontana2,isAlmondFontana2] = useHover();
   // const [ValleyFontanta2,isValleyFontana2] = useHover();
   //const [Arlington2, isArlington2] = useHover();
@@ -75,9 +72,9 @@ function Map({
   const [Stockton2, isStockton2] = useHover();
   const [Atlanta2, isAtlanta2] = useHover();
   const [Conley2, isConley2] = useHover();
-  
+
   const [Indianapolis2, isIndianapolis2] = useHover();
-  const [ NewCastle2, isNewCastle2] = useHover();
+  const [NewCastle2, isNewCastle2] = useHover();
 
   const [Springdale2, isSpringdale2] = useHover();
   const [KansasCity2, isKansasCity2] = useHover();
@@ -679,8 +676,6 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
         />
       </svg>
 
-
-
       {/* <svg
         className="marker Hampton UC"
         width="29"
@@ -698,7 +693,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
         />
       </svg> */}
 
-<svg
+      <svg
         className="marker Phoenix UC"
         width="29"
         height="25"
@@ -781,7 +776,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
         />
       </svg>
 
-       <svg
+      <svg
         className="marker Laredo UC"
         width="29"
         height="25"
@@ -963,8 +958,6 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
         />
       </svg>
 
-
-
       <svg
         className="marker Bloomington UC"
         width="29"
@@ -1113,7 +1106,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
         />
       </svg>
 
-      <svg
+      {/* <svg
         className="marker Edmonton"
         width="29"
         height="25"
@@ -1128,7 +1121,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           d="M26.7499 12.333C26.7499 5.57509 21.2578 0.0830078 14.4999 0.0830078C7.742 0.0830078 2.24992 5.57509 2.24992 12.333C2.24992 21.5205 14.4999 34.7913 14.4999 34.7913C14.4999 34.7913 26.7499 21.5205 26.7499 12.333ZM10.4166 12.333C10.4166 10.0872 12.2541 8.24967 14.4999 8.24967C16.7458 8.24967 18.5833 10.0872 18.5833 12.333C18.5833 14.5788 16.7662 16.4163 14.4999 16.4163C12.2541 16.4163 10.4166 14.5788 10.4166 12.333ZM0.208252 36.833V40.9163H28.7916V36.833H0.208252Z"
           className="cls-5"
         />
-      </svg>
+      </svg> */}
 
       <svg
         className="marker Brampton"
@@ -1162,7 +1155,6 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           className="cls-5"
         />
       </svg>
-
 
       <svg
         className="marker Stockton"
@@ -1259,7 +1251,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
         />
       </svg> */}
 
-      {Houston || isHouston2 ? (
+      {/* {Houston || isHouston2 ? (
         <g id="Toranto">
           <g id="Text-BC">
             <rect
@@ -1271,12 +1263,12 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
               rx="3.44"
             ></rect>
             <text x="595.39" y="983.49" fill="black">
-            6319 North Fwy, Houston TX-77076
+              6319 North Fwy, Houston TX-77076
             </text>
           </g>
         </g>
-      ) : null}
- {Laredo || isLaredo2 ? (
+      ) : null} */}
+      {/* {Laredo || isLaredo2 ? (
         <g id="Toranto">
           <g id="Text-BC">
             <rect
@@ -1288,12 +1280,11 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
               rx="3.44"
             ></rect>
             <text x="485.39" y="1018.49" fill="black">
-            8115 LAS CRUCES DR, Laredo TX-78045
+              8115 LAS CRUCES DR, Laredo TX-78045
             </text>
           </g>
         </g>
-      ) : null}
-
+      ) : null} */}
 
       {Springdale || isSpringdale2 ? (
         <g id="Springdale">
@@ -1312,7 +1303,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           </g>
         </g>
       ) : null}
- {KansasCity || isKansasCity2 ? (
+      {KansasCity || isKansasCity2 ? (
         <g id="KansasCity">
           <g id="Text-BC">
             <rect
@@ -1324,13 +1315,13 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
               rx="3.44"
             ></rect>
             <text x="608.39" y="745.49" fill="black">
-            336 S 42nd Street, Kansas City, KS, 66106
+              336 S 42nd Street, Kansas City, KS, 66106
             </text>
           </g>
         </g>
       ) : null}
 
-{KansasCityMo || isKansasCityMo2 ? (
+      {KansasCityMo || isKansasCityMo2 ? (
         <g id="KansasCity">
           <g id="Text-BC">
             <rect
@@ -1342,14 +1333,13 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
               rx="3.44"
             ></rect>
             <text x="623.39" y="740.49" fill="black">
-            4700 Deramus Avenue, Kansas City, MO 64120
+              4700 Deramus Avenue, Kansas City, MO 64120
             </text>
           </g>
         </g>
       ) : null}
 
-
-      {Edmonton || isEdmonton2 ? (
+      {/* {Edmonton || isEdmonton2 ? (
         <g id="Edmonton">
           <rect
             width="440.39"
@@ -1364,9 +1354,9 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
             18410 118a Ave NW, Edmonton, AB T5S 2M3, Canada
           </text>
         </g>
-      ) : null}
+      ) : null} */}
 
-{Brampton || isBrampton2 ? (
+      {Brampton || isBrampton2 ? (
         <g id="Brampton">
           <rect
             width="290.39"
@@ -1377,16 +1367,18 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
             rx="3.44"
           ></rect>
 
-            <text x="750.39" y="599.49" fill="black">
-            <tspan x="750.39" dy="1em">100 Whybank Dr, Brampton,</tspan>
-        <tspan x="750.39" dy="1.3em">Ontario, Canada, L7A 0N7</tspan>  
-             </text>
-
-
+          <text x="750.39" y="599.49" fill="black">
+            <tspan x="750.39" dy="1em">
+              100 Whybank Dr, Brampton,
+            </tspan>
+            <tspan x="750.39" dy="1.3em">
+              Ontario, Canada, L7A 0N7
+            </tspan>
+          </text>
         </g>
       ) : null}
 
-{Bolton || isBolton2 ? (
+      {Bolton || isBolton2 ? (
         <g id="Bolton">
           <rect
             width="290.39"
@@ -1397,15 +1389,17 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
             rx="3.44"
           ></rect>
 
-            <text x="750.39" y="599.49" fill="black">
-            <tspan x="750.39" dy="1em">12125 Coleraine Drive,</tspan>
-        <tspan x="750.39" dy="1.3em"> Bolton, ON, Canada</tspan>  
-             </text>
-
-
+          <text x="750.39" y="599.49" fill="black">
+            <tspan x="750.39" dy="1em">
+              12125 Coleraine Drive,
+            </tspan>
+            <tspan x="750.39" dy="1.3em">
+              {" "}
+              Bolton, ON, Canada
+            </tspan>
+          </text>
         </g>
       ) : null}
-
 
       {SanMarcos || isSanMarcos2 ? (
         <g id="Surey">
@@ -1423,7 +1417,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           </text>
         </g>
       ) : null}
-{SantaFeSprings || isSantaFeSprings2 ? (
+      {SantaFeSprings || isSantaFeSprings2 ? (
         <g id="SantaFeSprings">
           <rect
             width="380.39"
@@ -1435,12 +1429,12 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           ></rect>
 
           <text x="95.96" y="808.88" fill="black">
-          13000 Firestone Blvd, Santa Fe Springs, CA 90670
+            13000 Firestone Blvd, Santa Fe Springs, CA 90670
           </text>
         </g>
       ) : null}
 
-{Commerce || isCommerce2 ? (
+      {Commerce || isCommerce2 ? (
         <g id="Commerce">
           <rect
             width="380.39"
@@ -1452,7 +1446,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           ></rect>
 
           <text x="98.96" y="800.88" fill="black">
-          4400 E. Washingtion Blvd, Commerce, CA 90023
+            4400 E. Washingtion Blvd, Commerce, CA 90023
           </text>
         </g>
       ) : null}
@@ -1469,12 +1463,12 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           ></rect>
 
           <text x="125.96" y="824.88" fill="black">
-          205 W. SLOVER AVE, Bloomington, CA 92316
+            205 W. SLOVER AVE, Bloomington, CA 92316
           </text>
         </g>
       ) : null}
 
-{Commerce || isCommerce2 ? (
+      {/* {Commerce || isCommerce2 ? (
         <g id="Commerce">
           <rect
             width="380.39"
@@ -1486,10 +1480,10 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           ></rect>
 
           <text x="98.96" y="800.88" fill="black">
-          4400 E. Washingtion Blvd, Commerce, CA 90023
+            4400 E. Washingtion Blvd, Commerce, CA 90023
           </text>
         </g>
-      ) : null}
+      ) : null} */}
 
       {Fresno || isFresno2 ? (
         <g id="Fresno">
@@ -1503,12 +1497,12 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           ></rect>
 
           <text x="85.96" y="732.88" fill="black">
-          2635 E. North Ave, Fresno, CA 93725
+            2635 E. North Ave, Fresno, CA 93725
           </text>
         </g>
       ) : null}
 
-{Fresno || isFresno2 ? (
+      {Fresno || isFresno2 ? (
         <g id="Fresno">
           <rect
             width="300.39"
@@ -1520,12 +1514,12 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           ></rect>
 
           <text x="85.96" y="772.88" fill="black">
-          4325 N Brawley Ave, Fresno, CA 93722
+            4325 N Brawley Ave, Fresno, CA 93722
           </text>
         </g>
       ) : null}
 
-{Turlock || isTurlock2 ? (
+      {/* {Turlock || isTurlock2 ? (
         <g id="Turlock">
           <rect
             width="300.39"
@@ -1537,11 +1531,11 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           ></rect>
 
           <text x="78.96" y="718.88" fill="black">
-          3050 Spengler Way, Turlock, CA 95380
+            3050 Spengler Way, Turlock, CA 95380
           </text>
         </g>
-      ) : null}
-{UnionCity || isUnionCity2 ? (
+      ) : null} */}
+      {UnionCity || isUnionCity2 ? (
         <g id="UnionCity">
           <rect
             width="320.39"
@@ -1553,11 +1547,11 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           ></rect>
 
           <text x="45.96" y="690.88" fill="black">
-          30089 Ahern Ave, Union City , CA 94587
+            30089 Ahern Ave, Union City , CA 94587
           </text>
         </g>
       ) : null}
-{Whittier || isWhittier2 ? (
+      {/* {Whittier || isWhittier2 ? (
         <g id="Whittier">
           <rect
             width="320.39"
@@ -1569,11 +1563,10 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           ></rect>
 
           <text x="116.96" y="830.88" fill="black">
-          2645 Pacific Park Dr, Whittier , CA 90601
+            2645 Pacific Park Dr, Whittier , CA 90601
           </text>
         </g>
-      ) : null}
-
+      ) : null} */}
 
       {Calexico || isCalexico2 ? (
         <g id="Surey">
@@ -1592,7 +1585,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
         </g>
       ) : null}
 
-{Calexico || isCalexico2 ? (
+      {/* {Calexico || isCalexico2 ? (
         <g id="Surey">
           <rect
             width="292.39"
@@ -1604,12 +1597,12 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           ></rect>
 
           <text x="145.96" y="865.88" fill="black">
-          165 W. 5th St, Calexico 92231
+            165 W. 5th St, Calexico 92231
           </text>
         </g>
-      ) : null}
+      ) : null} */}
 
-{Brawley || isBrawley2 ? (
+      {Brawley || isBrawley2 ? (
         <g id="Brawley">
           <rect
             width="292.39"
@@ -1621,7 +1614,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           ></rect>
 
           <text x="152.96" y="832.88" fill="black">
-          1300 Main St, Brawley 92227
+            1300 Main St, Brawley 92227
           </text>
         </g>
       ) : null}
@@ -1663,7 +1656,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
         <g id="Abbotsford">
           <g id="Text-BC">
             <rect
-              width="360.39"
+              width="367.39"
               height="35.82"
               x="120.52"
               y="360.25"
@@ -1672,7 +1665,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
             ></rect>
 
             <text x="128.52" y="383.25" fill="black">
-              1225, Riverside Road, Abbotsford, BC, Canada
+              2105 Carpenter St, Abbotsford, BC V2T 6L9, Canada
             </text>
           </g>
         </g>
@@ -1713,7 +1706,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           </g>
         </g>
       ) : null} */}
-      {isIndianapolis2 || Indianapolis ? (
+      {/* {isIndianapolis2 || Indianapolis ? (
         <g id="Indianapolis">
           <g id="Text-BC">
             <rect
@@ -1730,9 +1723,9 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
             </text>
           </g>
         </g>
-      ) : null}
+      ) : null} */}
 
-{isIndianapolis2 || Indianapolis ? (
+      {/* {isIndianapolis2 || Indianapolis ? (
         <g id="Indianapolis">
           <g id="Text-BC">
             <rect
@@ -1745,13 +1738,13 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
             ></rect>
 
             <text x="783.39" y="663.49" fill="black">
-            4641 Lafayette Ave, Indianapolis, IN, 46254
+              4641 Lafayette Ave, Indianapolis, IN, 46254
             </text>
           </g>
         </g>
-      ) : null}
+      ) : null} */}
 
-      {isIndianapolis2 || Indianapolis ? (
+      {/* {isIndianapolis2 || Indianapolis ? (
         <g id="Indianapolis">
           <g id="Text-BC">
             <rect
@@ -1764,13 +1757,13 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
             ></rect>
 
             <text x="783.39" y="745.49" fill="black">
-            2916 Bluff Rd Blg. 6, Indianapolis, IN, 46225
+              2916 Bluff Rd Blg. 6, Indianapolis, IN, 46225
             </text>
           </g>
         </g>
-      ) : null}
+      ) : null} */}
 
-{isNewCastle2 || NewCastle ? (
+      {/* {isNewCastle2 || NewCastle ? (
         <g id="NewCastle">
           <g id="Text-BC">
             <rect
@@ -1780,17 +1773,19 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
               y="680.49"
               className="cls-3"
               rx="3.44"
-          ></rect>
+            ></rect>
 
             <text x="795.39" y="686.49" fill="black">
-            <tspan x="795.39" dy="1em">5080 S County Rd 125 W,</tspan>
-        <tspan x="795.39" dy="1.2em">New Castle, IN, 47362</tspan>  
-             </text>
+              <tspan x="795.39" dy="1em">
+                5080 S County Rd 125 W,
+              </tspan>
+              <tspan x="795.39" dy="1.2em">
+                New Castle, IN, 47362
+              </tspan>
+            </text>
           </g>
         </g>
-      ) : null}
-
-
+      ) : null} */}
 
       {/* {Hampton || isHampton2 ? (
         <g id="Hampton">
@@ -1810,7 +1805,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           </g>
         </g>
       ) : null} */}
-{Phoenix || isPhoenix2 ? (
+      {Phoenix || isPhoenix2 ? (
         <g id="Phoenix">
           <g id="Text-BC">
             <rect
@@ -1823,7 +1818,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
             ></rect>
 
             <text x="232.39" y="857.49" fill="black">
-            2611 S. 7th St, Phoenix AZ 85034
+              2611 S. 7th St, Phoenix AZ 85034
             </text>
           </g>
         </g>
@@ -1846,7 +1841,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
           </g>
         </g>
       ) : null} */}
-      {isAtlanta2 || Atlanta ? (
+      {/* {isAtlanta2 || Atlanta ? (
         <g id="Atlanta">
           <g id="Text-BC">
             <rect
@@ -1858,14 +1853,19 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
               rx="3.44"
             ></rect>
             <text x="835.39" y="835.49" fill="black">
-            <tspan x="835.39" dy="1em"> 3435 Jonesboro Rd Se,</tspan>
-        <tspan x="835.39" dy="1.2em">Atlanta GA 30354</tspan>              
+              <tspan x="835.39" dy="1em">
+                {" "}
+                3435 Jonesboro Rd Se,
+              </tspan>
+              <tspan x="835.39" dy="1.2em">
+                Atlanta GA 30354
+              </tspan>
             </text>
           </g>
         </g>
-      ) : null}
+      ) : null} */}
 
-{isConley2 || Conley ? (
+      {isConley2 || Conley ? (
         <g id="Conley">
           <g id="Text-BC">
             <rect
@@ -1877,9 +1877,12 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
               rx="3.44"
             ></rect>
             <text x="855.39" y="850.49" fill="black">
-            <tspan x="855.39" dy="1em">4285 Moreland Ave,</tspan>
-        <tspan x="855.39" dy="1.2em">Conley GA 30288</tspan>
-           
+              <tspan x="855.39" dy="1em">
+                4285 Moreland Ave,
+              </tspan>
+              <tspan x="855.39" dy="1.2em">
+                Conley GA 30288
+              </tspan>
             </text>
           </g>
         </g>
@@ -1915,7 +1918,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
               rx="3.44"
             ></rect>
             <text x="89.52" y="792.25" fill="black">
-              3401 Sillect Ave, Bakersfield, CA 93308
+              241 S Union Ave, Bakersfield, CA 93307
             </text>
           </g>
         </g>
@@ -1949,7 +1952,7 @@ M267.39 360.5a8.44 8.44 0 10-16.87 0c0 6.32 8.44 15.47 8.44 15.47s8.43-9.15 8.43
               rx="3.44"
             ></rect>
             <text x="109.52" y="750.25" fill="black">
-            15082 Valley Blvd, Fontana, CA 92335, USA
+              15082 Valley Blvd, Fontana, CA 92335, USA
             </text>
           </g>
         </g>
